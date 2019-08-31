@@ -10,7 +10,7 @@ content-type: riferimento
 topic-tags: download-install
 discoiquuid: e 18 d 992 a-a 3 b 5-45 f 2-9696-8161993213 ee
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: d605cdd0083e8e222a3c937ea91d2c04201ab99b
 
 ---
 
@@ -114,13 +114,10 @@ Per configurare configurazioni Dynamic Media sui tenant di Brand Portal:
 
 1. Selezionate il logo AEM per accedere agli strumenti amministrativi dalla barra degli strumenti nella parte superiore del portale marchio.
 
-2. Dal pannello Strumenti di amministrazione, selezionate la **[!UICONTROL sezione Video]** .
-
-![Configurazione ibrida Dynamic Media su Brand Portal](assets/DMHybrid-Video.png)
-
-**[!UICONTROL Si apre la pagina di configurazione]** per l'elemento multimediale dinamico.
-
-![Configurazione ibrida ibrida per contenuti multimediali su Brand Portal](assets/edit-dynamic-media-config.png)
+2. Dal pannello Strumenti di amministrazione, selezionate la **[!UICONTROL sezione Video]** .<br />
+   ![Configurazione ibrida Dynamic Media su Brand Portal](assets/DMHybrid-Video.png)
+   **[!UICONTROL Si apre la pagina di configurazione]** per l'elemento multimediale dinamico.<br />
+   ![Configurazione ibrida ibrida per contenuti multimediali su Brand Portal](assets/edit-dynamic-media-config.png)
 
 3. Specificate **[!UICONTROL ID registrazione]** e **[!UICONTROL URL servizio video]** (URL-Gateway-Gateway). Assicurati che questi dettagli siano identici a quelli presenti in **[!UICONTROL Strumenti &gt; Servizi]** cloud nell'istanza AEM Author.
 
@@ -134,12 +131,10 @@ Per configurare configurazioni di Scene [!UICONTROL 7] Dynamic Media su Brand Po
 
 1. Selezionate il logo AEM per accedere agli strumenti amministrativi dalla barra degli strumenti nella parte superiore del portale marchio.
 
-2. Dal pannello Strumenti di amministrazione, selezionate il riquadro **[!UICONTROL di configurazione]** Elemento multimediale dinamico.
+2. Dal pannello Strumenti di amministrazione, selezionate il riquadro **[!UICONTROL di configurazione]** Elemento multimediale dinamico.<br />
    ![Configurazione di DM [!UICONTROL Scene 7] su Brand Portal](assets/DMS7-Tile.png)
-
-[!UICONTROL Si apre la pagina di configurazione] per l'elemento multimediale dinamico.
-
-![Configurazione di Scene 7 su Brand Portal](assets/S7Config.png)
+   [!UICONTROL Si apre la pagina di configurazione] per l'elemento multimediale dinamico.<br />
+   ![Configurazione di Scene 7 su Brand Portal](assets/S7Config.png)
 
 3. Fornite:
    * [!UICONTROL Titolo]
