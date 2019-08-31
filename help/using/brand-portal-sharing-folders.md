@@ -9,7 +9,7 @@ topic-tags: condivisione
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: 2332 c 16 f -40 be -4673-8 cc 6-2360 d 5 b 74116
 translation-type: tm+mt
-source-git-commit: 0b70e82d034ce56fcfc5b49396e6d3a9da4b49d4
+source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
@@ -23,8 +23,8 @@ Le risorse devono essere pubblicate su Brand Portal da un'istanza AEM Author pre
 Di seguito viene descritto il flusso di lavoro di condivisione della cartella e l'accesso degli utenti:
 
 * Per impostazione predefinita, tutte le cartelle pubblicate da AEM Assets a Brand Portal sono visibili solo all'amministratore Brand Portal, a meno che non sia contrassegnata come pubblica durante la configurazione della replica.
-* L'amministratore utilizza la **console Proprietà** cartella per condividere una cartella con utenti o gruppi selettivi. Solo gli utenti o i gruppi con cui è condiviso la cartella possono vedere la cartella dopo l'accesso al portale marchio. La cartella non è visibile ad altri utenti.
-* L'amministratore può anche scegliere di rendere pubblica una cartella tramite la **casella di** controllo Cartella pubblica **nella console Proprietà** cartella. Una cartella pubblica è visibile a tutti gli utenti.
+* L'amministratore utilizza la [!UICONTROL console Proprietà] cartella per condividere una cartella con utenti o gruppi selettivi. Solo gli utenti o i gruppi con cui è condiviso la cartella possono vedere la cartella dopo l'accesso al portale marchio. La cartella non è visibile ad altri utenti.
+* L'amministratore può anche scegliere di rendere pubblica una cartella tramite la [!UICONTROL casella di] controllo Cartella pubblica [!UICONTROL nella console Proprietà] cartella. Una cartella pubblica è visibile a tutti gli utenti.
 
 * A prescindere dai ruoli utente e dai privilegi, quando gli utenti accedono al portale marchio possono vedere tutte le cartelle pubbliche e le cartelle direttamente condivise con loro o con un gruppo a cui appartengono. Le cartelle private, o le cartelle condivise con altri utenti, non sono visibili a tutti gli utenti.
 
@@ -36,15 +36,15 @@ Analogamente, i gruppi di utenti (o utenti) che dispongono delle autorizzazioni 
 
 ### Public folder publish {#public-folder-publish}
 
-A meno che non **venga selezionata** l'opzione Pubblica cartella pubblica durante la configurazione della replica di Brand Portal, gli utenti non amministratori (come Editor e Visualizzatori) non possono accedere alle risorse pubblicate da AEM Assets to Brand Portal.
+A meno che non [!UICONTROL venga selezionata] l'opzione Pubblica cartella pubblica durante la configurazione della replica di Brand Portal, gli utenti non amministratori (come Editor e Visualizzatori) non possono accedere alle risorse pubblicate da AEM Assets to Brand Portal.
 
 ![](assets/assetbpreplication.png)
 
-Se l' **opzione Pubblica** cartella pubblica è disattivata, gli amministratori devono condividere esplicitamente tali risorse con gli utenti non amministratori che utilizzano la funzionalità di condivisione.
+Se l' [!UICONTROL opzione Pubblica] cartella pubblica è disattivata, gli amministratori devono condividere esplicitamente tali risorse con gli utenti non amministratori che utilizzano la funzionalità di condivisione.
 
 >[!NOTE]
 >
->L'opzione per abilitare **Pubblica cartella pubblica** è disponibile a partire da AEM 6.3.2.1.
+>L'opzione per abilitare [!UICONTROL Pubblica cartella pubblica] è disponibile a partire da AEM 6.3.2.1.
 
 ## Accesso alle cartelle condivise {#access-to-shared-folders}
 
@@ -57,11 +57,11 @@ La matrice seguente illustra i diritti di accesso e i diritti per condividere/an
 | Visualizzatore | No* | Sì, solo se condiviso con loro o con il gruppo a cui appartengono | No |
 | Utente ospite | No* | Sì, solo se condiviso con loro o con il gruppo a cui appartengono | No |
 
-** Per impostazione predefinita, l'**opzione Pubblica**cartella pubblica è disattivata durante la configurazione della replica di Brand Portal con AEM Author. Se l'opzione è attivata, le cartelle pubblicate sul portale marchio saranno accessibili a tutti gli utenti (anche utenti non amministratori) per impostazione predefinita.*
+** Per impostazione predefinita, l'[!UICONTROL opzione Pubblica]cartella pubblica è disattivata durante la configurazione della replica di Brand Portal con AEM Author. Se l'opzione è attivata, le cartelle pubblicate sul portale marchio saranno accessibili a tutti gli utenti (anche utenti non amministratori) per impostazione predefinita.*
 
 ### Accesso utente non amministratore alle cartelle condivise {#non-admin-user-access-to-shared-folders}
 
-Gli utenti non amministratori possono accedere solo alle cartelle condivise con loro sul portale brand. Tuttavia, il modo in cui tali cartelle vengono visualizzate sul portale quando effettuano l'accesso dipende dalle impostazioni della configurazione Abilita gerarchia cartelle.
+Gli utenti non amministratori possono accedere solo alle cartelle condivise con loro sul portale brand. Tuttavia, il modo in cui tali cartelle vengono visualizzate sul portale quando effettuano l'accesso dipende dalle impostazioni della [!UICONTROL configurazione Abilita gerarchia] cartelle.
 
 **Se la configurazione è disattivata**
 
@@ -75,7 +75,7 @@ Gli utenti non amministratori visualizzano la struttura di cartelle (a partire d
 
 Queste cartelle principali sono cartelle virtuali e non è possibile eseguire azioni su di esse. Potete riconoscere queste cartelle virtuali con un'icona a forma di lucchetto.
 
-Non sono disponibili attività di azione al momento del passaggio del mouse o della selezione nella vista a schede, a differenza delle cartelle condivise. Il pulsante Panoramica viene visualizzato quando si seleziona una cartella virtuale nella vista a colonne e a elenco.
+Non sono disponibili attività di azione al momento del passaggio del mouse o della selezione nella [!UICONTROL vista]a schede, a differenza delle cartelle condivise. [!UICONTROL Il] pulsante Panoramica viene visualizzato quando si seleziona una cartella virtuale nella [!UICONTROL vista] a colonne e [!UICONTROL a elenco].
 
 >[!NOTE]
 >
@@ -87,11 +87,11 @@ Non sono disponibili attività di azione al momento del passaggio del mouse o de
 
 Per condividere una cartella con gli utenti sul Portale brand, attenetevi alla procedura seguente:
 
-1. Fate clic sull'icona della sovrapposizione a sinistra, quindi scegliete **Navigazione**.
+1. Fate clic sull'icona della sovrapposizione a sinistra, quindi scegliete **[!UICONTROL Navigazione]**.
 
    ![](assets/selectorrail.png)
 
-2. Da Siderail a sinistra, selezionate **File**.
+2. Da Siderail a sinistra, selezionate **[!UICONTROL File]**.
 
    ![](assets/access_files.png)
 
@@ -99,26 +99,26 @@ Per condividere una cartella con gli utenti sul Portale brand, attenetevi alla p
 
    ![](assets/share-folders.png)
 
-4. Dalla barra degli strumenti nella parte superiore, selezionate **Condividi**.
+4. Dalla barra degli strumenti nella parte superiore, selezionate **[!UICONTROL Condividi]**.
 
    ![](assets/share_icon.png)
 
-   Viene visualizzata **la console Proprietà** cartella.
+   Viene visualizzata [!UICONTROL la console Proprietà] cartella.
 
    ![](assets/folder_properties.png)
 
-5. Nella **console Proprietà** cartella, specificate il titolo della cartella **nel campo Titolo** cartella se non desiderate che venga visualizzato il nome predefinito.
-6. Nell'elenco **Aggiungi utenti** , selezionate gli utenti o i gruppi ai quali desiderate condividere la cartella e fate clic **su Aggiungi**.
-Per condividere la cartella solo con gli utenti ospiti e nessun altro utente, selezionate **Utenti** anonimi dal menu **a** discesa Membri.
+5. Nella [!UICONTROL console Proprietà] cartella, specificate il titolo della cartella [!UICONTROL nel campo Titolo] cartella se non desiderate che venga visualizzato il nome predefinito.
+6. Nell'elenco [!UICONTROL Aggiungi utenti] , selezionate gli utenti o i gruppi ai quali desiderate condividere la cartella e fate clic **[!UICONTROL su Aggiungi]**.
+Per condividere la cartella solo con gli utenti ospiti e nessun altro utente, selezionate **[!UICONTROL Utenti]** anonimi dal menu [!UICONTROL a] discesa Membri.
 
    ![](assets/only-anonymous.png)
 
    >[!NOTE]
    >
-   >Per rendere la cartella disponibile a tutti gli utenti indipendentemente dalla appartenenza al gruppo e dal ruolo, rendetela pubblica selezionando la **casella di** controllo Cartella pubblica.
+   >Per rendere la cartella disponibile a tutti gli utenti indipendentemente dalla appartenenza al gruppo e dal ruolo, rendetela pubblica selezionando la **[!UICONTROL casella di]** controllo Cartella pubblica.
 
-7. Se necessario, fate clic su **Cambia miniatura** per modificare la miniatura della cartella.
-8. Fai clic su **Salva**.
+7. Se necessario, fate clic su **[!UICONTROL Cambia miniatura]** per modificare la miniatura della cartella.
+8. Fai clic su **[!UICONTROL Salva]**.
 9. Per accedere alla cartella condivisa, accedete al portale marchio con le credenziali dell'utente con cui avete condiviso la cartella. Rivedete la cartella condivisa nell'interfaccia.
 
 ## Annullare la condivisione delle cartelle {#unshare-the-folders}
@@ -129,12 +129,12 @@ Per annullare la condivisione di una cartella condivisa precedentemente, effettu
 
    ![](assets/share-folders-1.png)
 
-2. Dalla barra degli strumenti in alto, fate clic **su Condividi**.
-3. Nella **console Proprietà** cartella, in **Membri**, fate clic sul simbolo **x** accanto a un utente per rimuoverli dall'elenco di utenti con cui avete condiviso la cartella.
+2. Dalla barra degli strumenti in alto, fate clic **[!UICONTROL su Condividi]**.
+3. Nella [!UICONTROL console Proprietà] cartella, in [!UICONTROL Membri], fate clic sul simbolo **[!UICONTROL x]** accanto a un utente per rimuoverli dall'elenco di utenti con cui avete condiviso la cartella.
 
    ![](assets/folder_propertiesunshare.png)
 
-4. Nella finestra di messaggio di avviso, fate clic **su Conferma** per confermare l'annullamento della condivisione.
-Fai clic su **Salva**.
+4. Nella finestra di messaggio di avviso, fate clic **[!UICONTROL su Conferma]** per confermare l'annullamento della condivisione.
+Fai clic su **[!UICONTROL Salva]**.
 
 5. Accedete al portale marchio con le credenziali dell'utente rimosso dall'elenco condiviso. La cartella non è più disponibile nell'interfaccia Brand Portal per l'utente.
