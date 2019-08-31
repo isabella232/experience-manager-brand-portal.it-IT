@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: a 512 dfa 0-fef 3-4 c 3 f-a 389-a 0 a 3 a 7415 bac
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
 
 ---
 
@@ -41,8 +41,6 @@ Tenete presente che solo gli amministratori possono creare predefiniti per immag
 La modalità Ibrida Elemento multimediale dinamico deve essere attivata su AEM (Author) per creare tiff piramidale (ptiff) di una risorsa. Quando una risorsa viene pubblicata sul portale brand, i predefiniti per immagini vengono applicati e vengono visualizzate le rappresentazioni dinamiche.
 
 1. Dalla barra degli strumenti AEM nella parte superiore, fate clic sul logo Adobe per accedere agli strumenti di amministrazione.
-
-   ![](assets/AEMlogo.png)
 
 2. Dal pannello Strumenti di amministrazione, fate clic **[!UICONTROL su Predefiniti immagine]**.
 
