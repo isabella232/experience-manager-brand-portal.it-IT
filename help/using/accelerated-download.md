@@ -10,7 +10,7 @@ content-type: riferimento
 products: SG_ EXPERIENCEMANAGER/Brand_ Portal
 discoiquuid: 301 f 7 a 0 b -5527-4 aac-b 731-bfc 145 fed 0 c 0
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: fb8243ea896d39b324a69ea534271ee3015c076f
 
 ---
 
@@ -31,7 +31,7 @@ Se abilitata, gli utenti del portale marchio possono ridurre notevolmente il tem
 
 Per scaricare i file più rapidamente, assicurati che:
 
-* **[!UICONTROL Attiva accelerazione download]** (disabilitata per impostazione predefinita) da [!UICONTROL Impostazioni generali] nel pannello Strumenti di amministrazione.
+* **[!UICONTROL Attiva accelerazione download]** (disattivata per impostazione predefinita) da [!UICONTROL Impostazioni generali] nel pannello Strumenti di amministrazione.
 * La porta 33001 (sia TCP che UDP) è aperta sul firewall. Per ulteriori informazioni sui prerequisiti, consultate [la documentazione Aspera Connect Client](https://downloads.asperasoft.com/en/documentation/8).
 * Installate Aspera Connect mediante i privilegi di amministratore.
 * Per il supporto piattaforma del client di trasferimento Aspera, consultate [Matrice di supporto della piattaforma Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
