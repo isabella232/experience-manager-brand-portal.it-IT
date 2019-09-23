@@ -1,54 +1,54 @@
 ---
-title: Risoluzione dei problemi nella pubblicazione parallela su Brand Portal
-seo-title: Risoluzione dei problemi nella pubblicazione parallela su Brand Portal
-description: Risoluzione dei problemi pubblicazione parallela.
-seo-description: Risoluzione dei problemi pubblicazione parallela.
-uuid: 51 e 45 cca -8 c 96-4 c 69-84 ef -2 ef 34 f 3 bcde 2
-products: SG_ EXPERIENCEMANAGER/Brand_ Portal
+title: Risoluzione dei problemi relativi alla pubblicazione parallela a Brand Portal
+seo-title: Risoluzione dei problemi relativi alla pubblicazione parallela a Brand Portal
+description: Risoluzione di problemi relativi alla pubblicazione parallela.
+seo-description: Risoluzione di problemi relativi alla pubblicazione parallela.
+uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
+products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: riferimento
-topic-tags: brand-portal
-discoiquuid: a 4801024-b 509-4 c 51-afd 8-e 337417 e 658 b
+topic-tags: brand-Portal
+discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
 
 
-# Risoluzione dei problemi nella pubblicazione parallela su Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
+# Risoluzione dei problemi relativi alla pubblicazione parallela a Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Il portale brand supporta l'integrazione con AEM Assets affinché le risorse del marchio approvate vengano trasferite (o pubblicate) direttamente dall'istanza autore di AEM Assets. Una volta [integrata](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author utilizza un agente di replica per replicare le risorse selezionate nel servizio cloud Brand Portal per l'utilizzo approvato dagli utenti del portale marchio. Più agenti di replica vengono utilizzati AEM 6.2 SP 1-CFP 5], AEM CFP 6.3.0.2 e successivi per consentire la pubblicazione parallela ad alta velocità.
+Brand Portal supporta l’integrazione con AEM Assets per disporre di risorse di marchio approvate da assimilare (o pubblicare) direttamente dall’istanza di creazione di AEM Assets. Una volta [integrata](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author utilizza un agente di replica per replicare le risorse selezionate nel servizio cloud Brand Portal per l'utilizzo approvato dagli utenti del Brand Portal. Più agenti di replica vengono utilizzati AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 e versioni successive per consentire la pubblicazione parallela ad alta velocità.
 
 >[!NOTE]
 >
->Adobe consiglia di effettuare l'aggiornamento ad AEM 6.4.1.0 per garantire che AEM Assets Brand Portal sia integrato correttamente con AEM Assets. Una limitazione in AEM 6.4 genera un errore durante la configurazione dell'integrazione con Brand Portal e la replica non riesce.
+>Adobe consiglia di effettuare l’aggiornamento ad AEM 6.4.1.0 per garantire che AEM Assets Brand Portal sia integrato con AEM Assets. Una limitazione in AEM 6.4 genera un errore durante la configurazione dell'integrazione con Brand Portal e la replica non riesce.
 
-Quando si configura il servizio cloud per brand portal in [!UICONTROL /etc/cloudservice], tutti gli utenti e token necessari vengono generati automaticamente e salvati nella directory archivio. La configurazione del servizio cloud viene creata, gli utenti del servizio richiesti per gli agenti di replica e replica per replicare il contenuto vengono creati. Vengono creati quattro agenti di replica. Quindi, quando pubblicate numerose risorse da AEM a Brand Portal, queste vengono messe in coda e distribuite tra questi agenti di replica attraverso Round Robin.
+Quando si configura il servizio cloud per il portale del marchio in [!UICONTROL /etc/cloud service], tutti gli utenti e i token necessari vengono generati automaticamente e salvati nell'archivio. Viene creata la configurazione del servizio cloud, vengono creati anche gli utenti del servizio necessari per gli agenti di replica e replica per replicare il contenuto. Vengono creati quattro agenti di replica. Quando pubblicate numerose risorse da AEM al Brand Portal, queste vengono messe in coda e distribuite tra questi agenti di replica tramite Round Robin.
 
-Tuttavia, la pubblicazione può non riuscire in modo intermittente a causa di processi sling di grandi dimensioni, aumento della rete e [!UICONTROL I/O] del disco sull'istanza AEM Author o delle prestazioni rallentate dell'istanza AEM Author. Si consiglia quindi di verificare la connessione con gli agenti di replica prima di iniziare la pubblicazione.
+Tuttavia, la pubblicazione può non riuscire in modo intermittente a causa di lavori di sling di grandi dimensioni, dell'aumento dell'I/O di rete e [!UICONTROL disco] nell'istanza di AEM Author o di prestazioni rallentate dell'istanza di AEM Author. È quindi consigliabile verificare la connessione con gli agenti di replica prima di iniziare la pubblicazione.
 
 ![](assets/test-connection.png)
 
-## Risoluzione dei problemi relativi alla prima pubblicazione: convalida della configurazione di pubblicazione {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
+## Risoluzione di errori nella prima pubblicazione: convalida della configurazione di pubblicazione {#troubleshoot-failures-in-first-time-publishing-validating-your-publish-configuration}
 
 Per convalidare le configurazioni di pubblicazione:
 
-1. Verificate i registri di errore
+1. Controllare i registri degli errori
 2. Verificare se l'agente di replica è stato creato
-3. Connessione testuale
+3. Test connessione
 
 **Registri di coda durante la creazione del servizio cloud**
 
-Controllate i registri di coda. Verificate che l'agente di replica sia stato creato o meno. Se la creazione dell'agente di replica non riesce, modificate il servizio cloud apportate modifiche minori nel servizio cloud. Convalidate e verificate nuovamente se l'agente di replica viene creato o meno. In caso contrario, modificate nuovamente il servizio.
+Controllare i registri di coda. Verificare se l'agente di replica è stato creato o meno. Se la creazione dell'agente di replica non riesce, modificate il servizio cloud apportando lievi modifiche al servizio cloud. Convalida e verifica nuovamente se l'agente di replica è stato creato o meno. In caso contrario, modificate nuovamente il servizio.
 
-Se la modifica del servizio cloud non è configurata in modo corretto, segnalate un ticket legale.
+Se durante la modifica ripetuta del servizio cloud non è configurato correttamente, segnalate un ticket di assistenza legale.
 
-**Verifica connessione con agenti di replica**
+**Verificare la connessione con gli agenti di replica**
 
 Visualizza registro, se si verificano errori nel registro di replica:
 
 1. Contattate il supporto Adobe.
 
-2. Riprovate [a pulire](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) e create di nuovo la configurazione di pubblicazione.
+2. Tentate di [ripulire](../using/troubleshoot-parallel-publishing.md#clean-up-existing-config) e creare nuovamente la configurazione di pubblicazione.
 
 <!--
 Comment Type: remark
@@ -58,29 +58,28 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Pulizia delle configurazioni di pubblicazione di Brand Portal esistente {#clean-up-existing-config}
+### Pulizia delle configurazioni di pubblicazione esistenti di Brand Portal {#clean-up-existing-config}
 
-La maggior parte delle volte in cui la pubblicazione non funziona, può essere necessario che l'utente che pubblica (ad esempio: [!UICONTROL mac-&lt; tenantid &gt;-replica]) non dispone della chiave privata più recente, pertanto la pubblicazione non riesce con l'errore "401 unautorizzato" e non viene segnalato nessun altro errore nei registri degli agenti di replica. Potrebbe essere utile evitare la risoluzione dei problemi e creare una nuova configurazione. Affinché la nuova configurazione funzioni correttamente, ripulite quanto segue dalla configurazione dell'autore di AEM:
+La maggior parte delle volte in cui la pubblicazione non funziona, il motivo può essere dovuto al fatto che l’utente che la pubblica (ad esempio: La replica mac-&lt;tenantid&gt; non dispone della chiave privata più recente, pertanto la pubblicazione non riesce con l'errore "401 non autorizzato" e nessun altro errore viene segnalato nei registri degli agenti di replica. Potreste voler evitare la risoluzione dei problemi e creare una nuova configurazione. Affinché la nuova configurazione funzioni correttamente, pulite le seguenti informazioni dalla configurazione dell’autore di AEM:
 
-1. vai a [!UICONTROL localhost: 4502/crx/de] (considerando che state eseguendo istanza di authoring su [!UICONTROL localhost: 4502]):\
-   i. delete /etc/replication/agents.author/mp_replication *\
-   ii. delete /etc/cloudservices/mediaportal/ &lt; config_ name &gt;
+1. andate a [!UICONTROL localhost:4502/crx/de] (se state eseguendo l’istanza di autore in [!UICONTROL localhost:4502]):\
+   i. delete /etc/replication/agents.author/mp_replica*\
+   ii) delete /etc/cloudservices/mediaportal/&lt;nome_configurazione&gt;
 
-2. vai a [!UICONTROL localhost: 4502/useradmin]:\
-   i search for user [! UICONTROL mac-&lt; tenantid &gt;-replication
-ii delete this user
+2. andate a [!UICONTROL localhost:4502/useradmin]:\
+   i cercare l'utente [!UICONTROL mac-&lt;tenantid&gt;-replicationii eliminare questo utente
 
-Ora il sistema è tutto pulito. Ora potete tentare di creare una nuova configurazione cloud e continuare a utilizzare l'applicazione JWT esistente in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Non è necessario creare una nuova applicazione, ma è necessario aggiornare solo la chiave pubblica dalla nuova configurazione cloud creata.
+Ora il sistema è completamente pulito. Ora potete provare a creare una nuova configurazione del servizio cloud e utilizzare comunque l'applicazione JWT già esistente in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Non è necessario creare una nuova applicazione, ma solo la chiave pubblica deve essere aggiornata dalla configurazione cloud appena creata.
 
-## Problema di visibilità tenant dell'applicazione JWT per sviluppatore {#developer-connection-jwt-application-tenant-visibility-issue}
+## Problema di visibilità tenant dell'applicazione JWT della connessione sviluppatore {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Se in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), vengono elencate tutte le organizzazioni (tenant) per cui gli utenti correnti detengono l'amministratore di sistema. Se non trovate qui il nome organizzazione oppure non potete creare un'applicazione per un tenant obbligatorio qui, verificate che disponiate dei diritti sufficienti (amministratore di sistema) per farlo.
+Se si trova su [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), vengono elencate tutte le organizzazioni (tenant) per le quali gli utenti correnti detengono l'amministratore di sistema. Se non trovi il nome dell'organizzazione qui o non riesci a creare un'applicazione per un tenant richiesto qui, verifica di disporre di diritti (amministratore di sistema) sufficienti per farlo.
 
-Esiste un problema noto su questa interfaccia utente che per ogni tenant sono visibili solo le prime 10 applicazioni. Quando create l'applicazione, usate la pagina e segnalibri sull'URL. Non è necessario passare alla pagina di elenco dell'applicazione e trovare l'applicazione che hai creato. Potete accedere direttamente a questo URL con segnalibro e aggiornare o eliminare l'applicazione ogni volta che necessario.
+Esiste un problema noto in questa interfaccia utente che per ogni tenant sono visibili solo le prime 10 applicazioni. Quando create l’applicazione, rimanete sulla pagina e segnalate l’URL. Non è necessario andare alla pagina di elenco dell'applicazione e trovare l'applicazione creata. Potete accedere direttamente a questo URL con segnalibro e aggiornare/eliminare l’applicazione ogni volta che necessario.
 
-L'applicazione JWT potrebbe non essere elencata correttamente. Si consiglia quindi di inserire/aggiungere un segnalibro all'URL durante la creazione dell'applicazione JWT.
+L'applicazione JWT potrebbe non essere elencata correttamente. Si consiglia pertanto di notare/contrassegnare l’URL durante la creazione dell’applicazione JWT.
 
-## La configurazione della configurazione si interrompe {#running-configuration-stops-working}
+## L'esecuzione della configurazione interrompe il funzionamento {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -107,8 +106,8 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-Se un agente di replica (che stava pubblicando il brand portal è sufficiente) interrompe i processi di pubblicazione, controllate i registri di replica. AEM dispone di un nuovo tentativo di ripristino automatico, quindi se una particolare pubblicazione di risorse non riesce, viene riprovata automaticamente. Se si verifica un problema intermittente come l'errore di rete, potrebbe riuscire durante il ritentativo.
+Se un agente di replica (che pubblicava correttamente nel portale del marchio) interrompe l'elaborazione dei processi di pubblicazione, controllate i registri di replica. In AEM è stato incorporato un nuovo tentativo automatico, pertanto se la pubblicazione di una risorsa non riesce, viene ritentata automaticamente. Se si verifica un problema intermittente come l'errore di rete, potrebbe verificarsi nuovamente durante il tentativo.
 
-Se sono presenti errori di pubblicazione continui e la coda è bloccata, è necessario controllare **[!UICONTROL la connessione]** di prova e tentare di risolvere gli errori segnalati.
+Se si verificano continui errori di pubblicazione e la coda è bloccata, controllate la connessione **[!UICONTROL di]** prova e provate a risolvere gli errori segnalati.
 
-In base agli errori, vi viene richiesto di registrare un ticket di supporto, in modo che il team tecnico di Brand Portal possa aiutarti a risolvere i problemi.
+In base agli errori, si consiglia di registrare un ticket di assistenza, in modo che il team di progettazione di Brand Portal possa aiutarti a risolvere i problemi.
