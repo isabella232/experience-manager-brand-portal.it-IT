@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
@@ -47,34 +47,35 @@ Per informazioni sul comportamento di ricerca con risorse con tag avanzati, cons
 
 I facet di ricerca nel pannello Filtri aggiungono granularità all’esperienza di ricerca e rendono efficiente la funzionalità di ricerca. I facet di ricerca utilizzano più dimensioni (predicati) che consentono di eseguire ricerche complesse. Potete facilmente approfondire fino al livello di dettaglio desiderato per una ricerca più mirata.
 
-Ad esempio, se cercate un’immagine, potete scegliere se un elemento bitmap o un’immagine vettoriale. È possibile ridurre ulteriormente l'ambito della ricerca specificando il tipo MIME per l'immagine nel facet di ricerca Tipo file. Allo stesso modo, quando cercate documenti, potete specificare il formato, ad esempio PDF o Microsoft Word.
+Ad esempio, se cercate un’immagine, potete scegliere se un elemento bitmap o un’immagine vettoriale. È possibile ridurre ulteriormente l'ambito della ricerca specificando il tipo MIME per l'immagine nel facet di ricerca Tipo file. Allo stesso modo, quando cercate documenti, potete specificare il formato, ad esempio PDF o Microsoft Word.<br />
 
-![Pannello Filtri nel pannello](assets/file-type-search.png "Portale marchioFiltri nel Portale marchio")
+![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
 
-Il pannello [!UICONTROL Filtri] include alcuni facet standard, quali: browser percorso, tipo [!UICONTROL di]file, dimensioni file, [!UICONTROL stato]e orientamento. Tuttavia, potete [aggiungere facet](../using/brand-portal-search-facets.md) di ricerca personalizzati o rimuovere facet di ricerca specifici dal pannello [!UICONTROL Filtri] aggiungendo o rimuovendo i predicati nel modulo di ricerca sottostante. Consultate l’elenco dei predicati di [ricerca disponibili e utilizzabili nel Portale](../using/brand-portal-search-facets.md#list-of-search-predicates)marchio.
+Il pannello [!UICONTROL Filtri] include alcuni facet standard, quali: browser percorso, tipo [!UICONTROL di]file, dimensioni file, [!UICONTROL stato]e orientamento. However, you can add custom search facets or remove specific search facets from the Filters panel by adding or removing predicates in the underlying Search Form. [](../using/brand-portal-search-facets.md) See the list of the available and usable search predicates on Brand Portal.[](../using/brand-portal-search-facets.md#list-of-search-predicates)
 
-Per applicare filtri alla ricerca, utilizzate i facet [di](../using/brand-portal-search-facets.md)ricerca disponibili:
+To apply filters to your search, using the available [search facets](../using/brand-portal-search-facets.md):
 
-1. Fate clic sull'icona della sovrapposizione e selezionate **[!UICONTROL Filtro]**.
+1. Click the overlay icon and select Filter.****
 
    ![](assets/selectorrail.png)
 
-2. Dal pannello **[!UICONTROL Filtri]** a sinistra, selezionate le opzioni appropriate per applicare i filtri pertinenti.
-Ad esempio, utilizzate i seguenti filtri standard:
+2. From the Filters panel on the left, select the appropriate options to apply the relevant filters.
+****
+For example, use the following standard filters:
 
-   * **[!UICONTROL Browser]** percorsi per cercare le risorse in una directory specifica. Il percorso di ricerca predefinito del predicato per il browser percorso è **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, che può essere configurato modificando il modulo di ricerca predefinito.
+   * **[!UICONTROL Path Browser to search assets in a specific directory.]** The default search path of the predicate for Path Browser is /content/dam/mac/&lt;tenant-id&gt;/, which can be configured by editing the default search form.****
    >[!NOTE]
    >
-   >Per gli utenti non amministratori, [!UICONTROL Path Browser] nel pannello [!UICONTROL Filtro] mostra solo la struttura del contenuto delle cartelle (e delle relative cartelle antenate) condivise con loro.\
-   >Per gli utenti amministratori, il browser Percorsi consente di accedere a qualsiasi cartella del Portale marchio.
+   >To non-admin users, [!UICONTROL Path Browser] in [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
+   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
 
-   * **[!UICONTROL Tipo]** di file per specificare il tipo (immagine, documento, elementi multimediali, archivio) di file di risorse che si sta cercando. È inoltre possibile limitare l’ambito della ricerca, ad esempio specificare il tipo MIME (Tiff, Bitmap, GIMP Images) per l’immagine o il formato (PDF o MS Word) per i documenti.
+   * **[!UICONTROL File Type]** to specify the type (image, document, multimedia, archive) of asset file you are looking for. Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS Word) for the documents.
    * **[!UICONTROL Dimensione]** file per cercare le risorse in base alle loro dimensioni. È possibile specificare i limiti inferiore e superiore dell'intervallo di dimensioni per limitare la ricerca e specificare l'unità di misura da cercare.
-   * **[!UICONTROL Stato]** per la ricerca di risorse in base agli stati delle risorse, ad esempio Approvazione (approvata, Modifiche richieste, Rifiutato, In sospeso) e Scadenza.
+   * **[!UICONTROL Status to search for assets based on asset statuses, such as Approval (Approved, Changes Requested, Rejected, Pending) and Expiration.]**
    * **[!UICONTROL Valutazione]** media per la ricerca di risorse in base al rating delle risorse.
    * **[!UICONTROL Orientamento]** per cercare le risorse in base all’orientamento (orizzontale, verticale, quadrato) delle risorse.
    * **[!UICONTROL Stile]** per cercare risorse in base allo stile (colorato, bianco e nero) delle risorse.
-   * **[!UICONTROL Formato]** video per la ricerca di risorse video in base al formato (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
+   * **[!UICONTROL Video Format to search for video assets based on their format (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).]**
    È possibile utilizzare facet [di ricerca](../using/brand-portal-search-facets.md) personalizzati nel pannello Filtri modificando il modulo di ricerca sottostante.
 
    * **[!UICONTROL Predicato]** proprietà, se utilizzato nel modulo di ricerca, consente di cercare le risorse che corrispondono a una proprietà di metadati a cui è mappato il predicato.\
