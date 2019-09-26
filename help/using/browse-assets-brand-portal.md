@@ -1,5 +1,5 @@
 ---
-title: Esplorazione delle risorse nel Brand Portal
+title: Sfogliare le risorse su Brand Portal
 seo-title: Sfogliare le risorse su Brand Portal
 description: Sfogliate le risorse, incrociate le gerarchie di risorse ed effettuate ricerche nelle risorse, utilizzando diverse opzioni di visualizzazione ed elementi dell'interfaccia utente nel Brand Portal.
 seo-description: Sfogliate le risorse, incrociate le gerarchie di risorse ed effettuate ricerche nelle risorse, utilizzando diverse opzioni di visualizzazione ed elementi dell'interfaccia utente nel Brand Portal.
@@ -9,12 +9,12 @@ content-type: riferimento
 topic-tags: introduzione
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 ---
 
 
-# Esplorazione delle risorse nel Brand Portal {#browsing-assets-on-brand-portal}
+# Sfogliare le risorse su Brand Portal {#browsing-assets-on-brand-portal}
 
 Il Brand Portal di AEM Assets offre diverse funzionalità ed elementi dell’interfaccia utente che semplificano la navigazione tra le risorse, l’attraversamento delle gerarchie di risorse e la ricerca delle risorse utilizzando diverse opzioni di visualizzazione.
 
@@ -24,7 +24,7 @@ Il logo AEM nella barra degli strumenti di AEM nella parte superiore facilita l�
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)
+![](assets/bp_subheader.png)<br />
 
 Il selettore della barra in alto a sinistra nel Portale marchio viene visualizzato a discesa per mostrare le opzioni che consentono di navigare nelle gerarchie delle risorse, semplificare la ricerca e visualizzare le risorse.
 
