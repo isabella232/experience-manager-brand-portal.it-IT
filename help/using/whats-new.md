@@ -1,8 +1,8 @@
 ---
 title: Novità in AEM Assets Brand Portal
 seo-title: Novità in AEM Assets Brand Portal
-description: Scopri le nuove funzioni e i miglioramenti della versione 6.4.4.
-seo-description: Scopri le nuove funzioni e i miglioramenti della versione 6.4.4.
+description: Scopri le nuove funzioni e i miglioramenti della versione 6.4.5.
+seo-description: Scopri le nuove funzioni e i miglioramenti della versione 6.4.5.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 contentOwner: bdhar
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,7 +10,7 @@ content-type: riferimento
 topic-tags: introduzione
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 94a3183f42e232f841a07644a89817591ca2d521
 
 ---
 
@@ -19,13 +19,57 @@ source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
 
 Il Portale delle risorse di Adobe Experience Manager (AEM) Assets Brand consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su dispositivi diversi. Consente di migliorare l'efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato. Adobe sta lavorando per migliorare l'esperienza complessiva del Brand Portal. Di seguito viene fornita una panoramica delle nuove funzioni e dei miglioramenti.
 
-## Novità in 6.4.4 {#what-is-changing-in}
+## Novità in 6.4.5 {#what-changed-in-645}
 
-La versione di Brand Portal 6.4.4 è stata dedicata ai miglioramenti apportati alla ricerca di testo e alle richieste principali dei clienti. Consultate le note [sulla versione più recenti del Portale](brand-portal-release-notes.md)marchio.
+Brand Portal 6.4.5 è una release che si concentra sulla fornitura di una piattaforma collaborativa per gli utenti attivi di Brand Portal (agenzie/team esterni) per caricare risorse in Brand Portal e pubblicarle in AEM Assets senza dover accedere all’ambiente di authoring di AEM. La funzione è denominata **Asset Sourcing in Brand Portal**. Questa funzione migliora le esperienze dei clienti fornendo un meccanismo bidirezionale per contribuire e condividere le risorse con altri utenti del Brand Portal distribuiti a livello globale.
 
-### Miglioramenti della ricerca {#search-enhancements}
+### Origine risorsa in Brand Portal {#asset-sourcing-in-bp}
 
-A partire da Brand Portal 6.4.4 è supportata la ricerca parziale del testo nel predicato delle proprietà nel riquadro di filtraggio. Per consentire la ricerca parziale del testo, è necessario abilitare la ricerca **** parziale nel Predicato proprietà nel modulo di ricerca.
+La funzione Asset Sourcing consente agli amministratori AEM di creare nuove cartelle con un’ulteriore proprietà denominata **Asset Contribution**. La nuova cartella creata viene denominata Contributo ** risorsa, alias Cartella *Contribution* . Quando viene creata una cartella di contributi in AEM, viene attivato un flusso di lavoro interno che crea ulteriormente due sottocartelle nella cartella dei contributi: NUOVO e CONDIVISO.
+
+L’amministratore di AEM definisce il requisito caricando una breve descrizione della cartella dei contributi, caricando la risorsa di base nella cartella **SHARED** per riferimento, assegnando gli utenti attivi del Brand Portal per accedere alla cartella dei contributi e pubblicando la cartella dei contributi in Brand Portal. Una volta pubblicata la cartella dei contributi, gli utenti di Brand Portal che hanno accesso alla cartella dei contributi possono accedere alla propria istanza Brand Portal e iniziare a contribuire caricando contenuti/risorse (file o cartelle) nella cartella **NEW** . Dopo aver caricato tutto il contenuto, gli utenti del Brand Portal pubblicano manualmente la cartella dei contributi in AEM. Potrebbero essere necessari alcuni minuti per importare e riflettere il contenuto o le risorse pubblicate in AEM Assets.
+
+La funzionalità esistente rimane sul posto, gli utenti del Brand Portal possono visualizzare, cercare e scaricare risorse dalla cartella dei contributi e dalle altre cartelle consentite. Inoltre, gli amministratori possono condividere ulteriormente la cartella dei contributi, modificare le proprietà e aggiungere risorse alle raccolte. Consultate le note [sulla versione più recenti del Portale](brand-portal-release-notes.md)marchio.
+
+>[!NOTE]
+>
+>Gli utenti di Brand Portal possono caricare contenuto/risorse solo nella cartella **NEW** .
+
+>[!NOTE]
+>
+>Il limite massimo di caricamento per qualsiasi account/tenant Brand Portal è **10** GB.
+
+
+
+![](assets/asset-sourcing.png)
+
+### Caricare le risorse in Brand Portal {#upload-assets-in-bp}
+
+The active Brand Portal users receive pulse and email notification whenever a contribution folder is shared with them. They can download the brief document attached to the contribution folder and download the baseline content/assets from the **SHARED** folder to understand the requirement.
+
+The Brand Portal users having permission to access the contribution folder can upload assets only to the **NEW** folder. However, they can upload multiple assets or folders containing multiple assets.
+
+![](assets/upload-asset6.png)
+
+![](assets/upload-asset4.png)
+
+>[!NOTE]
+>
+>Brand Portal users do not have permission to delete an uploaded asset.
+
+### Publish contribution folder to AEM Assets {#publish-assets-to-aem}
+
+After uploading the assets in the NEW folder, Brand Portal user manually publishes the contribution folder to AEM. **** Potrebbero essere necessari alcuni minuti per importare e riflettere il contenuto/le risorse pubblicate in AEM Assets. The Brand Portal user and AEM administrator receive pulse/email notifications at the beginning and completion of the publishing event along with the job status (Queued/In-progress/Success). AEM and Brand Portal administrators can also view the job status from their respective interfaces.
+
+![](assets/upload-asset5.png)
+
+## What changed in 6.4.4 {#what-changed-in-644}
+
+Brand Portal 6.4.4 release focuses on enhancements to text search and top customer requests. See latest Brand Portal Release Notes.[](brand-portal-release-notes.md)
+
+### Search enhancements {#search-enhancements}
+
+Brand Portal 6.4.4 onwards supports partial text search on property predicate in filtering pane. To allow partial text search you need to enable Partial Search in Property Predicate in the search form.****
 
 Continua a leggere per saperne di più sulla ricerca parziale di testo e caratteri jolly.
 
@@ -59,7 +103,7 @@ Analogamente, specificando:
 >
 >Selezionando la casella di controllo **Ricerca** parziale, per impostazione predefinita viene selezionato **Ignora maiuscole/minuscole** .
 
-[![](assets/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
 ## Novità in 6.4.3 {#what-changed-in}
 
@@ -80,42 +124,43 @@ La funzionalità [Abilita gerarchia](../using/brand-portal-general-configuration
 
 Le cartelle condivise sono organizzate nelle rispettive directory nelle cartelle virtuali. È possibile riconoscere queste cartelle virtuali con un'icona a forma di lucchetto.
 
-La miniatura predefinita delle cartelle virtuali è la miniatura della prima cartella condivisa.
+Note that the default thumbnail of the virtual folders is the thumbnail image of the first shared folder.
 
 ![](assets/hierarchy1-nonadmin-2.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-general-configuration.md)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-general-configuration.md)
 
 ### Ricerca in una gerarchia o percorso di cartelle specifici
 
-**Il predicato del browser** percorso è stato introdotto in Modulo di ricerca per consentire la ricerca di risorse in una directory specifica. Il percorso di ricerca predefinito del predicato di ricerca per il browser percorso è */content/dam/mac/&lt;tenant-id&gt;/*, che può essere configurato modificando il modulo di ricerca predefinito.
+**Il predicato del browser** percorso è stato introdotto in Modulo di ricerca per consentire la ricerca di risorse in una directory specifica. The default search path of search predicate for Path Browser is /content/dam/mac/&lt;tenant-id&gt;/, which can be configured by editing the default search form.**
 
-* Gli utenti amministratori possono utilizzare il browser Percorsi per accedere a qualsiasi directory di cartelle nel Brand Portal.
-* Gli utenti non amministratori possono utilizzare il browser Percorso per navigare solo nelle cartelle (e tornare alle cartelle principali) condivise con loro.
-Ad esempio, */content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC* è condiviso con un utente non amministratore. L’utente può cercare risorse all’interno di folderC utilizzando il browser Percorso. Questo utente può anche passare a folderB e folderA (poiché sono predecessori della cartellaC che viene condivisa con l'utente).
+* Admin users can use Path Browser to navigate to any folder directory on Brand Portal.
+* Non-admin users can use Path Browser to navigate only to the folders (and navigate back to the parent folders) shared with them.
+For example, /content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC is shared with a non-admin user. ** The user can search for assets within folderC using Path Browser. This user can also navigate to folderB and folderA (since they are ancestors of the folderC that is shared with the user).
 
 ![](assets/edit-search-form.png)
 
-**Il caso d’uso**
+**The use case**
 
-Ora è possibile limitare la ricerca delle risorse all’interno di una cartella specifica selezionata, anziché iniziare dalla cartella principale.
+You can now restrict asset search within a specific folder you have browsed to, instead of beginning at the root folder.
 
-Tenete presente che la ricerca in queste cartelle restituisce solo i risultati delle risorse condivise con l’utente.
+Note that searching under these folders returns results only from the assets that have been shared with the user.
 
 ![](assets/filter-panel.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### Supporto delle rappresentazioni video per contenuti multimediali dinamici
+### Dynamic Media video renditions support
 
-Gli utenti la cui istanza di AEM Author è attivata dalla modalità Dynamic Media ibrida possono visualizzare in anteprima e scaricare le rappresentazioni per contenuti multimediali dinamici, oltre ai file video originali.
+Users whose AEM Author instance is on Dynamic Media hybrid mode can preview and download the dynamic media renditions, in addition to the original video files.
 
-Per consentire l’anteprima e il download delle rappresentazioni multimediali dinamiche su account tenant specifici, gli amministratori devono specificare **Dynamic Media Configuration** (URL del servizio video (URL DM-Gateway) e ID di registrazione per recuperare il video dinamico) nella configurazione **Video** dal pannello degli strumenti di amministrazione.
+To allow preview and download of dynamic media renditions on specific tenant accounts, administrators need to specify Dynamic Media Configuration (video service URL (DM-Gateway URL) and registration ID to fetch the dynamic video) in Video configuration from admin tools panel.********
 
-**Per visualizzare l’anteprima dei video relativi ai file multimediali** dinamici, usate:
+**The use case
+Dynamic Media videos can be previewed on:**
 
 * Pagina dei dettagli della risorsa
-* Vista a schede della risorsa
+* Asset's card view
 * Pagina di anteprima della condivisione dei collegamenti
 
 Le codifiche video per contenuti multimediali dinamici possono essere scaricate da:
@@ -125,7 +170,7 @@ Le codifiche video per contenuti multimediali dinamici possono essere scaricate 
 
 ![](assets/edit-dynamic-media-config.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Pubblicazione pianificata su Brand Portal
 
@@ -136,7 +181,7 @@ Allo stesso modo, le risorse pubblicate possono essere rimosse dal portale in un
 ![](assets/schedule-publish.png)
 ![](assets/publishlater-workflow.png)
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Alias tenant configurabile nell'URL
 
@@ -149,7 +194,7 @@ Tuttavia, l'istanza di AEM Author può essere [configurata](https://helpx.adobe.
 
 **Le** organizzazioni di casi d’uso possono soddisfare le proprie esigenze di branding personalizzando l’URL del portale, invece di attingere all’URL fornito da Adobe.
 
-[![](assets/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
+[![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal.md#tenantaliasforportalurl)
 
 ### Miglioramenti relativi all'esperienza di download
 
@@ -354,7 +399,7 @@ Per ulteriori informazioni, consultate [Richiedere l'accesso al Portale](../usin
 
 ### Miglioramento nel rapporto sulle risorse scaricate {#enhancement-in-the-assets-downloaded-report}
 
-Il rapporto sulle risorse scaricate ora include il numero di download delle risorse per utente entro l’intervallo di date e ore specificato. Gli utenti possono scaricare questo rapporto in formato .csv e compilare dati quali il numero totale di download per una risorsa con licenza.
+Il rapporto sulle risorse scaricate ora include il numero di download delle risorse per utente entro l’intervallo di date e ore specificato. Gli utenti possono scaricare questo rapporto in formato .csv e compilare dati quali il totale dei download per una risorsa con licenza.
 
 ![](assets/reports_download_downloaded_by.png)
 
@@ -489,7 +534,7 @@ Brand Portal 6.3.1 introduce ulteriori metadati, simili a quelli di AEM Assets 6
 
 ## Frequently asked questions {#frequently-asked-questions}
 
-**Qus. Perderò l’accesso a risorse, funzionalità o configurazioni già esistenti?**
+**Ques. Perderò l’accesso a risorse, funzionalità o configurazioni già esistenti?**
 **Ans.** Tutte le funzioni e le configurazioni esistenti rimangono intatte. Gli utenti finali non sono interessati e il contenuto rimane intatto.
 
 **Ques. Quando si passa alla nuova versione di Brand Portal?**
