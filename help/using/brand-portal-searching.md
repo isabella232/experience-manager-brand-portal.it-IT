@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 27bc26e0146013c3948a15d7c3ce865be4d789bd
+source-git-commit: 201ca4c0df9016929d63b4f41f570903a59f7ebf
 
 ---
 
@@ -40,6 +40,8 @@ Per cercare risorse in Brand Portal:
    ![](assets/assets-search-result.png)
 
    *Ricerca di risorse tramite omnisearch*
+
+Per informazioni sul comportamento di ricerca con risorse con tag avanzati, consultate [Comprendere i risultati e il comportamento](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html)di ricerca.
 
 ## Ricerca mediante facet nel pannello Filtri {#search-using-facets-in-filters-panel}
 
