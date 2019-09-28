@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415back
 translation-type: tm+mt
-source-git-commit: c0169450c5cf1d8c99f8604df3bd2667445ff1ed
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -37,20 +37,21 @@ Solo gli amministratori possono creare predefiniti per immagini in Brand Portal.
 
 >[!NOTE]
 >
->Vengono create rappresentazioni dinamiche per le risorse per le quali è disponibile PTIFF. Pertanto, se una risorsa non dispone di una rappresentazione TIFF piramidale creata su AEM e pubblicata su Brand Portal, è possibile esportare solo le rappresentazioni di sistema, ma le rappresentazioni dinamiche sono presentate come opzione.
-La modalità ibrida per contenuti multimediali dinamici deve essere abilitata su AEM (autore) per creare file TIFF a piramide di una risorsa. Quando una risorsa di questo tipo viene pubblicata in Brand Portal, vengono applicati dei predefiniti per immagini e vengono visualizzate le rappresentazioni dinamiche.
+>Le rappresentazioni dinamiche di un’immagine vengono create utilizzando il TIFF piramidale. Se il TIFF piramidale non è disponibile per alcuna risorsa, le rappresentazioni dinamiche per tale risorsa non possono essere recuperate nel portale marchio.
+Se l’istanza di AEM (Author) è in esecuzione in modalità **ibrida** Dynamic Media, le rappresentazioni TIFF piramidali delle risorse immagine vengono create e salvate nell’archivio AEM. Se invece l’istanza di AEM (Author) è in esecuzione in modalità ****Dynamic Media Scene7, sul server Scene 7 sono presenti rappresentazioni TIFF piramidali delle risorse immagine.
+Quando tali risorse vengono pubblicate sul portale del marchio, vengono applicati i predefiniti per immagini e vengono visualizzate le rappresentazioni dinamiche.
 
 1. Dalla barra degli strumenti di AEM nella parte superiore, fate clic sul logo Adobe per accedere agli strumenti amministrativi.
 
-2. Dal pannello degli strumenti di amministrazione, fate clic su Predefiniti **** immagine.
+1. Dal pannello degli strumenti di amministrazione, fate clic su Predefiniti **** immagine.
 
    ![](assets/admin-tools-panel-4.png)
 
-3. Nella pagina dei predefiniti per immagini, fate clic su **[!UICONTROL Crea]**.
+1. Nella pagina dei predefiniti per immagini, fate clic su **[!UICONTROL Crea]**.
 
    ![](assets/image_preset_homepage.png)
 
-4. Nella pagina **[!UICONTROL Modifica predefinito]** immagine, inserite i valori nelle schede **[!UICONTROL Base]** e **[!UICONTROL Avanzate]** , a seconda dei casi, compreso un nome. Le opzioni sono descritte nelle opzioni [Predefinito](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)immagine. I predefiniti vengono visualizzati nel riquadro a sinistra e possono essere usati al volo con altre risorse.
+1. Nella pagina **[!UICONTROL Modifica predefinito]** immagine, inserite i valori nelle schede **[!UICONTROL Base]** e **[!UICONTROL Avanzate]** , a seconda dei casi, compreso un nome. Le opzioni sono descritte nelle opzioni [Predefinito](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options)immagine. I predefiniti vengono visualizzati nel riquadro a sinistra e possono essere usati al volo con altre risorse.
 
    ![](assets/image_preset_create.png)
 
@@ -58,19 +59,19 @@ La modalità ibrida per contenuti multimediali dinamici deve essere abilitata su
    >
    >Potete anche usare la pagina **[!UICONTROL Modifica predefinito]** immagine per modificare le proprietà di un predefinito esistente. Per modificare un predefinito per immagini, selezionatelo dalla pagina dei predefiniti per immagini e fate clic su **[!UICONTROL Modifica]**.
 
-5. Fai clic su **[!UICONTROL Salva]**. Il predefinito per immagini viene creato e visualizzato nella pagina dei predefiniti per immagini.
-6. Per eliminare un predefinito per immagini, selezionatelo dalla pagina dei predefiniti per immagini e fate clic su **[!UICONTROL Elimina]**. Nella pagina di conferma, fate clic su **[!UICONTROL Elimina]** per confermare l’eliminazione. Il predefinito per immagini viene rimosso dalla pagina dei predefiniti per immagini.
+1. Fai clic su **[!UICONTROL Salva]**. Il predefinito per immagini viene creato e visualizzato nella pagina dei predefiniti per immagini.
+1. Per eliminare un predefinito per immagini, selezionatelo dalla pagina dei predefiniti per immagini e fate clic su **[!UICONTROL Elimina]**. Nella pagina di conferma, fate clic su **[!UICONTROL Elimina]** per confermare l’eliminazione. Il predefinito per immagini viene rimosso dalla pagina dei predefiniti per immagini.
 
 ## Applicazione di predefiniti per immagini durante l’anteprima delle immagini {#apply-image-presets-when-previewing-images}
 
 Quando visualizzate l’anteprima delle immagini e delle relative rappresentazioni, scegliete uno dei predefiniti esistenti per riformattare le immagini in base alle specifiche impostate dall’amministratore.
 
 1. Dall’interfaccia Brand Portal, fate clic su un’immagine per aprirla.
-2. Fate clic sull'icona della sovrapposizione a sinistra, quindi scegliete **[!UICONTROL Rappresentazioni]**.
+1. Fate clic sull'icona della sovrapposizione a sinistra, quindi scegliete **[!UICONTROL Rappresentazioni]**.
 
    ![](assets/image-preset-previewrenditions.png)
 
-3. Dall'elenco **[!UICONTROL Rappresentazioni]** , selezionare la rappresentazione dinamica appropriata, ad esempio **[!UICONTROL Miniatura]**. Il rendering dell'immagine di anteprima è basato sulla scelta della rappresentazione.
+1. Dall'elenco **[!UICONTROL Rappresentazioni]** , selezionare la rappresentazione dinamica appropriata, ad esempio **[!UICONTROL Miniatura]**. Il rendering dell'immagine di anteprima è basato sulla scelta della rappresentazione.
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
@@ -86,13 +87,13 @@ Quando scaricate immagini e relative rappresentazioni da Brand Portal, non potet
    * Selezionate l’immagine da scaricare. Dalla barra degli strumenti nella parte superiore, fate clic sull'icona **[!UICONTROL Scarica]** .
    ![](assets/downloadassets.png)
 
-2. Nella finestra di dialogo **[!UICONTROL Scarica]** , selezionate le opzioni desiderate a seconda che la risorsa venga scaricata con o senza le relative rappresentazioni.
+1. Nella finestra di dialogo **[!UICONTROL Scarica]** , selezionate le opzioni desiderate a seconda che la risorsa venga scaricata con o senza le relative rappresentazioni.
 
    ![](assets/donload-assets-dialog.png)
 
-3. Per scaricare le rappresentazioni dinamiche della risorsa, seleziona l’opzione rappresentazioni **[!UICONTROL dinamiche]** .
-4. Potete personalizzare le proprietà dei predefiniti per immagini in base alle quali desiderate riformattare dinamicamente l’immagine e le relative rappresentazioni durante il download. Specificate le dimensioni, il formato, lo spazio colore, la risoluzione e il modificatore di immagine.
+1. Per scaricare le rappresentazioni dinamiche della risorsa, seleziona l’opzione rappresentazioni **[!UICONTROL dinamiche]** .
+1. Potete personalizzare le proprietà dei predefiniti per immagini in base alle quali desiderate riformattare dinamicamente l’immagine e le relative rappresentazioni durante il download. Specificate le dimensioni, il formato, lo spazio colore, la risoluzione e il modificatore di immagine.
 
    ![](assets/dynamicrenditions.png)
 
-5. Fate clic su **[!UICONTROL Scarica]**. Le rappresentazioni dinamiche personalizzate vengono scaricate in un file ZIP insieme all'immagine e alle rappresentazioni che avete scelto di scaricare. Tuttavia, se viene scaricata una singola risorsa, non viene creato alcun file ZIP che ne garantisca la rapidità di download.
+1. Fate clic su **[!UICONTROL Scarica]**. Le rappresentazioni dinamiche personalizzate vengono scaricate in un file ZIP insieme all'immagine e alle rappresentazioni che avete scelto di scaricare. Tuttavia, se viene scaricata una singola risorsa, non viene creato alcun file ZIP che ne garantisca la rapidità di download.
