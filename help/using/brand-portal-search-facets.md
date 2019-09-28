@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -34,19 +34,19 @@ Per aggiungere un predicato di ricerca al pannello **[!UICONTROL Filtri]** :
 
    ![](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fare clic su **[!UICONTROL Cerca in moduli]**.
+1. Dal pannello degli strumenti di amministrazione, fare clic su **[!UICONTROL Cerca in moduli]**.
 
    ![](assets/navigation-panel-1.png)
 
-3. Nella pagina **[!UICONTROL Moduli]** di ricerca, seleziona Barra di ricerca Amministratore **[!UICONTROL risorse]**.
+1. Nella pagina **[!UICONTROL Moduli]** di ricerca, seleziona Barra di ricerca Amministratore **[!UICONTROL risorse]**.
 
    ![](assets/search-forms-page.png)
 
-4. Sulla barra degli strumenti visualizzata nella parte superiore, fare clic su **[!UICONTROL Modifica]** per aprire il modulo di ricerca per la modifica.
+1. Sulla barra degli strumenti visualizzata nella parte superiore, fare clic su **[!UICONTROL Modifica]** per aprire il modulo di ricerca per la modifica.
 
    ![](assets/edit-search-form-1.png)
 
-5. Nella pagina [!UICONTROL Modifica modulo] di ricerca, trascinate un predicato dalla scheda [!UICONTROL Seleziona predicato] al riquadro principale. Ad esempio, trascinare Predicato **[!UICONTROL proprietà]**.
+1. Nella pagina [!UICONTROL Modifica modulo] di ricerca, trascinate un predicato dalla scheda [!UICONTROL Seleziona predicato] al riquadro principale. Ad esempio, trascinare Predicato **[!UICONTROL proprietà]**.
 
    Il campo **[!UICONTROL Proprietà]** viene visualizzato nel riquadro principale e la scheda **[!UICONTROL Impostazioni]** a destra visualizza i predicati delle proprietà.
 
@@ -56,7 +56,7 @@ Per aggiungere un predicato di ricerca al pannello **[!UICONTROL Filtri]** :
    >
    >L'etichetta dell'intestazione nella scheda **[!UICONTROL Impostazioni]** identifica il tipo di predicato selezionato.
 
-6. Nella scheda **[!UICONTROL Impostazioni]** , inserite un'etichetta, un testo segnaposto e una descrizione per il predicato delle proprietà.
+1. Nella scheda **[!UICONTROL Impostazioni]** , inserite un'etichetta, un testo segnaposto e una descrizione per il predicato delle proprietà.
 
    * Selezionate Ricerca **** parziale per consentire la ricerca parziale di frasi (e di caratteri jolly) in base al valore di proprietà specificato. Per impostazione predefinita, il predicato supporta la ricerca full-text.
    * Selezionate **[!UICONTROL Ignora maiuscole/minuscole]** se desiderate che la ricerca delle risorse basata sul valore della proprietà non faccia distinzione tra maiuscole e minuscole. Per impostazione predefinita, la ricerca di valori di proprietà nel filtro di ricerca fa distinzione tra maiuscole e minuscole.
@@ -64,16 +64,16 @@ Per aggiungere un predicato di ricerca al pannello **[!UICONTROL Filtri]** :
    >
    >Selezionando la casella di controllo **[!UICONTROL Ricerca]** parziale, per impostazione predefinita viene selezionato [!UICONTROL Ignora maiuscole/minuscole] .
 
-7. Nel campo Nome  proprietà, aprite il selettore delle proprietà e selezionate la proprietà in base alla quale viene eseguita la ricerca. In alternativa, immettere un nome per la proprietà. Ad esempio, immettere [!UICONTROL `  jcr :content/metadata/dc:title`] o [!UICONTROL `./jcr:content/metadata/dc:title`].
+1. Nel campo Nome  proprietà, aprite il selettore delle proprietà e selezionate la proprietà in base alla quale viene eseguita la ricerca. In alternativa, immettere un nome per la proprietà. Ad esempio, immettere [!UICONTROL `  jcr :content/metadata/dc:title`] o [!UICONTROL `./jcr:content/metadata/dc:title`].
 
    ![](assets/title-prop.png)
 
-8. Fate clic su **[!UICONTROL Fine]** per salvare le impostazioni.
-9. Dall’interfaccia utente [!UICONTROL Risorse] , fate clic sull’icona della sovrapposizione e scegliete **[!UICONTROL Filtro]** per passare al pannello **[!UICONTROL Filtri]** . Il predicato **[!UICONTROL Property]** viene aggiunto al pannello.
+1. Fate clic su **[!UICONTROL Fine]** per salvare le impostazioni.
+1. Dall’interfaccia utente [!UICONTROL Risorse] , fate clic sull’icona della sovrapposizione e scegliete **[!UICONTROL Filtro]** per passare al pannello **[!UICONTROL Filtri]** . Il predicato **[!UICONTROL Property]** viene aggiunto al pannello.
 
    ![](assets/property-filter-panel.png)
 
-10. Immettete un titolo per la risorsa da cercare nella casella di testo **[!UICONTROL Proprietà]** . Ad esempio, "Adobe". Quando eseguite una ricerca, nei risultati della ricerca vengono visualizzate le risorse il cui titolo corrisponde a "Adobe".
+1. Immettete un titolo per la risorsa da cercare nella casella di testo **[!UICONTROL Proprietà]** . Ad esempio, "Adobe". Quando eseguite una ricerca, nei risultati della ricerca vengono visualizzate le risorse il cui titolo corrisponde a "Adobe".
 
 ## Elenco dei predicati di ricerca {#list-of-search-predicates}
 
@@ -111,29 +111,29 @@ Per eliminare un predicato di ricerca, effettuate le seguenti operazioni:
 
    ![](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fare clic su **[!UICONTROL Cerca in moduli]**.
+1. Dal pannello degli strumenti di amministrazione, fare clic su **[!UICONTROL Cerca in moduli]**.
 
    ![](assets/navigation-panel-2.png)
 
-3. Nella pagina **[!UICONTROL Moduli]** di ricerca, seleziona Barra di ricerca Amministratore **[!UICONTROL risorse]**.
+1. Nella pagina **[!UICONTROL Moduli]** di ricerca, seleziona Barra di ricerca Amministratore **[!UICONTROL risorse]**.
 
    ![](assets/search-forms-page.png)
 
-4. Sulla barra degli strumenti visualizzata nella parte superiore, fare clic su **[!UICONTROL Modifica]** per aprire il modulo di ricerca per la modifica.
+1. Sulla barra degli strumenti visualizzata nella parte superiore, fare clic su **[!UICONTROL Modifica]** per aprire il modulo di ricerca per la modifica.
 
    ![](assets/edit-search-form-2.png)
 
-5. Nella pagina [!UICONTROL Modifica modulo] di ricerca, selezionate il predicato da eliminare dal riquadro principale. Ad esempio, selezionare Predicato **[!UICONTROL proprietà]**.
+1. Nella pagina [!UICONTROL Modifica modulo] di ricerca, selezionate il predicato da eliminare dal riquadro principale. Ad esempio, selezionare Predicato **[!UICONTROL proprietà]**.
 
    Nella scheda **[!UICONTROL Impostazioni]** a destra sono visualizzati i campi di predicato delle proprietà.
 
-6. Per eliminare il predicato delle proprietà, fate clic sull'icona bin. Nella finestra di dialogo **[!UICONTROL Elimina campo]** , fare clic su **[!UICONTROL Elimina]** per confermare l’eliminazione.
+1. Per eliminare il predicato delle proprietà, fate clic sull'icona bin. Nella finestra di dialogo **[!UICONTROL Elimina campo]** , fare clic su **[!UICONTROL Elimina]** per confermare l’eliminazione.
 
    Il campo Predicato **** proprietà viene rimosso dal riquadro principale e la scheda **[!UICONTROL Impostazioni]** diventa vuota.
 
    ![](assets/search-form-delete-predicate.png)
 
-7. Per salvare le modifiche, fate clic su **[!UICONTROL Fine]** nella barra degli strumenti.
-8. Dall’interfaccia utente **[!UICONTROL Risorse]** , fate clic sull’icona della sovrapposizione e scegliete **[!UICONTROL Filtro]** per passare al pannello **[!UICONTROL Filtri]** . Il **[!UICONTROL predicato Proprietà]** viene rimosso dal pannello.
+1. Per salvare le modifiche, fate clic su **[!UICONTROL Fine]** nella barra degli strumenti.
+1. Dall’interfaccia utente **[!UICONTROL Risorse]** , fate clic sull’icona della sovrapposizione e scegliete **[!UICONTROL Filtro]** per passare al pannello **[!UICONTROL Filtri]** . Il **[!UICONTROL predicato Proprietà]** viene rimosso dal pannello.
 
    ![](assets/property-predicate-removed.png)
