@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -50,15 +50,15 @@ Puoi accedere ad [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.co
 
    ![Logo AEM](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Utenti]**.
+1. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Utenti]**.
 
    ![Pannello Strumenti di amministrazione](assets/admin-tools-panel-5.png)
 
-3. Nella pagina Ruoli  utente, fai clic sulla scheda **[!UICONTROL Gestione]** , quindi su **[!UICONTROL Avvia Admin Console]**.
+1. Nella pagina Ruoli  utente, fai clic sulla scheda **[!UICONTROL Gestione]** , quindi su **[!UICONTROL Avvia Admin Console]**.
 
    ![Ruoli utente per avviare Admin Console](assets/launch_admin_console.png)
 
-4. In Admin Console, effettua una delle seguenti operazioni per creare un nuovo utente:
+1. In Admin Console, effettua una delle seguenti operazioni per creare un nuovo utente:
 
    * Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Panoramica]**. Nella pagina [!UICONTROL Panoramica] , fate clic su **[!UICONTROL Assegna utenti]** dalla scheda prodotto Brand Portal.
    ![Panoramica di Admin Console](assets/admin_console_overviewadduser.png)
@@ -66,12 +66,12 @@ Puoi accedere ad [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.co
    * Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Utenti]**. Nella pagina [!UICONTROL Utenti] , [!UICONTROL Utenti] nella barra a sinistra è selezionata per impostazione predefinita. Fate clic su **[!UICONTROL Aggiungi utente]**.
    ![Admin Console Aggiungere utenti](assets/admin_console_adduseruserpage.png)
 
-5. Nella finestra di dialogo Aggiungi utente, digitate l'ID e-mail dell'utente che desiderate aggiungere o selezionate l'utente dall'elenco dei suggerimenti che vengono visualizzati durante la digitazione.
+1. Nella finestra di dialogo Aggiungi utente, digitate l'ID e-mail dell'utente che desiderate aggiungere o selezionate l'utente dall'elenco dei suggerimenti che vengono visualizzati durante la digitazione.
 
    ![Aggiungi utente a Brand Portal](assets/add_user_to_aem_bp.png)
 
-6. Assegnate l'utente ad almeno un profilo di prodotto (precedentemente noto come configurazioni di prodotto) in modo che possa accedere al Portale marchio. Seleziona il profilo di prodotto appropriato dal campo **[!UICONTROL Selezionare un profilo per il prodotto]** .
-7. Fai clic su **[!UICONTROL Salva]**. All’utente aggiunto viene inviato un messaggio e-mail di benvenuto. L’utente invitato può accedere al Portale marchio facendo clic sul collegamento nell’e-mail di benvenuto e accedendo con un ID Adobe. Per ulteriori informazioni, consultate [Prima esecuzione](../using/brand-portal-onboarding.md)dell'accesso.
+1. Assegnate l'utente ad almeno un profilo di prodotto (precedentemente noto come configurazioni di prodotto) in modo che possa accedere al Portale marchio. Seleziona il profilo di prodotto appropriato dal campo **[!UICONTROL Selezionare un profilo per il prodotto]** .
+1. Fai clic su **[!UICONTROL Salva]**. All’utente aggiunto viene inviato un messaggio e-mail di benvenuto. L’utente invitato può accedere al Portale marchio facendo clic sul collegamento nell’e-mail di benvenuto e accedendo con un ID Adobe. Per ulteriori informazioni, consultate [Prima esecuzione](../using/brand-portal-onboarding.md)dell'accesso.
 
    >[!NOTE]
    Se un utente non è in grado di accedere al Portale marchio, l'amministratore dell'organizzazione deve visitare Adobe [!UICONTROL Admin Console] e verificare se l'utente è presente e se è stato aggiunto ad almeno un profilo di prodotto.
@@ -89,24 +89,24 @@ Puoi accedere a [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enter
 
    ![Logo AEM](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Utenti]**.
+1. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Utenti]**.
 
    ![Pannello Strumenti di amministrazione](assets/admin-tools-panel-6.png)
 
-3. Nella pagina Ruoli  utente, fai clic sulla scheda **[!UICONTROL Gestione]** , quindi su **[!UICONTROL Avvia Admin Console]**.
+1. Nella pagina Ruoli  utente, fai clic sulla scheda **[!UICONTROL Gestione]** , quindi su **[!UICONTROL Avvia Admin Console]**.
 
    ![Avvia Admin Console](assets/launch_admin_console.png)
 
-4. Dalla barra degli strumenti nella parte superiore, fare clic su **[!UICONTROL Prodotti]**.
-5. Nella pagina [!UICONTROL Prodotti] , Profili  prodotto è selezionato per impostazione predefinita. Fate clic su **[!UICONTROL Nuovo profilo]**.
+1. Dalla barra degli strumenti nella parte superiore, fare clic su **[!UICONTROL Prodotti]**.
+1. Nella pagina [!UICONTROL Prodotti] , Profili  prodotto è selezionato per impostazione predefinita. Fate clic su **[!UICONTROL Nuovo profilo]**.
 
    ![Aggiungi nuovo profilo di prodotto](assets/admin_console_addproductprofile.png)
 
-6. Nella pagina [!UICONTROL Crea un nuovo profilo] , immetti il nome del profilo, il nome visualizzato, la descrizione del profilo e scegli se desideri inviare una notifica via e-mail agli utenti quando vengono aggiunti o rimossi dal profilo.
+1. Nella pagina [!UICONTROL Crea un nuovo profilo] , immetti il nome del profilo, il nome visualizzato, la descrizione del profilo e scegli se desideri inviare una notifica via e-mail agli utenti quando vengono aggiunti o rimossi dal profilo.
 
    ![Crea profilo di prodotto](assets/admin_console_addaproductprofilecreatenewprofile.png)
 
-7. Fate clic su **[!UICONTROL Fine]**. Il gruppo di configurazione del prodotto, ad esempio il gruppo **** Vendite, viene aggiunto a Brand Portal.
+1. Fate clic su **[!UICONTROL Fine]**. Il gruppo di configurazione del prodotto, ad esempio il gruppo **** Vendite, viene aggiunto a Brand Portal.
 
    ![Profili di prodotto](assets/admin_console_productprofileadded.png)
 
@@ -121,20 +121,20 @@ Puoi accedere a [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enter
 
    ![Logo AEM](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Utenti]**.
+1. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Utenti]**.
 
    ![Pannello Strumenti di amministrazione](assets/admin-tools-panel-7.png)
 
-3. Nella pagina Ruoli  utente, fai clic sulla scheda **[!UICONTROL Gestione]** , quindi su **[!UICONTROL Avvia Admin Console]**.
+1. Nella pagina Ruoli  utente, fai clic sulla scheda **[!UICONTROL Gestione]** , quindi su **[!UICONTROL Avvia Admin Console]**.
 
    ![Launch [!DNL Admin Console]](assets/launch_admin_console.png)
 
-4. Dalla barra degli strumenti nella parte superiore, fare clic su **[!UICONTROL Prodotti]**.
-5. Nella pagina [!UICONTROL Prodotti] , Profili  prodotto è selezionato per impostazione predefinita. Aprite il profilo di prodotto al quale desiderate aggiungere un utente, ad esempio un gruppo Vendite.
+1. Dalla barra degli strumenti nella parte superiore, fare clic su **[!UICONTROL Prodotti]**.
+1. Nella pagina [!UICONTROL Prodotti] , Profili  prodotto è selezionato per impostazione predefinita. Aprite il profilo di prodotto al quale desiderate aggiungere un utente, ad esempio un gruppo Vendite.
 
    ![Profili di prodotto](assets/admin_console_productprofileadded.png)
 
-6. Per aggiungere singoli utenti al profilo di prodotto, effettuate le seguenti operazioni:
+1. Per aggiungere singoli utenti al profilo di prodotto, effettuate le seguenti operazioni:
 
    * Fate clic su **[!UICONTROL Aggiungi utente]**.
    ![Raggruppare per mappare il profilo di prodotto in Brand Portal](assets/admin_console_productprofilesalesgroup.png)
@@ -146,7 +146,7 @@ Puoi accedere a [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enter
 
 
 
-7. Per aggiungere utenti in massa al profilo di prodotto, effettuate le seguenti operazioni:
+1. Per aggiungere utenti in massa al profilo di prodotto, effettuate le seguenti operazioni:
 
    * Scegliete puntini di sospensione (**[!UICONTROL ...) &gt; Aggiungi utenti in base a CSV]**.
    ![Aggiunta di utenti in blocco](assets/admin_console_addbulkusers.png)
@@ -170,23 +170,23 @@ Puoi accedere a [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/ente
 
    ![AEMLogo](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Utenti]**.
+1. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Utenti]**.
 
    ![Pannello Strumenti di amministrazione](assets/admin-tools-panel-8.png)
 
-3. Nella pagina Ruoli  utente, fai clic sulla scheda **[!UICONTROL Gestione]** , quindi su **[!UICONTROL Avvia Admin Console]**.
+1. Nella pagina Ruoli  utente, fai clic sulla scheda **[!UICONTROL Gestione]** , quindi su **[!UICONTROL Avvia Admin Console]**.
 
    ![Avvia Admin Console](assets/launch_admin_console.png)
 
-4. Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Utenti]**.
-5. Nella pagina [!UICONTROL Utenti] , [!UICONTROL Utenti] nella barra a sinistra è selezionata per impostazione predefinita. Fate clic sul nome utente dell’utente a cui desiderate assegnare i privilegi di amministratore.
+1. Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Utenti]**.
+1. Nella pagina [!UICONTROL Utenti] , [!UICONTROL Utenti] nella barra a sinistra è selezionata per impostazione predefinita. Fate clic sul nome utente dell’utente a cui desiderate assegnare i privilegi di amministratore.
 
    ![Aggiungi utenti in Admin Console](assets/admin_console_adduseruserpage.png)
 
-6. Nella pagina del profilo utente, individuate la sezione Diritti **[!UICONTROL di]** amministrazione in basso e scegliete puntini di sospensione (**[!UICONTROL ... &gt; Modifica diritti]**di amministrazione.
+1. Nella pagina del profilo utente, individuate la sezione Diritti **[!UICONTROL di]** amministrazione in basso e scegliete puntini di sospensione (**[!UICONTROL ... &gt; Modifica diritti]**di amministrazione.
    ![Diritti di amministratore in Admin Console](assets/admin_console_editadminrights.png)
 
-7. Nella pagina [!UICONTROL Modifica amministratore] , selezionate Amministratore di sistema o Amministratore prodotto.
+1. Nella pagina [!UICONTROL Modifica amministratore] , selezionate Amministratore di sistema o Amministratore prodotto.
 
    ![Modifica dei diritti di amministratore in Admin Console](assets/admin_console_editadminrightsselection.png)
 
@@ -198,7 +198,7 @@ Puoi accedere a [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/ente
    >[!NOTE]
    Brand Portal non supporta i privilegi di amministratore del profilo di prodotto (precedentemente denominato amministratore di configurazione). Evitate di assegnare diritti di amministratore del profilo di prodotto a un utente.
 
-8. Esaminate la selezione del tipo di amministratore e fate clic su **[!UICONTROL Salva]**.
+1. Esaminate la selezione del tipo di amministratore e fate clic su **[!UICONTROL Salva]**.
 
    >[!NOTE]
    Per revocare i privilegi di amministratore per un utente, apportate le modifiche appropriate nella pagina [!UICONTROL Modifica amministratore] , quindi fate clic su **[!UICONTROL Salva]**.
@@ -216,11 +216,11 @@ Oltre al ruolo Amministratore, Brand Portal supporta i seguenti ruoli:
 
    ![AEMLogo](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Utenti]**.
+1. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Utenti]**.
 
    ![Pannello Strumenti di amministrazione](assets/admin-tools-panel-9.png)
 
-3. Nella pagina Ruoli  utente, la scheda [!UICONTROL Utenti] è selezionata per impostazione predefinita. Per l’utente di cui desiderate modificare il ruolo, selezionate **[!UICONTROL Editor]** o **[!UICONTROL Visualizzatore]** dall’elenco a discesa **[!UICONTROL Ruolo]** .
+1. Nella pagina Ruoli  utente, la scheda [!UICONTROL Utenti] è selezionata per impostazione predefinita. Per l’utente di cui desiderate modificare il ruolo, selezionate **[!UICONTROL Editor]** o **[!UICONTROL Visualizzatore]** dall’elenco a discesa **[!UICONTROL Ruolo]** .
 
    ![Modificare i ruoli utente](assets/modify_user_role.png)
 
@@ -232,7 +232,7 @@ Oltre al ruolo Amministratore, Brand Portal supporta i seguenti ruoli:
    >[!NOTE]
    Il ruolo utente è disabilitato anche se l’utente è membro del gruppo Editor. Per revocare i privilegi di modifica all’utente, rimuovete l’utente dal gruppo Editor oppure modificate il ruolo dell’intero gruppo nel visualizzatore.
 
-4. Fai clic su **[!UICONTROL Salva]**. Il ruolo viene modificato per l'utente corrispondente. Se avete selezionato più utenti, i ruoli per tutti gli utenti vengono modificati contemporaneamente.
+1. Fai clic su **[!UICONTROL Salva]**. Il ruolo viene modificato per l'utente corrispondente. Se avete selezionato più utenti, i ruoli per tutti gli utenti vengono modificati contemporaneamente.
 
    >[!NOTE]
    Le modifiche nelle autorizzazioni degli utenti si riflettono nella pagina Ruoli  utente solo dopo che gli utenti hanno nuovamente effettuato l'accesso al Portale marchio.
@@ -250,8 +250,8 @@ Per le risorse condivise come collegamento, verrà applicata l’autorizzazione 
 Per modificare il ruolo e il diritto di accesso alle rappresentazioni originali per membri specifici del gruppo, effettuate le seguenti operazioni:
 
 1. Nella pagina Ruoli  utente, andate alla scheda **[!UICONTROL Gruppi]** .
-2. Selezionate i gruppi per i quali desiderate modificare i ruoli.
-3. Selezionate il ruolo appropriato dall’elenco a discesa [!UICONTROL Ruolo] .
+1. Selezionate i gruppi per i quali desiderate modificare i ruoli.
+1. Selezionate il ruolo appropriato dall’elenco a discesa [!UICONTROL Ruolo] .
 
    Per consentire ai membri di un gruppo di avere accesso alle rappresentazioni originali di file di immagine (.jpeg, .tiff, .png, .bmp, .gif, .pjpeg, x-portabile-anymap, x-portatile-bitmap, x-portabile-grigio, x-portabile-pixmap, x-rgb, x-xbitmap, x-xpixmap, x-icon, image/photoshop, image x-photoshop, .psd, image/vnd.adobe.photoshop) che scaricano dal portale o dal collegamento condiviso, mantenete l'opzione [!UICONTROL Accesso all'originale] selezionata per quel gruppo. Per impostazione predefinita, l’opzione [!UICONTROL Accesso all’originale] è selezionata per tutti gli utenti. Per impedire a un gruppo di utenti di accedere alle rappresentazioni originali, deselezionate l’opzione corrispondente a tale gruppo.
 
@@ -261,7 +261,7 @@ Per modificare il ruolo e il diritto di accesso alle rappresentazioni originali 
    Se un utente viene aggiunto a più gruppi e se uno di questi dispone di restrizioni, tali restrizioni verranno applicate a tale utente.
    Inoltre, le restrizioni per l’accesso alle rappresentazioni originali dei file immagine non si applicano agli amministratori anche se sono membri di gruppi limitati.
 
-4. Fai clic su **[!UICONTROL Salva]**. Il ruolo viene modificato per i gruppi corrispondenti.
+1. Fai clic su **[!UICONTROL Salva]**. Il ruolo viene modificato per i gruppi corrispondenti.
 
    >[!NOTE]
    L’associazione utente-gruppo, o l’appartenenza al gruppo di un utente, viene sincronizzata nel Portale marchio ogni 8 ore. Le modifiche ai ruoli utente o gruppo diventano effettive dopo l’esecuzione del processo di sincronizzazione successivo.
