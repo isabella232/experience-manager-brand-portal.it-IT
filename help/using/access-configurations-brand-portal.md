@@ -10,7 +10,7 @@ content-type: riferimento
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 393025b4-722d-4e81-8a47-f83415d0b9b6
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -30,10 +30,10 @@ A partire da AEM Assets Brand Portal 6.4.2, gli amministratori possono configura
 Per consentire agli utenti ospiti di accedere al Portale marchio, in modo che non sia necessario effettuare l’accesso per accedere alle risorse pubbliche, gli amministratori devono:
 
 1. Selezionate il logo AEM per accedere agli strumenti amministrativi, dalla barra degli strumenti nella parte superiore.
-2. Dal pannello degli strumenti di amministrazione, selezionate **[!UICONTROL Accesso]** per aprire la pagina Impostazioni **** accesso.
-3. Abilitate la configurazione **[!UICONTROL Consenti accesso]** ospiti.
-4. **[!UICONTROL Salvate le modifiche.]**
-5. Disconnessione per rendere attive le modifiche.
+1. Dal pannello degli strumenti di amministrazione, selezionate **[!UICONTROL Accesso]** per aprire la pagina Impostazioni **** accesso.
+1. Abilitate la configurazione **[!UICONTROL Consenti accesso]** ospiti.
+1. **[!UICONTROL Salvate le modifiche.]**
+1. Disconnessione per rendere attive le modifiche.
 
 ![](assets/bp-welcome-screen.png)
 
@@ -44,7 +44,7 @@ Gli amministratori possono consentire agli utenti dell'organizzazione di richied
 Per consentire agli utenti dell'organizzazione di richiedere l'accesso a Brand Portal, gli amministratori devono:
 
 1. Selezionate il logo AEM per accedere agli strumenti amministrativi, dalla barra degli strumenti nella parte superiore.
-2. Dal pannello degli strumenti di amministrazione, selezionate **[!UICONTROL Accesso]** per aprire la pagina Impostazioni **** accesso.
-3. Abilitare la configurazione **[!UICONTROL Consenti agli utenti di richiedere l'accesso]** .
-4. **[!UICONTROL Salvate le modifiche.]**
-5. Disconnessione per rendere attive le modifiche.
+1. Dal pannello degli strumenti di amministrazione, selezionate **[!UICONTROL Accesso]** per aprire la pagina Impostazioni **** accesso.
+1. Abilitare la configurazione **[!UICONTROL Consenti agli utenti di richiedere l'accesso]** .
+1. **[!UICONTROL Salvate le modifiche.]**
+1. Disconnessione per rendere attive le modifiche.
