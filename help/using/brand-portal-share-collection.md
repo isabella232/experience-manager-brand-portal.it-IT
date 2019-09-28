@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -31,11 +31,11 @@ Per condividere una raccolta, effettuate le seguenti operazioni:
 
    ![](assets/contenttree-1.png)
 
-2. Dal lato laterale a sinistra, fate clic su **[!UICONTROL Raccolte]**.
+1. Dal lato laterale a sinistra, fate clic su **[!UICONTROL Raccolte]**.
 
    ![](assets/access_collections.png)
 
-3. Dalla console **[!UICONTROL Raccolte]** , effettuate una delle seguenti operazioni:
+1. Dalla console **[!UICONTROL Raccolte]** , effettuate una delle seguenti operazioni:
 
    * Passate il puntatore del mouse sulla raccolta da condividere. Dalle miniature delle azioni rapide disponibili per la raccolta, fate clic sull'icona **[!UICONTROL Impostazioni]** .
    ![](assets/settings_thumbnail.png)
@@ -43,7 +43,7 @@ Per condividere una raccolta, effettuate le seguenti operazioni:
    * Selezionate la raccolta da condividere. Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Impostazioni]**.
    ![](assets/collection-sharing.png)
 
-4. Nella finestra di dialogo Impostazioni  raccolta, selezionate gli utenti o i gruppi con i quali desiderate condividere la raccolta e selezionate il ruolo per un utente o un gruppo affinché corrisponda al ruolo globale. Ad esempio, assegnate il ruolo Editor a un editor globale, il ruolo Visualizzatore a un visualizzatore globale.
+1. Nella finestra di dialogo Impostazioni  raccolta, selezionate gli utenti o i gruppi con i quali desiderate condividere la raccolta e selezionate il ruolo per un utente o un gruppo affinché corrisponda al ruolo globale. Ad esempio, assegnate il ruolo Editor a un editor globale, il ruolo Visualizzatore a un visualizzatore globale.
 
    In alternativa, per rendere la raccolta disponibile a tutti gli utenti a prescindere dall'appartenenza e dal ruolo del gruppo, rendetela pubblica selezionando la casella di controllo Raccolta **** pubblica.
 
@@ -53,11 +53,11 @@ Per condividere una raccolta, effettuate le seguenti operazioni:
 
    ![](assets/collection_sharingadduser.png)
 
-   Editors cannot change a public collection to a non-public collection and, therefore, do not have [!UICONTROL Public Collection] check-box available in [!UICONTROL Collection Settings] dialog.
+   Gli editor non possono modificare una raccolta pubblica in una raccolta non pubblica e, pertanto, non dispongono della casella di controllo Raccolta  pubblica disponibile nella finestra di dialogo Impostazioni  raccolta.
 
    ![](assets/collection-setting-editor.png)
 
-5. Selezionate **[!UICONTROL Aggiungi]**, quindi **[!UICONTROL Salva]**. La raccolta viene condivisa con gli utenti selezionati.
+1. Selezionate **[!UICONTROL Aggiungi]**, quindi **[!UICONTROL Salva]**. La raccolta viene condivisa con gli utenti selezionati.
 
    >[!NOTE]
    >
@@ -73,12 +73,12 @@ Per annullare la condivisione di una raccolta precedentemente condivisa, effettu
 
    ![](assets/collection_settings.png)
 
-2. Nella finestra di dialogo Impostazioni  raccolta, in [!UICONTROL Membri], fate clic sul simbolo **[!UICONTROL x]** accanto a utenti o gruppi per rimuoverli dall'elenco di utenti con cui avete condiviso la raccolta.
+1. Nella finestra di dialogo Impostazioni  raccolta, in [!UICONTROL Membri], fate clic sul simbolo **[!UICONTROL x]** accanto a utenti o gruppi per rimuoverli dall'elenco di utenti con cui avete condiviso la raccolta.
 
    ![](assets/unshare_collection.png)
 
-3. Nella finestra del messaggio di avviso, fare clic su **[!UICONTROL Conferma]** per confermare l'annullamento della condivisione.
+1. Nella finestra del messaggio di avviso, fare clic su **[!UICONTROL Conferma]** per confermare l'annullamento della condivisione.
 
    Fai clic su **[!UICONTROL Salva]**.
 
-4. Accedete al Portale del marchio con le credenziali dell'utente rimosso dall'elenco condiviso. La raccolta viene rimossa dalla console **[!UICONTROL Raccolte]** .
+1. Accedete al Portale del marchio con le credenziali dell'utente rimosso dall'elenco condiviso. La raccolta viene rimossa dalla console **[!UICONTROL Raccolte]** .
