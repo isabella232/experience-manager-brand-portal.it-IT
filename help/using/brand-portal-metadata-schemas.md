@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,15 +28,15 @@ Per creare un nuovo modulo schema di metadati, effettuate le seguenti operazioni
 
    ![](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fate clic su Schemi di **[!UICONTROL metadati]**.
+1. Dal pannello degli strumenti di amministrazione, fate clic su Schemi di **[!UICONTROL metadati]**.
 
    ![](assets/navigation-panel.png)
 
-3. Nella pagina Moduli **[!UICONTROL schema]** metadati, fare clic su **[!UICONTROL Crea]**.
+1. Nella pagina Moduli **[!UICONTROL schema]** metadati, fare clic su **[!UICONTROL Crea]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-4. Nella finestra di dialogo **[!UICONTROL Crea modulo]** schema, specificare il titolo del modulo schema, quindi fare clic su **[!UICONTROL Crea]** per completare il processo di creazione del modulo.
+1. Nella finestra di dialogo **[!UICONTROL Crea modulo]** schema, specificare il titolo del modulo schema, quindi fare clic su **[!UICONTROL Crea]** per completare il processo di creazione del modulo.
 
    ![](assets/create-schema-form.png)
 
@@ -52,8 +52,8 @@ Per modificare un modulo schema di metadati, effettuate le seguenti operazioni:
 
    ![](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fate clic su Schemi di **[!UICONTROL metadati]**.
-3. Dalla pagina Moduli **[!UICONTROL schema]** metadati, selezionare un modulo schema per modificarne le proprietà, ad esempio la **[!UICONTROL raccolta]**.
+1. Dal pannello degli strumenti di amministrazione, fate clic su Schemi di **[!UICONTROL metadati]**.
+1. Dalla pagina Moduli **[!UICONTROL schema]** metadati, selezionare un modulo schema per modificarne le proprietà, ad esempio la **[!UICONTROL raccolta]**.
 
    ![](assets/metadata-schema-forms.png)
 
@@ -61,15 +61,15 @@ Per modificare un modulo schema di metadati, effettuate le seguenti operazioni:
    >
    >I modelli non modificati presentano un simbolo di lucchetto. Se personalizzate uno dei modelli, il simbolo Blocca prima che il modello scompaia.
 
-4. Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Modifica]**.
+1. Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Modifica]**.
 
    Viene visualizzata la pagina Editor **[!UICONTROL schema]** metadati, con la scheda **[!UICONTROL Base]** aperta a sinistra e la scheda **[!UICONTROL Genera modulo]** aperta a destra.
 
-5. Nella pagina Editor **[!UICONTROL schema]** metadati, personalizza la pagina **[!UICONTROL Proprietà]** della risorsa trascinando uno o più componenti da un elenco di tipi di componenti nella scheda **[!UICONTROL Genera modulo]** alla scheda **[!UICONTROL Base]** .
+1. Nella pagina Editor **[!UICONTROL schema]** metadati, personalizza la pagina **[!UICONTROL Proprietà]** della risorsa trascinando uno o più componenti da un elenco di tipi di componenti nella scheda **[!UICONTROL Genera modulo]** alla scheda **[!UICONTROL Base]** .
 
    ![](assets/metadata-schemaeditor-page.png)
 
-6. Per configurare un componente, selezionatelo e modificatene le proprietà nella scheda **[!UICONTROL Impostazioni]** .
+1. Per configurare un componente, selezionatelo e modificatene le proprietà nella scheda **[!UICONTROL Impostazioni]** .
 
 ### Componenti nella scheda Genera modulo {#components-in-the-build-form-tab}
 
@@ -144,19 +144,19 @@ Per applicare uno schema di metadati a una cartella, effettuate le seguenti oper
 
    ![](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fate clic su Schemi di **[!UICONTROL metadati]**.
+1. Dal pannello degli strumenti di amministrazione, fate clic su Schemi di **[!UICONTROL metadati]**.
 
-3. Dalla pagina Moduli **[!UICONTROL schema]** metadati, selezionate il modulo dello schema da applicare a una risorsa, ad esempio [!UICONTROL abbigliamento].
+1. Dalla pagina Moduli **[!UICONTROL schema]** metadati, selezionate il modulo dello schema da applicare a una risorsa, ad esempio [!UICONTROL abbigliamento].
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
-4. Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Applica alle cartelle]**.
+1. Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Applica alle cartelle]**.
 
-5. Dalla pagina **[!UICONTROL Seleziona cartelle]** , passate alla cartella alla quale desiderate applicare lo schema di metadati **[!UICONTROL abbigliamento]** , ad esempio **[!UICONTROL Guanti]**.
+1. Dalla pagina **[!UICONTROL Seleziona cartelle]** , passate alla cartella alla quale desiderate applicare lo schema di metadati **[!UICONTROL abbigliamento]** , ad esempio **[!UICONTROL Guanti]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-6. Fate clic su **[!UICONTROL Applica]** per applicare il modulo dello schema di metadati alla cartella.
+1. Fate clic su **[!UICONTROL Applica]** per applicare il modulo dello schema di metadati alla cartella.
 
    I metadati disponibili nel modulo schema di metadati **[!UICONTROL per l’abbigliamento]** vengono applicati alla cartella **[!UICONTROL Guanti]** e visualizzati nella pagina **[!UICONTROL Proprietà]** della cartella.
 
