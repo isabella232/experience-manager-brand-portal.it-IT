@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: riferimento
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -34,7 +34,7 @@ Una volta creato, il predefinito viene elencato come rappresentazione dinamica n
 Per pubblicare i predefiniti per immagini in Brand Portal:
 
 1. Nell’istanza di AEM Author, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull’icona Strumenti e passa a **[!UICONTROL Risorse]** &gt; Predefiniti **** immagine.
-2. Selezionate il predefinito per immagini o più predefiniti per immagini dall’elenco dei predefiniti per immagini e toccate o fate clic su **[!UICONTROL Pubblica sul portale]** del marchio.
+1. Selezionate il predefinito per immagini o più predefiniti per immagini dall’elenco dei predefiniti per immagini e toccate o fate clic su **[!UICONTROL Pubblica sul portale]** del marchio.
 
 ![](assets/publishpreset.png)
 
@@ -45,7 +45,7 @@ Per pubblicare i predefiniti per immagini in Brand Portal:
 Per annullare la pubblicazione di un predefinito per immagini da Brand Portal:
 
 1. Nell’istanza di AEM Author, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull’icona **[!UICONTROL Strumenti]** e passa a **[!UICONTROL Risorse &gt; Predefiniti]** immagine.
-2. Selezionate un predefinito per immagini, quindi selezionate **[!UICONTROL Rimuovi da Brand Portal]** dalle opzioni disponibili nella parte superiore.
+1. Selezionate un predefinito per immagini, quindi selezionate **[!UICONTROL Rimuovi da Brand Portal]** dalle opzioni disponibili nella parte superiore.
 
 ## Pubblicare lo schema di metadati su Brand Portal {#publish-metadata-schema-to-brand-portal}
 
@@ -70,7 +70,7 @@ Se gli utenti hanno creato uno schema personalizzato sull'istanza di AEM Author,
 Per pubblicare uno schema di metadati dall’istanza di AEM Author al Brand Portal:
 
 1. Nell’istanza di AEM Author, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull’icona Strumenti e passa a **[!UICONTROL Risorse &gt; Schemi]** di metadati.
-2. Selezionate uno schema di metadati, quindi selezionate **[!UICONTROL Pubblica su Brand Portal]** dalle opzioni disponibili nella parte superiore.
+1. Selezionate uno schema di metadati, quindi selezionate **[!UICONTROL Pubblica su Brand Portal]** dalle opzioni disponibili nella parte superiore.
 
 >[!NOTE]
 >
@@ -79,7 +79,7 @@ Per pubblicare uno schema di metadati dall’istanza di AEM Author al Brand Port
 Per annullare la pubblicazione di uno schema di metadati da Brand Portal:
 
 1. Nell’istanza di AEM Author, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull’icona Strumenti e passa a **[!UICONTROL Risorse &gt; Schemi]** di metadati.
-2. Selezionate uno schema di metadati, quindi selezionate **[!UICONTROL Rimuovi da Brand Portal]** dalle opzioni disponibili nella parte superiore.
+1. Selezionate uno schema di metadati, quindi selezionate **[!UICONTROL Rimuovi da Brand Portal]** dalle opzioni disponibili nella parte superiore.
 
 ## Pubblicare facet di ricerca su Brand Portal {#publish-search-facets-to-brand-portal}
 
@@ -97,7 +97,7 @@ Se sei disposto a utilizzare un modulo di ricerca personalizzato **[!UICONTROL R
 Per pubblicare il facet di ricerca modificato dall’istanza di AEM Author al Brand Portal:
 
 1. Toccate/fate clic sul logo AEM, quindi andate a **[!UICONTROL Strumenti]** &gt; **[!UICONTROL Generale]** &gt; **[!UICONTROL Moduli]** di ricerca.
-2. Selezionate il modulo di ricerca modificato e selezionate **[!UICONTROL Pubblica su Brand Portal]**.
+1. Selezionate il modulo di ricerca modificato e selezionate **[!UICONTROL Pubblica su Brand Portal]**.
 
    >[!NOTE]
    >
@@ -106,7 +106,7 @@ Per pubblicare il facet di ricerca modificato dall’istanza di AEM Author al Br
 Per annullare la pubblicazione dei moduli di ricerca da Brand Portal:
 
 1. Nell'istanza di AEM Author, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull'icona Strumenti e passa a **[!UICONTROL Generale &gt; Cerca moduli]**.
-2. Selezionate il modulo di ricerca, quindi selezionate **[!UICONTROL Rimuovi da Brand Portal]** dalle opzioni disponibili nella parte superiore.
+1. Selezionate il modulo di ricerca, quindi selezionate **[!UICONTROL Rimuovi da Brand Portal]** dalle opzioni disponibili nella parte superiore.
 
 >[!NOTE]
 >
@@ -116,6 +116,6 @@ Per annullare la pubblicazione dei moduli di ricerca da Brand Portal:
 
 1. Pochi predicati di ricerca non sono applicabili ai filtri di ricerca nel Brand Portal. Quando questi predicati di ricerca vengono pubblicati come parte del modulo di ricerca dall'istanza di AEM Author al Portale del marchio, vengono esclusi. Di conseguenza, gli utenti possono vedere un numero minore di predicati nel modulo pubblicato sul Brand Portal. Consultate predicati di [ricerca applicabili ai filtri nel Portale](../using/brand-portal-search-facets.md#list-of-search-predicates)marchio.
 
-2. Per Predicato opzioni, se un utente utilizza un percorso personalizzato per le opzioni di lettura nell'istanza di AEM Author, non funzionerà nel Portale marchio. Tali percorsi e opzioni aggiuntivi non vengono pubblicati in Brand Portal con il modulo di ricerca. In questo caso, gli utenti possono selezionare l'opzione **[!UICONTROL Manuale]** in **[!UICONTROL Aggiungi opzioni]** in Predicato **** opzioni per aggiungere manualmente queste opzioni in Brand Portal.
+1. Per Predicato opzioni, se un utente utilizza un percorso personalizzato per le opzioni di lettura nell'istanza di AEM Author, non funzionerà nel Portale marchio. Tali percorsi e opzioni aggiuntivi non vengono pubblicati in Brand Portal con il modulo di ricerca. In questo caso, gli utenti possono selezionare l'opzione **[!UICONTROL Manuale]** in **[!UICONTROL Aggiungi opzioni]** in Predicato **** opzioni per aggiungere manualmente queste opzioni in Brand Portal.
 
 ![](assets/options-predicate-manual.png)
