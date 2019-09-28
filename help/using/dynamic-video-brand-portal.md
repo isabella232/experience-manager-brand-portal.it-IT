@@ -10,7 +10,7 @@ content-type: riferimento
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: d584ccb4d50f62ec70dabc39be2b17acaba47140
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -77,7 +77,7 @@ Per garantire che le risorse video dinamiche siano visualizzate in anteprima, ri
 
 ### Tenant separati per modalità Dynamic Media Hybrid e Dynamic Media Scene 7 {#separate-tenants}
 
-Se utilizzate sia le funzioni per contenuti multimediali dinamici che quelle per contenuti ibridi dinamici, per le istanze di AEM Author è consigliabile utilizzare locatari di Brand Portal diversi con le modalità Dynamic Media Hybrid e Dynamic Media [!DNL Scene 7] [!DNL Scene 7] .
+Se utilizzate sia le funzioni per contenuti multimediali dinamici che quelle per contenuti ibridi dinamici, per le istanze di AEM Author è consigliabile utilizzare locatari di Brand Portal diversi con le modalità Dynamic Media Hybrid e Dynamic Media [!DNL Scene 7] [!DNL Scene 7] .<br />
 
 ![Creazione e BP di una mappatura](assets/BPDynamicMedia.png)
 
