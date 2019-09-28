@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: riferimento
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -36,12 +36,12 @@ Per creare tag su AEM, pubblicare i tag su Brand Portal e associare i tag alle r
 
    1. Seleziona **[!UICONTROL strumenti]**
 
-   2. Seleziona **[!UICONTROL generale]**
+   1. Seleziona **[!UICONTROL generale]**
 
-   3. Seleziona **[!UICONTROL tag]**
+   1. Seleziona **[!UICONTROL tag]**
 
-2. Selezionate **[!UICONTROL Crea]** , quindi selezionate l’opzione **[!UICONTROL Crea tag]** .
-3. Specificate:
+1. Selezionate **[!UICONTROL Crea]** , quindi selezionate l’opzione **[!UICONTROL Crea tag]** .
+1. Specificate:
 
    * **[!UICONTROL Titolo]**
       *(obbligatorio)* Titolo visualizzato per il tag .
@@ -51,19 +51,19 @@ Per creare tag su AEM, pubblicare i tag su Brand Portal e associare i tag alle r
       *(facoltativo)* Una descrizione del tag.
    * **Percorso** JCR del tag.
 
-4. Selezionate **[!UICONTROL Invia]** per creare il tag.
+1. Selezionate **[!UICONTROL Invia]** per creare il tag.
 
    Dopo aver creato un tag sull’istanza di AEM, il tag sarà disponibile per essere allegato a una risorsa (tramite la sezione Proprietà o la sezione Gestione tag della risorsa).
 
-5. **Pubblicate il tag su Brand Portal**.
+1. **Pubblicate il tag su Brand Portal**.
 
    Vai alla console Tag **** AEM ([!UICONTROL Strumenti)| Assegnazione tag| Tag]AEM), selezionate il tag desiderato e Pubblica sul portale dei marchi.
 
-6. **Associate il tag a una risorsa (o raccolta)**.
+1. **Associate il tag a una risorsa (o raccolta)**.
 
    Selezionate una risorsa (o una raccolta) e allegate il tag desiderato utilizzando la sezione Proprietà o la sezione Gestione tag della risorsa. Per ulteriori informazioni su come assegnare i tag alle risorse in Risorse AEM, consultate [Utilizzo dei tag per organizzare le risorse](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
 
-7. **Pubblicate risorse (o raccolte) in Brand Portal**.\
+1. **Pubblicate risorse (o raccolte) in Brand Portal**.\
    Quando pubblicate una risorsa (o una raccolta) in Brand Portal, il tag allegato è disponibile anche in Brand Portal.
 
    Per visualizzare il tag allegato sulla rispettiva risorsa (o raccolta) nel Portale marchio, accedete a Brand Portal e selezionate la risorsa, nella sezione Proprietà verrà visualizzato il tag allegato.
@@ -75,12 +75,12 @@ AEM Assets Brand Portal consente di ottenere risorse specifiche come primi risul
 Per elevare una risorsa per una parola chiave di ricerca, effettuate le seguenti operazioni:
 
 1. Aprite la pagina **[!UICONTROL Proprietà]** di una risorsa nell’istanza di creazione di AEM.
-2. Vai alla scheda **[!UICONTROL Avanzate]** .
-3. Nella sezione **[!UICONTROL Search Promote]** in **[!UICONTROL Elevate for search keywords]** , selezionare **[!UICONTROL Aggiungi]** per aggiungere le parole chiave o i tag di ricerca.
+1. Vai alla scheda **[!UICONTROL Avanzate]** .
+1. Nella sezione **[!UICONTROL Search Promote]** in **[!UICONTROL Elevate for search keywords]** , selezionare **[!UICONTROL Aggiungi]** per aggiungere le parole chiave o i tag di ricerca.
 
    ![](assets/search-promote.png)
 
-4. Salvate le modifiche.
-5. Pubblica la risorsa in Brand Portal.
-6. Effettuate l'accesso al Brand Portal. Visualizzare la scheda **[!UICONTROL Avanzate]** nella sezione **[!UICONTROL Proprietà]** della risorsa.
+1. Salvate le modifiche.
+1. Pubblica la risorsa in Brand Portal.
+1. Effettuate l'accesso al Brand Portal. Visualizzare la scheda **[!UICONTROL Avanzate]** nella sezione **[!UICONTROL Proprietà]** della risorsa.
 La parola chiave **[!UICONTROL Search Promote]** è visibile anche nelle proprietà della risorsa.
