@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -49,33 +49,32 @@ I facet di ricerca nel pannello Filtri aggiungono granularità all’esperienza 
 
 Ad esempio, se cercate un’immagine, potete scegliere se un elemento bitmap o un’immagine vettoriale. È possibile ridurre ulteriormente l'ambito della ricerca specificando il tipo MIME per l'immagine nel facet di ricerca Tipo file. Allo stesso modo, quando cercate documenti, potete specificare il formato, ad esempio PDF o Microsoft Word.<br />
 
-![Filters panel in Brand Portal](assets/file-type-search.png "Filters panel in Brand Portal")
+![Pannello Filtri nel pannello](assets/file-type-search.png "Portale marchioFiltri nel Portale marchio")
 
-Il pannello [!UICONTROL Filtri] include alcuni facet standard, quali: browser percorso, tipo [!UICONTROL di]file, dimensioni file, [!UICONTROL stato]e orientamento. However, you can add custom search facets or remove specific search facets from the Filters panel by adding or removing predicates in the underlying Search Form. [](../using/brand-portal-search-facets.md) See the list of the available and usable search predicates on Brand Portal.[](../using/brand-portal-search-facets.md#list-of-search-predicates)
+Il pannello [!UICONTROL Filtri] include alcuni facet standard, quali: browser percorso, tipo [!UICONTROL di]file, dimensioni file, [!UICONTROL stato]e orientamento. Tuttavia, potete [aggiungere facet](../using/brand-portal-search-facets.md) di ricerca personalizzati o rimuovere facet di ricerca specifici dal pannello [!UICONTROL Filtri] aggiungendo o rimuovendo i predicati nel modulo di ricerca sottostante. Consultate l’elenco dei predicati di [ricerca disponibili e utilizzabili nel Portale](../using/brand-portal-search-facets.md#list-of-search-predicates)marchio.
 
-To apply filters to your search, using the available [search facets](../using/brand-portal-search-facets.md):
+Per applicare filtri alla ricerca, utilizzate i facet [di](../using/brand-portal-search-facets.md)ricerca disponibili:
 
-1. Click the overlay icon and select Filter.****
+1. Fate clic sull'icona della sovrapposizione e selezionate **[!UICONTROL Filtro]**.
 
    ![](assets/selectorrail.png)
 
-2. From the Filters panel on the left, select the appropriate options to apply the relevant filters.
-****
-For example, use the following standard filters:
+1. Dal pannello **[!UICONTROL Filtri]** a sinistra, selezionate le opzioni appropriate per applicare i filtri pertinenti.
+Ad esempio, utilizzate i seguenti filtri standard:
 
-   * **[!UICONTROL Path Browser to search assets in a specific directory.]** The default search path of the predicate for Path Browser is /content/dam/mac/&lt;tenant-id&gt;/, which can be configured by editing the default search form.****
+   * **[!UICONTROL Browser]** percorsi per cercare le risorse in una directory specifica. Il percorso di ricerca predefinito del predicato per il browser percorso è **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, che può essere configurato modificando il modulo di ricerca predefinito.
    >[!NOTE]
    >
-   >To non-admin users, [!UICONTROL Path Browser] in [!UICONTROL Filter] panel shows only the content structure of the folders (and their ancestor folders) shared with them.\
-   >To admin users, Path Browser allows navigating to any folder in Brand Portal.
+   >Per gli utenti non amministratori, [!UICONTROL Path Browser] nel pannello [!UICONTROL Filtro] mostra solo la struttura del contenuto delle cartelle (e delle relative cartelle antenate) condivise con loro.\
+   >Per gli utenti amministratori, il browser Percorsi consente di accedere a qualsiasi cartella del Portale marchio.
 
-   * **[!UICONTROL File Type]** to specify the type (image, document, multimedia, archive) of asset file you are looking for. Further, you can narrow down the scope of your search, for example, specify the MIME type (Tiff, Bitmap, GIMP Images) for image or format (PDF or MS Word) for the documents.
+   * **[!UICONTROL Tipo]** di file per specificare il tipo (immagine, documento, elementi multimediali, archivio) di file di risorse che si sta cercando. È inoltre possibile limitare l’ambito della ricerca, ad esempio specificare il tipo MIME (Tiff, Bitmap, GIMP Images) per l’immagine o il formato (PDF o MS Word) per i documenti.
    * **[!UICONTROL Dimensione]** file per cercare le risorse in base alle loro dimensioni. È possibile specificare i limiti inferiore e superiore dell'intervallo di dimensioni per limitare la ricerca e specificare l'unità di misura da cercare.
-   * **[!UICONTROL Status to search for assets based on asset statuses, such as Approval (Approved, Changes Requested, Rejected, Pending) and Expiration.]**
+   * **[!UICONTROL Stato]** per la ricerca di risorse in base agli stati delle risorse, ad esempio Approvazione (approvata, Modifiche richieste, Rifiutato, In sospeso) e Scadenza.
    * **[!UICONTROL Valutazione]** media per la ricerca di risorse in base al rating delle risorse.
    * **[!UICONTROL Orientamento]** per cercare le risorse in base all’orientamento (orizzontale, verticale, quadrato) delle risorse.
    * **[!UICONTROL Stile]** per cercare risorse in base allo stile (colorato, bianco e nero) delle risorse.
-   * **[!UICONTROL Video Format to search for video assets based on their format (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).]**
+   * **[!UICONTROL Formato]** video per la ricerca di risorse video in base al formato (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
    È possibile utilizzare facet [di ricerca](../using/brand-portal-search-facets.md) personalizzati nel pannello Filtri modificando il modulo di ricerca sottostante.
 
    * **[!UICONTROL Predicato]** proprietà, se utilizzato nel modulo di ricerca, consente di cercare le risorse che corrispondono a una proprietà di metadati a cui è mappato il predicato.\
@@ -105,7 +104,7 @@ Ad esempio, se cerchi:
 
    Risultato della ricerca delle risorse con il conteggio dei risultati della ricerca
 
-3. È possibile individuare facilmente un elemento dal risultato della ricerca e tornare allo stesso risultato utilizzando il pulsante Indietro del browser senza dover ripetere la query di ricerca.
+1. È possibile individuare facilmente un elemento dal risultato della ricerca e tornare allo stesso risultato utilizzando il pulsante Indietro del browser senza dover ripetere la query di ricerca.
 
 ## Salvate le ricerche come raccolta avanzata {#save-your-searches-as-smart-collection}
 
@@ -123,10 +122,10 @@ Per salvare le impostazioni di ricerca come raccolta dinamica:
 
    ![](assets/save_smartcollectionui.png)
 
-2. Per salvare la raccolta dinamica con un nome diverso e selezionare o deselezionare la casella di controllo **[!UICONTROL Pubblica]** , fate clic su **[!UICONTROL Modifica raccolta]** avanzata.
+1. Per salvare la raccolta dinamica con un nome diverso e selezionare o deselezionare la casella di controllo **[!UICONTROL Pubblica]** , fate clic su **[!UICONTROL Modifica raccolta]** avanzata.
 
    ![](assets/edit_smartcollection.png)
 
-3. Nella finestra di dialogo **[!UICONTROL Modifica raccolta]** avanzata, selezionate **[!UICONTROL Salva con nome]** e immettete un nome per la raccolta dinamica. Fai clic su **[!UICONTROL Salva]**.
+1. Nella finestra di dialogo **[!UICONTROL Modifica raccolta]** avanzata, selezionate **[!UICONTROL Salva con nome]** e immettete un nome per la raccolta dinamica. Fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/saveas_smartsearch.png)
