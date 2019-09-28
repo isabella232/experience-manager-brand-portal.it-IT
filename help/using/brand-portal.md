@@ -1,41 +1,39 @@
 ---
-title: Overview of AEM Assets Brand Portal
+title: Panoramica di AEM Assets Brand Portal
 seo-title: Panoramica di AEM Assets Brand Portal
-description: AEM Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
+description: AEM Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni attraverso dispositivi diversi.
 seo-description: AEM Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni attraverso dispositivi diversi.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: riferimento
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: introduction
+topic-tags: introduzione
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
 
-# Overview of AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
+# Panoramica di AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
-As a marketer, you sometimes need to collaborate with channel partners and internal business users to quickly create, manage, and deliver relevant digital content to customers. Timely delivery of relevant content across the entire customer journey is critical to driving greater demand, conversion, engagement, and customer loyalty.
+In qualità di esperto di marketing, a volte devi collaborare con partner di canale e utenti aziendali interni per creare, gestire e fornire rapidamente contenuti digitali rilevanti ai clienti. La distribuzione tempestiva di contenuti rilevanti nell'intero percorso del cliente è fondamentale per stimolare una maggiore domanda, conversione, coinvolgimento e fidelizzazione dei clienti.
 
 Tuttavia, è una sfida sviluppare soluzioni che supportano una condivisione efficiente e sicura dei logo del marchio, delle linee guida, delle risorse delle campagne o delle riprese di prodotti approvati con team, partner e rivenditori interni estesi.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.** It helps improve the efficiency of asset sharing, accelerates the time-to-market for assets, and reduces the risk of non-compliance and unauthorized access.
+**Risorse Adobe Experience Manager (AEM) Assets Brand Portal** consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su dispositivi diversi. Consente di migliorare l'efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato.
 
-The browser-based portal environment enables you to easily upload, browse, search, preview, and export assets in approved formats.
+L’ambiente portale basato su browser consente di caricare, sfogliare, cercare, visualizzare in anteprima ed esportare facilmente le risorse in formati approvati.
 
-## User personas in Brand Portal {#Personas}
+## Personalità utente in Brand Portal {#Personas}
 
-Brand Portal supports the following user roles:
+Brand Portal supporta i seguenti ruoli utente:
 
 * Utente ospite
 * Visualizzatore
 * Editor
-* Administrator
+* AmministratoreNella tabella seguente sono elencate le attività che gli utenti di questi ruoli possono eseguire:
 
-The following table lists the tasks that users in these roles can perform:
-
-|  | **Sfoglia** | **Ricerca** | **Scarica** | **Share folders** | **Condivisione di una raccolta** | **Condivisione di risorse come collegamento** | **Accesso ad Strumenti di amministrazione** |
+|  | **Sfoglia** | **Ricerca** | **Scarica** | **Condividere le cartelle** | **Condivisione di una raccolta** | **Condivisione di risorse come collegamento** | **Accesso ad Strumenti di amministrazione** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Utente ospite** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Visualizzatore** | ✓ | ✓ | ✓ | x | x | x | x |
@@ -78,19 +76,19 @@ Oltre alle attività che un visualizzatore può eseguire, un editor può eseguir
 
 [Condivisione di una raccolta](brand-portal-share-collection.md)
 
-[Share assets as a link](brand-portal-link-share.md)
+[Condivisione di risorse come collegamento](brand-portal-link-share.md)
 
-### Administrator {#administrator}
+### Amministratore {#administrator}
 
-Un amministratore include un utente contrassegnato come amministratore di sistema o amministratore di prodotti Brand Portal in [!UICONTROL Admin Console]. An administrator can add and remove system administrators and users, define presets, send email to users, and view portal usage and storage reports.
+Un amministratore include un utente contrassegnato come amministratore di sistema o amministratore di prodotti Brand Portal in [!UICONTROL Admin Console]. Un amministratore può aggiungere e rimuovere amministratori di sistema e utenti, definire predefiniti, inviare e-mail agli utenti e visualizzare rapporti sull’uso e l’archiviazione del portale.
 
-An administrator can perform all tasks that an Editor can perform the following additional tasks:
+Un amministratore può eseguire tutte le attività che un utente con privilegi di editor può eseguire le seguenti attività aggiuntive:
 
-[Manage users, groups, and user roles](brand-portal-adding-users.md)
+[Gestione di utenti, gruppi e ruoli utente](brand-portal-adding-users.md)
 
-[Customize wallpaper, page headers, and emails](brand-portal-branding.md)
+[Personalizzare sfondi, intestazioni di pagina ed e-mail](brand-portal-branding.md)
 
-[Use custom search facets](brand-portal-search-facets.md)
+[Utilizzare facet di ricerca personalizzati](brand-portal-search-facets.md)
 
 [Uso del modulo schema metadati](brand-portal-metadata-schemas.md)
 
@@ -131,7 +129,7 @@ Per richiedere l’accesso, effettuate le seguenti operazioni:
 
    Viene visualizzata la pagina [!UICONTROL Richiedi accesso] .
 
-2. Per richiedere l'accesso al Portale marchio di un'organizzazione, è necessario disporre di un [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]o [!UICONTROL Federated ID]valido.
+1. Per richiedere l'accesso al Portale marchio di un'organizzazione, è necessario disporre di un [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]o [!UICONTROL Federated ID]valido.
 
    Nella pagina [!UICONTROL Richiedi accesso] , effettuate l’accesso con il vostro ID (scenario 1) o create un ID  Adobe (scenario 2):<br />
    ![[!UICONTROL Richiedi accesso]](assets/bplogin_request_access_2.png)
@@ -139,23 +137,22 @@ Per richiedere l’accesso, effettuate le seguenti operazioni:
    **Scenario 1**
    1. Se disponete di un [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]o [!UICONTROL Federated ID], fate clic su **[!UICONTROL Accedi]**.
 Viene visualizzata la pagina [!UICONTROL Accesso] .
-   2. Immetti le credenziali [!UICONTROL Adobe ID] e fai clic su **[!UICONTROL Accedi]**.<br />
-   ![Adobe sign in](assets/bplogin_request_access_3.png)
+   1. Immetti le credenziali [!UICONTROL Adobe ID] e fai clic su **[!UICONTROL Accedi]**.<br />
+   ![Adobe Sign](assets/bplogin_request_access_3.png)
 
    Viene nuovamente visualizzata la pagina [!UICONTROL Richiedi accesso] .<br />
    **Scenario 2**
-   1. If you do not have an Adobe ID, to create one, click Get an Adobe ID from the Request Access page.
-****
-The Sign in page opens.
-   2. Click **[!UICONTROL Get an Adobe ID]**.
-The Sign up page opens.
-   3. Immettete il nome e il cognome, l’ID e-mail e la password.
-   4. Selezionate **[!UICONTROL Iscrizione]**.<br />
+   1. Se non disponete di un ID Adobe, per crearne uno fate clic su **[!UICONTROL Ottieni un ID]** Adobe dalla pagina [!UICONTROL Richiedi accesso] .
+Viene visualizzata la pagina [!UICONTROL Accesso] .
+   1. Click **[!UICONTROL Get an Adobe ID]**.
+Viene visualizzata la pagina [!UICONTROL Registrati] .
+   1. Immettete il nome e il cognome, l’ID e-mail e la password.
+   1. Selezionate **[!UICONTROL Iscrizione]**.<br />
    ![](assets/bplogin_request_access_5.png)
 
    Viene nuovamente visualizzata la pagina [!UICONTROL Richiedi accesso] .
 
-3. Nella pagina successiva vengono visualizzati il nome e l’ID e-mail utilizzati per richiedere l’accesso. Lasciate un commento all'amministratore e fate clic su **[!UICONTROL Invia]**.<br />
+1. Nella pagina successiva vengono visualizzati il nome e l’ID e-mail utilizzati per richiedere l’accesso. Lasciate un commento all'amministratore e fate clic su **[!UICONTROL Invia]**.<br />
 
    ![](assets/bplogin-request-access.png)
 
@@ -181,7 +178,7 @@ Per modificare la lingua:
 1. Selezionate [!UICONTROL Utente] &gt; [!UICONTROL Modifica profilo] dal menu principale.<br />
    ![Modifica profilo](assets/EditBPProfile.png)
 
-2. Nella pagina Impostazioni [!UICONTROL di] Experience Cloud, seleziona una lingua dal menu a discesa [!UICONTROL Lingua] .
+1. Nella pagina Impostazioni [!UICONTROL di] Experience Cloud, seleziona una lingua dal menu a discesa [!UICONTROL Lingua] .
 
 ## Notifica di manutenzione del Brand Portal {#brand-portal-maintenance-notification}
 
