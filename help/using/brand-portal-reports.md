@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -28,11 +28,11 @@ Per visualizzare un rapporto, effettuate le seguenti operazioni:
 
    ![](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Crea/gestisci rapporti]** per aprire la pagina Rapporti **** risorse.
+1. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Crea/gestisci rapporti]** per aprire la pagina Rapporti **** risorse.
 
    ![](assets/access-asset-reports.png)
 
-3. Accedete al rapporto **[!UICONTROL Utilizzo]** e ad altri rapporti generati dalla pagina Rapporti risorse.
+1. Accedete al rapporto **[!UICONTROL Utilizzo]** e ad altri rapporti generati dalla pagina Rapporti risorse.
 
    >[!NOTE]
    >
@@ -95,16 +95,16 @@ Le colonne nel rapporto Download, Scadenza e Pubblica possono essere personalizz
 
    ![](assets/aemlogo.png)
 
-2. Dal pannello degli strumenti di amministrazione, toccate/fate clic su **[!UICONTROL Crea/Gestisci rapporti]** per aprire la pagina Rapporti **** risorse.
+1. Dal pannello degli strumenti di amministrazione, toccate o fate clic su **[!UICONTROL Crea/Gestisci rapporti]** per aprire la pagina Rapporti **** risorse.
 
    ![](assets/asset-reports.png)
 
-3. Nella pagina Rapporti risorse, toccate o fate clic su **[!UICONTROL Crea]**.
-4. Dalla pagina **[!UICONTROL Crea rapporto]** , selezionate un rapporto da creare e toccate o fate clic su **[!UICONTROL Avanti]**.
+1. Nella pagina Rapporti risorse, toccate o fate clic su **[!UICONTROL Crea]**.
+1. Dalla pagina **[!UICONTROL Crea rapporto]** , selezionate un rapporto da creare e toccate o fate clic su **[!UICONTROL Avanti]**.
 
    ![](assets/crete-report.png)
 
-5. Configurare i dettagli del rapporto. Specificate titolo, descrizione, struttura delle cartelle (dove il rapporto deve essere eseguito e generare statistiche) e intervallo di date per i rapporti [!UICONTROL Download], [!UICONTROL Scadenza]e [!UICONTROL Pubblica] .
+1. Configurare i dettagli del rapporto. Specificate titolo, descrizione, struttura delle cartelle (dove il rapporto deve essere eseguito e generare statistiche) e intervallo di date per i rapporti [!UICONTROL Download], [!UICONTROL Scadenza]e [!UICONTROL Pubblica] .
 
    ![](assets/create-report-page.png)
 
@@ -116,8 +116,8 @@ Le colonne nel rapporto Download, Scadenza e Pubblica possono essere personalizz
    >
    >I caratteri speciali # e % nel titolo del rapporto sono sostituiti da un trattino (-) nella generazione del rapporto.
 
-6. Toccate/fate clic su **[!UICONTROL Avanti]** per configurare le colonne dei rapporti Download, Scadenza e Pubblica.
-7. Selezionate o deselezionate le caselle di controllo appropriate a seconda delle necessità. Ad esempio, per visualizzare i nomi degli utenti (che hanno scaricato delle risorse) nel rapporto [!UICONTROL Download] , selezionate **[!UICONTROL Scaricato da]**. L'immagine seguente illustra la selezione di colonne predefinite nel rapporto Download.
+1. Toccate/fate clic su **[!UICONTROL Avanti]** per configurare le colonne dei rapporti Download, Scadenza e Pubblica.
+1. Selezionate o deselezionate le caselle di controllo appropriate a seconda delle necessità. Ad esempio, per visualizzare i nomi degli utenti (che hanno scaricato delle risorse) nel rapporto [!UICONTROL Download] , selezionate **[!UICONTROL Scaricato da]**. L'immagine seguente illustra la selezione di colonne predefinite nel rapporto Download.
 
    ![](assets/createdownloadreport.png)
 
@@ -126,8 +126,8 @@ Le colonne nel rapporto Download, Scadenza e Pubblica possono essere personalizz
    Per aggiungere colonne personalizzate al rapporto Download, Publish o Expiration, effettuate le seguenti operazioni:
 
    1. Per visualizzare una colonna personalizzata, toccate o fate clic su **[!UICONTROL Aggiungi]** in Colonne personalizzate.
-   2. Specificare il nome della colonna nel campo Nome **** colonna.
-   3. Selezionate la proprietà a cui deve essere associata la colonna utilizzando il selettore delle proprietà.
+   1. Specificare il nome della colonna nel campo Nome **** colonna.
+   1. Selezionate la proprietà a cui deve essere associata la colonna utilizzando il selettore delle proprietà.
 
       ![](assets/property-picker.png)
 In alternativa, digitare il percorso nel campo percorso della proprietà.
@@ -136,7 +136,7 @@ In alternativa, digitare il percorso nel campo percorso della proprietà.
 
       Per aggiungere altre colonne personalizzate, toccate/fate clic su **Aggiungi** e ripetete i passaggi 2 e 3.
 
-8. Tocca o fai clic su **[!UICONTROL Crea]**. Un messaggio notifica che è stata avviata la generazione del report.
+1. Tocca o fai clic su **[!UICONTROL Crea]**. Un messaggio notifica che è stata avviata la generazione del report.
 
 ## Download dei rapporti {#download-reports}
 
