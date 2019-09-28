@@ -1,7 +1,7 @@
 ---
-title: Download assets
-seo-title: Download assets
-description: Tutti gli utenti possono scaricare simultaneamente più risorse e cartelle accessibili a loro. This way, approved brand assets can be securely distributed for offline use.
+title: Scaricare le risorse
+seo-title: Scaricare le risorse
+description: Tutti gli utenti possono scaricare simultaneamente più risorse e cartelle accessibili a loro. In questo modo, le risorse del marchio approvate possono essere distribuite in modo sicuro per l'utilizzo offline.
 seo-description: Tutti gli utenti possono scaricare simultaneamente più risorse e cartelle accessibili a loro. In questo modo, le risorse del marchio approvate possono essere distribuite in modo sicuro per l'utilizzo offline.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: riferimento
@@ -9,34 +9,34 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
 
-# Download assets {#download-assets}
+# Scaricare le risorse {#download-assets}
 
-All users can simultaneously download multiple assets and folders accessible to them from Brand Portal. This way, approved brand assets can be securely distributed for offline use. Read on to know how to download approved assets from Brand Portal, and what to expect from the download performance.[](../using/brand-portal-download-users.md#main-pars-header)
+Tutti gli utenti possono scaricare simultaneamente più risorse e cartelle accessibili da Brand Portal. In questo modo, le risorse del marchio approvate possono essere distribuite in modo sicuro per l'utilizzo offline. Continua a leggere per scoprire come scaricare le risorse approvate dal Brand Portal e cosa aspettarsi dalle prestazioni [di](../using/brand-portal-download-users.md#main-pars-header)download.
 
 >[!NOTE]
 >
->Only Administrators can download expired assets. For more information about expired assets, see Manage digital rights of assets.[](../using/manage-digital-rights-of-assets.md)
+>Solo gli amministratori possono scaricare le risorse scadute. Per ulteriori informazioni sulle risorse scadute, consultate [Gestire i diritti digitali delle risorse](../using/manage-digital-rights-of-assets.md).
 
 ## Passaggi per scaricare le risorse {#steps-to-download-assets}
 
-To download assets or folders containing assets for Brand Portal, follow these steps:
+Per scaricare risorse o cartelle contenenti risorse per Brand Portal, effettuate le seguenti operazioni:
 
-1. From the Brand Portal interface, do one of the following:
+1. Dall’interfaccia Brand Portal, effettuate una delle seguenti operazioni:
 
-   * Select the folders or assets you want to download. From the toolbar at the top, click the Download icon.****
+   * Selezionate le cartelle o le risorse da scaricare. Dalla barra degli strumenti nella parte superiore, fate clic sull'icona **[!UICONTROL Scarica]** .
    ![](assets/downloadassets-1.png)
 
-   * To download a single folder or an asset, hover the pointer over the folder or the asset. Dalle miniature delle azioni rapide disponibili, fai clic sull’icona **[!UICONTROL Scarica]** .
+   * Per scaricare una singola cartella o risorsa, passate il puntatore del mouse sulla cartella o sulla risorsa. Dalle miniature delle azioni rapide disponibili, fai clic sull’icona **[!UICONTROL Scarica]** .
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
    >
-   >Se le risorse che state scaricando includono anche risorse con licenza, viene nuovamente visualizzata la pagina Gestione **** copyright. In questa pagina, selezionate le risorse, fate clic su **[!UICONTROL Accetto]** e quindi su **[!UICONTROL Scarica]**. If you choose to disagree, licensed assets are not downloaded.\
+   >Se le risorse che state scaricando includono anche risorse con licenza, viene nuovamente visualizzata la pagina Gestione **** copyright. In questa pagina, selezionate le risorse, fate clic su **[!UICONTROL Accetto]** e quindi su **[!UICONTROL Scarica]**. Se scegliete di non essere d’accordo, le risorse con licenza non vengono scaricate.\
    >Alle risorse protette da licenza è associato [un contratto di](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) licenza, che viene fatto impostando la proprietà [](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadati della risorsa in AEM Assets.
 
    ![](assets/licensed-asset-download-1.png)
@@ -51,11 +51,11 @@ To download assets or folders containing assets for Brand Portal, follow these s
 
    ![](assets/restrictaccess-note.png)
 
-2. Per scaricare le rappresentazioni delle risorse oltre alle risorse, selezionate **[!UICONTROL Rappresentazioni]**. Tuttavia, per consentire il download delle rappresentazioni generate automaticamente insieme alle rappresentazioni personalizzate, deselezionate **[!UICONTROL Escludi rappresentazioni]** generate automaticamente, selezionata per impostazione predefinita.
+1. Per scaricare le rappresentazioni delle risorse oltre alle risorse, selezionate **[!UICONTROL Rappresentazioni]**. Tuttavia, per consentire il download delle rappresentazioni generate automaticamente insieme alle rappresentazioni personalizzate, deselezionate **[!UICONTROL Escludi rappresentazioni]** generate automaticamente, selezionata per impostazione predefinita.
 
    ![](assets/exclude-auto-renditions.png)
 
-   To download only the renditions, deselect Asset(s).****
+   Per scaricare solo le rappresentazioni, deselezionate **[!UICONTROL Risorse]**.
 
    >[!NOTE]
    >
@@ -81,7 +81,7 @@ To download assets or folders containing assets for Brand Portal, follow these s
    >
    >Gli amministratori possono personalizzare i messaggi e-mail, vale a dire il logo, la descrizione e il piè di pagina, utilizzando la funzione [Branding](../using/brand-portal-branding.md) .
 
-3. Fate clic su **[!UICONTROL Scarica]**.
+1. Fate clic su **[!UICONTROL Scarica]**.
 
    Le risorse (e le rappresentazioni, se selezionate) vengono scaricate come file ZIP nella cartella locale. Tuttavia, non viene creato alcun file ZIP se viene scaricata una singola risorsa senza alcuna rappresentazione, garantendo così un download rapido.
 
@@ -103,8 +103,8 @@ L'esperienza di download dei file può variare per gli utenti che si trovano in 
 | USA occidentale (Oregon) | 42 millisecondi | 3,84 MB/s | 9 minuti |
 | USA orientale (N. Virginia) | 85 millisecondi | 1,61 MB/s | 21 minuti |
 | APAC (Tokyo) | 124 millisecondi | 1,13 MB/s | 30 minuti |
-| Noida | 275 millisecondi | 0,5 MB/s | 68 minutes |
-| Sydney | 175 milliseconds | 0,49 MB/s | 69 minuti |
+| Noida | 275 millisecondi | 0,5 MB/s | 68 minuti |
+| Sydney | 175 millisecondi | 0,49 MB/s | 69 minuti |
 | Londra | 179 millisecondi | 0,32 MB/s | 106 minuti |
 | Singapore | 196 millisecondi | 0,5 MB/s | 68 minuti |
 
