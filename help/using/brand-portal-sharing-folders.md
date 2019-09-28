@@ -9,7 +9,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -26,11 +26,11 @@ Di seguito viene descritto il flusso di lavoro di condivisione delle cartelle e 
 * L’amministratore utilizza la console Proprietà  cartella per condividere una cartella con utenti o gruppi selettivi. Solo gli utenti o i gruppi con i quali la cartella è condivisa possono visualizzarla dopo l’accesso al Portale marchio. La cartella non è visibile agli altri utenti.
 * L’amministratore può anche scegliere di rendere pubblica una cartella tramite la casella di controllo Cartella  pubblica nella console Proprietà  cartella. Una cartella pubblica è visibile a tutti gli utenti.
 
-* Irrespective of user roles and privileges, when users log in to Brand Portal, they see all the public folders, and the folders directly shared with them or with a group to which they belong. Private folders, or folders shared with other users, are not visible to all users.
+* Indipendentemente dai ruoli utente e dai privilegi, quando gli utenti accedono al Portale marchio, visualizzano tutte le cartelle pubbliche e le cartelle condivise direttamente con loro o con un gruppo al quale appartengono. Le cartelle private o condivise con altri utenti non sono visibili a tutti gli utenti.
 
-### Share folders with user groups on Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
+### Condivisione di cartelle con gruppi di utenti sul Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-Access rights on assets of a folder are dependant on the access rights on its parent folder, irrespective of the settings of children folders. Questo comportamento è regolato dagli [ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) in AEM, poiché le cartelle figlie ereditano gli ACL dalle cartelle principali. For example, if a folder A contains folder B which contains folder C, then a user group (or users) having access rights on folder A also have the same access rights on folder B and folder C. Folder B being the child folder of A inherits its ACLs, and folder C being the child folder of B inherits its ACLs.
+I diritti di accesso alle risorse di una cartella dipendono dai diritti di accesso alla cartella principale, indipendentemente dalle impostazioni delle cartelle figlie. Questo comportamento è regolato dagli [ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) in AEM, poiché le cartelle figlie ereditano gli ACL dalle cartelle principali. Ad esempio, se una cartella A contiene la cartella B che contiene la cartella C, un gruppo di utenti (o utenti) con diritti di accesso nella cartella A dispone anche degli stessi diritti di accesso nella cartella B e nella cartella C. La cartella B, essendo la cartella secondaria di A, eredita i relativi ACL, mentre la cartella C, essendo la cartella figlia di B, eredita i relativi ACL.
 
 Allo stesso modo, i gruppi di utenti (o utenti) che dispongono delle autorizzazioni per accedere solo alla cartella B hanno le stesse autorizzazioni di accesso nella cartella C ma non nella cartella A. Si consiglia pertanto alle organizzazioni di disporre il contenuto in modo che le risorse più esposte vengano inserite nella cartella figlio e che l’accesso alle cartelle principali possa essere limitato dagli elementi secondari.
 
@@ -91,15 +91,15 @@ Per condividere una cartella con gli utenti sul Brand Portal, effettuate le segu
 
    ![](assets/selectorrail.png)
 
-2. Dall'area laterale a sinistra, selezionate **[!UICONTROL File]**.
+1. Dall'area laterale a sinistra, selezionate **[!UICONTROL File]**.
 
    ![](assets/access_files.png)
 
-3. Dall’interfaccia Brand Portal, selezionate la cartella da condividere.
+1. Dall’interfaccia Brand Portal, selezionate la cartella da condividere.
 
    ![](assets/share-folders.png)
 
-4. Dalla barra degli strumenti nella parte superiore, selezionate **[!UICONTROL Condividi]**.
+1. Dalla barra degli strumenti nella parte superiore, selezionate **[!UICONTROL Condividi]**.
 
    ![](assets/share_icon.png)
 
@@ -107,8 +107,8 @@ Per condividere una cartella con gli utenti sul Brand Portal, effettuate le segu
 
    ![](assets/folder_properties.png)
 
-5. Nella console Proprietà  cartella, specificate il titolo della cartella nel campo Titolo  cartella se non desiderate che il nome predefinito venga visualizzato agli utenti.
-6. Dall’elenco [!UICONTROL Aggiungi utente] , selezionate gli utenti o i gruppi con i quali desiderate condividere la cartella e fate clic su **[!UICONTROL Aggiungi]**.
+1. Nella console Proprietà  cartella, specificate il titolo della cartella nel campo Titolo  cartella se non desiderate che il nome predefinito venga visualizzato agli utenti.
+1. Dall’elenco [!UICONTROL Aggiungi utente] , selezionate gli utenti o i gruppi con i quali desiderate condividere la cartella e fate clic su **[!UICONTROL Aggiungi]**.
 Per condividere la cartella solo con gli utenti ospiti e nessun altro utente, selezionate Utenti **** anonimi dal menu a discesa [!UICONTROL Membri] .
 
    ![](assets/only-anonymous.png)
@@ -117,9 +117,9 @@ Per condividere la cartella solo con gli utenti ospiti e nessun altro utente, se
    >
    >Per rendere la cartella disponibile a tutti gli utenti, indipendentemente dall’appartenenza e dal ruolo del gruppo, rendetela pubblica selezionando la casella di controllo Cartella **** pubblica.
 
-7. Se necessario, fate clic su **[!UICONTROL Cambia miniatura]** per modificare l’immagine in miniatura della cartella.
-8. Fai clic su **[!UICONTROL Salva]**.
-9. Per accedere alla cartella condivisa, accedete a Brand Portal con le credenziali dell’utente con cui avete condiviso la cartella. Rivedete la cartella condivisa nell'interfaccia.
+1. Se necessario, fate clic su **[!UICONTROL Cambia miniatura]** per modificare l’immagine in miniatura della cartella.
+1. Fai clic su **[!UICONTROL Salva]**.
+1. Per accedere alla cartella condivisa, accedete a Brand Portal con le credenziali dell’utente con cui avete condiviso la cartella. Rivedete la cartella condivisa nell'interfaccia.
 
 ## Annulla condivisione cartelle {#unshare-the-folders}
 
@@ -129,12 +129,12 @@ Per annullare la condivisione di una cartella precedentemente condivisa, effettu
 
    ![](assets/share-folders-1.png)
 
-2. Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Condividi]**.
-3. Nella console Proprietà  cartella, in [!UICONTROL Membri], fate clic sul simbolo **[!UICONTROL x]** accanto all’utente per rimuoverlo dall’elenco degli utenti con cui avete condiviso la cartella.
+1. Dalla barra degli strumenti nella parte superiore, fate clic su **[!UICONTROL Condividi]**.
+1. Nella console Proprietà  cartella, in [!UICONTROL Membri], fate clic sul simbolo **[!UICONTROL x]** accanto all’utente per rimuoverlo dall’elenco degli utenti con cui avete condiviso la cartella.
 
    ![](assets/folder_propertiesunshare.png)
 
-4. Nella finestra del messaggio di avviso, fare clic su **[!UICONTROL Conferma]** per confermare l'annullamento della condivisione.
+1. Nella finestra del messaggio di avviso, fare clic su **[!UICONTROL Conferma]** per confermare l'annullamento della condivisione.
 Fai clic su **[!UICONTROL Salva]**.
 
-5. Accedete al Portale del marchio con le credenziali dell'utente rimosso dall'elenco condiviso. La cartella non è più disponibile nell’interfaccia Brand Portal per l’utente.
+1. Accedete al Portale del marchio con le credenziali dell'utente rimosso dall'elenco condiviso. La cartella non è più disponibile nell’interfaccia Brand Portal per l’utente.
