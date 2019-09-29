@@ -10,7 +10,7 @@ content-type: riferimento
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -78,7 +78,6 @@ Brand Portal offre l’opzione [!UICONTROL Panoramica] per consentire agli utent
 
 * Nella barra degli strumenti nella parte superiore, quando si seleziona una risorsa o una cartella.
 * Nell'elenco a discesa selezionando il selettore della barra.
-
 Selezionando l’opzione [!UICONTROL Panoramica] mentre è selezionata una risorsa o una cartella, gli utenti possono visualizzare il titolo, il percorso e l’ora della creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, l’opzione [!UICONTROL Panoramica] permette agli utenti di visualizzare i metadati della risorsa.
 
 ![](assets/overview-option-1.png)
