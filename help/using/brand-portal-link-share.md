@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
 
 ---
 
@@ -33,15 +33,15 @@ Per condividere le risorse come collegamento, effettuate le seguenti operazioni:
 
    ![](assets/siderail.png)
 
-2. Nella parte laterale sinistra, fate clic su **[!UICONTROL File]** per condividere cartelle o immagini. Per condividere le raccolte, fate clic su **[!UICONTROL Raccolte]**.
+1. Nella parte laterale sinistra, fate clic su **[!UICONTROL File]** per condividere cartelle o immagini. Per condividere le raccolte, fate clic su **[!UICONTROL Raccolte]**.
 
    ![](assets/navigationrail.png)
 
-3. Selezionate le cartelle o raccolte da condividere come collegamento.
+1. Selezionate le cartelle o raccolte da condividere come collegamento.
 
    ![](assets/asset-link-share.png)
 
-4. Dalla barra degli strumenti nella parte superiore, fai clic sull’icona **[!UICONTROL Condividi collegamento]** .
+1. Dalla barra degli strumenti nella parte superiore, fai clic sull’icona **[!UICONTROL Condividi collegamento]** .
 
    Viene visualizzata la finestra di dialogo Condivisione **** collegamento.
 
@@ -51,19 +51,19 @@ Per condividere le risorse come collegamento, effettuate le seguenti operazioni:
    >
    >Nel campo **[!UICONTROL Condividi collegamento]** viene visualizzato un collegamento per la risorsa creato automaticamente. Il tempo di scadenza predefinito per questo collegamento è 7 giorni. Potete copiare il collegamento e condividerlo separatamente con gli utenti oppure condividerlo dalla finestra di dialogo Condivisione **** collegamento.
 
-5. Nella casella dell'indirizzo e-mail, digitate l'ID e-mail dell'utente con cui desiderate condividere il collegamento. Puoi condividere il collegamento con più utenti.
+1. Nella casella dell'indirizzo e-mail, digitate l'ID e-mail dell'utente con cui desiderate condividere il collegamento. Puoi condividere il collegamento con più utenti.
 
    Se l’utente è membro dell’organizzazione, selezionate il proprio ID e-mail dai suggerimenti visualizzati nell’elenco a discesa. Se l'utente è esterno, digitate l'ID e-mail completo e premete **[!UICONTROL Invio]**; l’ID e-mail viene aggiunto all’elenco degli utenti.
 
    ![](assets/link-sharing-text.png)
 
-6. Nella casella **[!UICONTROL Oggetto]** , digitate l’oggetto della risorsa da condividere.
-7. Nella casella **[!UICONTROL Messaggio]** , digitate un messaggio se necessario.
-8. Nel campo **[!UICONTROL Scadenza]** , utilizza il selettore data per specificare una data e un'ora di scadenza per il collegamento. Per impostazione predefinita, la data di scadenza è impostata su 7 giorni dalla data in cui condividete il collegamento.
+1. Nella casella **[!UICONTROL Oggetto]** , digitate l’oggetto della risorsa da condividere.
+1. Nella casella **[!UICONTROL Messaggio]** , digitate un messaggio se necessario.
+1. Nel campo **[!UICONTROL Scadenza]** , utilizza il selettore data per specificare una data e un'ora di scadenza per il collegamento. Per impostazione predefinita, la data di scadenza è impostata su 7 giorni dalla data in cui condividete il collegamento.
 
    Le risorse condivise tramite il collegamento scadono dopo aver attraversato la data e l’ora specificate nel campo **[!UICONTROL Scadenza]** . Per informazioni sul comportamento delle risorse scadute e sulle modifiche nelle attività consentite in base ai ruoli utente in Brand Portal, consultate [Gestione dei diritti digitali delle risorse](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
-9. Fate clic su **[!UICONTROL Condividi]**. Un messaggio conferma la condivisione del collegamento con gli utenti. Gli utenti ricevono un messaggio e-mail contenente il collegamento.
+1. Fate clic su **[!UICONTROL Condividi]**. Un messaggio conferma la condivisione del collegamento con gli utenti. Gli utenti ricevono un messaggio e-mail contenente il collegamento.
 
    ![](assets/link-sharing-email.png)
 
@@ -97,7 +97,7 @@ Per scaricare le risorse condivise:
 
    * Per accelerare il download dei file di risorse condivisi come collegamento, seleziona **[!UICONTROL Abilita accelerazione]** download e [segui la procedura guidata](../using/accelerated-download.md#download-workflow-using-file-accelerator). Per ulteriori informazioni sul download rapido delle risorse sul Portale marchio, consulta la [Guida per accelerare i download dal Portale](../using/accelerated-download.md)marchio.
 [!UICONTROL
-2. Per scaricare le rappresentazioni delle risorse oltre alle risorse dal collegamento condiviso, selezionate l'opzione **[!UICONTROL Rappresentazioni (]** Rendition). In questo caso, per impostazione predefinita viene visualizzata l'opzione **Escludi rappresentazioni di sistema]** . Questo impedisce il download di rappresentazioni pronte all’uso insieme alle risorse approvate o alle relative rappresentazioni personalizzate.
+1. Per scaricare le rappresentazioni delle risorse oltre alle risorse dal collegamento condiviso, selezionate l'opzione **[!UICONTROL Rappresentazioni (]** Rendition). In questo caso, per impostazione predefinita viene visualizzata l'opzione **Escludi rappresentazioni di sistema]** . Questo impedisce il download di rappresentazioni pronte all’uso insieme alle risorse approvate o alle relative rappresentazioni personalizzate.
 
    Tuttavia, per consentire il download delle rappresentazioni generate automaticamente insieme alle rappresentazioni personalizzate, deselezionate l'opzione **[!UICONTROL Escludi rappresentazioni]** di sistema.
 
@@ -107,7 +107,7 @@ Per scaricare le risorse condivise:
 
    ![](assets/download-linkshare-autoren.png)
 
-3. Toccate o fate clic su **[!UICONTROL Scarica]**. Le risorse (e le rappresentazioni, se selezionate) vengono scaricate come file ZIP nella cartella locale. Tuttavia, non viene creato alcun file ZIP se viene scaricata una singola risorsa senza alcuna rappresentazione, garantendo così un download rapido.
+1. Toccate o fate clic su **[!UICONTROL Scarica]**. Le risorse (e le rappresentazioni, se selezionate) vengono scaricate come file ZIP nella cartella locale. Tuttavia, non viene creato alcun file ZIP se viene scaricata una singola risorsa senza alcuna rappresentazione, garantendo così un download rapido.
 
 >[!NOTE]
 >
@@ -193,12 +193,12 @@ Per annullare la condivisione di risorse precedentemente condivise come collegam
 
    ![](assets/siderail.png)
 
-2. Dal lato laterale, fate clic su Collegamenti **[!UICONTROL condivisi]**.
+1. Dal lato laterale, fate clic su Collegamenti **[!UICONTROL condivisi]**.
 
    ![](assets/navigationrail.png)
 
-3. Controllare i collegamenti condivisi dall'elenco visualizzato.
-4. Per annullare la condivisione di un collegamento dall’elenco, selezionatelo e fate clic sull’icona del raccoglitore accanto alla voce del collegamento oppure sull’icona **[!UICONTROL Annulla condivisione]** dalla barra degli strumenti nella parte superiore.
+1. Controllare i collegamenti condivisi dall'elenco visualizzato.
+1. Per annullare la condivisione di un collegamento dall’elenco, selezionatelo e fate clic sull’icona del raccoglitore accanto alla voce del collegamento oppure sull’icona **[!UICONTROL Annulla condivisione]** dalla barra degli strumenti nella parte superiore.
 
    ![](assets/unshare-links.jpg)
 
@@ -206,4 +206,4 @@ Per annullare la condivisione di risorse precedentemente condivise come collegam
    >
    >La visualizzazione dei collegamenti condivisi è specifica dell'utente. Questa funzione non visualizza tutti i collegamenti condivisi da tutti gli utenti di un tenant.
 
-5. Nella finestra del messaggio di avviso, fate clic su **[!UICONTROL Continua]** per confermare l'annullamento della condivisione. La voce relativa al collegamento viene rimossa dall'elenco dei collegamenti condivisi.
+1. Nella finestra del messaggio di avviso, fate clic su **[!UICONTROL Continua]** per confermare l'annullamento della condivisione. La voce relativa al collegamento viene rimossa dall'elenco dei collegamenti condivisi.
