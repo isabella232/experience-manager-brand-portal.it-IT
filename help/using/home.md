@@ -3,7 +3,7 @@ title: Guida utente di AEM Brand Portal
 seo-title: Guida utente di AEM Brand Portal
 description: Guida utente di AEM Brand Portal
 seo-description: Descrive come utilizzare Brand Portal
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 ---
@@ -11,39 +11,39 @@ source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
 
 # Introduzione
 
-Brand Portal aiuta le organizzazioni a soddisfare le proprie esigenze di marketing distribuendo in modo sicuro le risorse di prodotti e marchi approvati ad agenzie esterne, partner, team interni e rivenditori per il download.
+Con Brand Portal le organizzazioni possono soddisfare le loro esigenze di marketing e distribuire in sicurezza le risorse approvate relative a prodotti e marchi, che potranno essere scaricate da agenzie esterne, partner, team interni e rivenditori.
 
-La mancanza di una soluzione sicura per la condivisione delle risorse può causare:
+La mancanza di una soluzione sicura per la condivisione delle risorse può comportare:
 
 * Condivisione manuale delle risorse tramite e-mail o cloud
 * Problemi di conformità del marchio
 * Mancanza di controllo sull’utilizzo delle risorse
-* Ritardi nelle campagne e negli avvii dei prodotti
-* Duplicazione del contenuto tra diverse ubicazioni geografiche e organizzazioni
-* Archiviazione non protetta delle risorse prima del rilascio
+* Ritardi nelle campagne e nei lanci di prodotti
+* Duplicazione dei contenuti tra località geografiche e organizzazioni diverse
+* Conservazione non protetta delle risorse prima del rilascio
 
-Con Brand Portal, le organizzazioni possono garantire la conformità del marchio consentendo ai professionisti del marketing di collaborare con i partner di canale e gli utenti aziendali interni per creare, gestire e distribuire rapidamente le linee guida di progettazione, i logo, le risorse delle campagne e dei prodotti più recenti alle parti interessate.
-Brand Portal è un'offerta SAAS basata su cloud. È disponibile come componente aggiuntivo per il prodotto Risorse Adobe Experience Manager (servizio locale o gestito).
+Con Brand Portal le organizzazioni possono garantire la conformità del marchio: gli addetti al marketing possono infatti collaborare con i partner di canale e gli utenti aziendali interni per creare, gestire e consegnare rapidamente alle parti interessate contenuti sempre aggiornati, quali linee guida di progettazione, logo, campagne e risorse di prodotto.
+Brand Portal è un’offerta SaaS basata su cloud. È disponibile come componente aggiuntivo di Adobe Experience Manager Assets (come soluzione locale o servizio gestito).
 
-Il flusso di lavoro della soluzione Brand Portal è illustrato nella seguente immagine.
+Il flusso di lavoro della soluzione Brand Portal è illustrato nell’immagine seguente.
 
 ![](assets/BPWorkflow1.png)
 
 ## Guida utente di Adobe Experience Manager Brand Portal
 
-Questa guida utente fornisce informazioni approfondite sulle offerte del Brand Portal e sui flussi di lavoro chiave. Utilizzate la barra a sinistra per navigare tra le varie funzionalità e per approfondire la ricerca per scoprire in che modo diverse personalità interagiscono con il portale.
+Questa guida utente illustra in dettaglio le funzionalità offerte da Brand Portal e ne descrive i principali flussi di lavoro. Utilizza la barra a sinistra per navigare tra le varie funzionalità e approfondisci per ottenere informazioni sull’interazione delle diverse figure con il portale.
 
-### Consultare anche
+### Consulta anche
 
 | Guida utente | Descrizione |
 |--- |---|
-| [Novità](whats-new.md) | Novità e ultime offerte in Brand Portal nelle versioni precedenti. |
-| [Note sulla versione](brand-portal-release-notes.md) | Miglioramenti, problemi critici risolti e problemi noti nella versione corrente. |
-| [Configurare l’integrazione di AEM Assets con Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Come replicare Brand Portal con AEM Assets per pubblicare le risorse. |
-| [Risoluzione dei problemi relativi alla pubblicazione parallela](troubleshoot-parallel-publishing.md) | Risolvere i problemi di replica tra Brand Portal e AEM Assets. |
+| [Novità](whats-new.md) | Informazioni sulle modifiche e sulle nuove funzionalità introdotte nelle varie versioni di Brand Portal. |
+| [Note sulla versione](brand-portal-release-notes.md) | Miglioramenti, problemi critici risolti e problemi noti presenti nella versione corrente. |
+| [Configurare l’integrazione di AEM Assets con Brand Portal](https://helpx.adobe.com/it/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Informazioni su come replicare Brand Portal con AEM Assets per pubblicare le risorse. |
+| [Risolvere i problemi relativi alla pubblicazione parallela](troubleshoot-parallel-publishing.md) | Informazioni su come risolvere i problemi di replica tra Brand Portal e AEM Assets. |
 | [Formati di file supportati](brand-portal-supported-formats.md) | Formati di file supportati in Brand Portal per l’anteprima e il download. |
-| [Pubblicare risorse su Brand Portal](../TOC.md#publish) | Come pubblicare cartelle, raccolte, collegamenti, predefiniti, schemi, facet e tag in Brand Portal. |
+| [Pubblicare le risorse in Brand Portal](../TOC.md#publish) | Informazioni su come pubblicare cartelle, raccolte, collegamenti, predefiniti, schemi, facet e tag in Brand Portal. |
 
 ### Risorse utili
 
-* [Portale del marchio con AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [Informazioni su Brand Portal con AEM Assets](https://helpx.adobe.com/it/experience-manager/kt/assets/using/brand-portal-article-understand.html)
