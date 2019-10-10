@@ -4,12 +4,12 @@ seo-title: Panoramica di AEM Assets Brand Portal
 description: AEM Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni attraverso dispositivi diversi.
 seo-description: AEM Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni attraverso dispositivi diversi.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
-content-type: riferimento
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: introduzione
+topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
 
 ---
 
@@ -20,7 +20,10 @@ In qualità di esperto di marketing, a volte devi collaborare con partner di can
 
 Tuttavia, è una sfida sviluppare soluzioni che supportano una condivisione efficiente e sicura dei logo del marchio, delle linee guida, delle risorse delle campagne o delle riprese di prodotti approvati con team, partner e rivenditori interni estesi.
 
-**Risorse Adobe Experience Manager (AEM) Assets Brand Portal** consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su dispositivi diversi. Consente di migliorare l'efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato.
+**Risorse Adobe Experience Manager (AEM) Assets Brand Portal** si concentra sulla necessità dell’esperto di marketing di collaborare efficacemente con gli utenti del Brand Portal distribuiti a livello globale fornendo funzionalità di distribuzione delle risorse e contributi alle risorse.
+
+La distribuzione delle risorse consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni attraverso dispositivi diversi. Il contributo risorse consente invece agli utenti di Brand Portal di caricare le risorse in Brand Portal e di pubblicarle in AEM Assets, senza dover accedere all’ambiente di authoring. La funzione di contributo è denominata **Risorse sorgente in Brand Portal**. Inoltre, migliora l'esperienza complessiva del Brand Portal nella distribuzione delle risorse e nel contributo degli utenti del Brand Portal (agenzie/team esterni), accelera il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato.
+Consultate [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
 
 L’ambiente portale basato su browser consente di caricare, sfogliare, cercare, visualizzare in anteprima ed esportare facilmente le risorse in formati approvati.
 
@@ -33,12 +36,12 @@ Brand Portal supporta i seguenti ruoli utente:
 * Editor
 * AmministratoreNella tabella seguente sono elencate le attività che gli utenti di questi ruoli possono eseguire:
 
-|  | **Sfoglia** | **Ricerca** | **Scarica** | **Condividere le cartelle** | **Condivisione di una raccolta** | **Condivisione di risorse come collegamento** | **Accesso ad Strumenti di amministrazione** |
+|  | **Sfoglia** | **Ricerca** | **Scarica** | **Condividere le cartelle** | **Condividere una raccolta** | **Condividere le risorse come collegamento** | **Accesso ad Strumenti di amministrazione** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Utente ospite** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Visualizzatore** | ✓ | ✓ | ✓ | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
-| **Amministratore** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| **Administrator** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Gli utenti ospiti possono sfogliare, accedere e cercare risorse solo nelle cartelle pubbliche e nelle raccolte.
 
@@ -74,27 +77,27 @@ Oltre alle attività che un visualizzatore può eseguire, un editor può eseguir
 
 [Condividere le cartelle](brand-portal-sharing-folders.md)
 
-[Condivisione di una raccolta](brand-portal-share-collection.md)
+[Condividere una raccolta](brand-portal-share-collection.md)
 
-[Condivisione di risorse come collegamento](brand-portal-link-share.md)
+[Condividere le risorse come collegamento](brand-portal-link-share.md)
 
-### Amministratore {#administrator}
+### Administrator {#administrator}
 
 Un amministratore include un utente contrassegnato come amministratore di sistema o amministratore di prodotti Brand Portal in [!UICONTROL Admin Console]. Un amministratore può aggiungere e rimuovere amministratori di sistema e utenti, definire predefiniti, inviare e-mail agli utenti e visualizzare rapporti sull’uso e l’archiviazione del portale.
 
 Un amministratore può eseguire tutte le attività che un utente con privilegi di editor può eseguire le seguenti attività aggiuntive:
 
-[Gestione di utenti, gruppi e ruoli utente](brand-portal-adding-users.md)
+[Gestire utenti, gruppi e ruoli utente](brand-portal-adding-users.md)
 
 [Personalizzare sfondi, intestazioni di pagina ed e-mail](brand-portal-branding.md)
 
-[Utilizzare facet di ricerca personalizzati](brand-portal-search-facets.md)
+[Utilizzare i facet di ricerca personalizzati](brand-portal-search-facets.md)
 
-[Uso del modulo schema metadati](brand-portal-metadata-schemas.md)
+[Utilizzare il modulo schema metadati](brand-portal-metadata-schemas.md)
 
-[Applicazione di predefiniti per immagini o rappresentazioni dinamiche](brand-portal-image-presets.md)
+[Applicare predefiniti immagine o rappresentazioni dinamiche](brand-portal-image-presets.md)
 
-[Utilizzo dei rapporti](brand-portal-reports.md)
+[Utilizzare i rapporti](brand-portal-reports.md)
 
 Oltre alle attività descritte sopra, un autore in Risorse AEM può effettuare le seguenti operazioni:
 
@@ -117,7 +120,7 @@ Tuttavia, l'istanza di AEM Author può essere [configurata](https://helpx.adobe.
 >
 >Per sostituire il vecchio alias o eliminarlo, è necessario seguire lo stesso processo.
 
-## Richiesta di accesso a Brand Portal {#request-access-to-brand-portal}
+## Request access to Brand Portal {#request-access-to-brand-portal}
 
 Gli utenti possono richiedere l’accesso a Brand Portal dalla schermata di accesso. Queste richieste vengono inviate agli amministratori del Brand Portal che concedono l’accesso agli utenti tramite Adobe [!UICONTROL Admin Console]. Una volta concesso l’accesso, gli utenti ricevono un messaggio e-mail di notifica.
 
