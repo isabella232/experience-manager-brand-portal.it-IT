@@ -3,8 +3,8 @@ title: Guida utente di AEM Brand Portal
 seo-title: Guida utente di AEM Brand Portal
 description: Guida utente di AEM Brand Portal
 seo-description: Descrive come utilizzare Brand Portal
-translation-type: ht
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+translation-type: tm+mt
+source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 ---
 
@@ -39,11 +39,12 @@ Questa guida utente illustra in dettaglio le funzionalità offerte da Brand Port
 |--- |---|
 | [Novità](whats-new.md) | Informazioni sulle modifiche e sulle nuove funzionalità introdotte nelle varie versioni di Brand Portal. |
 | [Note sulla versione](brand-portal-release-notes.md) | Miglioramenti, problemi critici risolti e problemi noti presenti nella versione corrente. |
-| [Configurare l’integrazione di AEM Assets con Brand Portal](https://helpx.adobe.com/it/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Informazioni su come replicare Brand Portal con AEM Assets per pubblicare le risorse. |
+| [Configurare l’integrazione di AEM Assets con Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html) | Informazioni su come replicare Brand Portal con AEM Assets per pubblicare le risorse. |
 | [Risolvere i problemi relativi alla pubblicazione parallela](troubleshoot-parallel-publishing.md) | Informazioni su come risolvere i problemi di replica tra Brand Portal e AEM Assets. |
 | [Formati di file supportati](brand-portal-supported-formats.md) | Formati di file supportati in Brand Portal per l’anteprima e il download. |
-| [Pubblicare le risorse in Brand Portal](../TOC.md#publish) | Informazioni su come pubblicare cartelle, raccolte, collegamenti, predefiniti, schemi, facet e tag in Brand Portal. |
+| [Pubblicare le risorse in Brand Portal](brand-portal-sharing-folders.md) | Informazioni su come pubblicare cartelle, raccolte, collegamenti, predefiniti, schemi, facet e tag in Brand Portal. |
+| [Origine risorsa in Brand Portal](brand-portal-asset-sourcing.md) | Come configurare Asset Sourcing in Risorse AEM, caricare le risorse in Brand Portal e pubblicare nuovamente la cartella dei contributi in Risorse AEM. |
 
 ### Risorse utili
 
-* [Informazioni su Brand Portal con AEM Assets](https://helpx.adobe.com/it/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+* [Portale del marchio con AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
