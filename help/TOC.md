@@ -4,8 +4,8 @@ product: adobe experience manager
 sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
-translation-type: ht
-source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
+translation-type: tm+mt
+source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
 
 ---
 
@@ -19,15 +19,31 @@ source-git-commit: 4548a365fc2240ace6e8e17d51507d697edbe130
    + [Note sulla versione](using/brand-portal-release-notes.md)
    + [Formati di file supportati](using/brand-portal-supported-formats.md)
    + [Accesso a Brand Portal come ospite](using/guest-access.md)
-   + [Informazioni su Brand Portal con AEM Assets](https://helpx.adobe.com/it/experience-manager/kt/assets/using/brand-portal-article-understand.html)
+   + [Portale del marchio con AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
    + [Navigazione nelle risorse in Brand Portal](using/browse-assets-brand-portal.md)
 + Pubblicare da AEM Assets in Brand Portal {#publish}
-   + [Configurare l’integrazione di AEM Assets con Brand Portal](https://helpx.adobe.com/it/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
-   + [Pubblicare raccolte in Brand Portal](https://helpx.adobe.com/it/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
-   + [Pubblicare cartelle in Brand Portal](https://helpx.adobe.com/it/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+   + [Configurare l’integrazione di AEM Assets con Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html)
+   + [Pubblicare raccolte in Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+   + [Pubblicare le cartelle su Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
    + [Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Pubblicare tag in Brand Portal](using/brand-portal-publish-tags.md)
    + [Pubblicare predefiniti, schemi e facet in Brand Portal](using/publish-schema-search-facets-presets.md)
++ Origine risorsa in Brand Portal {#asset-sourcing-in-brand-portal}
+   + [Panoramica](using/brand-portal-asset-sourcing.md)
+   + Configurare la sorgente delle risorse in AEM {#configure-asset-sourcing-in-aem}
+      + [Abilita origine risorse](using/brand-portal-enable-asset-sourcing.md)
+      + [Carica elenco utenti Brand Portal](using/brand-portal-upload-user-list.md)
+   + Configurare la cartella Contributo in Risorse AEM {#configure-contribution-folder}
+      + [Panoramica](using/brand-portal-contribution-folder.md)
+      + [Crea cartella contributi](using/brand-portal-create-contribution-folder.md)
+      + [Configurare le proprietà della cartella dei contributi](using/brand-portal-configure-contribution-folder-properties.md)
+      + [Caricare le risorse della baseline](using/brand-portal-upload-baseline-assets.md)
+      + [Pubblica cartella dei contributi in Brand Portal](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
+   + Utilizzo della sorgente delle risorse in Brand Portal {#using-asset-sourcing}
+      + [Panoramica](using/brand-portal-overiew-using-asset-sourcing.md)
+      + [Scaricare i requisiti delle risorse](using/brand-portal-download-asset-requirements.md)
+      + [Caricare le risorse nella cartella Contribution](using/brand-portal-upload-assets-to-contribution-folder.md)
+      + [Pubblica la cartella dei contributi in Risorse AEM](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Condividere risorse con gli utenti {#share}
    + [Condividere una raccolta](using/brand-portal-share-collection.md)
    + [Condividere le cartelle](using/brand-portal-sharing-folders.md)
