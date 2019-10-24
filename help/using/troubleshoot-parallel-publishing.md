@@ -1,20 +1,20 @@
 ---
-title: Risoluzione dei problemi relativi alla pubblicazione parallela a Brand Portal
-seo-title: Risoluzione dei problemi relativi alla pubblicazione parallela a Brand Portal
+title: Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal
+seo-title: Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal
 description: Risoluzione di problemi relativi alla pubblicazione parallela.
 seo-description: Risoluzione di problemi relativi alla pubblicazione parallela.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: riferimento
+content-type: reference
 topic-tags: brand-Portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Risoluzione dei problemi relativi alla pubblicazione parallela a Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
+# Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
 Brand Portal supporta l’integrazione con AEM Assets per disporre di risorse di marchio approvate da assimilare (o pubblicare) direttamente dall’istanza di creazione di AEM Assets. Una volta [integrata](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html), AEM Author utilizza un agente di replica per replicare le risorse selezionate nel servizio cloud Brand Portal per l'utilizzo approvato dagli utenti del Brand Portal. Più agenti di replica vengono utilizzati AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 e versioni successive per consentire la pubblicazione parallela ad alta velocità.
 
@@ -22,9 +22,9 @@ Brand Portal supporta l’integrazione con AEM Assets per disporre di risorse di
 >
 >Adobe consiglia di effettuare l’aggiornamento ad AEM 6.4.1.0 per garantire che AEM Assets Brand Portal sia integrato con AEM Assets. Una limitazione in AEM 6.4 genera un errore durante la configurazione dell'integrazione con Brand Portal e la replica non riesce.
 
-Quando si configura il servizio cloud per il portale del marchio in [!UICONTROL /etc/cloud service], tutti gli utenti e i token necessari vengono generati automaticamente e salvati nell'archivio. Viene creata la configurazione del servizio cloud, vengono creati anche gli utenti del servizio necessari per gli agenti di replica e replica per replicare il contenuto. Vengono creati quattro agenti di replica. Quando pubblicate numerose risorse da AEM al Brand Portal, queste vengono messe in coda e distribuite tra questi agenti di replica tramite Round Robin.
+Quando si configura il servizio cloud per il portale del marchio in **[!UICONTROL /etc/cloud service]**, tutti gli utenti e i token necessari vengono generati automaticamente e salvati nell'archivio. Viene creata la configurazione del servizio cloud, vengono creati anche gli utenti del servizio necessari per gli agenti di replica e replica per replicare il contenuto. Vengono creati quattro agenti di replica. Quando pubblicate numerose risorse da AEM al Brand Portal, queste vengono messe in coda e distribuite tra questi agenti di replica tramite Round Robin.
 
-Tuttavia, la pubblicazione può non riuscire in modo intermittente a causa di lavori di sling di grandi dimensioni, dell'aumento dell'I/O di rete e [!UICONTROL disco] nell'istanza di AEM Author o di prestazioni rallentate dell'istanza di AEM Author. È quindi consigliabile verificare la connessione con gli agenti di replica prima di iniziare la pubblicazione.
+Tuttavia, la pubblicazione può non riuscire in modo intermittente a causa di lavori di sling di grandi dimensioni, dell'aumento dell'I/O di rete e **[!UICONTROL disco]** nell'istanza di AEM Author o di prestazioni rallentate dell'istanza di AEM Author. È quindi consigliabile verificare la connessione con gli agenti di replica prima di iniziare la pubblicazione.
 
 ![](assets/test-connection.png)
 
@@ -60,14 +60,13 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 
 ### Pulizia delle configurazioni di pubblicazione esistenti di Brand Portal {#clean-up-existing-config}
 
-La maggior parte delle volte in cui la pubblicazione non funziona, il motivo può essere dovuto al fatto che l’utente che la pubblica (ad esempio: La replica mac-&lt;tenantid&gt; non dispone della chiave privata più recente, pertanto la pubblicazione non riesce con l'errore "401 non autorizzato" e nessun altro errore viene segnalato nei registri degli agenti di replica. Potreste voler evitare la risoluzione dei problemi e creare una nuova configurazione. Affinché la nuova configurazione funzioni correttamente, pulite le seguenti informazioni dalla configurazione dell’autore di AEM:
+La maggior parte delle volte in cui la pubblicazione non funziona, il motivo può essere dovuto al fatto che l’utente che la pubblica (ad esempio: La chiave privata `mac-<tenantid>-replication` non è la più recente e pertanto la pubblicazione non riesce con l'errore "401 non autorizzato" e nessun altro errore viene segnalato nei registri dell'agente di replica. Potreste voler evitare la risoluzione dei problemi e creare una nuova configurazione. Affinché la nuova configurazione funzioni correttamente, pulite le seguenti informazioni dalla configurazione dell’autore di AEM:
 
-1. andate a [!UICONTROL localhost:4502/crx/de] (se state eseguendo l’istanza di autore in [!UICONTROL localhost:4502]):\
-   i. delete /etc/replication/agents.author/mp_replica*\
-   ii) delete /etc/cloudservices/mediaportal/&lt;nome_configurazione&gt;
+1. Vai a `localhost:4502/crx/de/` (se stai eseguendo l’istanza di autore in localhost:4502:\
+   i. delete `/etc/replication/agents.author/mp_replication`ii. delete `/etc/cloudservices/mediaportal/<config_name>`
 
-1. andate a [!UICONTROL localhost:4502/useradmin]:\
-   i cercare l'utente [!UICONTROL mac-&lt;tenantid&gt;-replicationii eliminare questo utente
+1. Vai a localhost:4502/useradmin:\
+   i. cercare l’utente `mac-<tenantid>replication`ii. elimina questo utente
 
 Ora il sistema è completamente pulito. Ora potete provare a creare una nuova configurazione del servizio cloud e utilizzare comunque l'applicazione JWT già esistente in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Non è necessario creare una nuova applicazione, ma solo la chiave pubblica deve essere aggiornata dalla configurazione cloud appena creata.
 
