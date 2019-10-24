@@ -1,21 +1,21 @@
 ---
-title: Cercare risorse in Brand Portal
+title: Cercare le risorse in Brand Portal
 seo-title: Ricerca di risorse e ricerca salvata su AEM Brand Portal
 description: La funzione di ricerca Brand Portal consente di cercare rapidamente risorse rilevanti utilizzando la ricerca globale e i filtri di ricerca consentono di limitare ulteriormente la ricerca. Salvate le ricerche come raccolte intelligenti per il futuro.
 seo-description: La funzione di ricerca Brand Portal consente di cercare rapidamente risorse rilevanti utilizzando la ricerca globale e i filtri di ricerca consentono di limitare ulteriormente la ricerca. Salvate le ricerche come raccolte intelligenti per il futuro.
 uuid: c2955198-bdc0-4853-a13a-661e6a9ec61f
 contentOwner: bdhar
-content-type: riferimento
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Cercare risorse in Brand Portal {#search-assets-on-brand-portal}
+# Cercare le risorse in Brand Portal {#search-assets-on-brand-portal}
 
 La funzione di ricerca Brand Portal consente di cercare rapidamente risorse rilevanti utilizzando la ricerca globale e la ricerca sfaccettata tramite filtri per limitare ulteriormente la ricerca. Potete inoltre salvare le ricerche come raccolte intelligenti per il futuro.
 
@@ -62,7 +62,7 @@ Per applicare filtri alla ricerca, utilizzate i facet [di](../using/brand-portal
 1. Dal pannello **[!UICONTROL Filtri]** a sinistra, selezionate le opzioni appropriate per applicare i filtri pertinenti.
 Ad esempio, utilizzate i seguenti filtri standard:
 
-   * **[!UICONTROL Browser]** percorsi per cercare le risorse in una directory specifica. Il percorso di ricerca predefinito del predicato per il browser percorso è **[!UICONTROL /content/dam/mac/&lt;tenant-id&gt;/]**, che può essere configurato modificando il modulo di ricerca predefinito.
+   * **[!UICONTROL Browser]** percorsi per cercare le risorse in una directory specifica. Il percorso di ricerca predefinito del predicato per il browser percorso è `/content/dam/mac/<tenant-id>/`, che può essere configurato modificando il modulo di ricerca predefinito.
    >[!NOTE]
    >
    >Per gli utenti non amministratori, [!UICONTROL Path Browser] nel pannello [!UICONTROL Filtro] mostra solo la struttura del contenuto delle cartelle (e delle relative cartelle antenate) condivise con loro.\
