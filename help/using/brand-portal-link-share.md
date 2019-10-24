@@ -1,21 +1,21 @@
 ---
-title: Condivisione di risorse come collegamento
-seo-title: Condivisione di risorse come collegamento
+title: Condividere le risorse come collegamento
+seo-title: Condividere le risorse come collegamento
 description: Gli amministratori di AEM Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
 seo-description: Gli amministratori di AEM Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
-content-type: riferimento
+content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Condivisione di risorse come collegamento {#share-assets-as-a-link}
+# Condividere le risorse come collegamento {#share-assets-as-a-link}
 
 Gli amministratori di AEM Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
 
@@ -92,12 +92,13 @@ Per scaricare le risorse condivise:
 
    ![](assets/licensed-asset-download.png)
 
-   Viene visualizzata la finestra di dialogo [!UICONTROL Download] .<br />
+   Viene visualizzata la finestra di dialogo **[!UICONTROL Download]** .
+
    ![](assets/download-linkshare.png)
 
    * Per accelerare il download dei file di risorse condivisi come collegamento, seleziona **[!UICONTROL Abilita accelerazione]** download e [segui la procedura guidata](../using/accelerated-download.md#download-workflow-using-file-accelerator). Per ulteriori informazioni sul download rapido delle risorse sul Portale marchio, consulta la [Guida per accelerare i download dal Portale](../using/accelerated-download.md)marchio.
-[!UICONTROL
-1. Per scaricare le rappresentazioni delle risorse oltre alle risorse dal collegamento condiviso, selezionate l'opzione **[!UICONTROL Rappresentazioni (]** Rendition). In questo caso, per impostazione predefinita viene visualizzata l'opzione **Escludi rappresentazioni di sistema]** . Questo impedisce il download di rappresentazioni pronte all’uso insieme alle risorse approvate o alle relative rappresentazioni personalizzate.
+
+1. Per scaricare le rappresentazioni delle risorse oltre alle risorse dal collegamento condiviso, selezionate l'opzione **[!UICONTROL Rappresentazioni (]** Rendition). In questo caso, viene visualizzata l'opzione **[!UICONTROL Escludi rappresentazioni]** di sistema selezionata per impostazione predefinita. Questo impedisce il download di rappresentazioni pronte all’uso insieme alle risorse approvate o alle relative rappresentazioni personalizzate.
 
    Tuttavia, per consentire il download delle rappresentazioni generate automaticamente insieme alle rappresentazioni personalizzate, deselezionate l'opzione **[!UICONTROL Escludi rappresentazioni]** di sistema.
 
