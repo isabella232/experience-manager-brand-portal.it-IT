@@ -1,21 +1,21 @@
 ---
-title: Amministra configurazioni tenant generali
-seo-title: Amministra configurazioni tenant generali
-description: Configurate l'accelerazione del download, la creazione pubblica dello smart [!UICONTROL collection], la creazione pubblica [!UICONTROL collection] e abilitate gli utenti admin a eliminare le risorse sui tenant.
-seo-description: Configurate l'accelerazione del download, la creazione pubblica dello smart [!UICONTROL collection], la creazione pubblica [!UICONTROL collection] e abilitate gli utenti admin a eliminare le risorse sui tenant.
+title: Amministrare le configurazioni tenant generali
+seo-title: Amministrare le configurazioni tenant generali
+description: Configurate l'accelerazione del download, la creazione di [!UICONTROL raccolte] smart pubbliche, la creazione di [!UICONTROL raccolte] pubbliche e abilitate gli utenti amministratori a eliminare le risorse sui tenant.
+seo-description: Configurate l'accelerazione del download, la creazione di [!UICONTROL raccolte] smart pubbliche, la creazione di [!UICONTROL raccolte] pubbliche e abilitate gli utenti amministratori a eliminare le risorse sui tenant.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
-content-type: riferimento
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
 
 ---
 
 
-# Amministra configurazioni tenant generali {#administer-general-tenant-configurations}
+# Amministrare le configurazioni tenant generali {#administer-general-tenant-configurations}
 
 AEM Assets Brand Portal consente alle organizzazioni di configurare le seguenti funzionalità per tenant specifici:
 
@@ -47,7 +47,7 @@ Per attivare/disattivare ciascuna delle seguenti configurazioni:
 1. Selezionate il logo AEM per accedere agli strumenti amministrativi, dalla barra degli strumenti nella parte superiore.
 1. Dal pannello degli strumenti di amministrazione, selezionate **[!UICONTROL Generale]** per aprire la pagina Impostazioni **** generali.
 1. Utilizzate il rispettivo interruttore di attivazione/disattivazione per attivare o disattivare una qualsiasi delle configurazioni Generali.
-1. **[!UICONTROL Salvate le modifiche.]**
+1. **[!UICONTROL Salva le modifiche.]**
 1. Disconnessione per rendere attive le modifiche.
 
 ## Consentire agli utenti amministratori di eliminare le risorse dal Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
@@ -56,16 +56,16 @@ Per attivare/disattivare ciascuna delle seguenti configurazioni:
 
 ## Consenti creazione raccolte pubbliche da parte di utenti non amministratori {#allow-public-collections-creation-by-non-admins}
 
-[La configurazione [!UICONTROL Consenti creazione raccolte pubbliche]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) controlla se i non amministratori possono creare raccolte pubbliche sul Portale marchio. La configurazione è abilitata per impostazione predefinita. Disattivando le organizzazioni di configurazione è possibile impedire l'utilizzo di numerose raccolte pubbliche sul proprio portale per consentire il salvataggio dello spazio del sistema.
+[[!UICONTROL Consenti configurazione della creazione]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) delle raccolte pubbliche controlla se i non amministratori possono creare raccolte pubbliche sul portale di marchio. La configurazione è abilitata per impostazione predefinita. Disattivando le organizzazioni di configurazione è possibile impedire l'utilizzo di numerose raccolte pubbliche sul proprio portale per consentire il salvataggio dello spazio del sistema.
 
 ## Consenti creazione di raccolte smart pubbliche da parte di utenti non amministratori {#allow-public-smart-collections-creation-by-non-admins}
 
-[La configurazione [!UICONTROL Consenti creazione di raccolte avanzate pubbliche]](../using/brand-portal-searching.md#main-pars-header-500620467) controlla se i non amministratori possono salvare le ricerche come raccolte intelligenti e renderle pubbliche per quel tenant. La configurazione è abilitata per impostazione predefinita. Disattivando le organizzazioni di configurazione è possibile impedire che un numero enorme di raccolte pubbliche intelligenti create da utenti non amministratori nel Brand Portal dell'organizzazione.
+[[!UICONTROL Consenti configurazione di creazione]](../using/brand-portal-searching.md#main-pars-header-500620467) raccolte intelligenti pubbliche controlla se gli utenti non amministratori possono salvare le ricerche come raccolte intelligenti e renderle pubbliche per quel tenant. La configurazione è abilitata per impostazione predefinita. Disattivando le organizzazioni di configurazione è possibile impedire che un numero enorme di raccolte pubbliche intelligenti create da utenti non amministratori nel Brand Portal dell'organizzazione.
 
 ## Consenti accelerazione download {#allow-download-acceleration}
 
-[La configurazione [!UICONTROL Consenti accelerazione download]](../using/accelerated-download.md) consente alle organizzazioni di consentire il download accelerato di risorse dal Portale marchio e collegamenti condivisi, integrando con IBM Aspera Connect un'applicazione install-on-demand. L'applicazione utilizza una tecnologia proprietaria per rimuovere le spese generali TCP.
+[[!UICONTROL Consenti configurazione di accelerazione]](../using/accelerated-download.md) download consente alle organizzazioni di consentire download accelerati di risorse dal Portale marchio e collegamenti condivisi, integrando con IBM Aspera Connect un'applicazione install-on-demand. L'applicazione utilizza una tecnologia proprietaria per rimuovere le spese generali TCP.
 
 ## Abilita gerarchia cartelle {#enable-folder-hierarchy}
 
-[La configurazione [!UICONTROL Abilita gerarchia cartelle]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) consente agli amministratori di controllare il modo in cui gli utenti non amministratori (editor, visualizzatori e utenti ospiti) vedono le cartelle condivise dopo l'accesso.
+[[!UICONTROL Attiva configurazione gerarchia]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) cartelle consente agli amministratori di controllare in che modo gli utenti non amministratori (editor, visualizzatori e utenti ospiti) vedono le cartelle condivise dopo l’accesso.
