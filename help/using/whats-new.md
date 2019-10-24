@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 96d915ba146189ccddb7eb798c86c92fd55fbe3b
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
@@ -127,11 +127,11 @@ La miniatura predefinita delle cartelle virtuali è la miniatura della prima car
 
 ### Ricerca in una gerarchia o percorso di cartelle specifici
 
-**Il predicato del browser** percorso è stato introdotto in Modulo di ricerca per consentire la ricerca di risorse in una directory specifica. Il percorso di ricerca predefinito del predicato di ricerca per il browser percorso è */content/dam/mac/&lt;tenant-id&gt;/*, che può essere configurato modificando il modulo di ricerca predefinito.
+**Il predicato del browser** percorso è stato introdotto in Modulo di ricerca per consentire la ricerca di risorse in una directory specifica. Il percorso di ricerca predefinito del predicato di ricerca per il browser percorso è `/content/dam/mac/<tenant-id>/`, che può essere configurato modificando il modulo di ricerca predefinito.
 
 * Gli utenti amministratori possono utilizzare il browser Percorsi per accedere a qualsiasi directory di cartelle nel Brand Portal.
 * Gli utenti non amministratori possono utilizzare il browser Percorso per navigare solo nelle cartelle (e tornare alle cartelle principali) condivise con loro.
-Ad esempio, */content/dam/mac/&lt;tenant-id&gt;/folderA/folderB/folderC* è condiviso con un utente non amministratore. L’utente può cercare risorse all’interno di folderC utilizzando il browser Percorso. Questo utente può anche passare a folderB e folderA (poiché sono predecessori della cartellaC che viene condivisa con l'utente).
+Ad esempio, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` viene condiviso con un utente non amministratore. L’utente può cercare risorse all’interno di folderC utilizzando il browser Percorso. Questo utente può anche passare a folderB e folderA (poiché sono predecessori della cartellaC che viene condivisa con l'utente).
 
 ![](assets/edit-search-form.png)
 
@@ -383,7 +383,7 @@ Brand Portal 6.3.2 include funzionalità nuove e migliorate, orientate alle rich
 
 ### Request access to Brand Portal {#request-access-to-brand-portal}
 
-Adesso, gli utenti possono richiedere l'accesso a Brand Portal utilizzando la nuova funzionalità di accesso**** disponibile nella schermata di accesso di Brand Portal.
+Adesso, gli utenti possono richiedere l’accesso a Brand Portal utilizzando la nuova funzionalità di accesso **** necessario disponibile nella schermata di accesso di Brand Portal.
 
 ![](assets/bplogin_request_access.png)
 
