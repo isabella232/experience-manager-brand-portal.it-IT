@@ -1,20 +1,20 @@
 ---
-title: Pubblicare predefiniti, schemi e facet su Brand Portal
-seo-title: Pubblicare predefiniti, schemi e facet su Brand Portal
+title: Pubblicare predefiniti, schemi e facet in Brand Portal
+seo-title: Pubblicare predefiniti, schemi e facet in Brand Portal
 description: Scoprite come pubblicare predefiniti, schemi e facet in Brand Portal.
 seo-description: Scoprite come pubblicare predefiniti, schemi e facet in Brand Portal.
 uuid: c836d9bb-074a-4113-9c91-b2bf7658b88d
 topic-tags: pubblicazione
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: riferimento
+content-type: reference
 discoiquuid: bc305abc-9373-4d33-9179-0a5f3904b352
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
 
-# Pubblicare predefiniti, schemi e facet su Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
+# Pubblicare predefiniti, schemi e facet in Brand Portal {#publish-presets-schema-and-facets-to-brand-portal}
 
 L'articolo descrive come pubblicare i predefiniti per immagini, gli schemi di metadati e i facet di ricerca personalizzati dall'istanza di AEM Author al Brand Portal. La funzione di pubblicazione consente alle organizzazioni di riutilizzare i predefiniti per immagini, gli schemi di metadati e i facet di ricerca creati/modificati nell’istanza di AEM Author, riducendo in tal modo il rischio di duplicazione.
 
@@ -33,7 +33,7 @@ Una volta creato, il predefinito viene elencato come rappresentazione dinamica n
 
 Per pubblicare i predefiniti per immagini in Brand Portal:
 
-1. Nell’istanza di AEM Author, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull’icona Strumenti e passa a **[!UICONTROL Risorse]** &gt; Predefiniti **** immagine.
+1. Nell’istanza di AEM Author, tocca o fai clic sul logo AEM per accedere alla console di navigazione globale, quindi tocca o fai clic sull’icona Strumenti e passa a **[!UICONTROL Risorse &gt; Predefiniti]** immagine.
 1. Selezionate il predefinito per immagini o più predefiniti per immagini dall’elenco dei predefiniti per immagini e toccate o fate clic su **[!UICONTROL Pubblica sul portale]** del marchio.
 
 ![](assets/publishpreset.png)
@@ -96,7 +96,7 @@ Se sei disposto a utilizzare un modulo di ricerca personalizzato **[!UICONTROL R
 
 Per pubblicare il facet di ricerca modificato dall’istanza di AEM Author al Brand Portal:
 
-1. Toccate/fate clic sul logo AEM, quindi andate a **[!UICONTROL Strumenti]** &gt; **[!UICONTROL Generale]** &gt; **[!UICONTROL Moduli]** di ricerca.
+1. Toccate/fate clic sul logo AEM, quindi andate a **[!UICONTROL Strumenti &gt; Generale &gt; Cerca moduli]**.
 1. Selezionate il modulo di ricerca modificato e selezionate **[!UICONTROL Pubblica su Brand Portal]**.
 
    >[!NOTE]
