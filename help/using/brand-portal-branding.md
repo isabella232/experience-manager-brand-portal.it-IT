@@ -4,12 +4,12 @@ seo-title: Personalizzare sfondo, intestazione e messaggio e-mail
 description: Gli amministratori di Brand Portal possono personalizzare in modo limitato l’interfaccia visualizzata agli utenti. Potete scegliere un'immagine di sfondo specifica (sfondo) per la pagina di accesso al Brand Portal. Potete inoltre aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in modo che corrispondano al marchio del cliente.
 seo-description: Gli amministratori di Brand Portal possono personalizzare in modo limitato l’interfaccia visualizzata agli utenti. Potete scegliere un'immagine di sfondo specifica (sfondo) per la pagina di accesso al Brand Portal. Potete inoltre aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in modo che corrispondano al marchio del cliente.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
-content-type: riferimento
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 translation-type: tm+mt
-source-git-commit: 86d4d5c358ea795e35db2dce8c9529ed14e9ee2d
+source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
 
 ---
 
