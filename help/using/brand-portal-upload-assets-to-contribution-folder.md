@@ -9,12 +9,12 @@ topic-tags: brand-Portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f6437146bafbedf85a34fbc92ee15fd5e247da0c
+source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
 
 ---
 
 
-# Caricare nuove risorse nella cartella Contribution {#uplad-new-assets-to-contribution-folder}
+# Caricare le risorse nella cartella Contribution {#uplad-new-assets-to-contribution-folder}
 
 Gli utenti di Brand Portal [scaricano i requisiti](brand-portal-download-asset-requirements.md) delle risorse: breve documento allegato alla cartella dei contributi e scaricano le risorse della linea di base dalla cartella **SHARED** per comprendere la necessità di contributi.
 Gli utenti di Brand Portal possono quindi creare nuove risorse da assegnare al contributo e caricarle nella cartella **NEW** all’interno della cartella dei contributi.
