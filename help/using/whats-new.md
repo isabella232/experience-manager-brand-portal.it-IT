@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: d2cd70b414acb08659a43a0cff9b08500d0b48f2
 
 ---
 
@@ -33,14 +33,18 @@ L’utente di AEM definisce quindi il requisito [caricando un breve](brand-porta
 
 Dopo aver aggiunto il contenuto nella cartella **NEW** , l’utente può pubblicare nuovamente la cartella dei contributi nell’ambiente di authoring di AEM. L’importazione potrebbe richiedere alcuni minuti e riflettere il contenuto appena pubblicato in AEM Assets.
 
-Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Brand Portal possono visualizzare, cercare e scaricare risorse dalla cartella dei contributi e dalle altre cartelle consentite. Inoltre, gli amministratori possono condividere ulteriormente la cartella dei contributi, modificare le proprietà e aggiungere risorse alle raccolte. Consultate le note [sulla versione più recenti del Portale](brand-portal-release-notes.md)marchio.
+Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Brand Portal possono visualizzare, cercare e scaricare risorse dalla cartella dei contributi e dalle altre cartelle consentite. Inoltre, gli amministratori possono condividere ulteriormente la cartella dei contributi, modificare le proprietà e aggiungere risorse alle raccolte.
+
+Consultate le note [sulla versione più recenti del Portale](brand-portal-release-notes.md)marchio.
+
+Consultate Domande frequenti sul [Brand Portal](brand-portal-faqs.md)
 
 >[!NOTE]
-
-
+>
 >La sorgente delle risorse in Brand Portal è supportata in AEM 6.5.2.0 e versioni successive.
 >
 >Questa funzione non è supportata nelle versioni precedenti - AEM 6.3 e AEM 6.4.
+
 
 ### Caricare le risorse nella cartella Contribution {#upload-assets-in-bp}
 
@@ -525,24 +529,3 @@ Brand Portal 6.3.1 introduce ulteriori metadati, simili a quelli di AEM Assets 6
 ![](assets/publish_tags_aemassets.png)
 
 * Da Risorse AEM, potete pubblicare risorse e raccolte con tag, inclusi gli smart tag. Potete quindi cercare queste risorse o raccolte utilizzando questi tag come parole chiave di ricerca in Brand Portal.
-
-## Frequently asked questions {#frequently-asked-questions}
-
-**Ques. Perderò l’accesso a risorse, funzionalità o configurazioni già esistenti?**
-**Ans.** Tutte le funzioni e le configurazioni esistenti rimangono intatte. Gli utenti finali non sono interessati e il contenuto rimane intatto.
-
-**Ques. Quando si passa alla nuova versione di Brand Portal?**
-**Ans.** Brand Portal 6.4.4 è stato pubblicato in produzione nel febbraio 2019. La prossima versione di Brand Portal verrà rilasciata nel 3° trimestre 2019.
-
->[!NOTE]
->
->Il programma di rilascio è provvisorio e soggetto a modifiche. Contatta il tuo Adobe Account Manager o l'Assistenza clienti per ottenere la pianificazione della versione aggiornata.
-
-**Ques. I miei utenti saranno interessati?**
-**Ans.** Questa modifica è disponibile esclusivamente all’interno del Portale marchio, pertanto non ha alcun impatto sugli utenti finali.
-
-**Ques. Sono necessarie azioni da parte mia?**
-**Ans.** L'amministratore non richiede alcuna azione. Una volta ottenuto l’accesso al nuovo Portale marchio, consulta la documentazione per vedere tutti i campanelli e i fischi.
-
-**Ques. Chi posso contattare con le domande?**
-**Ans.** Contatta il tuo Adobe Account Manager o l'Assistenza clienti.
