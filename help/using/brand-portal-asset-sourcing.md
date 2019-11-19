@@ -5,11 +5,20 @@ description: Ottieni informazioni approfondite sulla funzione di determinazione 
 seo-description: Ottieni informazioni approfondite sulla funzione di determinazione origine delle risorse rilasciata nel portale dei marchi di Adobe Experience Manager Assets.
 uuid: null
 content-type: reference
-topic-tags: brand-Portal
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
+product: experience-manager
+sub-product: assets
+feature: brand-portal
+topics: collaboration, content-velocity, sharing
+doc-type: feature-video
+activity: use
+audience: author, marketer
+version: 6.5
+kt: 3838
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
 
@@ -20,6 +29,8 @@ source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
 
 Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Brand Portal possono visualizzare, cercare e scaricare risorse dalla cartella dei contributi e dalle altre cartelle consentite. Inoltre, gli amministratori possono condividere ulteriormente la cartella dei contributi, modificare le proprietà e aggiungere risorse alle raccolte.
 
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12&captions=ita)
+
 >[!NOTE]
 >
 >La sorgente delle risorse in Brand Portal è supportata in AEM 6.5.2.0 e versioni successive.
@@ -28,18 +39,25 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 >
 >Contatta il supporto Adobe per aggiornare l’istanza di AEM all’ultima versione supportata di AEM.
 
-![](assets/asset-sourcing.png)
+![Origine risorsa Brand Portal](assets/asset-sourcing.png)
+
+## Prerequisiti {#prerequisites}
+
+* AEM 6.5.0.2 o versione successiva.
+* Assicurati che l’istanza di Risorse AEM sia integrata con il Brand Portal. Consultate [Configurare l’integrazione di AEM Assets con Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
 
 ## Consulta anche {#reference-articles}
 
 **Per amministratori**
-* [Configurare la sorgente delle risorse in AEM](brand-portal-enable-asset-sourcing.md)
-* [Carica elenco utenti Brand Portal](brand-portal-upload-user-list.md)
+
+* [Configurare la sorgente delle risorse in AEM](brand-portal-configure-asset-sourcing.md)
+* [Carica elenco utenti Brand Portal](brand-portal-configure-asset-sourcing.md)
 * [Configurare la cartella dei contributi](brand-portal-contribution-folder.md)
 * [Caricare le risorse della baseline nella cartella Contribution](brand-portal-upload-baseline-assets.md)
 * [Pubblica cartella dei contributi in Brand Portal](brand-portal-publish-contribution-folder-to-brand-portal.md)
 
 **Per utenti di Brand Portal**
+
 * [Scaricare i requisiti delle risorse](brand-portal-download-asset-requirements.md)
 * [Caricare nuove risorse nella cartella Contribution](brand-portal-upload-assets-to-contribution-folder.md)
 * [Pubblica la cartella dei contributi in Risorse AEM](brand-portal-publish-contribution-folder-to-aem-assets.md)
