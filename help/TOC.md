@@ -5,7 +5,7 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: AEM Brand Portal
 translation-type: tm+mt
-source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
+source-git-commit: add4009bd99e5af8ed0c9ffea63647c166b7c75d
 
 ---
 
@@ -17,6 +17,7 @@ source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
    + [Panoramica](using/brand-portal.md)
    + [Novità di AEM Assets Brand Portal](using/whats-new.md)
    + [Note sulla versione](using/brand-portal-release-notes.md)
+   + [Domande frequenti](using/brand-portal-faqs.md)
    + [Formati di file supportati](using/brand-portal-supported-formats.md)
    + [Accesso a Brand Portal come ospite](using/guest-access.md)
    + [Portale del marchio con AEM Assets](https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html)
@@ -30,9 +31,7 @@ source-git-commit: d332aa82b0beba1e01c7bb0c8a6055145e1e0270
    + [Pubblicare predefiniti, schemi e facet in Brand Portal](using/publish-schema-search-facets-presets.md)
 + Origine risorsa in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Panoramica](using/brand-portal-asset-sourcing.md)
-   + Configurare la sorgente delle risorse in AEM {#configure-asset-sourcing-in-aem}
-      + [Abilita origine risorse](using/brand-portal-enable-asset-sourcing.md)
-      + [Carica elenco utenti Brand Portal](using/brand-portal-upload-user-list.md)
+   + [Configurare la sorgente delle risorse in AEM](using/brand-portal-configure-asset-sourcing.md)
    + Configurare la cartella Contributo in Risorse AEM {#configure-contribution-folder}
       + [Panoramica](using/brand-portal-contribution-folder.md)
       + [Crea cartella contributi](using/brand-portal-create-contribution-folder.md)
