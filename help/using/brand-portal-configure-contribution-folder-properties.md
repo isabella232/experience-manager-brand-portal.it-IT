@@ -5,11 +5,11 @@ description: 'Scopri come configurare le proprietà di una cartella di contribut
 seo-description: 'Scopri come configurare le proprietà di una cartella di contributi in Risorse AEM. '
 uuid: null
 content-type: reference
-topic-tags: brand-Portal
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32de22b7d5ac2b53b31aab8675dfdac1f5a724c
+source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
 
 ---
 
@@ -41,4 +41,4 @@ Tali utenti/gruppi Brand Portal avranno l’autorizzazione ad accedere alla cart
 
 >[!NOTE]
 >
->I risultati della ricerca si basano sull’elenco di utenti del Brand Portal configurato in Risorse AEM. Accertatevi di disporre dell’elenco di utenti aggiornato del Brand Portal. Consultate, [Carica elenco](brand-portal-upload-user-list.md)utenti Portale marchio.
+>I risultati della ricerca si basano sull’elenco di utenti del Brand Portal configurato in Risorse AEM. Accertatevi di disporre dell’elenco di utenti aggiornato del Brand Portal. Consultate, [Carica elenco](brand-portal-configure-asset-sourcing.md)utenti Portale marchio.
