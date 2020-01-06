@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: f8d95ab1e1c17ef2cf86d0206a36134996e4fe07
+source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 
 ---
 
@@ -46,7 +46,7 @@ Per aggiornamenti e modifiche di versione, si consiglia di tenere traccia delle 
 
 
 
-**Ques. In qualità di utente del Brand Portal, è necessaria un'azione?**
+**Ques. In qualità di utente del Brand Portal, è necessaria un&#39;azione?**
 
 **Ans.** La versione di Brand Portal 6.4.5 include una nuova funzione denominata Asset Sourcing. L’amministratore di AEM deve configurare la funzione di origine delle risorse in Risorse AEM per abilitare la funzione per gli utenti del Brand Portal. Per ulteriori informazioni, consultate [Abilita origine](brand-portal-configure-asset-sourcing.md)risorse.
 
@@ -54,8 +54,8 @@ Per aggiornamenti e modifiche di versione, si consiglia di tenere traccia delle 
 
 **Ques. Chi può creare una cartella Contribution?**
 
-**Ans.** Gli utenti AEM possono creare una nuova cartella in Risorse AEM e assegnare la proprietà Contributo **** risorsa. La nuova cartella creata viene denominata cartella **Contribution** .
-Questa cartella viene quindi condivisa con gli utenti attivi del Brand Portal per ottenere il contributo.
+**Ans.** Qualsiasi utente AEM che disponga delle autorizzazioni necessarie per creare una nuova cartella in Risorse AEM, può creare una cartella **Contribution** . Per creare una cartella **Contribution** , create una nuova cartella di tipo **Asset Contribution**.
+Questa cartella viene condivisa con gli utenti attivi di Brand Portal per ottenere un contributo.
 
 
 
@@ -66,7 +66,13 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 
 
-**Ques. Che cos'è il requisito patrimoniale con il contributo?**
+**Ques.  È possibile modificare il nome di una cartella di contributi esistente?**
+
+**Ans.** **No**, non è possibile modificare il nome di una cartella **Contribution** esistente.
+
+
+
+**Ques. Che cos&#39;è il requisito patrimoniale con il contributo?**
 
 **Ans.** Il documento **Breve** allegato alla cartella **Contribution** e al contenuto di riferimento (risorse riutilizzabili) caricato nella cartella **SHARED** aiuta l’utente del Brand Portal a comprendere la necessità di contributi e aspettative come collaboratore ed è collettivamente chiamato come requisiti delle risorse.
 
@@ -102,7 +108,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Dove è possibile visualizzare lo stato dei processi di importazione e pubblicazione?**
 
-**Ans.** In AEM, potete visualizzare lo stato di un’importazione nella pagina del processo **asincrono** . In Brand Portal, potete visualizzare lo stato di un processo di pubblicazione in **[!UICONTROL Strumenti &gt; Stato]** contributo risorsa.
+**Ans.** In AEM, potete visualizzare lo stato di un’importazione nella pagina del processo **asincrono** . In Brand Portal, potete visualizzare lo stato di un processo di pubblicazione in **[!UICONTROL Strumenti > Stato]**contributo risorsa.
 
 
 
@@ -126,7 +132,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Non vengono visualizzate miniature/anteprime delle risorse caricate nella cartella NEW da un utente di Brand Portal?**
 
-**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Brand Portal.
+**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Portale marchio.
 
 
 
@@ -139,19 +145,19 @@ Ciò vale per qualsiasi cartella pubblicata da Risorse AEM al Portale dei marchi
 
 **Ques. Chi posso contattare con le domande?**
 
-**Ans.** Contatta il tuo Adobe Account Manager o l'Assistenza clienti.
+**Ans.** Contatta il tuo Adobe Account Manager o l&#39;Assistenza clienti.
 
 
 >[!NOTE]
 >
->Il programma di rilascio è provvisorio e soggetto a modifiche. Contatta il tuo Adobe Account Manager o l'Assistenza clienti per ottenere la pianificazione della versione aggiornata.
+>Il programma di rilascio è provvisorio e soggetto a modifiche. Contatta il tuo Adobe Account Manager o l&#39;Assistenza clienti per ottenere la pianificazione della versione aggiornata.
 
 
 
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
-Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedete l'accesso, contattate il vostro account manager Adobe.
+Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedete l&#39;accesso, contattate il vostro account manager Adobe.
 
 * [](https://daycare.day.com) Accesso [al prodotto](https://login.marketing.adobe.com)
 
