@@ -1,23 +1,23 @@
 ---
-title: Gestione dei diritti digitali delle risorse
-seo-title: Gestione dei diritti digitali delle risorse
+title: Gestire i diritti digitali delle risorse
+seo-title: Gestire i diritti digitali delle risorse
 description: Le risorse di licenza e l’impostazione della scadenza per le risorse e i collegamenti condivisi garantiscono l’utilizzo controllato di tali risorse e la loro salvaguardia.
 seo-description: Le risorse di licenza e l’impostazione della scadenza per le risorse e i collegamenti condivisi garantiscono l’utilizzo controllato di tali risorse e la loro salvaguardia.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: riferimento
+content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
 
-# Gestione dei diritti digitali delle risorse {#manage-digital-rights-of-assets}
+# Gestire i diritti digitali delle risorse {#manage-digital-rights-of-assets}
 
-Garantire la distribuzione e l'utilizzo sicuri delle risorse creative e del materiale del marchio è fondamentale per proteggere il marchio. Questo può essere imposto sia all’interno dell’organizzazione che all’esterno associando una data (e un’ora) di scadenza alle risorse approvate pubblicate da AEM al Brand Portal, o concedendo in licenza queste risorse per l’uso condizionale. Inoltre, Brand Portal consente di specificare una data di scadenza per i collegamenti alle risorse condivise da Brand Portal.
+Garantire la distribuzione e l&#39;utilizzo sicuri delle risorse creative e del materiale del marchio è fondamentale per proteggere il marchio. Questo può essere imposto sia all’interno dell’organizzazione che all’esterno associando una data (e un’ora) di scadenza alle risorse approvate pubblicate da AEM al Brand Portal, o concedendo in licenza queste risorse per l’uso condizionale. Inoltre, Brand Portal consente di specificare una data di scadenza per i collegamenti alle risorse condivise da Brand Portal.
 
 Continua a leggere per scoprire in che modo le risorse sono protette su Brand Portal e comprendere le relative autorizzazioni di utilizzo.
 
@@ -29,7 +29,7 @@ La scadenza delle risorse è un modo efficace per controllare l’utilizzo delle
 
 In Brand Portal, gli amministratori possono visualizzare, scaricare e aggiungere le risorse scadute alle raccolte. mentre gli editor e i visualizzatori possono visualizzare e aggiungere solo le risorse scadute alle raccolte.
 
-Gli amministratori possono pubblicare le risorse scadute da AEM Assets al Brand Portal. Tuttavia, le risorse scadute non possono essere condivise tramite collegamento da Brand Portal. Se selezionate una risorsa scaduta da una cartella contenente risorse scadute e non scadute, l’azione **[!UICONTROL Condividi collegamento]** non è disponibile. Tuttavia, se selezionate una cartella contenente risorse scadute e non scadute, sono disponibili le azioni [!UICONTROL Condividi] e Collegamento **** condivisione.
+Gli amministratori possono pubblicare le risorse scadute da AEM Assets al Brand Portal. Tuttavia, le risorse scadute non possono essere condivise tramite collegamento da Brand Portal. Se selezionate una risorsa scaduta da una cartella contenente risorse scadute e non scadute, l’azione **[!UICONTROL Condividi collegamento]**non è disponibile. Tuttavia, se selezionate una cartella contenente risorse scadute e non scadute, sono disponibili le azioni[!UICONTROL Condividi]e Collegamento**** condivisione.
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Nella tabella seguente sono visualizzate le autorizzazioni di utilizzo delle ris
 
 |  | **[!UICONTROL Condivisione collegamenti]** | **[!UICONTROL Scarica]** | **[!UICONTROL Proprietà]** | **[!UICONTROL Aggiungi alla raccolta]** | **[!UICONTROL Elimina]** |
 |---|---|---|---|---|---|
-| **[!UICONTROL Amministratore]** | Non disponibile | Disponibile | Disponibile | Disponibile | Disponibile |
+| **[!UICONTROL Administrator]** | Non disponibile | Disponibile | Disponibile | Disponibile | Disponibile |
 | **[!UICONTROL Editor]** | Non disponibile | Non disponibile | Disponibile | Disponibile | Non disponibile |
 | **[!UICONTROL Visualizzatore]** | Non disponibile | Non disponibile | Disponibile | Disponibile | Non disponibile |
 | **[!UICONTROL Utente ospite]** | Non disponibile | Non disponibile | Disponibile | Disponibile | Non disponibile |
@@ -50,7 +50,7 @@ Nella tabella seguente sono visualizzate le autorizzazioni di utilizzo delle ris
 
 ### Stato di scadenza delle risorse {#expiration-status-of-assets}
 
-Potete visualizzare lo stato di scadenza delle risorse nella loro vista [!UICONTROL a]schede. Un flag rosso sulla scheda indica che la risorsa è scaduta.
+Potete visualizzare lo stato di scadenza delle risorse nella loro vista **[!UICONTROL a]**schede. Un flag rosso sulla scheda indica che la risorsa è scaduta.
 
 ![](assets/expired_assets_cardview.png)
 
@@ -60,7 +60,7 @@ Potete visualizzare lo stato di scadenza delle risorse nella loro vista [!UICONT
 
 ## Scadenza collegamento risorsa {#asset-link-expiration}
 
-Durante la condivisione delle risorse tramite i collegamenti, gli amministratori e gli editor possono impostare una data e un'ora di scadenza utilizzando il campo **[!UICONTROL Scadenza]** della finestra di dialogo Condivisione **** collegamento. La scadenza predefinita del collegamento è di sette giorni dalla data in cui il collegamento viene condiviso.
+Durante la condivisione delle risorse tramite i collegamenti, gli amministratori e gli editor possono impostare una data e un&#39;ora di scadenza utilizzando il campo **[!UICONTROL Scadenza]**della finestra di dialogo Condivisione**** collegamento. La scadenza predefinita del collegamento è di sette giorni dalla data in cui il collegamento viene condiviso.
 
 ![](assets/asset-link-sharing.png)
 
@@ -74,11 +74,11 @@ Le risorse concesse in licenza sono soggette all’accettazione di un contratto 
 
 Alle risorse protette da licenza è associato [un contratto di](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) licenza, che viene fatto impostando la proprietà [](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadati della risorsa in AEM Assets.
 
-Se scegli di scaricare le risorse protette da licenza, verrai reindirizzato alla pagina Gestione  copyright.
+Se scegli di scaricare le risorse protette da licenza, verrai reindirizzato alla pagina Gestione ****copyright.
 
 ![](assets/asset-copyright-mgmt.png)
 
-Qui è necessario selezionare la risorsa per scaricare e accettare il contratto di licenza associato. Se non accettate il contratto di licenza, il pulsante [!UICONTROL Scarica] non è attivato.
+Qui è necessario selezionare la risorsa per scaricare e accettare il contratto di licenza associato. Se non accettate il contratto di licenza, il pulsante **[!UICONTROL Scarica]**non è attivato.
 
 ![](assets/licensed-asset-download-2.png)
 
