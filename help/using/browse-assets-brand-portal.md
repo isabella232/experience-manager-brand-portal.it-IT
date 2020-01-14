@@ -5,16 +5,16 @@ description: Sfogliate le risorse, incrociate le gerarchie di risorse ed effettu
 seo-description: Sfogliate le risorse, incrociate le gerarchie di risorse ed effettuate ricerche nelle risorse, utilizzando diverse opzioni di visualizzazione ed elementi dell'interfaccia utente nel Brand Portal.
 uuid: 178ce217-0050-4922-a204-f4539d46f539
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-content-type: riferimento
-topic-tags: introduzione
+content-type: reference
+topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 9763a57a83db22cd6686701dcbd8fcde16bcbb31
+source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
 
 ---
 
 
-# Sfogliare le risorse su Brand Portal {#browsing-assets-on-brand-portal}
+# Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
 Il Brand Portal di AEM Assets offre diverse funzionalità ed elementi dell’interfaccia utente che semplificano la navigazione tra le risorse, l’attraversamento delle gerarchie di risorse e la ricerca delle risorse utilizzando diverse opzioni di visualizzazione.
 
@@ -73,12 +73,12 @@ Le informazioni sulla gerarchia delle cartelle sono particolarmente utili per di
 
 **Opzione Panoramica per visualizzare le proprietà della risorsa**
 
-L’opzione Panoramica è disponibile per gli utenti non amministratori (editor, visualizzatori, utenti ospiti) per visualizzare le proprietà delle risorse o delle cartelle selezionate. L'opzione Panoramica è visibile:
+L’opzione Panoramica è disponibile per gli utenti non amministratori (editor, visualizzatori, utenti ospiti) per visualizzare le proprietà delle risorse o delle cartelle selezionate. L&#39;opzione Panoramica è visibile:
 
 * nella barra degli strumenti in alto, quando si seleziona una risorsa o una cartella.
 * nell’elenco a discesa quando si seleziona il selettore della barra.
 
-Selezionando l’opzione [!UICONTROL Panoramica] mentre è selezionata una risorsa o una cartella, gli utenti possono visualizzare il titolo, il percorso e l’ora della creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, l’opzione Panoramica permette agli utenti di visualizzare i metadati della risorsa.
+Selezionando l’opzione **[!UICONTROL Panoramica]**mentre è selezionata una risorsa o una cartella, gli utenti possono visualizzare il titolo, il percorso e l’ora della creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, l’opzione Panoramica permette agli utenti di visualizzare i metadati della risorsa.
 
 ![](assets/overview-option.png)
 
@@ -86,7 +86,7 @@ Selezionando l’opzione [!UICONTROL Panoramica] mentre è selezionata una risor
 
 #### Visualizzare le impostazioni nella vista a schede
 
-[!UICONTROL Visualizza impostazioni] si apre quando si seleziona **[!UICONTROL Visualizza impostazioni]** dal selettore di visualizzazione. Consente di ridimensionare le miniature delle risorse nella vista a schede. In questo modo, potete personalizzare la visualizzazione e controllare il numero di miniature visualizzate.
+**[!UICONTROL Visualizza impostazioni]**si apre quando si seleziona**[!UICONTROL  Visualizza impostazioni]** dal selettore di visualizzazione. Consente di ridimensionare le miniature delle risorse nella vista a schede. In questo modo, potete personalizzare la visualizzazione e controllare il numero di miniature visualizzate.
 
 ![](assets/cardviewsettings.png)
 
@@ -107,7 +107,7 @@ Nella vista a elenco sono visualizzate le informazioni relative a ciascuna risor
 * Percorso cartella che mostra la gerarchia<sup>delle risorse*</sup>
 * Data di pubblicazione della risorsa su Brand Portal
 
-* La colonna Percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
+La colonna Percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. You can navigate down the hierarchy by tapping/clicking the resource name, and back up by using the [breadcrumbs in the header](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/basic-handling.html#TheHeader).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -115,7 +115,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Visualizzare le impostazioni nella vista a elenco
 
-Per impostazione predefinita, la vista Elenco mostra [!UICONTROL il nome] della risorsa come prima colonna. Vengono inoltre visualizzate informazioni aggiuntive, come [!UICONTROL Titolo]risorsa, [!UICONTROL Impostazioni internazionali], [!UICONTROL Tipo], [!UICONTROL Dimensioni], [!UICONTROL Dimensioni], , stato di pubblicazione. However, you can select the columns to be shown using [!UICONTROL View Settings].
+Per impostazione predefinita, la vista Elenco mostra **[!UICONTROL il nome]**della risorsa come prima colonna. Vengono inoltre visualizzate informazioni aggiuntive, come**[!UICONTROL  Titolo]**risorsa, **[!UICONTROL Impostazioni internazionali]**,**[!UICONTROL  Tipo]**, **[!UICONTROL Dimensioni]**,**[!UICONTROL  Dimensioni]******, , stato di pubblicazione. However, you can select the columns to be shown using**[!UICONTROL  View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -232,7 +232,7 @@ Comment Type: draft
 
 Oltre a queste viste, utilizzate la vista ad albero per espandere la gerarchia delle risorse mentre visualizzate e selezionate le risorse o le cartelle desiderate.
 
-Per aprire la vista ad albero, toccate o fate clic sul selettore della barra in alto a sinistra, quindi selezionate la struttura ad albero **** Contenuto dal menu.
+Per aprire la vista ad albero, toccate o fate clic sul selettore della barra in alto a sinistra, quindi selezionate la struttura ad albero ****Contenuto dal menu.
 
 ![](assets/contenttree.png)
 
@@ -254,7 +254,7 @@ Potete visualizzare tutte le rappresentazioni disponibili della risorsa nella pa
 
 ![](assets/renditions.png)
 
-Per aprire la pagina delle proprietà della risorsa, usate l’opzione **[!UICONTROL Proprietà (p)]** presente nella barra superiore.
+Per aprire la pagina delle proprietà della risorsa, usate l’opzione **[!UICONTROL Proprietà (p)]**presente nella barra superiore.
 
 ![](assets/asset-properties.png)
 
