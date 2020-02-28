@@ -1,49 +1,79 @@
 ---
 title: Note sulla versione
 seo-title: Note sulla versione
-description: Ottenete informazioni approfondite su funzioni, miglioramenti, problemi critici risolti e problemi noti in Adobe Experience Manager Assets Brand Portal 6.4.5release.
-seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti in Adobe Experience Manager Assets Brand Portal 6.4.5.
+description: Ottenete informazioni approfondite su funzioni, miglioramenti, problemi critici risolti e problemi noti nella release di Adobe Experience Manager Assets Brand Portal 6.4.6.
+seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti in Adobe Experience Manager Assets Brand Portal 6.4.6.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
-topic-tags: brand-Portal
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: 5cb6109b4e3888b7235ae1ae0d29721722ae2ba5
 
 ---
 
 
 # Note sulla versione {#release-notes}
 
-Ottenete informazioni approfondite sulle nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti in Adobe Experience Manager Assets Brand Portal 6.4.5.
+Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti di Adobe Experience Manager Assets Brand Portal 6.4.6.
 
 ## Informazioni sulla versione {#release-information}
 
 | Prodotto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versione | 6.4.5 |
-| Data | Settembre 2019 |
+| Versione | 6.4.6 |
+| Data | Marzo 2020 |
 
 ## Panoramica {#overview}
 
-Il Portale delle risorse di Adobe Experience Manager (AEM) Assets Brand consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su dispositivi diversi. Consente di migliorare l'efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare risorse in formati approvati dall’azienda, in qualsiasi momento e ovunque.
+Il Portale delle risorse di Adobe Experience Manager (AEM) Assets Brand consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su dispositivi diversi. Consente di migliorare l&#39;efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare risorse in formati approvati dall’azienda, in qualsiasi momento e ovunque.
 
-## What's New in 6.4.5 {#what-s-new-in-645}
+## What&#39;s New in 6.4.6 {#what-s-new-in-646}
 
-### Nuove funzioni {#new-features-645}
+### Nuove funzioni {#new-feature}
 
-Brand Portal 6.4.5 è una release che si concentra su come fornire agli utenti del Brand Portal (agenzie/team esterni) la possibilità di caricare contenuti nel Brand Portal e pubblicarli in Risorse AEM, senza necessità di accedere all’ambiente di authoring. Questa funzione è denominata **[Asset Sourcing in Brand Portal](brand-portal-overiew-using-asset-sourcing.md)** e migliorerà l’esperienza dei clienti fornendo agli utenti un meccanismo bidirezionale per contribuire e condividere le risorse con altri utenti del Brand Portal distribuiti a livello globale.
+Questa versione include le nuove funzioni seguenti:
 
-**Origine risorsa in Brand Portal**
+* Captcha per l’accesso degli ospiti al Brand Portal.
 
-Asset Sourcing consente agli utenti di AEM (amministratori/utenti non amministratori) di creare nuove cartelle con un’ulteriore proprietà **Asset Contribution** , in modo che la nuova cartella creata sia aperta all’invio delle risorse da parte degli utenti del Brand Portal. Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate NEW e SHARED, all’interno della cartella **Contribution** appena creata.
+### Miglioramenti {#enhancements-646}
 
-L’utente AEM definisce quindi i requisiti delle risorse caricando una breve descrizione dei tipi di risorse da aggiungere alla cartella dei contributi, nonché una serie di risorse di base, nella cartella **CONDIVISA** per garantire che gli utenti BP dispongano delle informazioni di riferimento necessarie. L’amministratore può quindi concedere agli utenti attivi di Brand Portal l’accesso alla cartella dei contributi prima di pubblicare la nuova cartella **Contribution** nel Brand Portal.
+Questa versione di Brand Portal include i seguenti miglioramenti:
 
-Dopo aver aggiunto il contenuto nella cartella **NEW** , l’utente può pubblicare nuovamente la cartella dei contributi nell’ambiente di authoring di AEM.
+* AEM Assets è ora configurato con Brand Portal tramite Adobe I/O, che fornisce un token IMS per l&#39;autorizzazione del tenant del Brand Portal.
 
-Per ulteriori informazioni, consultate [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
+   >[!NOTE]
+   >
+   >La configurazione tramite OAuth legacy non è più supportata dal 6 aprile 2020 e viene spostata nell&#39;I/O Adobe.
+
+<!--
+   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
+   -->
+
+### Problemi critici risolti {#critical-issues-fixed}
+
+Questa versione include correzioni ai seguenti problemi critici:
+
+* I valori a discesa dello schema di metadati non sono visibili nelle proprietà della risorsa.
+
+* Il sottoschema metadati non visualizza le schede in base al tipo di mime nelle proprietà della risorsa.
+
+* Lo schema di metadati Annulla pubblicazione compila un messaggio di errore anche se lo schema viene rimosso nel backend.
+
+* L&#39;immagine di anteprima non viene visualizzata per una risorsa pubblicata.
+
+* L’utente non può pubblicare o annullare la pubblicazione delle risorse contenenti virgolette singole nel nome.
+
+* I termini e le condizioni non vengono visualizzati durante il download di più risorse.
+
+* Sono state risolte vulnerabilità di sicurezza minori.
+
+### Problemi noti {#known-issues}
+
+Questa versione include i seguenti problemi noti:
+
+* L&#39;opzione Escludi rappresentazioni del sistema non funziona correttamente durante il download di una risorsa.
 
 ## Lingue {#languages}
 
@@ -70,7 +100,7 @@ Per verificare quali piattaforme sono certificate per l’esecuzione con questa 
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
-Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedete l'accesso, contattate il vostro account manager Adobe.
+Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedete l&#39;accesso, contattate il vostro account manager Adobe.
 
 * [](https://daycare.day.com) Accesso [al prodotto](https://login.marketing.adobe.com)
 
