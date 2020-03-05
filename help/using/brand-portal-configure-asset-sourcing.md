@@ -9,7 +9,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 62b254818503bd297ea3016f4ddd70b9283f1c47
+source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
 
 ---
 
@@ -20,7 +20,7 @@ Gli amministratori di AEM possono configurare l’origine delle **risorse** dall
 
 >[!NOTE]
 >
->Prima di iniziare la configurazione, accertati che l’istanza di Risorse AEM sia integrata con il Brand Portal. Consultate [Configurare l’integrazione di AEM Assets con Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-configuring-integration.html).
+>Prima di iniziare la configurazione, accertati che l’istanza di Risorse AEM sia configurata con Brand Portal. Consultate [Configurare AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 
 Il video seguente illustra come configurare l’origine delle risorse nell’istanza di creazione di AEM:
@@ -34,7 +34,7 @@ Gli amministratori di AEM possono abilitare l’origine delle risorse dalla conf
 **Per abilitare l&#39;origine delle risorse:**
 1. Accedete all’istanza di creazione di AEM e aprite l’URL predefinito di Configuration Manager: http:// localhost:4502/system/console/configMgr
 1. Effettuate una ricerca utilizzando la parola chiave **Origine** risorsa per individuare il file di configurazione del flag della funzione di origine delle **[!UICONTROL risorse]**
-1. Fate clic su **[!UICONTROL Asset Sourcing Feature Flag Config]**per aprire la finestra di configurazione
+1. Fate clic su **[!UICONTROL Asset Sourcing Feature Flag Config]** per aprire la finestra di configurazione
 1. Abilita **[!UICONTROL funzionalità casella di controllo.flag.active.status]**
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -52,10 +52,12 @@ L&#39;amministratore può aggiungere nuovi utenti in AEM Admin Console. Per info
 
 **Per caricare l’elenco degli utenti di Brand Portal:**
 1. Accedi all’istanza di creazione AEMURL predefinito: http:// localhost:4502/aem/start.html
-1. Dal pannello **Strumenti** ![](assets/tools.png) , passa a **[!UICONTROL Risorse > Utenti del Brand Portal]**   ![](assets/upload-user-list1.png)
+1. Dal pannello **Strumenti** ![](assets/tools.png) , passa a **[!UICONTROL Risorse > Utenti del Brand Portal]**
+   ![](assets/upload-user-list1.png)
 1. Si apre la finestra Collaboratori di caricamento del portale del marchio.
 Sfogliate il computer locale e caricate il file **di** configurazione (.csv) contenente l’elenco degli utenti attivi di Brand Portal.
-1. Fai clic su **[!UICONTROL Salva]**.   ![](assets/upload-user-list2.png)
+1. Fai clic su **[!UICONTROL Salva]**.
+   ![](assets/upload-user-list2.png)
 
 
 Gli amministratori possono fornire l’accesso a utenti/gruppi specifici da questo elenco di utenti durante la configurazione della cartella dei contributi.
