@@ -2,21 +2,21 @@
 title: Note sulla versione
 seo-title: Note sulla versione
 description: Ottenete informazioni approfondite su funzioni, miglioramenti, problemi critici risolti e problemi noti nella release di Adobe Experience Manager Assets Brand Portal 6.4.6.
-seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti in Adobe Experience Manager Assets Brand Portal 6.4.6.
+seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti nella release di Adobe Experience Manager Assets Brand Portal 6.4.6.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 5cb6109b4e3888b7235ae1ae0d29721722ae2ba5
+source-git-commit: 37ced7a7e51d13e815d9602ddf7dc425f3fa392a
 
 ---
 
 
 # Note sulla versione {#release-notes}
 
-Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti di Adobe Experience Manager Assets Brand Portal 6.4.6.
+Ottenete informazioni approfondite sulle nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti in Adobe Experience Manager Assets Brand Portal 6.4.6.
 
 ## Informazioni sulla versione {#release-information}
 
@@ -35,7 +35,7 @@ Il Portale delle risorse di Adobe Experience Manager (AEM) Assets Brand consente
 
 Questa versione include le nuove funzioni seguenti:
 
-* Captcha per l’accesso degli ospiti al Brand Portal.
+* Captcha per l’accesso degli ospiti al Brand Portal. Per ulteriori informazioni, consultate Accesso [ospiti al Brand Portal](../using/guest-access.md) .
 
 ### Miglioramenti {#enhancements-646}
 
@@ -45,11 +45,11 @@ Questa versione di Brand Portal include i seguenti miglioramenti:
 
    >[!NOTE]
    >
-   >La configurazione tramite OAuth legacy non è più supportata dal 6 aprile 2020 e viene spostata nell&#39;I/O Adobe.
+   >La configurazione tramite OAuth legacy non è più supportata dal 6 aprile 2020 e viene modificata in configurazione tramite I/O Adobe.
 
-<!--
-   For more information, see [Configure integration with Brand Portal](brand-portal-configure-integration.md)
-   -->
+
+Per ulteriori informazioni, consulta [Configurare AEM Assets con il portale dei marchi](configure-aem-assets-with-brand-portal.md)
+
 
 ### Problemi critici risolti {#critical-issues-fixed}
 
@@ -57,7 +57,7 @@ Questa versione include correzioni ai seguenti problemi critici:
 
 * I valori a discesa dello schema di metadati non sono visibili nelle proprietà della risorsa.
 
-* Il sottoschema metadati non visualizza le schede in base al tipo di mime nelle proprietà della risorsa.
+* Il sottoschema metadati non visualizza le schede in base al tipo di mimetismo nelle proprietà della risorsa.
 
 * Lo schema di metadati Annulla pubblicazione compila un messaggio di errore anche se lo schema viene rimosso nel backend.
 
