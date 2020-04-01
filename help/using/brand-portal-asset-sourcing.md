@@ -18,7 +18,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 1aa8892cd51e262ccc16f955655fa644fec230e7
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -40,6 +40,18 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 >Contatta il supporto Adobe per aggiornare l’istanza di AEM all’ultima versione supportata di AEM.
 
 ![Origine risorsa Brand Portal](assets/asset-sourcing.png)
+
+
+>[!NOTE]
+>
+>Se utilizzi AEM 6.5.4, la funzione di origine delle risorse continuerà a funzionare con l’integrazione OAuth legacy.
+>
+>Tuttavia, gli utenti di Brand Portal non sono in grado di pubblicare le risorse delle cartelle dei contributi in Risorse AEM al momento dell’aggiornamento ad Adobe I/O su AEM 6.5.4.
+>
+>Questo problema verrà risolto nel service pack successivo AEM 6.5.5.
+>
+>Per una correzione immediata su AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione.
+
 
 ## Prerequisiti {#prerequisites}
 
