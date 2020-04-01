@@ -2,14 +2,14 @@
 title: Note sulla versione
 seo-title: Note sulla versione
 description: Ottenete informazioni approfondite su funzioni, miglioramenti, problemi critici risolti e problemi noti nella release di Adobe Experience Manager Assets Brand Portal 6.4.6.
-seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti in Adobe Experience Manager Assets Brand Portal 6.4.6.
+seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti nella release di Adobe Experience Manager Assets Brand Portal 6.4.6.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 6b03229b72a1912be57c2bc1b7e47a017d3dca7e
+source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
 
 ---
 
@@ -48,15 +48,14 @@ Questa versione di Brand Portal include i seguenti miglioramenti:
    >La configurazione tramite OAuth legacy non è più supportata dal 6 aprile 2020 e viene modificata in configurazione tramite I/O Adobe.
 
 
-   >[!TIP]
-   >
-   >***Solo clienti esistenti***
-   >
-   >Si consiglia di continuare a utilizzare la configurazione gateway OAuth esistente. Se si verificano problemi con la configurazione del gateway OAuth precedente, eliminate la configurazione esistente e create una nuova configurazione tramite Adobe I/O.
+>[!TIP]
+>
+>***Solo per i clienti esistenti***
+>
+>Si consiglia di continuare a utilizzare la configurazione gateway OAuth esistente. In caso di problemi con la configurazione del gateway OAuth precedente, elimina la configurazione esistente e crea una nuova configurazione tramite Adobe I/O.
 
 
 Per ulteriori informazioni, consulta [Configurare AEM Assets con il portale dei marchi](configure-aem-assets-with-brand-portal.md)
-
 
 ### Problemi critici risolti {#critical-issues-fixed}
 
@@ -80,9 +79,14 @@ Questa versione include correzioni ai seguenti problemi critici:
 
 Questa versione include i seguenti problemi noti:
 
-* Gli utenti di Brand Portal non sono in grado di pubblicare le risorse delle cartelle dei contributi in Risorse AEM al momento dell’aggiornamento ad Adobe I/O.
+* Gli utenti di Brand Portal non sono in grado di pubblicare le risorse delle cartelle dei contributi in Risorse AEM al momento dell’aggiornamento ad Adobe I/O su AEM 6.5.4.
 
-* L&#39;opzione Escludi rappresentazioni del sistema non funziona correttamente durante il download di una risorsa.
+   Questo problema verrà risolto nel service pack successivo 6.5.5.
+
+   Per una correzione immediata su AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione.
+
+* L&#39;opzione Exclude System Renditions (Escludi rappresentazioni di sistema) non funziona correttamente durante il download di una risorsa.
+
 
 ## Lingue {#languages}
 
