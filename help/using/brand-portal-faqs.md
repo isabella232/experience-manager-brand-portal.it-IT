@@ -9,7 +9,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
+source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
 
 ---
 
@@ -19,6 +19,20 @@ source-git-commit: 22b327619eb73c0099f903bb7314d2cb2d796bc4
 Nelle domande frequenti sul Brand Portal gli utenti finali sono interessati alle domande e ai problemi che potrebbero incontrare durante l’utilizzo della versione più recente di AEM Assets Brand Portal 6.4.5 o versioni precedenti.
 
 
+## Domande frequenti su Brand Portal 6.4.6 {#faqs-bp646}
+
+**Ques. L&#39;endpoint OAuth esistente (`https://legacy-oauth.cloud.adobe.io/login`) non funziona. Quale potrebbe essere la ragione possibile?**
+
+**Ans.** La configurazione OAuth precedente è obsoleta. Devi aggiornare le istanze di creazione di Risorse AEM al service pack più recente e configurarlo utilizzando Adobe IO. Per informazioni dettagliate, consultate [Configurare AEM Assets con il Portale](configure-aem-assets-with-brand-portal.md) marchio. Tuttavia, affinché la configurazione OAuth legacy funzioni fino all&#39;aggiornamento, aggiornate l&#39;endpoint OAuth legacy a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+**Ques. Non è possibile pubblicare le risorse della cartella dei contributi da Brand Portal a Risorse AEM dopo l’aggiornamento ad Adobe I/O. L’istanza dell’autore si trova in AEM 6.5.4. Quale potrebbe essere la ragione possibile?**
+
+**Ans.** Sì, si verifica un problema noto durante la pubblicazione delle risorse della cartella di contributi in Risorse AEM su AEM 6.5.4 con Adobe I/O. Questo problema verrà risolto nel service pack successivo AEM 6.5.5.
+
+Per una correzione immediata su AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione di AEM.
+
+
+## Domande frequenti su Brand Portal 6.4.5 {#faqs-bp645}
 
 **Ques. Qual è la modifica principale nella versione 6.4.5 di Brand Portal?**
 
@@ -108,7 +122,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Dove è possibile visualizzare lo stato dei processi di importazione e pubblicazione?**
 
-**Ans.** In AEM, potete visualizzare lo stato di un’importazione nella pagina del processo **asincrono** . In Brand Portal, potete visualizzare lo stato di un processo di pubblicazione in **[!UICONTROL Strumenti > Stato]**contributo risorsa.
+**Ans.** In AEM, potete visualizzare lo stato di un’importazione nella pagina del processo **asincrono** . In Brand Portal, potete visualizzare lo stato di un processo di pubblicazione in **[!UICONTROL Strumenti > Stato]** contributo risorsa.
 
 
 
@@ -132,7 +146,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Non vengono visualizzate miniature/anteprime delle risorse caricate nella cartella NEW da un utente di Brand Portal?**
 
-**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Portale marchio.
+**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Brand Portal.
 
 
 
@@ -143,7 +157,7 @@ Ciò vale per qualsiasi cartella pubblicata da Risorse AEM al Portale dei marchi
 
 
 
-**Ques. Chi posso contattare con le domande?**
+**Ques. Chi ho a che fare con le domande?**
 
 **Ans.** Contatta il tuo Adobe Account Manager o l&#39;Assistenza clienti.
 
