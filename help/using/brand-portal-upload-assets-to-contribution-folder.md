@@ -5,11 +5,12 @@ description: Scoprite come caricare nuove risorse nella cartella dei contributi 
 seo-description: Scoprite come caricare nuove risorse nella cartella dei contributi in Brand Portal.
 uuid: null
 content-type: reference
-topic-tags: brand-Portal
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 3072a3a9343b64f4121262c1a3ee8a5ba439e31a
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -28,12 +29,12 @@ Gli utenti di Brand Portal possono quindi creare nuove risorse da assegnare al c
 
 **Per caricare nuove risorse:**
 
-1. Effettuate l'accesso all'istanza Brand Portal.
+1. Effettuate l&#39;accesso all&#39;istanza Brand Portal.
 La dashboard di Brand Portal riflette tutte le cartelle esistenti consentite all’utente di Brand Portal insieme alla nuova cartella di contributi condivisi.
 1. Fate clic per aprire la cartella dei contributi. Nella cartella dei contributi sono visualizzate due sottocartelle **[!UICONTROL CONDIVISE]** e **[!UICONTROL NUOVO]** .
 1. Fate clic su **[!UICONTROL NUOVA]** cartella.
    ![](assets/upload-new-assets1.png)
-1. Fate clic su **[!UICONTROL Crea &gt; File]** ![](assets/upload.png) per caricare singoli file o cartelle (.zip) contenenti più risorse.
+1. Fate clic su **[!UICONTROL Crea > File]** ![](assets/upload.png) per caricare singoli file o cartelle (.zip) contenenti più risorse.
    ![](assets/upload-new-assets2.png)
 1. Sfogliate e caricate nuove risorse (file/cartelle) nella cartella **[!UICONTROL NEW]** .
    ![](assets/upload-new-assets3.png)
