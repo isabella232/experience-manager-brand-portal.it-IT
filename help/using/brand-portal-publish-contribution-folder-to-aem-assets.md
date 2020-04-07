@@ -5,11 +5,12 @@ description: Ottieni informazioni approfondite sulla pubblicazione della cartell
 seo-description: Ottieni informazioni approfondite sulla pubblicazione della cartella dei contributi in Risorse AEM in Brand Portal.
 uuid: null
 content-type: reference
-topic-tags: brand-Portal
+contentOwner: Vishabh Gupta
+topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 413a6bd17d689d0af0cce20bbd7dedb6ae3cf9b5
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -22,7 +23,7 @@ Accertatevi di aver soddisfatto i requisiti [delle](brand-portal-download-asset-
 
 **Per pubblicare la cartella dei contributi:**
 
-1. Effettuate l'accesso all'istanza Brand Portal.
+1. Effettuate l&#39;accesso all&#39;istanza Brand Portal.
 1. Selezionate la cartella dei contributi dalla dashboard di Brand Portal.
 1. Fate clic su **[!UICONTROL Pubblica in AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
