@@ -5,11 +5,12 @@ description: Ottieni informazioni approfondite sulle domande frequenti nel porta
 seo-description: null
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -27,7 +28,7 @@ Nelle domande frequenti sul Brand Portal gli utenti finali sono interessati alle
 
 **Ques. Non è possibile pubblicare le risorse della cartella dei contributi da Brand Portal a Risorse AEM dopo l’aggiornamento ad Adobe I/O. L’istanza dell’autore si trova in AEM 6.5.4. Quale potrebbe essere la ragione possibile?**
 
-**Ans.** Sì, si verifica un problema noto durante la pubblicazione delle risorse della cartella di contributi in Risorse AEM su AEM 6.5.4 con Adobe I/O. Questo problema verrà risolto nel service pack successivo AEM 6.5.5.
+**Ans.** Sì, si verifica un problema noto durante la pubblicazione delle risorse della cartella di contributi in Risorse AEM su AEM 6.5.4 con Adobe I/O. Questo problema verrà risolto nel service pack successivo.
 
 Per una correzione immediata su AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione di AEM.
 
@@ -146,7 +147,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Non vengono visualizzate miniature/anteprime delle risorse caricate nella cartella NEW da un utente di Brand Portal?**
 
-**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Brand Portal.
+**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Portale marchio.
 
 
 
