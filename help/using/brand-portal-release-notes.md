@@ -2,14 +2,15 @@
 title: Note sulla versione
 seo-title: Note sulla versione
 description: Ottenete informazioni approfondite su funzioni, miglioramenti, problemi critici risolti e problemi noti nella release di Adobe Experience Manager Assets Brand Portal 6.4.6.
-seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti nella release di Adobe Experience Manager Assets Brand Portal 6.4.6.
+seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti in Adobe Experience Manager Assets Brand Portal 6.4.6.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: e0aeb9a69c81add2d87463fc87d6d08ae57722b9
+source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
 
 ---
 
@@ -35,13 +36,16 @@ Il Portale delle risorse di Adobe Experience Manager (AEM) Assets Brand consente
 
 Questa versione include le nuove funzioni seguenti:
 
-* Captcha per l’accesso degli ospiti al Brand Portal. Per ulteriori informazioni, consultate Accesso [ospiti al Brand Portal](../using/guest-access.md) .
+* Captcha per l’accesso degli ospiti al Brand Portal. Per ulteriori informazioni, consultate Accesso [](../using/guest-access.md) ospiti al Brand Portal.
+
+* Brand Portal ora è supportato con il servizio cloud AEM Assets. Puoi configurare AEM Assets in modo che possa funzionare con Brand Portal per condividere e distribuire le risorse con gli utenti del Brand Portal.
+Per ulteriori informazioni, consulta [Configurare il servizio cloud di Risorse AEM con Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
 
 ### Miglioramenti {#enhancements-646}
 
 Questa versione di Brand Portal include i seguenti miglioramenti:
 
-* AEM Assets è ora configurato con Brand Portal tramite Adobe I/O, che fornisce un token IMS per l&#39;autorizzazione del tenant del Brand Portal.
+* In AEM 6.3 e versioni successive, viene modificato il canale di autorizzazione tra Risorse AEM e Portale marchio. AEM Assets è ora configurato con Brand Portal tramite Adobe I/O, che fornisce un token IMS per l&#39;autorizzazione del tenant del Brand Portal.
 
    >[!NOTE]
    >
@@ -109,7 +113,7 @@ Per verificare quali piattaforme sono certificate per l’esecuzione con questa 
 ## Collegamenti {#links}
 
 * [Pagina prodotto Adobe Experience Manager su adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Documentazione su Assets Brand Portal](https://helpx.adobe.com/experience-manager/brand-portal/user-guide.html)
+* [Documentazione su Assets Brand Portal](https://helpx.adobe.com/it/experience-manager/brand-portal/user-guide.html)
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
