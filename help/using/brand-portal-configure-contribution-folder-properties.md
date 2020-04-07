@@ -5,12 +5,13 @@ description: 'Scopri come configurare le proprietà di una cartella di contribut
 seo-description: 'Scopri come configurare le proprietà di una cartella di contributi in Risorse AEM. '
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 6a1edaf9db40461096c5583e987f4d482cbad7cd
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
@@ -23,13 +24,13 @@ Durante la configurazione delle proprietà di una cartella di contributi, l’am
 * **Breve** caricamento:  Carica documento Requisito risorsa contenente informazioni relative alle risorse.
 * **Aggiungi collaboratori**: Aggiungete utenti o gruppi del Brand Portal per consentire loro di accedere alla cartella dei contributi.
 
-Il requisito risorsa si riferisce ai dettagli forniti dagli amministratori per aiutare i collaboratori (utenti del Brand Portal) a comprendere la necessità e i requisiti della cartella dei contributi. L’amministratore carica un documento sui requisiti delle risorse che contiene una breve descrizione del tipo di risorse da aggiungere alla cartella dei contributi e alle informazioni sulle risorse, ad esempio lo scopo, il tipo di immagini, la dimensione massima, ecc.
+Il requisito risorsa si riferisce ai dettagli forniti dagli amministratori per aiutare i collaboratori (utenti del Brand Portal) a comprendere la necessità e i requisiti della cartella dei contributi. L’amministratore carica un documento sui requisiti delle risorse che contiene una breve descrizione del tipo di risorse da aggiungere alla cartella dei contributi e alle informazioni relative alle risorse, ad esempio lo scopo, il tipo di immagini, la dimensione massima, ecc.
 
 L’amministratore può quindi concedere agli utenti/ai gruppi del Brand Portal l’accesso alla cartella Contribution prima di pubblicare la cartella Contribution appena creata nel Brand Portal.
 
 **Per configurare le proprietà della cartella dei contributi:**
 1. Accedi all’istanza di creazione AEMURL predefinito: http:// localhost:4502/aem/start.html
-1. Andate a **[!UICONTROL Risorse &gt; File]** e individuate la cartella dei contributi.
+1. Andate a **[!UICONTROL Risorse > File]** e individuate la cartella dei contributi.
 1. Selezionate la cartella dei contributi e fate clic su **[!UICONTROL Proprietà]** ![](assets/properties.png). Si apre la finestra Proprietà cartella.
    ![](assets/contribution-folder-property1.png)
 1. Passate alla scheda Contributo **** risorsa.
