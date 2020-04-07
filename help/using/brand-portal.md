@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: aa6bd187124888cd62ca1f5c7192f9d65ac6ca8a
+source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
 
 ---
 
@@ -33,13 +33,13 @@ Risorse Adobe Experience Manager (AEM) è configurato con Brand Portal tramite A
 
 >[!NOTE]
 >
->In AEM 6.3 e versioni successive è supportata la configurazione di Risorse AEM con Portale marchio tramite Adobe I/O.
+>La configurazione di AEM Assets con il Portale del marchio tramite Adobe I/O è supportata dal servizio cloud AEM Assets 6.3 e versioni successive.
 
 ### Prerequisiti per configurare Risorse AEM con Brand Portal {#prerequisites}
 
 Per configurare Risorse AEM con Brand Portal è necessario disporre di quanto segue:
 
-* Un’istanza di creazione di AEM Assets con l’ultimo Service Pack.
+* Un’istanza di Risorse AEM in esecuzione.
 * URL tenant del Brand Portal.
 * Un utente con privilegi di amministratore di sistema nell’organizzazione IMS del tenant Brand Portal.
 
@@ -219,5 +219,5 @@ Potete ignorare questa notifica e continuare a utilizzare Brand Portal. Questa n
 
 ## Related resources {#related-resources}
 
-* [Assistenza clienti Adobe](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Assistenza clienti Adobe](https://helpx.adobe.com/it/marketing-cloud/contact-support.html)
 * [Forum su AEM](https://www.adobe.com/go/aod_forums_en)
