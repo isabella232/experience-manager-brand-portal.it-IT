@@ -5,6 +5,7 @@ description: Ottieni informazioni approfondite sulla funzione di determinazione 
 seo-description: Ottieni informazioni approfondite sulla funzione di determinazione origine delle risorse rilasciata nel portale dei marchi di Adobe Experience Manager Assets.
 uuid: null
 content-type: reference
+contentOwner: Vishabh Gupta
 topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
@@ -18,7 +19,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: b8e252140a8e77595489682e69da8c86284a28d1
+source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
 
 ---
 
