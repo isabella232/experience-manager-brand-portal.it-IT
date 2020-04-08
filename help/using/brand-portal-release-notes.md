@@ -2,7 +2,7 @@
 title: Note sulla versione
 seo-title: Note sulla versione
 description: Ottenete informazioni approfondite su funzioni, miglioramenti, problemi critici risolti e problemi noti nella release di Adobe Experience Manager Assets Brand Portal 6.4.6.
-seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti in Adobe Experience Manager Assets Brand Portal 6.4.6.
+seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti nella release di Adobe Experience Manager Assets Brand Portal 6.4.6.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: a357879f921ac88f89d1bc11bff379f1d0d3e681
+source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
 
 ---
 
@@ -36,10 +36,10 @@ Il Portale delle risorse di Adobe Experience Manager (AEM) Assets Brand consente
 
 Questa versione include le nuove funzioni seguenti:
 
-* Captcha per l’accesso degli ospiti al Brand Portal. Per ulteriori informazioni, consultate Accesso [](../using/guest-access.md) ospiti al Brand Portal.
+* Captcha per l’accesso degli ospiti al Brand Portal. Per ulteriori informazioni, consultate Accesso [ospiti al Brand Portal](../using/guest-access.md) .
 
 * Brand Portal ora è supportato con il servizio cloud AEM Assets. Puoi configurare AEM Assets in modo che possa funzionare con Brand Portal per condividere e distribuire le risorse con gli utenti del Brand Portal.
-Per ulteriori informazioni, consulta [Configurare il servizio cloud di Risorse AEM con Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brandportal/configure-aem-assets-with-brand-portal.html).
+Per ulteriori informazioni, consulta [Configurare il servizio cloud di Risorse AEM con Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
 
 ### Miglioramenti {#enhancements-646}
 
