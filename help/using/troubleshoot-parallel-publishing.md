@@ -9,14 +9,14 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 5b16a4073592896264237f00554e361ed8929383
 
 ---
 
 
 # Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal è configurato con Risorse AEM per disporre di risorse del marchio approvate da assimilare (o pubblicare) direttamente dall’istanza di creazione di AEM Assets. Una volta [configurata](../using/configure-aem-assets-with-brand-portal.md), AEM Author utilizza un agente di replica per replicare le risorse selezionate nel servizio cloud Brand Portal per l&#39;utilizzo approvato dagli utenti del Brand Portal. Più agenti di replica vengono utilizzati AEM 6.2 SP1-CFP5], AEM CFP 6.3.0.2 e versioni successive per consentire la pubblicazione parallela ad alta velocità.
+Brand Portal è configurato con Risorse AEM per disporre di risorse del marchio approvate da assimilare (o pubblicare) direttamente dall’istanza di creazione di AEM Assets. Una volta [configurata](../using/configure-aem-assets-with-brand-portal.md), AEM Author utilizza un agente di replica per replicare le risorse selezionate nel servizio cloud Brand Portal per l&#39;utilizzo approvato dagli utenti del Brand Portal. Più agenti di replica vengono utilizzati AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 e versioni successive per consentire la pubblicazione parallela ad alta velocità.
 
 >[!NOTE]
 >
