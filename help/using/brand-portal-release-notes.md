@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: f90bf72c6ec4ee19ca7949fa4cf0dc8ec4c93cfd
+source-git-commit: 9bb1538165030f7f9e78af99bb89ea38897c3967
 
 ---
 
@@ -32,11 +32,11 @@ Il Portale delle risorse di Adobe Experience Manager (AEM) Assets Brand consente
 
 ## What&#39;s New in 6.4.6 {#what-s-new-in-646}
 
-### Nuove funzioni {#new-feature}
+### New Features {#new-feature}
 
 Questa versione include le nuove funzioni seguenti:
 
-* Captcha per l’accesso degli ospiti al Brand Portal. Per ulteriori informazioni, consultate Accesso [ospiti al Brand Portal](../using/guest-access.md) .
+* Captcha per l’accesso degli ospiti al Brand Portal. Per ulteriori informazioni, consultate Accesso [](../using/guest-access.md) ospiti al Brand Portal.
 
 * Brand Portal ora è supportato con il servizio cloud AEM Assets. Puoi configurare AEM Assets in modo che possa funzionare con Brand Portal per condividere e distribuire le risorse con gli utenti del Brand Portal.
 Per ulteriori informazioni, consulta [Configurare il servizio cloud di Risorse AEM con Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html).
@@ -59,7 +59,7 @@ Questa versione di Brand Portal include i seguenti miglioramenti:
 >Si consiglia di continuare a utilizzare la configurazione gateway OAuth esistente. In caso di problemi con la configurazione del gateway OAuth precedente, elimina la configurazione esistente e crea una nuova configurazione tramite Adobe I/O.
 
 
-Per ulteriori informazioni, consulta [Configurare AEM Assets con il portale dei marchi](configure-aem-assets-with-brand-portal.md)
+For more information, see [Configure AEM Assets with Brand Portal](configure-aem-assets-with-brand-portal.md)
 
 ### Problemi critici risolti {#critical-issues-fixed}
 
@@ -119,6 +119,8 @@ Per verificare quali piattaforme sono certificate per l’esecuzione con questa 
 
 Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedete l&#39;accesso, contattate il vostro account manager Adobe.
 
-* [](https://daycare.day.com) Accesso [al prodotto](https://login.marketing.adobe.com)
+* [https://daycare.day.com](https://daycare.day.com)
+
+* [Accesso al prodotto](https://login.marketing.adobe.com)
 
 * [Assistenza clienti Adobe](https://helpx.adobe.com/contact.html)
