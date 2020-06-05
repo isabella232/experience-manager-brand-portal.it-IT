@@ -10,30 +10,35 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1250'
+ht-degree: 1%
 
 ---
 
 
 # Domande frequenti {#frequently-asked-questions}
 
-Nelle domande frequenti sul Brand Portal gli utenti finali sono interessati alle domande e ai problemi che potrebbero incontrare durante l’utilizzo della versione più recente di AEM Assets Brand Portal 6.4.5 o versioni precedenti.
+Nelle domande frequenti sul Brand Portal gli utenti finali sono interessati alle domande e ai problemi che potrebbero incontrare durante l’utilizzo della versione più recente di AEM Assets Brand Portal 6.4.6 o versioni precedenti.
 
 
-## Domande frequenti su Brand Portal 6.4.6 {#faqs-bp646}
+## Domande frequenti su Brand Portal 6.4.6  {#faqs-bp646}
 
 **Ques. L&#39;endpoint OAuth esistente (`https://legacy-oauth.cloud.adobe.io/login`) non funziona. Quale potrebbe essere la ragione possibile?**
 
-**Ans.** La configurazione OAuth precedente è obsoleta. Devi aggiornare le istanze di creazione di Risorse AEM al service pack più recente e configurarlo utilizzando Adobe IO. Per informazioni dettagliate, consultate [Configurare AEM Assets con il Portale](configure-aem-assets-with-brand-portal.md) marchio. Tuttavia, affinché la configurazione OAuth legacy funzioni fino all&#39;aggiornamento, aggiornate l&#39;endpoint OAuth legacy a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** La configurazione OAuth precedente è obsoleta. Devi aggiornare le istanze di creazione di Risorse AEM al service pack più recente e configurarlo tramite Adobe Developer Console. Per informazioni dettagliate, consultate [Configurare AEM Assets con il Portale](configure-aem-assets-with-brand-portal.md) marchio. Tuttavia, affinché la configurazione OAuth legacy funzioni fino all&#39;aggiornamento, aggiornate l&#39;endpoint OAuth legacy a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
-**Ques. Non è possibile pubblicare le risorse della cartella dei contributi da Brand Portal a Risorse AEM dopo l’aggiornamento ad Adobe I/O. L’istanza dell’autore si trova in AEM 6.5.4. Quale potrebbe essere la ragione possibile?**
+**Ques. Dopo l’aggiornamento ad Adobe Developer Console, non sono in grado di pubblicare le risorse della cartella dei contributi da Brand Portal a Risorse AEM. L’istanza dell’autore si trova in AEM 6.5.4. Quale potrebbe essere la ragione possibile?**
 
-**Ans.** Sì, si verifica un problema noto durante la pubblicazione delle risorse della cartella di contributi in Risorse AEM su AEM 6.5.4 con Adobe I/O. Questo problema verrà risolto nel service pack successivo.
+**Ans.** Sì, si verifica un problema noto durante la pubblicazione delle risorse della cartella dei contributi in Risorse AEM su AEM 6.5.4 tramite Adobe Developer Console.
+
+Questo problema è stato risolto in AEM 6.5.5. Puoi aggiornare l’istanza di Risorse AEM al service pack AEM 6.5.5 più recente e [aggiornare le configurazioni](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) su Adobe Developer Console.
 
 Per una correzione immediata su AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione di AEM.
 
 
-## Domande frequenti su Brand Portal 6.4.5 {#faqs-bp645}
+## Domande frequenti su Brand Portal 6.4.5  {#faqs-bp645}
 
 **Ques. Qual è la modifica principale nella versione 6.4.5 di Brand Portal?**
 
@@ -76,14 +81,14 @@ Questa cartella viene condivisa con gli utenti attivi di Brand Portal per ottene
 
 **Ques. Cosa contiene una cartella Contribution?**
 
-**Ans.** La cartella **Contribution** contiene due sottocartelle **NEW** e **SHARED**. Inizialmente, la cartella NEW è vuota e la cartella SHARED contiene il contenuto di riferimento (risorse riutilizzabili) per gli utenti di Brand Portal.
+**Ans.** **La cartella Contribution** contiene due sottocartelle **NEW** e **SHARED**. Inizialmente, la cartella NEW è vuota e la cartella SHARED contiene il contenuto di riferimento (risorse riutilizzabili) per gli utenti di Brand Portal.
 Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il contenuto nella cartella **NEW** .
 
 
 
 **Ques.  È possibile modificare il nome di una cartella di contributi esistente?**
 
-**Ans.** **No**, non è possibile modificare il nome di una cartella **Contribution** esistente.
+**Ans.** **No**, non è possibile modificare il nome di una cartella **Contributo** esistente.
 
 
 
@@ -106,6 +111,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 >[!NOTE]
 >
 >Se non siete già utenti di Brand Portal, chiedete all’amministratore AEM di creare l’utente nella console di amministrazione di AEM e di aggiungere il vostro profilo al file di configurazione dell’utente nell’elenco degli utenti di Brand Portal. Fate riferimento a [Aggiunta di utenti](brand-portal-configure-asset-sourcing.md)del portale dei marchi.
+
 
 
 
@@ -174,6 +180,6 @@ Ciò vale per qualsiasi cartella pubblicata da Risorse AEM al Portale dei marchi
 
 Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedete l&#39;accesso, contattate il vostro account manager Adobe.
 
-* [](https://daycare.day.com) Accesso [al prodotto](https://login.marketing.adobe.com)
+* [](https://daycare.day.com) [Accesso al prodotto](https://login.marketing.adobe.com)
 
 * [Assistenza clienti Adobe](https://helpx.adobe.com/contact.html)
