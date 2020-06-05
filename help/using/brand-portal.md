@@ -9,7 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 9169407bbbfabd94be31c89c028be64e55afc064
+source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+workflow-type: tm+mt
+source-wordcount: '1522'
+ht-degree: 9%
 
 ---
 
@@ -29,19 +32,20 @@ L’ambiente portale basato su browser consente di caricare, sfogliare, cercare,
 
 ## Configurare AEM Assets con Brand Portal {#configure-brand-portal}
 
-Risorse Adobe Experience Manager (AEM) è configurato con Brand Portal tramite Adobe I/O, che fornisce un token IMS per l’autorizzazione del tenant del Brand Portal.
+Risorse Adobe Experience Manager (AEM) è configurato con Brand Portal tramite Adobe Developer Console, che fornisce un token IMS per l’autorizzazione del tenant del Brand Portal.
 
 >[!NOTE]
 >
->La configurazione di AEM Assets con il Portale del marchio tramite Adobe I/O è supportata dal servizio cloud AEM Assets 6.3 e versioni successive.
+>La configurazione di Risorse AEM con il portale del marchio tramite Adobe Developer Console è supportata dal servizio cloud AEM Assets 6.3 e versioni successive.
 
-### Prerequisiti per configurare Risorse AEM con Brand Portal {#prerequisites}
 
-Per configurare Risorse AEM con Brand Portal è necessario disporre di quanto segue:
+### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
-* Un’istanza di Risorse AEM in esecuzione.
-* URL tenant del Brand Portal.
-* Un utente con privilegi di amministratore di sistema nell’organizzazione IMS del tenant Brand Portal.
+Per configurare AEM Assets con Brand Portal, è necessario quanto segue:
+
+* Un’istanza di AEM Assets in esecuzione.
+* URL del tenant di Brand Portal.
+* Un utente con privilegi di amministratore di sistema nell’organizzazione IMS del tenant di Brand Portal.
 
 Per ulteriori informazioni, consulta [Configurazione di Risorse AEM con Brand Poral](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -123,9 +127,9 @@ Oltre alle attività descritte sopra, un autore in Risorse AEM può effettuare l
 
 [Configurare AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
-[Pubblicare le cartelle su Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Pubblicare cartelle su Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
 
-[Pubblicare raccolte in Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Pubblicare raccolte su Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
 ## Alias alternativo per l’URL del Brand Portal {#tenant-alias-for-portal-url}
 
@@ -139,6 +143,7 @@ Tuttavia, l&#39;istanza di AEM Author può essere [configurata](../using/configu
 >Per ottenere un alias per il nome del tenant nell&#39;URL del portale esistente, le organizzazioni devono contattare il supporto Adobe con una nuova richiesta di creazione alias del tenant. Questa richiesta viene elaborata verificando prima se l&#39;alias è disponibile e quindi creando l&#39;alias.
 >
 >Per sostituire il vecchio alias o eliminarlo, è necessario seguire lo stesso processo.
+
 
 ## Request access to Brand Portal {#request-access-to-brand-portal}
 
