@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '175'
+ht-degree: 0%
 
 ---
 
@@ -28,9 +31,9 @@ Accertatevi di aver soddisfatto i requisiti [delle](brand-portal-download-asset-
 1. Fate clic su **[!UICONTROL Pubblica in AEM]** ![](assets/export.png).
    ![](assets/publish-contribution-folder-to-aem.png)
 
-Una notifica e-mail/impulso viene inviata a Brand Portal e AEM, all’amministratore e all’utente in varie fasi del flusso di lavoro di pubblicazione:
-1. **In coda** - Quando si attivano i flussi di lavoro di pubblicazione in Brand Portal, la cartella dei contributi viene pubblicata da Brand Portal ad AEM.
-1. **In corso** - Quando Risorse AEM inizia a importare la cartella dei contributi.
-1. **Completa** : al termine dell’azione di pubblicazione, la cartella dei contributi viene importata correttamente in Risorse AEM.
+Una notifica e-mail/impulso viene inviata agli utenti del Brand Portal e all’amministratore AEM in varie fasi del flusso di lavoro di pubblicazione:
+1. **In coda** - Quando il flusso di lavoro di pubblicazione viene attivato in Brand Portal, viene pubblicata una cartella di contributi da Brand Portal a Risorse AEM.
+
+1. **Completa** : al termine del flusso di lavoro di pubblicazione, la cartella dei contributi viene importata correttamente in Risorse AEM.
 
 
