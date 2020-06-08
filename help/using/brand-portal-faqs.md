@@ -10,10 +10,10 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 0278d17cc774338b456d9c3881953f2e34ca7126
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '1250'
-ht-degree: 1%
+source-wordcount: '1418'
+ht-degree: 0%
 
 ---
 
@@ -36,6 +36,25 @@ Nelle domande frequenti sul Brand Portal gli utenti finali sono interessati alle
 Questo problema è stato risolto in AEM 6.5.5. Puoi aggiornare l’istanza di Risorse AEM al service pack AEM 6.5.5 più recente e [aggiornare le configurazioni](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) su Adobe Developer Console.
 
 Per una correzione immediata su AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione di AEM.
+
+**Ques. Desidero attivare la funzione di origine risorse nell’istanza cloud di Risorse AEM. Come posso configurarlo?**
+
+**Ans.** No, al momento la funzione Asset Sourcing non è supportata dal servizio cloud AEM Assets.
+
+Rimanete connessi e osservate le note sulla versione per le notifiche sulla disponibilità della funzione nelle prossime release.
+
+**Ques. Non è possibile pubblicare le risorse da Risorse AEM al Portale dei marchi e il registro degli agenti di replica genera un&#39;eccezione`java.net.SocketException: Connection timed out`. C&#39;è una correzione rapida?**
+
+**Ans.** Se nella coda di replica è presente un numero di richieste in sospeso, esiste la possibilità che l&#39;agente di replica non elabori la richiesta di pubblicare una risorsa e generi un&#39;eccezione: `java.net.SocketException: Connection timed out`.
+
+Per risolvere il problema, effettuate le seguenti operazioni:
+
+1. Aprire l&#39;agente di replica e fare clic su **[!UICONTROL Modifica]** per modificare le impostazioni dell&#39;agente di replica.
+1. In Impostazioni agente, fare clic sulla scheda **[!UICONTROL Estese]**.
+1. Selezionate la casella di controllo **[!UICONTROL Chiudi connessione]**.
+1. Riavviate il bundle di replica (server).
+
+Abilitare le impostazioni su tutti e quattro gli agenti di replica per evitare problemi con l&#39;agente di replica.
 
 
 ## Domande frequenti su Brand Portal 6.4.5  {#faqs-bp645}
@@ -106,7 +125,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Come posso accedere a una cartella Contribution?**
 
-**Ans.** Puoi accedere a una cartella **Contribution** solo se è stata condivisa con te. Riceverai una notifica e-mail/impulso ogni volta che una cartella Contribution viene condivisa con te. Potete accedere alla cartella Contribution tramite il collegamento condiviso nell’e-mail oppure accedere all’istanza Brand Portal e passare all’icona Bell per la notifica e accedere alla cartella Contribution.
+**Ans.** Potete accedere a una cartella **Contribution** solo se è stata condivisa con voi. Riceverai una notifica e-mail/impulso ogni volta che una cartella Contribution viene condivisa con te. Potete accedere alla cartella Contribution tramite il collegamento condiviso nell’e-mail oppure accedere all’istanza Brand Portal e passare all’icona Bell per la notifica e accedere alla cartella Contribution.
 
 >[!NOTE]
 >
