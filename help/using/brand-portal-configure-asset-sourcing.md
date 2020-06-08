@@ -10,7 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+workflow-type: tm+mt
+source-wordcount: '381'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +24,7 @@ Gli amministratori di AEM possono configurare l’origine delle **risorse** dall
 
 >[!NOTE]
 >
->Prima di iniziare la configurazione, accertati che l’istanza di Risorse AEM sia configurata con Brand Portal. Consultate [Configurare AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+>Prima di iniziare la configurazione, accertati che l’istanza di Risorse AEM sia configurata con Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 
 Il video seguente illustra come configurare l’origine delle risorse nell’istanza di creazione di AEM:
