@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 465b80ada85284ab0379e4a5922def32fffbfeb2
+source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 >
 >La sorgente delle risorse in Brand Portal è supportata in AEM 6.5.2.0 e versioni successive.
 >
->Questa funzione non è supportata nelle versioni precedenti - AEM 6.3 e AEM 6.4.
+>Questa funzione non è supportata dal servizio cloud AEM Assets e dalle versioni precedenti - AEM 6.3 e AEM 6.4.
 >
 >Contatta il supporto Adobe per aggiornare l’istanza di AEM all’ultima versione supportata di AEM.
 
