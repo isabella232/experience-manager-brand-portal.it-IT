@@ -4,7 +4,10 @@ seo-title: Guida utente di AEM Brand Portal
 description: Guida utente di AEM Brand Portal
 seo-description: Descrive come utilizzare Brand Portal
 translation-type: tm+mt
-source-git-commit: 777fcc95908f9e31be0aeb4155c8a5f35169fa81
+source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+workflow-type: tm+mt
+source-wordcount: '343'
+ht-degree: 88%
 
 ---
 
