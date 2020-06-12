@@ -7,7 +7,7 @@ getting-started-title: Guida introduttiva
 getting-started-url: https://helpx.adobe.com/experience-manager/kt/assets/using/brand-portal-article-understand.html
 tutorials-title: Esercitazioni
 tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manager
-git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.it-IT
+git-repo: https://github.com/AdobeDocs/experience-manager-brand-portal.en
 index: y
 translation-type: tm+mt
 source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
