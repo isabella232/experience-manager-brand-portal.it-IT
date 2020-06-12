@@ -19,9 +19,9 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
 workflow-type: tm+mt
-source-wordcount: '470'
+source-wordcount: '453'
 ht-degree: 0%
 
 ---
@@ -33,16 +33,18 @@ ht-degree: 0%
 
 Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Brand Portal possono visualizzare, cercare e scaricare risorse dalla cartella dei contributi e dalle altre cartelle consentite. Inoltre, gli amministratori possono condividere ulteriormente la cartella dei contributi, modificare le proprietà e aggiungere risorse alle raccolte.
 
->[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
+## Prerequisiti {#prerequisites}
+
+* AEM 6.5.2 o versione successiva.
+* Accertati che l’istanza di Risorse AEM sia configurata con il Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Assicurati che il tenant del Brand Portal sia configurato con un’istanza di creazione di AEM Assets.
 
 >[!NOTE]
 >
->La sorgente delle risorse in Brand Portal è supportata in AEM 6.5.2.0 e versioni successive.
->
->Questa funzione non è supportata dal servizio cloud AEM Assets e dalle versioni precedenti - AEM 6.3 e AEM 6.4.
->
->Contatta il supporto Adobe per aggiornare l’istanza di AEM all’ultima versione supportata di AEM.
+>La sorgente delle risorse non è supportata dal servizio cloud AEM Assets.
 
+
+>[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Origine risorsa Brand Portal](assets/asset-sourcing.png)
 
@@ -55,11 +57,6 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 >
 >Per una correzione immediata su AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione.
 
-
-## Prerequisiti {#prerequisites}
-
-* AEM 6.5.0.2 o versione successiva.
-* Accertati che l’istanza di Risorse AEM sia configurata con il Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
 ## Consulta anche {#reference-articles}
 
