@@ -172,7 +172,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Non vengono visualizzate miniature/anteprime delle risorse caricate nella cartella NEW da un utente di Brand Portal?**
 
-**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Portale marchio.
+**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Brand Portal.
 
 
 
