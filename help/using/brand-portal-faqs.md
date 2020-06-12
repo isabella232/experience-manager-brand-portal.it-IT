@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 21ead6dac38429a5b427f4c92150c4bee47efc76
+source-git-commit: e80afb22e5c3333efdd3cf4490a26f1c72f8aa86
 workflow-type: tm+mt
-source-wordcount: '1418'
+source-wordcount: '1517'
 ht-degree: 0%
 
 ---
@@ -37,24 +37,28 @@ Questo problema è stato risolto in AEM 6.5.5. Puoi aggiornare l’istanza di Ri
 
 Per una correzione immediata su AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione di AEM.
 
-**Ques. Desidero attivare la funzione di origine risorse nell’istanza cloud di Risorse AEM. Come posso configurarlo?**
 
-**Ans.** No, al momento la funzione Asset Sourcing non è supportata dal servizio cloud AEM Assets.
+**Ques. Non vedo il contenuto della cartella dei contributi pubblicato da Brand Portal in AEM Assets. Quale potrebbe essere la ragione possibile?**
 
-Rimanete connessi e osservate le note sulla versione per le notifiche sulla disponibilità della funzione nelle prossime release.
+**Ans.** Contatta l’amministratore di Risorse AEM per verificare le configurazioni e verificare che il tenant del Portale del marchio sia configurato con una sola istanza di creazione di Risorse AEM.
 
-**Ques. Non è possibile pubblicare le risorse da Risorse AEM al Portale dei marchi e il registro degli agenti di replica genera un&#39;eccezione`java.net.SocketException: Connection timed out`. C&#39;è una correzione rapida?**
+Questo problema potrebbe verificarsi se hai configurato un tenant Brand Portal su più istanze di creazione di AEM Assets. Ad esempio, l’amministratore configura lo stesso tenant del Portale marchio nell’istanza di creazione di AEM Assets nell’ambiente di produzione e di staging. In questo caso, la pubblicazione delle risorse viene attivata in Brand Portal, ma l’istanza di creazione di AEM Assets non è riuscita a importare la risorsa perché l’agente di replica non riceve il token richiesto.
 
-**Ans.** Se nella coda di replica è presente un numero di richieste in sospeso, esiste la possibilità che l&#39;agente di replica non elabori la richiesta di pubblicare una risorsa e generi un&#39;eccezione: `java.net.SocketException: Connection timed out`.
 
-Per risolvere il problema, effettuate le seguenti operazioni:
+**Ques. Non è possibile pubblicare risorse da AEM Assets al Brand Portal. Il registro di replica indica che la connessione è scaduta per timeout. C&#39;è una correzione rapida?**
 
-1. Aprire l&#39;agente di replica e fare clic su **[!UICONTROL Modifica]** per modificare le impostazioni dell&#39;agente di replica.
-1. In Impostazioni agente, fare clic sulla scheda **[!UICONTROL Estese]**.
-1. Selezionate la casella di controllo **[!UICONTROL Chiudi connessione]**.
-1. Riavviate il bundle di replica (server).
+**Ans.** In genere la pubblicazione non riesce con un errore di timeout se nella coda di replica sono presenti più richieste in sospeso. Per risolvere il problema, assicurarsi che gli agenti di replica siano configurati in modo da evitare il timeout.
 
-Abilitare le impostazioni su tutti e quattro gli agenti di replica per evitare problemi con l&#39;agente di replica.
+Effettuate le seguenti operazioni per configurare l&#39;agente di replica:
+1. Accedi all’istanza di creazione di Risorse AEM.
+1. Dal pannello **Strumenti** , passare a **[!UICONTROL Distribuzione]** > **[!UICONTROL Replica]**.
+1. Nella pagina Replica, fate clic su **[!UICONTROL Agenti sull’autore]**. Potete visualizzare i quattro agenti di replica per il tenant del Brand Portal.
+1. Fate clic sull&#39;URL dell&#39;agente di replica per aprire i dettagli dell&#39;agente.
+1. Fate clic su **[!UICONTROL Modifica]** per modificare le impostazioni dell&#39;agente di replica.
+1. In Impostazioni agente, fai clic sulla scheda **[!UICONTROL Estese]** .
+1. Selezionate la casella di controllo **[!UICONTROL Chiudi connessione]** .
+1. Ripetere i passaggi da 4 a 7 per configurare tutti e quattro gli agenti di replica.
+1. Riavviate il server.
 
 
 ## Domande frequenti su Brand Portal 6.4.5  {#faqs-bp645}
@@ -172,7 +176,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Non vengono visualizzate miniature/anteprime delle risorse caricate nella cartella NEW da un utente di Brand Portal?**
 
-**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Brand Portal.
+**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Portale marchio.
 
 
 
