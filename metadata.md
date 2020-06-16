@@ -10,7 +10,7 @@ tutorials-url: https://guided.adobe.com/#recommended/solutions/experience-manage
 git-repo: https://git.corp.adobe.com/AdobeDocs/experience-manager-brand-portal.it-IT
 index: y
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: eab0a56cfe03d13485386ddc60400ed458198950
 workflow-type: tm+mt
 source-wordcount: '133'
 ht-degree: 12%
