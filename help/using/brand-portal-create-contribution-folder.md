@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: c1c64f770482da9274c66e00fd7355cd522f7beb
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -41,5 +41,5 @@ Ora puoi configurare le proprietà della cartella Contribution. Consultate [Conf
 >
 >Assicuratevi di fornire un nome appropriato alla cartella Contribution, poiché non potete modificare il nome della cartella dopo la creazione.
 >
->La nidificazione della cartella Contribution non è supportata. Non create una cartella Contribution all’interno di un’altra cartella Contribution.
+>La nidificazione della cartella Contribution non è supportata. Potete creare più cartelle Contribution all’interno di una cartella ma non una cartella Contribution all’interno di un’altra cartella Contribution.
 
