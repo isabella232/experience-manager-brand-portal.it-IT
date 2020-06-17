@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: b7de0dbcbb5b4723c291277705f8671e075562e0
 workflow-type: tm+mt
 source-wordcount: '228'
 ht-degree: 0%
@@ -30,6 +30,7 @@ Gli utenti di Brand Portal possono quindi creare nuove risorse da assegnare al c
 >Il limite massimo di caricamento per qualsiasi account/tenant Brand Portal è **10** GB.
 
 
+
 **Per caricare nuove risorse:**
 
 1. Effettuate l&#39;accesso all&#39;istanza Brand Portal.
@@ -42,4 +43,4 @@ La dashboard di Brand Portal riflette tutte le cartelle esistenti consentite all
 1. Sfogliate e caricate nuove risorse (file/cartelle) nella cartella **[!UICONTROL NEW]** .
    ![](assets/upload-new-assets3.png)
 
-Al termine del caricamento, l’utente di Brand Portal può pubblicare nuovamente la cartella dei contributi in Risorse AEM. Consultate [Pubblicare la cartella dei contributi su Risorse](brand-portal-publish-contribution-folder-to-aem-assets.md)AEM.
+Al termine del caricamento, l’utente di Brand Portal può pubblicare nuovamente la cartella dei contributi in AEM Assets. Consultate [Pubblicare la cartella dei contributi sugli AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
