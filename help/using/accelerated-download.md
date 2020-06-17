@@ -10,7 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+workflow-type: tm+mt
+source-wordcount: '1097'
+ht-degree: 2%
 
 ---
 
@@ -21,7 +24,8 @@ Brand Portal consente di migliorare le prestazioni di download di file di risors
 
 >[!NOTE]
 >
->La velocità di download varia a seconda degli utenti, in quanto dipende da fattori quali larghezza di banda della rete, latenza del server e posizione geografica dei client.
+>La velocità di download varia a seconda degli utenti, in quanto dipende da fattori quali la larghezza di banda della rete, la latenza del server e la posizione geografica dei client.
+
 
 Se attivato, gli utenti del Brand Portal possono ridurre notevolmente il tempo necessario per scaricare i file di risorse desiderati dal Brand Portal o tramite il collegamento condiviso installando il client Aspera Connect.
 
@@ -31,7 +35,7 @@ Se attivato, gli utenti del Brand Portal possono ridurre notevolmente il tempo n
 
 Per scaricare più rapidamente i file, accertatevi di quanto segue:
 
-* **[!UICONTROL Attiva accelerazione]**download (disabilitata per impostazione predefinita) da Impostazionigenerali nel pannello degli strumenti di amministrazione.
+* **[!UICONTROL Attiva accelerazione]** download (disabilitata per impostazione predefinita) da Impostazioni  generali nel pannello degli strumenti di amministrazione.
 * La porta 33001 (TCP e UDP) è aperta sul firewall. Per ulteriori informazioni sui prerequisiti, consultate la documentazione [del client](https://downloads.asperasoft.com/en/documentation/8)Aspera Connect.
 * Installate Adobe Connect usando i privilegi di amministratore.
 * Per il supporto della piattaforma per il client di trasferimento Aspera, vedi Matrice [di supporto della piattaforma](https://www.asperasoft.com/company/support/transfer-clients/)Aspera Connect.
@@ -42,10 +46,10 @@ Di seguito sono elencati i domini di download per diverse aree geografiche:
 
 | Codice regione | Dominio |
 |---|---|
-| NA OR1 | download-na1.brand-Portal.adobe.com |
-| NA VA5 | download-na2.brand-Portal.adobe.com |
-| EMEA LON5 | downloads-emea1.brand-portale.adobe.com |
-| APAC SIN2 | downloads-apac1.brand-Portal.adobe.com |
+| NA OR1 | downloads-na1.brand-portal.adobe.com |
+| NA VA5 | downloads-na2.brand-portal.adobe.com |
+| EMEA LON5 | downloads-emea1.brand-portal.adobe.com |
+| APAC SIN2 | downloads-apac1.brand-portal.adobe.com |
 
 ## Esempio di prestazioni di download mediante l&#39;acceleratore di file {#expected-download-performance-using-file-accelerator}
 
@@ -79,28 +83,28 @@ Viene visualizzata una finestra di dialogo con l&#39;opzione [Abilita accelerazi
 
    ![](assets/fast-download-emailchk.png)
 
-1. Toccate o fate clic sull’opzione **[!UICONTROL Scarica]**.
+1. Toccate o fate clic sull’opzione **[!UICONTROL Scarica]** .
 Per velocizzare l&#39;esperienza di download nell&#39;account tenant del Portale marchio, è necessario che nel sistema sia installata l&#39;applicazione client Aspera Connect.
 
-1. **Scaricate il client** Aspera Connect se il client Aspera Connect non è installato sul sistema o se il client Aspera Connect esistente è obsoleto, nella pagina del browser viene visualizzato un prompt dal quale potete scaricare il client Aspera Connect specifico del sistema selezionando **[!UICONTROL Scarica versione]**più recente.
+1. **Scaricate il client** Aspera Connect se il client Aspera Connect non è installato sul sistema o se il client Aspera Connect esistente è obsoleto, nella pagina del browser viene visualizzato un prompt dal quale potete scaricare il client Aspera Connect specifico del sistema selezionando **[!UICONTROL Scarica versione]** più recente.
 
    ![](assets/aspera-not-launched.png)
 
-   Per scaricare la versione più recente di Aspera Connect da [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), selezionate **[!UICONTROL Scarica ora]**e seguite le istruzioni.
+   Per scaricare la versione più recente di Aspera Connect da [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), selezionate **[!UICONTROL Scarica ora]** e seguite le istruzioni.
 
 1. **Installa il client** Aspera Connect Per installare l’installazione del client IBM Aspera Connect, esegui l’installazione dal file .msi dell’applicazione client IBM Aspera Connect e segui la procedura guidata di installazione.
 
-1. Dopo aver installato correttamente il client, aggiornate la pagina del browser e riavviate i passaggi di download oppure selezionate **[!UICONTROL Riavvia]**nella finestra di dialogo**[!UICONTROL  Download]** risorse (passaggio 2).
-Quando utilizzate Aspera Connect per la prima volta, il browser richiede di aprire il collegamento utilizzando **[!UICONTROL IBM Aspera Connect]**. Per saltare questa finestra di dialogo in futuro, abilitare**[!UICONTROL  Ricorda la scelta per i collegamenti]**FASP.
+1. Dopo aver installato correttamente il client, aggiornate la pagina del browser e riavviate i passaggi di download oppure selezionate **[!UICONTROL Riavvia]** nella finestra di dialogo **[!UICONTROL Download]** risorse (passaggio 2).
+Quando utilizzate Aspera Connect per la prima volta, il browser richiede di aprire il collegamento utilizzando **[!UICONTROL IBM Aspera Connect]**. Per saltare questa finestra di dialogo in futuro, abilitare **[!UICONTROL Ricorda la scelta per i collegamenti]** FASP.
 
    >[!NOTE]
    >
    >Questo messaggio è diverso nei diversi browser.
 
-1. Viene visualizzata una finestra di dialogo che conferma se procedere o meno al trasferimento. Selezionare **[!UICONTROL Consenti]**per iniziare.
-Per saltare questa finestra di dialogo in futuro, abilita**[!UICONTROL  Usa la mia scelta per tutte le connessioni con questo host]**.
-Il download inizia. Viene visualizzata una finestra di dialogo con l’avanzamento del download. Utilizzare la finestra di dialogo per **[!UICONTROL mettere in pausa]**,**[!UICONTROL  riprendere]**o **[!UICONTROL annullare]**il download.
-L’applicazione Aspera Connect fornisce una finestra Attività sul sistema in cui l’utente può visualizzare e gestire tutte le sessioni di trasferimento. Per ulteriori informazioni, consultate la documentazione[del client](https://downloads.asperasoft.com/en/documentation/8)Aspera Connect.
+1. Viene visualizzata una finestra di dialogo che conferma se procedere o meno al trasferimento. Selezionare **[!UICONTROL Consenti]** per iniziare.
+Per saltare questa finestra di dialogo in futuro, abilita **[!UICONTROL Usa la mia scelta per tutte le connessioni con questo host]**.
+Il download inizia. Viene visualizzata una finestra di dialogo con l’avanzamento del download. Utilizzare la finestra di dialogo per **[!UICONTROL mettere in pausa]**, **[!UICONTROL riprendere]** o **[!UICONTROL annullare]** il download.
+L’applicazione Aspera Connect fornisce una finestra Attività sul sistema in cui l’utente può visualizzare e gestire tutte le sessioni di trasferimento. Per ulteriori informazioni, consultate la documentazione [del client](https://downloads.asperasoft.com/en/documentation/8)Aspera Connect.
 
 ![](assets/aspera-activity-window.png)
 
@@ -108,7 +112,7 @@ Al completamento del download, viene visualizzata una finestra di dialogo in cui
 
 >[!NOTE]
 >
->Nell’applicazione client Aspera Connect esiste una limitazione nota per cui non viene visualizzato alcun prompt per selezionare il percorso di download se viene **[!UICONTROL sempre richiesto all’utente di specificare dove salvare i file]**scaricati è attivato nella scheda[!UICONTROL Trasferimenti]all’interno delle[!UICONTROL Preferenze]. Prima di iniziare il download, indicate il percorso nella casella di testo**[!UICONTROL  Salva i file scaricati in]**.
+>Nell’applicazione client Aspera Connect esiste una limitazione nota per cui non viene visualizzato alcun prompt per selezionare il percorso di download se viene **[!UICONTROL sempre richiesto all’utente di specificare dove salvare i file]** scaricati è attivato nella scheda [!UICONTROL Trasferimenti] all’interno delle [!UICONTROL Preferenze]. Prima di iniziare il download, indicate il percorso nella casella di testo **[!UICONTROL Salva i file scaricati in]**.
 
 ## Utilizzo dell&#39;acceleratore di file nel browser Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -118,9 +122,9 @@ Microsoft Edge viene eseguito in modalità protetta avanzata (EPM), impedendo la
 
 Per utilizzare la funzionalità di download accelerato in Microsoft Edge, rimuovete il sito Brand Portal dall&#39;elenco dei siti attendibili.
 
-1. Aprire il Pannello di controllo (premere il tasto **[!UICONTROL Finestra + X]**, quindi selezionare Pannello**[!UICONTROL  di]**controllo).
-1. Vai a **[!UICONTROL Rete e Internet > Opzioni]**Internet. Click the**[!UICONTROL  Security]** tab.
-1. Fare clic sull&#39;area **[!UICONTROL Siti]**attendibili, quindi fare clic su**[!UICONTROL  Siti]**.
+1. Aprire il Pannello di controllo (premere il tasto **[!UICONTROL Finestra + X]**, quindi selezionare Pannello **[!UICONTROL di]** controllo).
+1. Vai a **[!UICONTROL Rete e Internet > Opzioni]** Internet. Click the **[!UICONTROL Security]** tab.
+1. Fare clic sull&#39;area **[!UICONTROL Siti]** attendibili, quindi fare clic su **[!UICONTROL Siti]**.
 1. Rimuovere il sito Brand Portal dall&#39;elenco.
 
 ## Preferenze del client Adobe Connect {#aspera-connect-client-preferences}
@@ -141,7 +145,7 @@ Inoltre, il client Aspera Connect può essere contrassegnato in modo che venga a
 
 Se l&#39;accelerazione del download non funziona, attenetevi alla seguente procedura per risolvere i problemi:
 
-1. Verificare che le porte non siano bloccate, visitando [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) dal computer.
+1. Verificate che le porte non siano bloccate, visitando [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) dal computer.
 
    Se le porte non sono OK, contattate il team di rete e assicuratevi che le porte 33001 (sia TCP che UDP) non siano bloccate nel firewall.
 
