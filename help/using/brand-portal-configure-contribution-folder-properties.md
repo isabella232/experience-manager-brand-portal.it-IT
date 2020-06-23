@@ -11,9 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d0c5adad47fdc83adfad79bae4119cb6d38caf5e
+source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '319'
 ht-degree: 0%
 
 ---
@@ -39,8 +39,7 @@ L’amministratore può quindi concedere agli utenti/ai gruppi del Brand Portal 
 1. Passate alla scheda Contributo **** risorsa.
 1. Immettete una **[!UICONTROL descrizione]** di alto livello della cartella dei contributi.
 1. Fate clic su **[!UICONTROL Carica descrizione]** ![](assets/upload.png) per sfogliare il computer locale e caricare un documento **per il fabbisogno di** risorse.
-1. In **[!UICONTROL Aggiungi utente o gruppo]**, cercate e **[!UICONTROL aggiungete]** utenti del Portale marchio con i quali desiderate condividere la cartella dei contributi. Non è possibile assegnare una cartella Contributo ai gruppi.
-Questi utenti del Brand Portal avranno l’autorizzazione ad accedere alla cartella dei contributi e a caricare contenuti dall’interfaccia del Portale marchio senza dover accedere all’istanza di creazione di AEM.
+1. Nel campo **[!UICONTROL Aggiungi utente o Gruppo]** , aggiungete utenti del Brand Portal con cui desiderate condividere la cartella dei contributi. Gli utenti aggiunti possono accedere e caricare il contenuto nella cartella dei contributi utilizzando l’interfaccia Brand Portal. Al momento non è possibile aggiungere gruppi a una cartella di contributi.
 
 1. Fai clic su **[!UICONTROL Salva]**.
    ![](assets/contribution-folder-property2.png)
