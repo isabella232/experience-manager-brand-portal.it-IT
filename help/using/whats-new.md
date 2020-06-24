@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
 workflow-type: tm+mt
-source-wordcount: '4468'
+source-wordcount: '4462'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## Novità in 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6, il canale di autorizzazione tra AEM Assets e Brand Portal viene modificato. Brand Portal ora è supportato sul servizio cloud AEM Assets, AEM Assets 6.3 e versioni successive. Negli AEM Assets 6.3 e versioni successive, Brand Portal era stato precedentemente configurato nell’interfaccia classica tramite il gateway OAuth legacy, che utilizza lo scambio di token JWT per ottenere un token di accesso IMS per l’autorizzazione. I AEM Assets sono ora configurati con Brand Portal tramite Adobe Developer Console, che fornisce un token IMS per l&#39;autorizzazione del tenant del Brand Portal.
+In Brand Portal 6.4.6, viene modificato il canale di autorizzazione tra AEM Assets e Brand Portal. Brand Portal ora è supportato sul servizio cloud AEM Assets, AEM Assets 6.3 e versioni successive. Negli AEM Assets 6.3 e versioni successive, Brand Portal era stato precedentemente configurato nell’interfaccia classica tramite il gateway OAuth legacy, che utilizza lo scambio di token JWT per ottenere un token di accesso IMS per l’autorizzazione. I AEM Assets sono ora configurati con Brand Portal tramite Adobe Developer Console, che fornisce un token IMS per l&#39;autorizzazione del tenant del Brand Portal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -342,7 +342,7 @@ Le configurazioni di cui sopra sono disponibili nelle impostazioni Accesso e Gen
 
 ### Interfaccia utente di Adobe I/O per configurare le integrazioni di autenticazione
 
-A partire da Brand Portal 6.4.2, per creare un’applicazione JWT è utilizzata l’interfaccia Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) , che consente di configurare integrazioni Auth per consentire l’integrazione degli AEM Assets con Brand Portal. In precedenza, l&#39;interfaccia utente per la configurazione delle integrazioni OAuth era in hosting in [https://marketing.adobe.com/developer/](https://marketing.adobe.com/developer/). Per ulteriori informazioni sull’integrazione di AEM Assets con Brand Portal per la pubblicazione di risorse e raccolte in Brand Portal, consultate Integrazione dei AEM Assets con [i Portale](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)marchio.
+A partire da Brand Portal 6.4.2, per creare un’applicazione JWT è utilizzata l’interfaccia Adobe.io [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/) , che consente di configurare integrazioni Auth per consentire l’integrazione degli AEM Assets con Brand Portal. In precedenza, l&#39;interfaccia utente per la configurazione delle integrazioni OAuth era ospitata in `https://marketing.adobe.com/developer/`. Per ulteriori informazioni sull’integrazione di AEM Assets con Brand Portal per la pubblicazione di risorse e raccolte in Brand Portal, consultate Integrazione dei AEM Assets con [i Portale](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html)marchio.
 
 ## Miglioramenti della ricerca
 
@@ -541,7 +541,7 @@ Dopo aver scaricato una cartella nidificata, potete mantenere la gerarchia delle
 
 ### Prestazioni migliorate {#improved-performance}
 
-I miglioramenti nelle funzionalità di ricerca, ricerca e scaricamento migliorano notevolmente le prestazioni del Brand Portal.
+I miglioramenti apportati alle funzionalità di ricerca, ricerca e scaricamento migliorano notevolmente le prestazioni del Brand Portal.
 
 ### New digital rights management for assets {#new-digital-rights-management-for-assets}
 
