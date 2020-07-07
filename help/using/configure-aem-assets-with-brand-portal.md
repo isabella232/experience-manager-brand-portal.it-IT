@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ba8a1f09573766643f6a5013a8d181f0f0dbb4f2
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '335'
 ht-degree: 10%
@@ -32,7 +32,6 @@ La configurazione dei AEM Assets potrebbe essere utile con Brand Portal consente
 >
 >La configurazione tramite OAuth legacy non è più supportata dal 6 aprile 2020 e viene modificata in configurazione tramite Adobe Developer Console.
 
-
 >[!TIP]
 >
 >***Solo per i clienti esistenti***
@@ -40,7 +39,6 @@ La configurazione dei AEM Assets potrebbe essere utile con Brand Portal consente
 >La configurazione del gateway OAuth legacy continuerà a funzionare per i clienti esistenti.
 >
 >In caso di problemi con la configurazione del gateway OAuth precedente, elimina la configurazione esistente e crea una nuova configurazione tramite Adobe Developer Console.
-
 
 I passaggi per configurare i AEM Assets con Brand Portal sono diversi a seconda della versione di AEM in uso e se si sta configurando per la prima volta oppure se si stanno aggiornando le configurazioni esistenti:
 
