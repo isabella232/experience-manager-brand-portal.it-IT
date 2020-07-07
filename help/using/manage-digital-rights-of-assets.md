@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 translation-type: tm+mt
-source-git-commit: b724038ac2b6ea5189a012fbb2f812a2a55ffcd0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '829'
 ht-degree: 2%
@@ -38,7 +38,6 @@ Gli amministratori possono pubblicare le risorse scadute dai AEM Assets al Brand
 >
 >Una cartella può comunque essere condivisa come collegamento, anche se contiene risorse scadute. In questo caso, il collegamento non elenca le risorse scadute e vengono condivise solo le risorse non scadute.
 
-
 Nella tabella seguente sono visualizzate le autorizzazioni di utilizzo delle risorse scadute:
 
 |  | **[!UICONTROL Condivisione collegamenti]** | **[!UICONTROL Scarica]** | **[!UICONTROL Proprietà]** | **[!UICONTROL Aggiungi alla raccolta]** | **[!UICONTROL Elimina]** |
@@ -52,7 +51,6 @@ Nella tabella seguente sono visualizzate le autorizzazioni di utilizzo delle ris
 >
 >Se Visualizzatori ed editor scaricano una cartella contenente risorse scadute e non scadute, vengono scaricate solo le risorse non scadute. Se una cartella contiene solo risorse scadute, viene scaricata una cartella vuota.
 
-
 ### Stato di scadenza delle risorse {#expiration-status-of-assets}
 
 Potete visualizzare lo stato di scadenza delle risorse nella loro vista **[!UICONTROL a]** schede. Un flag rosso sulla scheda indica che la risorsa è scaduta.
@@ -62,7 +60,6 @@ Potete visualizzare lo stato di scadenza delle risorse nella loro vista **[!UICO
 >[!NOTE]
 >
 >Le viste Elenco e Colonna non visualizzano lo stato di scadenza delle risorse.
-
 
 ## Scadenza collegamento risorsa {#asset-link-expiration}
 
