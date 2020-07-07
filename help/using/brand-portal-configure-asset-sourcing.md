@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 1%
@@ -25,8 +25,6 @@ Gli amministratori di AEM possono configurare l’origine delle **risorse** dall
 >[!NOTE]
 >
 >Prima di iniziare con la configurazione, accertatevi che l’istanza AEM Assets sia configurata con Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
-
-
 
 Il video seguente illustra come configurare l’origine delle risorse nell’istanza di creazione di AEM:
 
@@ -52,7 +50,6 @@ Gli amministratori di AEM possono caricare il file di configurazione utente (.cs
 >[!NOTE]
 >
 >Il formato del file CSV è uguale a quello supportato da  Admin Console per l’importazione in massa da parte degli utenti. E-mail, nome e cognome sono obbligatori.
-
 
 L&#39;amministratore può aggiungere nuovi utenti in AEM  Admin Console. Per informazioni dettagliate, consultate [Gestione utenti](brand-portal-adding-users.md) . Dopo aver aggiunto utenti in  Admin Console, questi utenti possono essere aggiunti al file di configurazione utente del Brand Portal e quindi ottenere l’autorizzazione per accedere alla cartella dei contributi.
 
