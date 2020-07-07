@@ -1,8 +1,8 @@
 ---
 title: Origine risorsa in Brand Portal
 seo-title: Origine risorsa in Brand Portal
-description: Ottieni informazioni approfondite sulla funzione di determinazione origine delle risorse rilasciata nel portale dei marchi di Adobe Experience Manager Assets.
-seo-description: Ottieni informazioni approfondite sulla funzione di determinazione origine delle risorse rilasciata nel portale dei marchi di Adobe Experience Manager Assets.
+description: Ottieni informazioni approfondite sulla funzione di determinazione origine delle risorse rilasciata nel portale dei marchi di  Adobe Experience Manager Assets.
+seo-description: Ottieni informazioni approfondite sulla funzione di determinazione origine delle risorse rilasciata nel portale dei marchi di  Adobe Experience Manager Assets.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -19,7 +19,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: fe8f872bdd07fd46778a485dafaa7ba3d1b74950
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 0%
@@ -29,20 +29,19 @@ ht-degree: 0%
 
 # Panoramica di Asset Sourcing {#overview-asset-sourcing-in-bp}
 
-**Asset Sourcing** consente agli utenti di AEM (amministratori/utenti non amministratori) di creare nuove cartelle con un’ulteriore proprietà **Asset Contribution** , in modo che la nuova cartella creata possa essere aperta all’invio delle risorse da parte degli utenti del Brand Portal. Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate **SHARED** e **NEW**, all’interno della cartella **Contribution** appena creata. L’amministratore AEM definisce quindi il requisito caricando una breve descrizione dei tipi di risorse da aggiungere alla cartella dei contributi, nonché una serie di risorse di base, nella cartella **SHARED** per garantire che gli utenti BP dispongano delle informazioni di riferimento necessarie. L’amministratore può quindi concedere agli utenti attivi di Brand Portal l’accesso alla cartella dei contributi prima di pubblicare la nuova cartella **Contribution** nel Brand Portal. Dopo aver aggiunto il contenuto nella cartella **NEW** , l’utente può pubblicare nuovamente la cartella dei contributi nell’ambiente di authoring di AEM. L’importazione potrebbe richiedere alcuni minuti e riflettere il contenuto appena pubblicato in AEM Assets.
+**Asset Sourcing** consente agli utenti di AEM (amministratori/utenti non amministratori) di creare nuove cartelle con un’ulteriore proprietà **Asset Contribution** , in modo che la nuova cartella creata possa essere aperta all’invio delle risorse da parte degli utenti del Brand Portal. Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate **SHARED** e **NEW**, all’interno della cartella **Contribution** appena creata. L’amministratore AEM definisce quindi il requisito caricando una breve descrizione dei tipi di risorse da aggiungere alla cartella dei contributi, nonché una serie di risorse di base, nella cartella **SHARED** per garantire che gli utenti BP dispongano delle informazioni di riferimento necessarie. L’amministratore può quindi concedere agli utenti attivi di Brand Portal l’accesso alla cartella dei contributi prima di pubblicare la nuova cartella **Contribution** nel Brand Portal. Dopo aver aggiunto il contenuto nella cartella **NEW** , l’utente può pubblicare nuovamente la cartella dei contributi nell’ambiente di authoring di AEM. L&#39;importazione potrebbe richiedere alcuni minuti e riflettere il contenuto appena pubblicato all&#39;interno dei AEM Assets.
 
 Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Brand Portal possono visualizzare, cercare e scaricare risorse dalla cartella dei contributi e dalle altre cartelle consentite. Inoltre, gli amministratori possono condividere ulteriormente la cartella dei contributi, modificare le proprietà e aggiungere risorse alle raccolte.
 
 ## Prerequisiti {#prerequisites}
 
 * AEM 6.5.2 o versione successiva.
-* Accertati che l’istanza di Risorse AEM sia configurata con il Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+* Accertatevi che l’istanza AEM Assets sia configurata con Brand Portal. See, [Configure AEM Assets with Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 * Assicurati che il tenant del Brand Portal sia configurato con un’istanza di creazione di AEM Assets.
 
 >[!NOTE]
 >
->La sorgente delle risorse non è supportata dal servizio cloud AEM Assets.
-
+>Asset Sourcing non è supportato nel servizio cloud AEM Assets.
 
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
@@ -51,12 +50,11 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 
 >[!NOTE]
 >
->Esiste un problema noto in AEM 6.5.4. Gli utenti del Brand Portal non possono pubblicare le risorse della cartella dei contributi in Risorse AEM al momento dell’aggiornamento ad Adobe Developer Console.
+>Esiste un problema noto in AEM 6.5.4. Gli utenti del Brand Portal non possono pubblicare le risorse della cartella dei contributi ai AEM Assets quando effettuano l’aggiornamento ad Adobe Developer Console.
 >
->Il problema è stato risolto in AEM 6.5.5. Puoi aggiornare l’istanza di Risorse AEM al service pack AEM 6.5.5 più recente e [aggiornare le configurazioni](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) su Adobe Developer Console.
+>Il problema è stato risolto in AEM 6.5.5. Puoi aggiornare l’istanza AEM Assets al service pack AEM 6.5.5 più recente e [aggiornare le configurazioni](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) in Adobe Developer Console.
 >
 >Per una correzione immediata su AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione.
-
 
 ## Consulta anche {#reference-articles}
 
@@ -72,4 +70,4 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 
 * [Scaricare i requisiti delle risorse](brand-portal-download-asset-requirements.md)
 * [Caricare nuove risorse nella cartella Contribution](brand-portal-upload-assets-to-contribution-folder.md)
-* [Pubblica la cartella dei contributi in Risorse AEM](brand-portal-publish-contribution-folder-to-aem-assets.md)
+* [Pubblica cartella dei contributi in AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md)
