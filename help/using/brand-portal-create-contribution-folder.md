@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 92961850279ad5a676ec0bc655d3a16f0497b024
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 0%
@@ -42,4 +42,3 @@ Ora puoi configurare le proprietà della cartella Contribution. Consultate [Conf
 >Un utente non amministratore può creare e condividere solo una cartella di contributi di risorse. Una volta creata la cartella dei contributi, un utente non amministratore non può modificarla o eliminarla.
 >
 >La nidificazione della cartella dei contributi delle risorse non è supportata. Potete creare più cartelle di contributi all’interno di una cartella, ma non dovete creare una cartella di contributi all’interno di un’altra cartella di contributi.
-
