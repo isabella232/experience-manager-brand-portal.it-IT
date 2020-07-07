@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 0%
@@ -39,7 +39,6 @@ Questi profili di prodotto vengono sincronizzati con l’interfaccia utente del 
 >
 >Per creare gruppi in Brand Portal, da Adobe [!UICONTROL Admin Console], utilizzate **[!UICONTROL Prodotti > Profili]** di prodotto, invece di **[!UICONTROL Pagina utente > Gruppi]** di utenti. I profili di prodotto in Adobe [!UICONTROL Admin Console] vengono utilizzati per creare gruppi in Brand Portal.
 
-
 ## Aggiunta di un utente {#add-a-user}
 
 Se siete amministratori di prodotto, utilizzate Adobe [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) per creare utenti e assegnarli ai profili di prodotto (*precedentemente noti come configurazioni* di prodotto), che vengono visualizzati come gruppi in Brand Portal. Potete utilizzare i gruppi per eseguire operazioni in blocco, come la gestione dei ruoli e la condivisione delle risorse.
@@ -48,11 +47,9 @@ Se siete amministratori di prodotto, utilizzate Adobe [[!UICONTROL Admin Console
 >
 >I nuovi utenti che non hanno accesso a Brand Portal possono richiedere l’accesso dalla schermata di accesso di Brand Portal. Per ulteriori informazioni, consulta [Richiesta di accesso al Portale](../using/brand-portal.md#request-access-to-brand-portal)marchio. Dopo aver ricevuto le notifiche di richiesta di accesso nell&#39;area di notifica, fate clic sulla notifica desiderata, quindi fate clic su **[!UICONTROL Concedi accesso]**. In alternativa, segui il collegamento presente nell’e-mail di richiesta di accesso ricevuta. Quindi, per aggiungere un utente tramite [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview), seguite i passaggi da 4 a 7 descritti di seguito.
 
-
 >[!NOTE]
 >
 >Potete accedere ad [Adobe [!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direttamente o dal Brand Portal. Se accedete direttamente, seguite i Passaggi da 4 a 7 descritti di seguito per aggiungere un utente.
-
 
 1. Dalla barra degli strumenti di AEM nella parte superiore, fate clic sul logo Adobe per accedere agli strumenti amministrativi.
 
@@ -97,7 +94,6 @@ I profili di prodotto (precedentemente noti come configurazioni di prodotto) in 
 >
 >Potete accedere a [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direttamente o dal Portale marchio. Se accedete direttamente a [!UICONTROL Admin Console] , seguite i passaggi da 4 a 7 descritti di seguito per aggiungere un profilo di prodotto.
 
-
 1. Dalla barra degli strumenti di AEM nella parte superiore, fate clic sul logo Adobe per accedere agli strumenti amministrativi.
 
    ![Logo AEM](assets/aemlogo.png)
@@ -130,7 +126,6 @@ Per aggiungere utenti a un gruppo Brand Portal, aggiungeteli al profilo di prodo
 >[!NOTE]
 >
 >Potete accedere a [[!UICONTROL Admin Console]](http://adminconsole.adobe.com/enterprise/overview) direttamente o dal Portale marchio. Se accedete direttamente a  Admin Console, seguite i passaggi da 4 a 7 della procedura seguente per aggiungere utenti a un profilo di prodotto.
-
 
 1. Dalla barra degli strumenti di AEM nella parte superiore, fate clic sul logo Adobe per accedere agli strumenti amministrativi.
 
@@ -185,7 +180,6 @@ Potete concedere all’amministratore di sistema o all’amministratore di prodo
 >[!NOTE]
 >
 >Potete accedere a [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direttamente o dal Portale marchio. Se accedete direttamente a [!UICONTROL Admin Console] , seguite i passaggi da 4 a 8 descritti nella procedura seguente per aggiungere un utente a un profilo di prodotto.
-
 
 1. Dalla barra degli strumenti di AEM nella parte superiore, fate clic sul logo Adobe per accedere agli strumenti amministrativi.
 
@@ -277,7 +271,6 @@ Un amministratore può associare privilegi specifici a un [gruppo](../using/bran
 >[!NOTE]
 >
 >Per le risorse condivise come collegamento, verrà applicata l’autorizzazione per accedere alle rappresentazioni originali dei file immagine in base alle autorizzazioni dell’utente che sta condividendo le risorse.
-
 
 Per modificare il ruolo e il diritto di accesso alle rappresentazioni originali per membri specifici del gruppo, effettuate le seguenti operazioni:
 
