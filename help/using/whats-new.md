@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d08e0ec04a4706acee12eeb6895f221d30233ef0
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '4462'
 ht-degree: 2%
@@ -24,7 +24,7 @@ ht-degree: 2%
 
 ## Novità in 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6, viene modificato il canale di autorizzazione tra AEM Assets e Brand Portal. Brand Portal ora è supportato sul servizio cloud AEM Assets, AEM Assets 6.3 e versioni successive. Negli AEM Assets 6.3 e versioni successive, Brand Portal era stato precedentemente configurato nell’interfaccia classica tramite il gateway OAuth legacy, che utilizza lo scambio di token JWT per ottenere un token di accesso IMS per l’autorizzazione. I AEM Assets sono ora configurati con Brand Portal tramite Adobe Developer Console, che fornisce un token IMS per l&#39;autorizzazione del tenant del Brand Portal.
+In Brand Portal 6.4.6, il canale di autorizzazione tra AEM Assets e Brand Portal viene modificato. Brand Portal ora è supportato sul servizio cloud AEM Assets, AEM Assets 6.3 e versioni successive. Negli AEM Assets 6.3 e versioni successive, Brand Portal era stato precedentemente configurato nell’interfaccia classica tramite il gateway OAuth legacy, che utilizza lo scambio di token JWT per ottenere un token di accesso IMS per l’autorizzazione. I AEM Assets sono ora configurati con Brand Portal tramite Adobe Developer Console, che fornisce un token IMS per l&#39;autorizzazione del tenant del Brand Portal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -68,8 +68,6 @@ I passaggi per configurare i AEM Assets con Brand Portal sono diversi a seconda 
 >
 >È consigliabile aggiornare l&#39;istanza di AEM all&#39;ultimo service pack.
 
-
-
 Consultate le note [sulla versione più recenti del Portale](brand-portal-release-notes.md)marchio.
 
 Consultate Domande frequenti sul [Brand Portal](brand-portal-faqs.md).
@@ -95,8 +93,6 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 >La sorgente delle risorse in Brand Portal è supportata in AEM 6.5.2.0 e versioni successive.
 >
 >Questa funzione non è supportata nelle versioni precedenti - AEM 6.3 e AEM 6.4.
-
-
 
 ### Caricare le risorse nella cartella Contribution {#upload-assets-in-bp}
 
@@ -153,7 +149,6 @@ Analogamente, specificando:
 >[!NOTE]
 >
 >Selezionando la casella di controllo **Ricerca** parziale, per impostazione predefinita viene selezionato **Ignora maiuscole/minuscole** .
-
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
@@ -522,7 +517,7 @@ Per allineare l’esperienza utente del Brand Portal con AEM, Adobe sta passando
 
 ![](assets/omnisearch_whatsnew.png)
 
-* Potete anche aggiungere filtri di ricerca alla ricerca Omni per restringere ulteriormente la ricerca e velocizzarla.
+* Potete anche aggiungere dei filtri di ricerca alla ricerca Omni per restringere ulteriormente la ricerca e velocizzarla.
 
 ![](assets/omnisearch_withfilters.png)
 
@@ -541,7 +536,7 @@ Dopo aver scaricato una cartella nidificata, potete mantenere la gerarchia delle
 
 ### Prestazioni migliorate {#improved-performance}
 
-I miglioramenti apportati alle funzionalità di ricerca, ricerca e scaricamento migliorano notevolmente le prestazioni del Brand Portal.
+I miglioramenti nelle funzionalità di ricerca, ricerca e scaricamento migliorano notevolmente le prestazioni del Brand Portal.
 
 ### New digital rights management for assets {#new-digital-rights-management-for-assets}
 
