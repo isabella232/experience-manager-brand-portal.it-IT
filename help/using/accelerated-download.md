@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ac5952c318baae8400928592d9a372ab966191cf
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '1097'
 ht-degree: 2%
@@ -25,7 +25,6 @@ Brand Portal consente di migliorare le prestazioni di download di file di risors
 >[!NOTE]
 >
 >La velocità di download varia a seconda degli utenti, in quanto dipende da fattori quali la larghezza di banda della rete, la latenza del server e la posizione geografica dei client.
-
 
 Se attivato, gli utenti del Brand Portal possono ridurre notevolmente il tempo necessario per scaricare i file di risorse desiderati dal Brand Portal o tramite il collegamento condiviso installando il client Aspera Connect.
 
