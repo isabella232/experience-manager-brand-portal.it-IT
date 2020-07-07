@@ -11,7 +11,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 version: 6.5
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 67b905dc71d6b1b4f314a9791e386f7a27781967
+source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
 workflow-type: tm+mt
 source-wordcount: '319'
 ht-degree: 0%
@@ -32,6 +32,7 @@ Il requisito risorsa si riferisce ai dettagli forniti dagli amministratori per a
 L’amministratore può quindi concedere agli utenti/ai gruppi del Brand Portal l’accesso alla cartella Contribution prima di pubblicare la cartella Contribution appena creata nel Brand Portal.
 
 **Per configurare le proprietà della cartella dei contributi:**
+
 1. Accedi all’istanza di creazione AEMURL predefinito: http:// localhost:4502/aem/start.html
 1. Andate a **[!UICONTROL Risorse > File]** e individuate la cartella dei contributi.
 1. Selezionate la cartella dei contributi e fate clic su **[!UICONTROL Proprietà]** ![](assets/properties.png). Si apre la finestra Proprietà cartella.
@@ -40,11 +41,10 @@ L’amministratore può quindi concedere agli utenti/ai gruppi del Brand Portal 
 1. Immettete una **[!UICONTROL descrizione]** di alto livello della cartella dei contributi.
 1. Fate clic su **[!UICONTROL Carica descrizione]** ![](assets/upload.png) per sfogliare il computer locale e caricare un documento **per il fabbisogno di** risorse.
 1. Nel campo **[!UICONTROL Aggiungi utente o Gruppo]** , aggiungete utenti del Brand Portal con cui desiderate condividere la cartella dei contributi. Gli utenti aggiunti possono accedere e caricare il contenuto nella cartella dei contributi utilizzando l’interfaccia Brand Portal. Al momento non è possibile aggiungere gruppi a una cartella di contributi.
-
 1. Fai clic su **[!UICONTROL Salva]**.
-   ![](assets/contribution-folder-property2.png)
+
+![](assets/contribution-folder-property2.png)
 
 >[!NOTE]
 >
 >I risultati della ricerca si basano sull’elenco di utenti del Brand Portal configurato in AEM Assets. Accertatevi di disporre dell’elenco di utenti aggiornato del Brand Portal. Consultate, [Carica elenco](brand-portal-configure-asset-sourcing.md)utenti Portale marchio.
-
