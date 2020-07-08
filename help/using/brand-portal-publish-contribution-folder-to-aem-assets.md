@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 855bc65b6a7faebbb497af9277daf4da5ffc42f9
+source-git-commit: bc6effb6e8d828e5a299f69547c2c783fcf66a1e
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '186'
 ht-degree: 0%
 
 ---
@@ -32,8 +32,8 @@ Accertatevi di aver soddisfatto i requisiti [delle](brand-portal-download-asset-
    ![](assets/publish-contribution-folder-to-aem.png)
 
 Una notifica e-mail/impulso viene inviata agli utenti del Brand Portal e all’amministratore AEM nelle diverse fasi del flusso di lavoro di pubblicazione:
-1. **In coda** - Quando il flusso di lavoro di pubblicazione viene attivato in Brand Portal, viene pubblicata una cartella di contributi da Brand Portal ai AEM Assets.
+1. **In coda** - Una notifica viene inviata all’utente del Brand Portal quando viene attivato un flusso di lavoro di pubblicazione in Brand Portal.
 
-1. **Completa** : al termine del flusso di lavoro di pubblicazione, la cartella dei contributi viene importata correttamente nei AEM Assets.
+1. **Completa** - Una notifica viene inviata all’utente del Brand Portal e all’amministratore AEM al termine del flusso di lavoro di pubblicazione, ossia al termine della pubblicazione della cartella dei contributi agli AEM Assets.
 
 
