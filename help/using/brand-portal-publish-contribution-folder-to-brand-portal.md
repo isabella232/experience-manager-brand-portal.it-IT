@@ -1,8 +1,8 @@
 ---
 title: 'Pubblica cartella Contributo in Brand Portal '
 seo-title: Pubblica cartella Contributo in Brand Portal
-description: Ottieni informazioni approfondite sulla pubblicazione di una cartella di contributi da Risorse AEM al Portale marchio in Brand Portal 6.4.5.
-seo-description: Ottieni informazioni approfondite sulla pubblicazione di una cartella di contributi da Risorse AEM al Portale marchio in Brand Portal 6.4.5.
+description: Ottenete informazioni approfondite sulla pubblicazione di una cartella di contributi dai AEM Assets al Portale marchio in Brand Portal 6.4.5.
+seo-description: Ottenete informazioni approfondite sulla pubblicazione di una cartella di contributi dai AEM Assets al Portale marchio in Brand Portal 6.4.5.
 uuid: null
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 5bc5d8db777b31da82b7c68896d881c1fcdaed8f
+source-git-commit: 168177bae46b2242d883838da538218b8d192031
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '193'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Pubblica cartella dei contributi in Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Una volta configurata [la cartella dei](brand-portal-configure-contribution-folder-properties.md)contributi, gli utenti AEM (amministratore/non amministratore) possono pubblicare la cartella dei contributi da Risorse AEM a Brand Portal. Gli utenti/gruppi del Portale marchio che dispongono dell’autorizzazione per accedere alla cartella dei contributi riceveranno una notifica e-mail/impulso al completamento dell’azione di pubblicazione.
+Una volta configurata [la cartella dei](brand-portal-configure-contribution-folder-properties.md)contributi, gli utenti AEM (amministratore/non amministratore) possono pubblicare la cartella dei contributi dai AEM Assets al portale dei marchi. Gli utenti/gruppi del Portale marchio che dispongono dell’autorizzazione per accedere alla cartella dei contributi riceveranno una notifica e-mail/impulso al completamento dell’azione di pubblicazione.
 
 **Per pubblicare la cartella dei contributi:**
 
@@ -31,4 +31,4 @@ URL predefinito: http:// localhost:4502/aem/start.html
    ![](assets/publish-contribution-folder-to-bp.png)
 Dopo la pubblicazione della cartella dei contributi sul Brand Portal, riceverete un messaggio di riuscita.
 
-Una notifica e-mail/impulso viene inviata agli utenti/ai gruppi del Brand Portal assegnati alla cartella dei contributi. Gli utenti del Brand Portal possono accedere alla cartella dei contributi e iniziare a fornire contributi. Consultate [Caricare le risorse nella cartella](brand-portal-upload-assets-to-contribution-folder.md)Contribution.
+Una notifica e-mail/impulso viene inviata agli utenti del Brand Portal assegnati alla cartella dei contributi. Gli utenti del Brand Portal possono accedere alla cartella dei contributi e iniziare a fornire contributi. Consultate [Caricare le risorse nella cartella](brand-portal-upload-assets-to-contribution-folder.md)Contribution.
