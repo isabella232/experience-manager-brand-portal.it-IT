@@ -4,17 +4,17 @@ seo-title: Guida utente di AEM Brand Portal
 description: Guida utente di AEM Brand Portal
 seo-description: Descrive come utilizzare Brand Portal
 translation-type: tm+mt
-source-git-commit: c3abe3dab87481977e874255c11ddc0f55134064
+source-git-commit: 48e17836b50101d3c175c7034326f2b698697697
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 90%
+source-wordcount: '349'
+ht-degree: 81%
 
 ---
 
 
 # Introduzione
 
-Con Brand Portal le organizzazioni possono soddisfare le loro esigenze di marketing e distribuire in sicurezza le risorse approvate relative a prodotti e marchi, che potranno essere scaricate da agenzie esterne, partner, team interni e rivenditori.
+**Adobe Experience Manager (AEM) Assets Brand Portal** aiuta le organizzazioni a soddisfare le proprie esigenze di marketing distribuendo in modo sicuro le risorse approvate di marchi e prodotti ad agenzie esterne, partner, team interni e rivenditori per il download.
 
 La mancanza di una soluzione sicura per la condivisione delle risorse può comportare:
 
@@ -46,8 +46,8 @@ Questa guida utente illustra in dettaglio le funzionalità offerte da Brand Port
 | [Risolvere i problemi relativi alla pubblicazione parallela](troubleshoot-parallel-publishing.md) | Informazioni su come risolvere i problemi di replica tra Brand Portal e AEM Assets. |
 | [Formati di file supportati](brand-portal-supported-formats.md) | Formati di file supportati in Brand Portal per l’anteprima e il download. |
 | [Pubblicare le risorse in Brand Portal](brand-portal-sharing-folders.md) | Informazioni su come pubblicare cartelle, raccolte, collegamenti, predefiniti, schemi, facet e tag in Brand Portal. |
-| [Origine risorsa in Brand Portal](brand-portal-asset-sourcing.md) | Come configurare Asset Sourcing in AEM Assets, caricare le risorse in Brand Portal e pubblicare nuovamente la cartella dei contributi in AEM Assets. |
+| [Origine risorsa in Brand Portal](brand-portal-asset-sourcing.md) | Come configurare l’origine delle risorse in AEM Assets, caricare le risorse in Brand Portal e pubblicare nuovamente la cartella dei contributi in AEM Assets. |
 
 ### Risorse utili
 
-* [Portale del marchio con AEM Assets](https://docs.adobe.com/content/help/it-IT/experience-manager-brand-portal/using/home.html)
+* [Informazioni su Brand Portal con AEM Assets](https://docs.adobe.com/content/help/it-IT/experience-manager-brand-portal/using/home.html)
