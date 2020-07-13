@@ -73,9 +73,7 @@ La maggior parte delle volte in cui la pubblicazione non funziona, il motivo pu�
 
 i. cercare l’utente `mac-<tenantid>replication`ii. elimina questo utente-ERR:REF-NOT-FOUND-
 
-## 
-
-Problema di visibilità tenant dell&#39;applicazione JWT della connessione sviluppatore {#developer-connection-jwt-application-tenant-visibility-issue}-ERR:REF-NOT-FOUND-
+## Problema di visibilità tenant dell&#39;applicazione JWT della connessione sviluppatore {#developer-connection-jwt-application-tenant-visibility-issue}-ERR:REF-NOT-FOUND-
 
 
 
