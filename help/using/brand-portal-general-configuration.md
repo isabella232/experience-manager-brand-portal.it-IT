@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 translation-type: tm+mt
 source-git-commit: ff0c8c23b6c76dc9027b560b9db4af2f4b35313e
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 3%
 
 ---
 
@@ -35,7 +38,7 @@ Queste configurazioni sono state fornite come configurazioni **[!UICONTROL Impos
 
 **C** Configurazione per consentire agli utenti non amministratori di creare raccolte smart pubbliche. (Il valore predefinito è attivato)
 
-**D** Configurazione per consentire l'accelerazione del download delle risorse scaricate dal portale e dai collegamenti condivisi. (Il valore predefinito è disabilitato)
+**D** Configurazione per consentire l&#39;accelerazione del download delle risorse scaricate dal portale e dai collegamenti condivisi. (Il valore predefinito è disabilitato)
 
 **E** Configuration per visualizzare la gerarchia delle cartelle (dalla radice) delle cartelle condivise a utenti non amministratori (editor, visualizzatori, utenti ospiti). (Il valore predefinito è disabilitato)
 
@@ -43,7 +46,7 @@ Queste configurazioni sono state fornite come configurazioni **[!UICONTROL Impos
 
 Per attivare/disattivare ciascuna delle seguenti configurazioni:
 
-1. Effettuate l'accesso con i privilegi di amministratore.
+1. Effettuate l&#39;accesso con i privilegi di amministratore.
 1. Selezionate il logo AEM per accedere agli strumenti amministrativi, dalla barra degli strumenti nella parte superiore.
 1. Dal pannello degli strumenti di amministrazione, selezionate **[!UICONTROL Generale]** per aprire la pagina Impostazioni **** generali.
 1. Utilizzate il rispettivo interruttore di attivazione/disattivazione per attivare o disattivare una qualsiasi delle configurazioni Generali.
@@ -56,15 +59,15 @@ Per attivare/disattivare ciascuna delle seguenti configurazioni:
 
 ## Consenti creazione raccolte pubbliche da parte di utenti non amministratori {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL Consenti configurazione della creazione]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) delle raccolte pubbliche controlla se i non amministratori possono creare raccolte pubbliche sul portale di marchio. La configurazione è abilitata per impostazione predefinita. Disattivando le organizzazioni di configurazione è possibile impedire l'utilizzo di numerose raccolte pubbliche sul proprio portale per consentire il salvataggio dello spazio del sistema.
+[[!UICONTROL Consenti configurazione della creazione]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) delle raccolte pubbliche controlla se i non amministratori possono creare raccolte pubbliche sul portale di marchio. La configurazione è abilitata per impostazione predefinita. Disattivando le organizzazioni di configurazione è possibile impedire l&#39;utilizzo di numerose raccolte pubbliche sul proprio portale, in modo da poter risparmiare spazio sul sistema.
 
 ## Consenti creazione di raccolte smart pubbliche da parte di utenti non amministratori {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL Consenti configurazione di creazione]](../using/brand-portal-searching.md#main-pars-header-500620467) raccolte intelligenti pubbliche controlla se gli utenti non amministratori possono salvare le ricerche come raccolte intelligenti e renderle pubbliche per quel tenant. La configurazione è abilitata per impostazione predefinita. Disattivando le organizzazioni di configurazione è possibile impedire che un numero enorme di raccolte pubbliche intelligenti create da utenti non amministratori nel Brand Portal dell'organizzazione.
+[[!UICONTROL Consenti configurazione di creazione]](../using/brand-portal-searching.md#main-pars-header-500620467) raccolte intelligenti pubbliche controlla se gli utenti non amministratori possono salvare le ricerche come raccolte intelligenti e renderle pubbliche per quel tenant. La configurazione è abilitata per impostazione predefinita. Disattivando le organizzazioni di configurazione è possibile impedire che un numero enorme di raccolte pubbliche intelligenti create da utenti non amministratori nel Brand Portal dell&#39;organizzazione.
 
 ## Consenti accelerazione download {#allow-download-acceleration}
 
-[[!UICONTROL Consenti configurazione di accelerazione]](../using/accelerated-download.md) download consente alle organizzazioni di consentire download accelerati di risorse dal Portale marchio e collegamenti condivisi, integrando con IBM Aspera Connect un'applicazione install-on-demand. L'applicazione utilizza una tecnologia proprietaria per rimuovere le spese generali TCP.
+[[!UICONTROL Consenti configurazione di accelerazione]](../using/accelerated-download.md) download consente alle organizzazioni di consentire download accelerati di risorse dal Portale marchio e collegamenti condivisi, integrando con IBM Aspera Connect un&#39;applicazione install-on-demand. L&#39;applicazione utilizza una tecnologia proprietaria per rimuovere le spese generali TCP.
 
 ## Abilita gerarchia cartelle {#enable-folder-hierarchy}
 
