@@ -23,7 +23,7 @@ ht-degree: 70%
    + [Domande frequenti](using/brand-portal-faqs.md)
    + [Formati di file supportati](using/brand-portal-supported-formats.md)
    + [Accesso a Brand Portal come ospite](using/guest-access.md)
-   + [Portale del marchio con AEM Assets](https://docs.adobe.com/content/help/it-IT/experience-manager-brand-portal/using/home.html)
+   + [Informazioni su Brand Portal con AEM Assets](https://docs.adobe.com/content/help/it-IT/experience-manager-brand-portal/using/home.html)
    + [Navigazione nelle risorse in Brand Portal](using/browse-assets-brand-portal.md)
 + Pubblicare da AEM Assets in Brand Portal {#publish}
    + [Configurare AEM Assets con Brand Portal](using/configure-aem-assets-with-brand-portal.md)
@@ -36,7 +36,7 @@ ht-degree: 70%
 + Origine risorsa in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Panoramica](using/brand-portal-asset-sourcing.md)
    + [Configurare la sorgente delle risorse in AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Configurare la cartella Contributo in Risorse AEM {#configure-contribution-folder}
+   + Configurare la cartella Contributo in AEM Assets {#configure-contribution-folder}
       + [Panoramica](using/brand-portal-contribution-folder.md)
       + [Crea cartella contributi](using/brand-portal-create-contribution-folder.md)
       + [Configurare le proprietà della cartella dei contributi](using/brand-portal-configure-contribution-folder-properties.md)
@@ -46,7 +46,7 @@ ht-degree: 70%
       + [Panoramica](using/brand-portal-overiew-using-asset-sourcing.md)
       + [Scaricare i requisiti delle risorse](using/brand-portal-download-asset-requirements.md)
       + [Caricare le risorse nella cartella Contribution](using/brand-portal-upload-assets-to-contribution-folder.md)
-      + [Pubblica la cartella dei contributi in Risorse AEM](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
+      + [Pubblica cartella dei contributi in AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
 + Condividere risorse con gli utenti {#share}
    + [Condividere una raccolta](using/brand-portal-share-collection.md)
    + [Condividere le cartelle](using/brand-portal-sharing-folders.md)
