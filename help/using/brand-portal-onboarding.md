@@ -10,6 +10,9 @@ topic-tags: administration
 discoiquuid: e8d06818-29c7-4810-bff1-40b3e2818114
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '338'
+ht-degree: 2%
 
 ---
 
@@ -25,14 +28,14 @@ Di seguito sono riportati i passaggi da eseguire per gli utenti che accedono al 
 1. Nella pagina di registrazione, specificate i vostri dettagli (inclusi nome, cognome, password e paese/regione).
    >[!NOTE]
    >
-   >Se siete già utenti Adobe Marketing Cloud, al posto della pagina di accesso viene visualizzata una pagina di accesso. Per accedere ad Adobe Marketing Cloud, immetti il tuo Adobe ID e la password.
+   >Se siete già utenti di un Adobe Marketing Cloud , al posto della pagina di accesso viene visualizzata una pagina di accesso. Per accedere  Adobe Marketing Cloud, immettete il vostro Adobe ID  e la password.
 
    >[!NOTE]
    >
    >Se l’organizzazione utilizza gli Enterprise ID, invece di visualizzare questa pagina di registrazione, viene reindirizzata alla pagina di accesso dell’organizzazione. Per ulteriori informazioni, consultate [Enterprise ID, accesso e assistenza](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html)sull&#39;account.
 
-1. Fate clic su **[!UICONTROL Continua]**per passare alla pagina Brand Portal della vostra organizzazione.
-1. Dalla pagina di accesso al Brand Portal, fate clic su **[!UICONTROL Accesso]**per accedere al Brand Portal.
+1. Fate clic su **[!UICONTROL Continua]** per passare alla pagina Brand Portal della vostra organizzazione.
+1. Dalla pagina di accesso al Brand Portal, fate clic su **[!UICONTROL Accesso]** per accedere al Brand Portal.
 
    ![Pagina Accesso a Brand Portal](assets/signin-onboarding.png)
 
