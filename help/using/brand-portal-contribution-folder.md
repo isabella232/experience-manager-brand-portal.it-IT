@@ -11,6 +11,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
 source-git-commit: ca71b51ea51a92f23fc4c7d6682f73c4c204a5f2
+workflow-type: tm+mt
+source-wordcount: '197'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +24,7 @@ Per l’origine collaborativa delle risorse, gli utenti AEM (amministratori e ut
 
 Gli utenti di AEM definiscono quindi i requisiti delle risorse caricando un breve elenco dei tipi di risorse da aggiungere alla cartella dei contributi, nonché una serie di risorse di base, nella cartella **CONDIVISA** per garantire che gli utenti di Brand Portal dispongano delle informazioni necessarie. L’amministratore può quindi concedere agli utenti attivi di Brand Portal l’accesso alla cartella dei contributi prima di pubblicare la cartella dei contributi appena creata in Brand Portal.
 
-Il video seguente illustra come configurare una cartella Contributo in Risorse AEM:
+Il video seguente illustra come configurare una cartella Contribution in AEM Assets:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
