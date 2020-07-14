@@ -1,22 +1,25 @@
 ---
 title: Formati di file supportati
 seo-title: Formati di file supportati
-description: 'Ogni Portale marchio di AEM Assets supporta formati di file specifici, come indicato nella matrice. '
-seo-description: 'Ogni Portale marchio di AEM Assets supporta formati di file specifici, come indicato nella matrice. '
+description: 'Ogni Portale marchio AEM Assets supporta formati di file specifici, come indicato nella matrice. '
+seo-description: 'Ogni Portale marchio AEM Assets supporta formati di file specifici, come indicato nella matrice. '
 uuid: c92ada3a-6fc3-4ef2-88ff-8e67a50c8c95
-content-type: riferimento
+content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
-topic-tags: introduzione
+topic-tags: introduction
 discoiquuid: fe1c2df8-39f4-4d5c-91d1-7b6cd4f1f589
 translation-type: tm+mt
 source-git-commit: 068ce845c51de48fb677f7bd09a2f6d20ff6f1a5
+workflow-type: tm+mt
+source-wordcount: '330'
+ht-degree: 47%
 
 ---
 
 
 # Formati di file supportati {#supported-file-formats}
 
-Ogni Portale marchio di AEM Assets supporta formati di file specifici, come indicato nella matrice.
+Ogni Portale marchio AEM Assets supporta formati di file specifici, come indicato nella matrice.
 
 | Formato file | Risorse pubblicate su Brand Portal | Rendering pubblicati su Brand Portal | Metadati pubblicati su Brand Portal | Miniature pubblicate su Brand Portal | Pagine dei dettagli delle risorse pubblicate su Brand Portal | Condivisione collegamenti | Collegamento delle miniature di condivisione | Anteprime condivisione collegamenti |
 |-------------|----------------------------------|--------------------------------------|------------------------------------|--------------------------------------|-----------------------------------------------|-------------|-----------------------|---------------------|
