@@ -32,9 +32,11 @@ Per scaricare risorse o cartelle contenenti risorse per Brand Portal, effettuate
 1. Dall’interfaccia Brand Portal, effettuate una delle seguenti operazioni:
 
    * Selezionate le cartelle o le risorse da scaricare. Dalla barra degli strumenti nella parte superiore, fate clic sull&#39;icona **[!UICONTROL Scarica]** .
+
    ![](assets/downloadassets-1.png)
 
    * Per scaricare una singola cartella o risorsa, passate il puntatore del mouse sulla cartella o sulla risorsa. Dalle miniature delle azioni rapide disponibili, fai clic sull’icona **[!UICONTROL Scarica]** .
+
    ![](assets/downloadsingleasset-1.png)
 
    >[!NOTE]
@@ -67,6 +69,7 @@ Per scaricare risorse o cartelle contenenti risorse per Brand Portal, effettuate
    * Per accelerare il download dei file di risorse da Brand Portal, selezionate **[!UICONTROL Abilita accelerazione]** download e [seguite la procedura guidata](../using/accelerated-download.md#main-pars-header-405749062). Per ulteriori informazioni su come scaricare più rapidamente le risorse, consulta la [guida per accelerare i download dal Brand Portal](../using/accelerated-download.md).
 
    * Per applicare un predefinito immagine [personalizzato alla risorsa e alle relative rappresentazioni](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), selezionate Rappresentazioni **[!UICONTROL dinamiche]**. Specificate le proprietà dei predefiniti per immagini (dimensioni, formato, spazio colore, risoluzione e modificatore di immagini) per applicare il predefinito per immagini personalizzato durante il download della risorsa e delle relative rappresentazioni. Per scaricare solo le rappresentazioni dinamiche, eliminate **[!UICONTROL le risorse]**.
+
    ![](assets/dynamic-renditions.png)
 
    >[!NOTE]
@@ -76,6 +79,7 @@ Per scaricare risorse o cartelle contenenti risorse per Brand Portal, effettuate
    * Per mantenere la gerarchia delle cartelle del Portale marchio durante il download delle risorse, selezionate **[!UICONTROL Crea cartella separata per ciascuna risorsa]**. Per impostazione predefinita, la gerarchia delle cartelle di Brand Portal viene ignorata e tutte le risorse vengono scaricate in una cartella del sistema locale.
 
    * Per inviare una notifica e-mail agli utenti con un collegamento per scaricare le risorse, selezionate **[!UICONTROL E-mail]**.
+
    ![](assets/download-link.png)
 
    >[!NOTE]
