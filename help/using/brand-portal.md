@@ -164,6 +164,7 @@ Per richiedere l’accesso, effettuate le seguenti operazioni:
    1. Se disponete di un Adobe ID , [!UICONTROL Enterprise ID]o [!UICONTROL Federated ID], fate clic su **[!UICONTROL Accedi]**.
 Viene visualizzata la pagina [!UICONTROL Accesso] .
    1. Immettete le credenziali [!UICONTROL Adobe ID] e fate clic su **[!UICONTROL Accedi]**.<br />
+
    ![Adobe Sign](assets/bplogin_request_access_3.png)
 
    Viene nuovamente visualizzata la pagina [!UICONTROL Richiedi accesso] .<br />
@@ -174,6 +175,7 @@ Viene visualizzata la pagina [!UICONTROL Accesso] .
 Viene visualizzata la pagina [!UICONTROL Registrati] .
    1. Immettete il nome e il cognome, l’ID e-mail e la password.
    1. Selezionate **[!UICONTROL Iscrizione]**.<br />
+
    ![](assets/bplogin_request_access_5.png)
 
    Viene nuovamente visualizzata la pagina [!UICONTROL Richiedi accesso] .
@@ -202,6 +204,7 @@ Potete modificare la lingua del Portale marchio da Adobe [!UICONTROL Experience 
 Per modificare la lingua:
 
 1. Selezionate [!UICONTROL Utente] > [!UICONTROL Modifica profilo] dal menu principale.<br />
+
    ![Modifica profilo](assets/EditBPProfile.png)
 
 1. Nella [!UICONTROL pagina Impostazioni] Experience Cloud, selezionate una lingua dal menu a discesa [!UICONTROL Lingua] .
