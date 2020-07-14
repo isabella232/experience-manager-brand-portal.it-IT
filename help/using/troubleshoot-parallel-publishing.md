@@ -66,20 +66,23 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 La maggior parte delle volte in cui la pubblicazione non funziona, il motivo può essere dovuto al fatto che l’utente che la pubblica (ad esempio: `mac-<tenantid>-replication` non dispone della chiave privata più recente e, di conseguenza, la pubblicazione non riesce con l&#39;errore &quot;401 non autorizzato&quot; e nessun altro errore viene segnalato nei registri dell&#39;agente di replica. Potreste voler evitare la risoluzione dei problemi e creare una nuova configurazione. Affinché la nuova configurazione funzioni correttamente, pulite le seguenti informazioni dalla configurazione dell’autore di AEM:
 
 1. Vai a `localhost:4502/crx/de/` (se stai eseguendo l’istanza di autore in localhost:4502:\
-   i. delete `/etc/replication/agents.author/mp_replication`ii. delete `/etc/cloudservices/mediaportal/<config_name>`
+   i. delete `/etc/replication/agents.author/mp_replication`ii. delete 
+`/etc/cloudservices/mediaportal/<config_name>`
 
-1. `/etc/cloudservices/mediaportal/<config_name>`\
-   Vai a localhost:4502/useradmin:`mac-<tenantid>replication`
+1. Vai a localhost:4502/useradmin:\
+   i. cercare l’utente `mac-<tenantid>replication`ii. elimina questo utente
 
-i. cercare l’utente `mac-<tenantid>replication`ii. elimina questo utente-ERR:REF-NOT-FOUND-
+Ora il sistema è completamente pulito. Ora potete provare a creare una nuova configurazione del servizio cloud e utilizzare comunque l&#39;applicazione JWT già esistente in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Non è necessario creare una nuova applicazione, ma solo la chiave pubblica deve essere aggiornata dalla configurazione cloud appena creata.
 
-## Problema di visibilità tenant dell&#39;applicazione JWT della connessione sviluppatore {#developer-connection-jwt-application-tenant-visibility-issue}-ERR:REF-NOT-FOUND-
+## Problema di visibilità tenant dell&#39;applicazione JWT della connessione sviluppatore {#developer-connection-jwt-application-tenant-visibility-issue}
 
-
+Se si trova su [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), vengono elencate tutte le organizzazioni (tenant) per le quali gli utenti correnti detengono l&#39;amministratore di sistema. Se non trovi il nome dell&#39;organizzazione qui o non riesci a creare un&#39;applicazione per un tenant richiesto qui, verifica di disporre di diritti (amministratore di sistema) sufficienti per farlo.
 
 Esiste un problema noto in questa interfaccia utente che per ogni tenant sono visibili solo le prime 10 applicazioni. Quando create l’applicazione, rimanete sulla pagina e segnalate l’URL. Non è necessario andare alla pagina di elenco dell&#39;applicazione e trovare l&#39;applicazione creata. Potete accedere direttamente a questo URL con segnalibro e aggiornare/eliminare l’applicazione ogni volta che necessario.
 
-## L&#39;applicazione JWT potrebbe non essere elencata correttamente. Si consiglia pertanto di notare/contrassegnare l’URL durante la creazione dell’applicazione JWT.{#running-configuration-stops-working}
+L&#39;applicazione JWT potrebbe non essere elencata correttamente. Si consiglia pertanto di notare/contrassegnare l’URL durante la creazione dell’applicazione JWT.
+
+## L&#39;esecuzione della configurazione interrompe il funzionamento {#running-configuration-stops-working}
 
 <!--
 Comment Type: draft
@@ -106,26 +109,26 @@ permission
 </g> denied to dam-replication-service, raise a support ticket.</p>
 -->
 
-L&#39;esecuzione della configurazione interrompe il funzionamento {#running-configuration-stops-working}
-
-Se un agente di replica (che pubblicava correttamente nel portale del marchio) interrompe l&#39;elaborazione dei processi di pubblicazione, controllate i registri di replica. In AEM è stato incorporato un nuovo tentativo automatico, pertanto se la pubblicazione di una risorsa non riesce, viene ritentata automaticamente. Se si verifica un problema intermittente come l&#39;errore di rete, potrebbe verificarsi nuovamente durante il tentativo.****
+Se un agente di replica (che pubblicava correttamente nel portale del marchio) interrompe l&#39;elaborazione dei processi di pubblicazione, controllate i registri di replica. In AEM è stato incorporato un nuovo tentativo automatico, pertanto se la pubblicazione di una risorsa non riesce, viene ritentata automaticamente. Se si verifica un problema intermittente come l&#39;errore di rete, potrebbe verificarsi nuovamente durante il tentativo.
 
 Se si verificano continui errori di pubblicazione e la coda è bloccata, controllate la connessione **[!UICONTROL di]** prova e provate a risolvere gli errori segnalati.
 
+In base agli errori, si consiglia di registrare un ticket di assistenza, in modo che il team di progettazione di Brand Portal possa aiutarti a risolvere i problemi.
 
-## In base agli errori, si consiglia di registrare un ticket di assistenza, in modo che il team di progettazione di Brand Portal possa aiutarti a risolvere i problemi.{#connection-timeout}
 
-Configurare gli agenti di replica per evitare l&#39;errore di timeout della connessione {#connection-timeout}**
+## Configurare gli agenti di replica per evitare l&#39;errore di timeout della connessione {#connection-timeout}
 
 **Problema**: Non è possibile pubblicare risorse da AEM Assets al Brand Portal. Il registro di replica indica che la connessione è scaduta per timeout.
 
 **Risoluzione**: In genere la pubblicazione non riesce con un errore di timeout se nella coda di replica sono presenti più richieste in sospeso. Per risolvere il problema, assicurarsi che gli agenti di replica siano configurati in modo da evitare il timeout.
-1. Effettuate le seguenti operazioni per configurare l&#39;agente di replica:
-1. Accedete all’istanza di creazione AEM Assets.************
+
+Effettuate le seguenti operazioni per configurare l&#39;agente di replica:
+1. Accedete all’istanza di creazione AEM Assets.
 1. Dal pannello **Strumenti** , passare a **[!UICONTROL Distribuzione]** > **[!UICONTROL Replica]**.
 1. Nella pagina Replica, fate clic su **[!UICONTROL Agenti sull’autore]**. Potete visualizzare i quattro agenti di replica per il tenant del Brand Portal.
-1. Fate clic sull&#39;URL dell&#39;agente di replica per aprire i dettagli dell&#39;agente.****
+1. Fate clic sull&#39;URL dell&#39;agente di replica per aprire i dettagli dell&#39;agente.
 1. Fate clic su **[!UICONTROL Modifica]** per modificare le impostazioni dell&#39;agente di replica.
 1. In Impostazioni agente, fai clic sulla scheda **[!UICONTROL Estese]** .
 1. Selezionate la casella di controllo **[!UICONTROL Chiudi connessione]** .
 1. Ripetere i passaggi da 4 a 7 per configurare tutti e quattro gli agenti di replica.
+1. Riavviate il server.
