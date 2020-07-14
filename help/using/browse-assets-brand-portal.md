@@ -10,13 +10,16 @@ topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
 source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+workflow-type: tm+mt
+source-wordcount: '1039'
+ht-degree: 4%
 
 ---
 
 
 # Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
-Il Brand Portal di AEM Assets offre diverse funzionalità ed elementi dell’interfaccia utente che semplificano la navigazione tra le risorse, l’attraversamento delle gerarchie di risorse e la ricerca delle risorse utilizzando diverse opzioni di visualizzazione.
+Il portale del marchio AEM Assets offre diverse funzionalità ed elementi dell&#39;interfaccia utente che semplificano la navigazione tra le risorse, l&#39;attraversamento delle gerarchie di risorse e la ricerca delle risorse utilizzando diverse opzioni di visualizzazione.
 
 Il logo AEM nella barra degli strumenti di AEM nella parte superiore facilita l’accesso degli utenti amministratori al pannello degli strumenti amministrativi.
 
@@ -42,7 +45,7 @@ Puoi visualizzare, navigare e selezionare (per ulteriori azioni) le risorse con 
 
 * Vista a colonne
 * Vista a schede
-* Vista a elenco
+* Vista a elenco 
 
 ### Vista a schede
 
@@ -78,7 +81,7 @@ L’opzione Panoramica è disponibile per gli utenti non amministratori (editor,
 * nella barra degli strumenti in alto, quando si seleziona una risorsa o una cartella.
 * nell’elenco a discesa quando si seleziona il selettore della barra.
 
-Selezionando l’opzione **[!UICONTROL Panoramica]**mentre è selezionata una risorsa o una cartella, gli utenti possono visualizzare il titolo, il percorso e l’ora della creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, l’opzione Panoramica permette agli utenti di visualizzare i metadati della risorsa.
+Selezionando l’opzione **[!UICONTROL Panoramica]** mentre è selezionata una risorsa o una cartella, gli utenti possono visualizzare il titolo, il percorso e l’ora della creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, l’opzione Panoramica permette agli utenti di visualizzare i metadati della risorsa.
 
 ![](assets/overview-option.png)
 
@@ -86,11 +89,11 @@ Selezionando l’opzione **[!UICONTROL Panoramica]**mentre è selezionata una ri
 
 #### Visualizzare le impostazioni nella vista a schede
 
-**[!UICONTROL Visualizza impostazioni]**si apre quando si seleziona**[!UICONTROL  Visualizza impostazioni]** dal selettore di visualizzazione. Consente di ridimensionare le miniature delle risorse nella vista a schede. In questo modo, potete personalizzare la visualizzazione e controllare il numero di miniature visualizzate.
+**[!UICONTROL Visualizza impostazioni]** si apre quando si seleziona **[!UICONTROL Visualizza impostazioni]** dal selettore di visualizzazione. Consente di ridimensionare le miniature delle risorse nella vista a schede. In questo modo, potete personalizzare la visualizzazione e controllare il numero di miniature visualizzate.
 
 ![](assets/cardviewsettings.png)
 
-### Vista a elenco
+### Vista a elenco 
 
 ![](assets/list-view.png)
 
@@ -115,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Visualizzare le impostazioni nella vista a elenco
 
-Per impostazione predefinita, la vista Elenco mostra **[!UICONTROL il nome]**della risorsa come prima colonna. Vengono inoltre visualizzate informazioni aggiuntive, come**[!UICONTROL  Titolo]**risorsa, **[!UICONTROL Impostazioni internazionali]**,**[!UICONTROL  Tipo]**, **[!UICONTROL Dimensioni]**,**[!UICONTROL  Dimensioni]******, , stato di pubblicazione. However, you can select the columns to be shown using**[!UICONTROL  View Settings]**.
+Per impostazione predefinita, la vista Elenco mostra **[!UICONTROL il nome]** della risorsa come prima colonna. Vengono inoltre visualizzate informazioni aggiuntive, come **[!UICONTROL Titolo]** risorsa, **[!UICONTROL Impostazioni internazionali]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimensioni]**, **[!UICONTROL Dimensioni]******, , stato di pubblicazione. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -123,11 +126,11 @@ Per impostazione predefinita, la vista Elenco mostra **[!UICONTROL il nome]**del
 
 ![](assets/column-view.png)
 
-Utilizzate la vista a colonne per scorrere una struttura di contenuto attraverso una serie di colonne a cascata. Questa visualizzazione consente di visualizzare e scorrere la gerarchia delle risorse.
+Utilizzate la vista a colonne per navigare in una struttura di contenuto attraverso una serie di colonne a cascata. Questa visualizzazione consente di visualizzare e scorrere la gerarchia delle risorse.
 
 Quando si seleziona una risorsa nella prima colonna (all’estrema sinistra), vengono visualizzate le risorse secondarie nella seconda colonna a destra. Quando si seleziona una risorsa nella seconda colonna, vengono visualizzate le risorse secondarie nella terza colonna a destra e così via.
 
-Per spostarti in alto e in basso nella struttura ad albero, tocca o fai clic sul nome della risorsa o sulla freccia a destra del nome della risorsa.
+Per spostarvi in alto e in basso nella struttura ad albero, toccate o fate clic sul nome della risorsa o sulla freccia a destra del nome della risorsa.
 
 * Il nome della risorsa e la freccia vengono evidenziati quando si tocca o si fa clic su di essi.
 * Toccando o facendo clic sulla miniatura, la risorsa viene selezionata.
@@ -232,7 +235,7 @@ Comment Type: draft
 
 Oltre a queste viste, utilizzate la vista ad albero per espandere la gerarchia delle risorse mentre visualizzate e selezionate le risorse o le cartelle desiderate.
 
-Per aprire la vista ad albero, toccate o fate clic sul selettore della barra in alto a sinistra, quindi selezionate la struttura ad albero ****Contenuto dal menu.
+Per aprire la vista ad albero, toccate o fate clic sul selettore della barra in alto a sinistra, quindi selezionate la struttura ad albero **** Contenuto dal menu.
 
 ![](assets/contenttree.png)
 
@@ -254,7 +257,7 @@ Potete visualizzare tutte le rappresentazioni disponibili della risorsa nella pa
 
 ![](assets/renditions.png)
 
-Per aprire la pagina delle proprietà della risorsa, usate l’opzione **[!UICONTROL Proprietà (p)]**presente nella barra superiore.
+Per aprire la pagina delle proprietà della risorsa, usate l’opzione **[!UICONTROL Proprietà (p)]** presente nella barra superiore.
 
 ![](assets/asset-properties.png)
 
