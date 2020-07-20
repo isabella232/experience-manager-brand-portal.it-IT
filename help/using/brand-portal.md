@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1522'
-ht-degree: 9%
+source-wordcount: '1603'
+ht-degree: 8%
 
 ---
 
@@ -62,11 +62,18 @@ Nella tabella seguente sono elencate le attività che gli utenti di questi ruoli
 |  | **Sfoglia** | **Ricerca** | **Scarica** | **Condividere le cartelle** | **Condividere una raccolta** | **Condividere le risorse come collegamento** | **Accesso ad Strumenti di amministrazione** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Utente ospite** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Visualizzatore** | ✓ | ✓ | ✓ | x | x | x | x |
+| **Visualizzatore** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrator** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Gli utenti ospiti possono sfogliare, accedere e cercare risorse solo nelle cartelle pubbliche e nelle raccolte.
+
+* Gli utenti del visualizzatore possono visualizzare e scaricare le risorse pubbliche condivise con loro e aggiungere tali risorse per creare le proprie raccolte.
+
+>[!NOTE]
+>
+>Esiste un problema noto che il collegamento di condivisione per le raccolte sia attualmente visibile agli utenti del visualizzatore. Gli utenti del visualizzatore non hanno il privilegio di aggiungere utenti per creare un collegamento condiviso. Questo problema verrà risolto nella prossima release. L&#39;opzione per condividere il collegamento per le raccolte non sarà disponibile agli utenti del visualizzatore.
+
 
 ### Guest user {#guest-user}
 
