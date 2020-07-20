@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
 workflow-type: tm+mt
 source-wordcount: '1603'
 ht-degree: 8%
@@ -68,7 +68,7 @@ Nella tabella seguente sono elencate le attività che gli utenti di questi ruoli
 
 * Gli utenti ospiti possono sfogliare, accedere e cercare risorse solo nelle cartelle pubbliche e nelle raccolte.
 
-* Gli utenti del visualizzatore possono visualizzare e scaricare le risorse pubbliche condivise con loro e aggiungere tali risorse per creare le proprie raccolte.
+* Gli utenti del visualizzatore possono accedere e scaricare le risorse pubbliche condivise con loro e possono aggiungere tali risorse per creare le proprie raccolte.
 
 >[!NOTE]
 >
