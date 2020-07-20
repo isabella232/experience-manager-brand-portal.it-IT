@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 5a4d31622a5dee95045ee377e07c0c53f982aad3
+source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
 workflow-type: tm+mt
-source-wordcount: '1117'
+source-wordcount: '1135'
 ht-degree: 4%
 
 ---
@@ -20,17 +20,18 @@ ht-degree: 4%
 
 # Condividere le risorse come collegamento {#share-assets-as-a-link}
 
-Gli amministratori del portale dei marchi AEM Assets possono condividere i collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
+Gli amministratori e gli editor del portale del marchio AEM Assets possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
 
-La condivisione delle risorse tramite un collegamento è un modo pratico per renderle disponibili a soggetti esterni, in quanto i ricevitori non devono accedere al Portale marchio per accedere alle risorse.
+La condivisione delle risorse tramite un collegamento è un modo pratico per renderle disponibili a soggetti esterni, in quanto i ricevitori non devono accedere al Portale marchio per accedere alle risorse. I ricevitori (utenti visualizzatore) possono accedere e scaricare le risorse pubbliche condivise con loro e possono aggiungere queste risorse per creare una propria raccolta.
 
-L’accesso alla condivisione dei collegamenti è limitato a editor e amministratori. Per ulteriori informazioni, consultate [Gestione di utenti, gruppi e ruoli](../using/brand-portal-adding-users.md#manage-user-roles)utente.
+Per ulteriori informazioni, consultate [Gestione di utenti, gruppi e ruoli](../using/brand-portal-adding-users.md#manage-user-roles)utente.
 
 >[!NOTE]
 >
 >È possibile scaricare fino a 5 GB di file ZIP utilizzando la funzionalità di condivisione dei collegamenti in Brand Portal.
 
-Per condividere le risorse come collegamento, effettuate le seguenti operazioni:
+
+Seguono i passaggi per condividere le risorse come collegamento:
 
 1. Fate clic sull&#39;icona della sovrapposizione a sinistra, quindi scegliete **[!UICONTROL Navigazione]**.
 
