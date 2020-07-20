@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1632'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,12 @@ Le domande frequenti sul Portale del marchio riguardano principalmente le domand
 **Ques. L&#39;endpoint OAuth esistente (`https://legacy-oauth.cloud.adobe.io/login`) non funziona. Quale potrebbe essere la ragione possibile?**
 
 **Ans.** La configurazione OAuth precedente è obsoleta. È necessario aggiornare le istanze degli AEM Assets autori al service pack più recente e configurarlo tramite Adobe Developer Console. Per informazioni dettagliate, consultate [Configurare i AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md) . Tuttavia, affinché la configurazione OAuth legacy funzioni fino all&#39;aggiornamento, aggiornate l&#39;endpoint OAuth legacy a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+
+
+**Ques. Ho creato una raccolta utilizzando il collegamento alla risorsa condiviso dall&#39;amministratore. Non è tuttavia possibile creare un collegamento di condivisione per la raccolta. Ho bisogno di autorizzazioni speciali per fare questo?**
+
+**Ans.** La funzionalità è progettata per impedire agli utenti del visualizzatore di condividere il collegamento per le raccolte, poiché dispongono di privilegi limitati a causa dei quali non possono aggiungere utenti per creare un collegamento condiviso. È noto che il collegamento di condivisione per le raccolte è attualmente visibile agli utenti del visualizzatore. Questo problema verrà risolto nella prossima release. L&#39;opzione per condividere il collegamento per le raccolte non sarà disponibile agli utenti del visualizzatore.
+
 
 **Ques. Dopo l’aggiornamento ad Adobe Developer Console, non è possibile pubblicare le risorse della cartella dei contributi da Brand Portal ai AEM Assets. L’istanza dell’autore si trova in AEM 6.5.4. Quale potrebbe essere la ragione possibile?**
 
@@ -128,7 +134,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Come posso accedere a una cartella Contribution?**
 
-**Ans.** Puoi accedere a una cartella **Contribution** solo se è stata condivisa con te. Riceverai una notifica e-mail/impulso ogni volta che una cartella Contribution viene condivisa con te. Potete accedere alla cartella Contribution tramite il collegamento condiviso nell’e-mail oppure accedere all’istanza Brand Portal e passare all’icona Bell per la notifica e accedere alla cartella Contribution.
+**Ans.** Potete accedere a una cartella **Contribution** solo se è stata condivisa con voi. Riceverai una notifica e-mail/impulso ogni volta che una cartella Contribution viene condivisa con te. Potete accedere alla cartella Contribution tramite il collegamento condiviso nell’e-mail oppure accedere all’istanza Brand Portal e passare all’icona Bell per la notifica e accedere alla cartella Contribution.
 
 >[!NOTE]
 >
@@ -172,7 +178,7 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Non vengono visualizzate miniature/anteprime delle risorse caricate nella cartella NEW da un utente di Brand Portal?**
 
-**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Portale marchio.
+**Ans.** È così come è stato progettato, poiché non è in esecuzione alcun flusso di lavoro alla fine del Brand Portal.
 
 
 
