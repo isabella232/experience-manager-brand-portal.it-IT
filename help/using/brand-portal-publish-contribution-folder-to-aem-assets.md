@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: d9bf1be1fe25607a7f716828a8b982080857b38c
+source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
 workflow-type: tm+mt
-source-wordcount: '183'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -27,10 +27,11 @@ Accertatevi di aver soddisfatto i requisiti [delle](brand-portal-download-asset-
 **Per pubblicare la cartella dei contributi:**
 
 1. Effettuate l&#39;accesso all&#39;istanza Brand Portal.
-1. Selezionate la cartella dei contributi dal dashboard.
-1. Fate clic su **[!UICONTROL Pubblica in AEM]**
 
-   ![](assets/export.png).
+1. Selezionate la cartella dei contributi dalla dashboard di Brand Portal.
+1. Fate clic su **[!UICONTROL Pubblica in AEM]**.
+
+   ![](assets/export.png)
 
    ![](assets/publish-contribution-folder-to-aem.png)
 
