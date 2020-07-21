@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 21043cee0839beaa900cc4ffcc8b05afe60a425d
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1135'
+source-wordcount: '1118'
 ht-degree: 4%
 
 ---
@@ -20,9 +20,11 @@ ht-degree: 4%
 
 # Condividere le risorse come collegamento {#share-assets-as-a-link}
 
-Gli amministratori e gli editor del portale del marchio AEM Assets possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
+Gli amministratori del portale dei marchi AEM Assets possono condividere i collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
 
-La condivisione delle risorse tramite un collegamento è un modo pratico per renderle disponibili a soggetti esterni, in quanto i ricevitori non devono accedere al Portale marchio per accedere alle risorse. I ricevitori (utenti visualizzatore) possono accedere e scaricare le risorse pubbliche condivise con loro e possono aggiungere queste risorse per creare una propria raccolta.
+La condivisione delle risorse tramite un collegamento è un modo pratico per renderle disponibili a soggetti esterni, in quanto i ricevitori non devono accedere al Portale marchio per accedere alle risorse.
+
+L’accesso alla condivisione dei collegamenti è limitato a editor e amministratori.
 
 Per ulteriori informazioni, consultate [Gestione di utenti, gruppi e ruoli](../using/brand-portal-adding-users.md#manage-user-roles)utente.
 
