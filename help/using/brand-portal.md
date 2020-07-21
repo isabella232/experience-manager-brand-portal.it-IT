@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: 216c49639d264730fffa0b74e07d49ffbeffc56e
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '1603'
-ht-degree: 8%
+source-wordcount: '1522'
+ht-degree: 9%
 
 ---
 
@@ -62,18 +62,21 @@ Nella tabella seguente sono elencate le attività che gli utenti di questi ruoli
 |  | **Sfoglia** | **Ricerca** | **Scarica** | **Condividere le cartelle** | **Condividere una raccolta** | **Condividere le risorse come collegamento** | **Accesso ad Strumenti di amministrazione** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Utente ospite** | ✓* | ✓* | ✓* | x | x | x | x |
-| **Visualizzatore** | ✓* | ✓* | ✓* | x | x | x | x |
+| **Visualizzatore** | ✓ | ✓ | ✓ | x | x | x | x |
 | **Editor** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | x |
 | **Administrator** | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 * Gli utenti ospiti possono sfogliare, accedere e cercare risorse solo nelle cartelle pubbliche e nelle raccolte.
 
-* Gli utenti del visualizzatore possono accedere e scaricare le risorse pubbliche condivise con loro e possono aggiungere tali risorse per creare le proprie raccolte.
+<!--
+&#42; Viewer users can access and download the public assets shared with them, and can add these assets to create their own collections.
 
 >[!NOTE]
->
->Esiste un problema noto che il collegamento di condivisione per le raccolte sia attualmente visibile agli utenti del visualizzatore. Gli utenti del visualizzatore non hanno il privilegio di aggiungere utenti per creare un collegamento condiviso. Questo problema verrà risolto nella prossima release. L&#39;opzione per condividere il collegamento per le raccolte non sarà disponibile agli utenti del visualizzatore.
-
+ >
+ >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
+ >
+ 
+-->
 
 ### Guest user {#guest-user}
 
