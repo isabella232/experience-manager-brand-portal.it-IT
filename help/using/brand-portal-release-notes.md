@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: ec588b0e9e1af5f813e13670a0616694aa9d5abe
+source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '813'
 ht-degree: 5%
 
 ---
@@ -56,7 +56,7 @@ Questa versione include correzioni ai seguenti problemi critici:
 
 Questa versione include i seguenti problemi noti:
 
-* Il collegamento di condivisione per le raccolte è attualmente visibile agli utenti del visualizzatore.
+* Agli utenti del visualizzatore non è consentito condividere il collegamento per le raccolte, ma l&#39;opzione di condivisione è visibile per loro nell&#39;interfaccia del prodotto.
 
 * Se una cartella nella gerarchia viene rinominata dai AEM Assets e la cartella nidificata che contiene una risorsa viene pubblicata in Brand Portal, il titolo della cartella non viene aggiornato in Brand Portal finché la cartella principale non viene nuovamente pubblicata.
 
