@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0691a95799bbbd4987678edd553d9b7a0b3c3e3f
+source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
 workflow-type: tm+mt
-source-wordcount: '4746'
+source-wordcount: '4753'
 ht-degree: 2%
 
 ---
@@ -24,29 +24,46 @@ Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, contro
 
 ## Novità in 6.4.7 {#what-changed-in-647}
 
-La versione di Brand Portal 6.4.7 è incentrata sul miglioramento dell’esperienza di visualizzazione dei documenti, sulla configurazione per scaricare risorse da Brand Portal e sulle richieste più frequenti dei clienti. Consultate le note [sulla versione più recenti del Portale](brand-portal-release-notes.md)marchio.
+La versione di Brand Portal 6.4.7 introduce Document Viewer, migliora l&#39;esperienza di scaricamento delle risorse e include correzioni importanti. Consultate le note [sulla versione più recenti del Portale](brand-portal-release-notes.md)marchio.
+
+<!--
+Brand Portal 6.4.7 release brings in the Document Viewer, leverages the Brand Portal administrators to configure asset download, and centers top customer requests. See latest [Brand Portal Release Notes](brand-portal-release-notes.md).
+-->
 
 ### Visualizzatore documenti {#doc-viewer}
 
-Il visualizzatore ** documenti migliora l&#39;esperienza dei visualizzatori PDF. Offre un’esperienza simile a quella dell’Adobe Document Cloud per la visualizzazione dei file PDF in Brand Portal.
+Document Viewer migliora l&#39;esperienza di visualizzazione dei PDF. Offre un’esperienza simile a quella dell’Adobe Document Cloud quando si visualizzano i file PDF in Brand Portal.
 
-In precedenza, le rappresentazioni erano disponibili solo per la prima pagina del file PDF e le opzioni disponibili nel visualizzatore PDF predefinito erano anch’esse limitate.
+In precedenza, per visualizzare i file PDF erano disponibili opzioni limitate.
 
-Con l’implementazione di *Document Viewer* , gli utenti di Brand Portal possono visualizzare i metadati PDF e utilizzare nuove opzioni per la riproduzione con file PDF quali visualizzazione di pagina, visualizzazione indice, ricerca in linea, zoom in, zoom out, pagina precedente, pagina successiva, passaggio a pagina, adattamento a finestra, adattamento a schermo, nascondere o nascondere la barra degli strumenti.
+Con Document Viewer, gli utenti di Brand Portal ora possono visualizzare le pagine, visualizzare segnalibri, cercare testo sulla pagina, ingrandire, ridurre, passare alle pagine precedenti e successive, passare alla pagina, adattare alla finestra, adattare allo schermo e nascondere o scoprire la barra degli strumenti.
 
-Se agli utenti di Brand Portal viene ora fornita un’esperienza migliore con i visualizzatori PDF, l’esperienza con altri formati rimane invariata.
+>[!NOTE]
+>
+>L&#39;esperienza di visualizzazione per altri formati di documenti rimane invariata.
+
+
 
 ![](assets/doc-viewer.png)
 
-### Impostazioni di download {#download-configurations}
+### Scarica esperienza {#download-configurations}
 
-Scarica impostazioni è una nuova configurazione che consente agli amministratori del Brand Portal di configurare il download delle risorse dal Brand Portal.
+Il processo di download delle risorse viene aggiornato e fornisce un’esperienza utente semplificata durante il download delle risorse dal Brand Portal.
 
-Il flusso di lavoro esistente per il download delle risorse da Brand Portal è inevitabilmente seguito dall’aspetto di una finestra a comparsa con più opzioni di download tra cui scegliere.
+Il flusso di lavoro esistente per il download delle risorse da Brand Portal è inevitabilmente seguito dall’aspetto di una finestra di dialogo di **[!UICONTROL download]** con più opzioni di download tra cui scegliere.
 
-In Brand Portal 6.4.7, il download delle risorse può essere configurato dall’interfaccia utente di Brand Portal. Sono disponibili tre configurazioni per il download rapido, le rappresentazioni personalizzate e le rappresentazioni di sistema. L’amministratore di Brand Portal può selezionare qualsiasi combinazione per configurare il download delle risorse. L&#39;amministratore può inoltre abilitare o disabilitare queste configurazioni.
+In Brand Portal 6.4.7, gli amministratori di Brand Portal possono configurare le impostazioni di **[!UICONTROL download]** delle risorse. Le configurazioni disponibili sono:
+* **[!UICONTROL Download veloce]**
+* **[!UICONTROL Rappresentazioni personalizzate]**
+* **[!UICONTROL Rappresentazioni di sistema]**
 
-La configurazione del download rapido ignora l’aspetto della finestra a comparsa durante il download delle risorse. In caso di rappresentazioni personalizzate o di sistema, o di più configurazioni, viene visualizzata la finestra a comparsa e viene scaricata la risorsa originale insieme alle rappresentazioni delle risorse.
+L’amministratore di Brand Portal può abilitare qualsiasi combinazione per configurare il download delle risorse.
+
+<!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
+
+* Se tutte e tre le configurazioni sono disattivate, le risorse vengono scaricate senza alcuna finestra di dialogo aggiuntiva che semplifica l’esperienza di download per gli utenti di Brand Portal. In base alla configurazione, il flusso di lavoro di download rimane costante per le risorse autonome, per più risorse, per le cartelle contenenti risorse, per le risorse con licenza o per quelle senza licenza e anche per il download delle risorse tramite il collegamento di condivisione.
+
+* Se è abilitata una rappresentazione **** personalizzata o una rappresentazione **[!UICONTROL di]** sistema, viene visualizzata la finestra di dialogo **[!UICONTROL Scarica]** e viene scaricata la risorsa originale insieme alle rappresentazioni delle risorse. Abilitando la configurazione del download **** rapido, il processo di download risulta più rapido.
 
 ![](assets/download-configuration.png)
 
