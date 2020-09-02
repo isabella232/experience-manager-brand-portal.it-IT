@@ -1,7 +1,7 @@
 ---
 title: Domande frequenti
 seo-title: null
-description: Ottenete informazioni approfondite sulle domande frequenti nel portale del marchio Risorse del Adobe Experience Manager .
+description: Ottieni informazioni approfondite sulle domande frequenti nel portale dei marchi di Adobe Experience Manager Assets.
 seo-description: null
 uuid: null
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1522'
 ht-degree: 0%
 
 ---
@@ -20,14 +20,14 @@ ht-degree: 0%
 
 # Domande frequenti {#frequently-asked-questions}
 
-Le domande frequenti sul Portale del marchio riguardano principalmente le domande e i problemi che gli utenti finali potrebbero incontrare durante l’utilizzo della versione più recente del Portale del marchio AEM Assets 6.4.6 o versioni precedenti.
+Le domande frequenti sul Portale di marchi riguardano principalmente le domande e i problemi che gli utenti finali potrebbero incontrare durante l&#39;utilizzo della versione più recente  di AEM Assets Brand Portal 6.4.6 o versioni precedenti.
 
 
 ## Domande frequenti su Brand Portal 6.4.6  {#faqs-bp646}
 
 **Ques. L&#39;endpoint OAuth esistente (`https://legacy-oauth.cloud.adobe.io/login`) non funziona. Quale potrebbe essere la ragione possibile?**
 
-**Ans.** La configurazione OAuth precedente è obsoleta. È necessario aggiornare le istanze degli AEM Assets autori al service pack più recente e configurarlo tramite Adobe Developer Console. Per informazioni dettagliate, consultate [Configurare i AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md) . Tuttavia, affinché la configurazione OAuth legacy funzioni fino all&#39;aggiornamento, aggiornate l&#39;endpoint OAuth legacy a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
+**Ans.** La configurazione OAuth precedente è obsoleta. È necessario aggiornare  istanze di creazione AEM Assets al service pack più recente e configurarlo tramite  Adobe Developer Console. Per informazioni, consultate [Configurare  AEM Assets con Brand Portal](configure-aem-assets-with-brand-portal.md) . Tuttavia, affinché la configurazione OAuth legacy funzioni fino all&#39;aggiornamento, aggiornate l&#39;endpoint OAuth legacy a `https://hypnosisprod.ethos11-prod-or1.ethos.adobe.net/`.
 
 <!--
 **Ques. I have created a collection using the asset link shared by the administrator. But I am unable to create a share link for my collection. Do I need special permissions to do this?**
@@ -35,27 +35,27 @@ Le domande frequenti sul Portale del marchio riguardano principalmente le domand
 **Ans.** The functionality is by design, the viewer users are not permitted to share link for collections as they have limited privileges due to which they cannot add users to create a share link. It is a known issue that the share link for collections is currently visible to the viewer users. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.    
 -->
 
-**Ques. Dopo l’aggiornamento ad Adobe Developer Console, non è possibile pubblicare le risorse della cartella dei contributi da Brand Portal ai AEM Assets. L’istanza dell’autore si trova in AEM 6.5.4. Quale potrebbe essere la ragione possibile?**
+**Ques. Non è possibile pubblicare le risorse della cartella dei contributi da Brand Portal a  AEM Assets dopo l’aggiornamento  Adobe Developer Console. L’istanza dell’autore è AEM 6.5.4. Quale potrebbe essere la ragione possibile?**
 
-**Ans.** Sì, si verifica un problema noto durante la pubblicazione delle risorse della cartella dei contributi ai AEM Assets in AEM 6.5.4 tramite Adobe Developer Console.
+**Ans.** Sì, si verifica un problema noto durante la pubblicazione delle risorse della cartella dei contributi in  AEM Assets su AEM 6.5.4 tramite  Developer Console.
 
-Il problema è stato risolto in AEM 6.5.5. Puoi aggiornare l’istanza AEM Assets al service pack AEM 6.5.5 più recente e [aggiornare le configurazioni](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) in Adobe Developer Console.
+Il problema è stato risolto nella AEM 6.5.5. È possibile aggiornare l&#39;istanza di  AEM Assets al service pack più recente AEM 6.5.5 e [aggiornare le configurazioni](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) su  Developer Console.
 
-Per una correzione immediata su AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione di AEM.
+Per la correzione immediata del AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di AEM autore.
 
-**Ques. Il contenuto della cartella dei contributi non viene visualizzato nel AEM Assets del portale dei marchi. Quale potrebbe essere la ragione possibile?**
+**Ques. Non vedo il contenuto della cartella dei contributi pubblicato da Brand Portal in  AEM Assets. Quale potrebbe essere la ragione possibile?**
 
-**Ans.** Contattate l’amministratore di AEM Assets per verificare le configurazioni e verificare che il tenant del Brand Portal sia configurato con una sola istanza di autore AEM Assets.
+**Ans.** Contattate il vostro amministratore  AEM Assets per verificare le configurazioni e verificare che il tenant del Portale marchio sia configurato con una sola istanza  autore AEM Assets.
 
-Questo problema potrebbe verificarsi se hai configurato un tenant Brand Portal su più istanze di creazione di AEM Assets. Ad esempio, l&#39;amministratore configura lo stesso tenant Brand Portal nell&#39;istanza di creazione AEM Assets dell&#39;ambiente di staging e di produzione. In questo caso, l&#39;attivazione della pubblicazione delle risorse in Brand Portal ma l&#39;istanza di creazione degli AEM Assets non è riuscita a importare la risorsa, perché l&#39;agente di replica non riceve il token richiesto.
+Questo problema potrebbe verificarsi se avete configurato un tenant di Brand Portal su più istanze di creazione di AEM Assets . Ad esempio, l&#39;amministratore configura lo stesso tenant del Portale marchio nell&#39;istanza di authoring  AEM Assets dell&#39;ambiente di produzione e di staging. In questo caso, la pubblicazione delle risorse viene attivata in Brand Portal, ma l’istanza di creazione di AEM Assets  non è stata in grado di importare la risorsa perché l’agente di replica non riceve il token richiesto.
 
 
-**Ques. Non è possibile pubblicare risorse da AEM Assets al Brand Portal. Il registro di replica indica che la connessione è scaduta per timeout. C&#39;è una correzione rapida?**
+**Ques. Non è possibile pubblicare risorse da  AEM Assets a Brand Portal. Il registro di replica indica che la connessione è scaduta per timeout. C&#39;è una correzione rapida?**
 
 **Ans.** In genere la pubblicazione non riesce con un errore di timeout se nella coda di replica sono presenti più richieste in sospeso. Per risolvere il problema, assicurarsi che gli agenti di replica siano configurati in modo da evitare il timeout.
 
 Effettuate le seguenti operazioni per configurare l&#39;agente di replica:
-1. Accedete all’istanza di creazione AEM Assets.
+1. Accedete all’istanza di creazione  AEM Assets.
 1. Dal pannello **Strumenti** , passare a **[!UICONTROL Distribuzione]** > **[!UICONTROL Replica]**.
 1. Nella pagina Replica, fate clic su **[!UICONTROL Agenti sull’autore]**. Potete visualizzare i quattro agenti di replica per il tenant del Brand Portal.
 1. Fate clic sull&#39;URL dell&#39;agente di replica per aprire i dettagli dell&#39;agente.
@@ -70,7 +70,7 @@ Effettuate le seguenti operazioni per configurare l&#39;agente di replica:
 
 **Ques. Qual è la modifica principale nella versione 6.4.5 di Brand Portal?**
 
-**Ans.** AEM Assets Brand Portal 6.4.5 è una release che consente agli utenti del Brand Portal di caricare contenuti dall’istanza Brand Portal e di pubblicare nuovamente la cartella Contribution agli AEM Assets senza richiedere diritti di amministratore.
+**Ans.**  AEM Assets Brand Portal 6.4.5 è una release che consente agli utenti di Brand Portal di caricare contenuti dall’istanza Brand Portal e pubblicare nuovamente la cartella Contribution su  AEM Assets senza richiedere diritti di amministratore.
 Per ulteriori informazioni, consultate [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
 
 
@@ -96,13 +96,13 @@ Per aggiornamenti e modifiche di versione, si consiglia di tenere traccia delle 
 
 **Ques. In qualità di utente del Brand Portal, è necessaria un&#39;azione?**
 
-**Ans.** La versione di Brand Portal 6.4.5 include una nuova funzione denominata Asset Sourcing. L’amministratore di AEM deve configurare la funzione di origine delle risorse in AEM Assets per abilitare la funzione per gli utenti del Brand Portal. Per ulteriori informazioni, consultate [Abilita origine](brand-portal-configure-asset-sourcing.md)risorse.
+**Ans.** La versione di Brand Portal 6.4.5 include una nuova funzione denominata Asset Sourcing. AEM amministratore deve configurare la funzione di origine delle risorse in  AEM Assets per abilitare la funzione per gli utenti di Brand Portal. Per ulteriori informazioni, consultate [Abilita origine](brand-portal-configure-asset-sourcing.md)risorse.
 
 
 
 **Ques. Chi può creare una cartella Contribution?**
 
-**Ans.** Qualsiasi utente AEM che disponga delle autorizzazioni necessarie per creare una nuova cartella in AEM Assets, può creare una cartella **Contribution** . Per creare una cartella **Contribution** , create una nuova cartella di tipo **Asset Contribution**.
+**Ans.** Ogni utente AEM che dispone delle autorizzazioni per creare una nuova cartella in  AEM Assets può creare una cartella **Contribution** . Per creare una cartella **Contribution** , create una nuova cartella di tipo **Asset Contribution**.
 Questa cartella viene condivisa con gli utenti attivi di Brand Portal per ottenere un contributo.
 
 
@@ -128,33 +128,33 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 **Ques. Posso caricare le risorse in una qualsiasi cartella consentita?**
 
-**Ans.** Non tutte le cartelle consentite. Un utente di Brand Portal può caricare contenuto solo nella cartella **Contribution** condivisa dall’amministratore AEM o Brand Portal.
+**Ans.** Non tutte le cartelle consentite. Un utente di Brand Portal può caricare il contenuto solo nella cartella **Contribution** condivisa dall’amministratore di AEM o Brand Portal.
 
 
 
 **Ques. Come posso accedere a una cartella Contribution?**
 
-**Ans.** Potete accedere a una cartella **Contribution** solo se è stata condivisa con voi. Riceverai una notifica e-mail/impulso ogni volta che una cartella Contribution viene condivisa con te. Potete accedere alla cartella Contribution tramite il collegamento condiviso nell’e-mail oppure accedere all’istanza Brand Portal e passare all’icona Bell per la notifica e accedere alla cartella Contribution.
+**Ans.** Puoi accedere a una cartella **Contribution** solo se è stata condivisa con te. Riceverai una notifica e-mail/impulso ogni volta che una cartella Contribution viene condivisa con te. Potete accedere alla cartella Contribution tramite il collegamento condiviso nell’e-mail oppure accedere all’istanza Brand Portal e passare all’icona Bell per la notifica e accedere alla cartella Contribution.
 
 >[!NOTE]
 >
->Se non siete già utenti di Brand Portal, chiedete all’amministratore AEM di creare l’utente nella console di amministrazione di AEM e di aggiungere il vostro profilo al file di configurazione dell’utente nell’elenco degli utenti di Brand Portal. Fate riferimento a [Aggiunta di utenti](brand-portal-configure-asset-sourcing.md)del portale dei marchi.
+>Se non siete già utenti di Brand Portal, chiedete all’amministratore AEM di creare l’utente nella console di amministrazione AEM e aggiungere il vostro profilo al file di configurazione dell’utente nell’elenco degli utenti di Brand Portal. Fate riferimento a [Aggiunta di utenti](brand-portal-configure-asset-sourcing.md)del portale dei marchi.
 
 **Ques. Qual è il formato del file CSV per l’importazione da parte degli utenti?**
 
-**Ans.** Il formato è lo stesso di quello supportato da  Admin Console per l&#39;importazione in massa di utenti. E-mail, nome e cognome sono obbligatori.
+**Ans.** Il formato è lo stesso di quello supportato dal Admin Console  per l&#39;importazione in massa di utenti. E-mail, nome e cognome sono obbligatori.
 
 
 
 **Ques. Cosa compila l’elenco di utenti (collaboratori di Brand Portal) nel menu a discesa degli utenti Contribution?**
 
-**Ans.** Gli utenti nel menu a discesa vengono popolati dal file di configurazione utente (.csv) del Portale marchio caricato in AEM.
+**Ans.** Gli utenti nel menu a discesa vengono popolati dal file di configurazione utente (.csv) del Brand Portal caricato in AEM.
 
 
 
 **Ques. Dove è possibile visualizzare lo stato dei processi di importazione e pubblicazione?**
 
-**Ans.** In AEM, potete visualizzare lo stato di un’importazione nella pagina del processo **asincrono** . In Brand Portal, potete visualizzare lo stato di un processo di pubblicazione in **[!UICONTROL Strumenti > Stato]** contributo risorsa.
+**Ans.** In AEM potete visualizzare lo stato di un&#39;importazione nella pagina del processo **asincrono** . In Brand Portal, potete visualizzare lo stato di un processo di pubblicazione in **[!UICONTROL Strumenti > Stato]** contributo risorsa.
 
 
 
@@ -164,9 +164,9 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 
 
-**Ques. Esiste una riduzione del numero di volte in cui è possibile pubblicare una cartella da Brand Portal ai AEM Assets?**
+**Ques. Esiste una riduzione del numero di volte in cui è possibile pubblicare una cartella da Brand Portal a  AEM Assets?**
 
-**Ans.** No, tutte le risorse presenti nella cartella **NEW** vengono pubblicate sui AEM Assets, indipendentemente dal fatto che siano state pubblicate in precedenza. Ogni volta che una cartella **Contribution** viene pubblicata da Brand Portal ai AEM Assets, questa viene ignorata e viene sostituita dal contenuto della cartella **NEW** .
+**Ans.** No, tutte le risorse presenti nella cartella **NEW** vengono pubblicate su  AEM Assets indipendentemente dal fatto che siano state pubblicate in precedenza. Ogni volta che una cartella **Contribution** viene pubblicata da Brand Portal a  AEM Assets, sostituisce il contenuto della cartella **NEW** .
 
 
 
@@ -182,21 +182,21 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 
 
 
-**Ques. Cosa succede se una cartella viene pubblicata dai AEM Assets al Portale del marchio che si trova in pieno flusso?**
+**Ques. Cosa succede se una cartella viene pubblicata da  AEM Assets al Portale del marchio che si trova in pieno flusso?**
 
-**Ans.** In AEM, i file di registro vengono conservati ogni volta che una cartella viene pubblicata nel Brand Portal. Al momento della pubblicazione, tutte le risorse che non vengono pubblicate in Brand Portal vengono messe in coda di replica. Eventuali risorse aggiunte alla cartella dopo l’attivazione del processo di pubblicazione non vengono pubblicate in Brand Portal. Quando l’utente AEM pubblica nuovamente la cartella, solo le risorse che non erano state pubblicate in precedenza (esistenti nella coda di replica) vengono pubblicate nel Brand Portal.
-Ciò vale per qualsiasi cartella pubblicata da AEM Assets al Portale del marchio e cartella CONDIVISA all’interno di una cartella Contribution.
+**Ans.** In AEM, i file di registro vengono conservati ogni volta che una cartella viene pubblicata nel Brand Portal. Al momento della pubblicazione, tutte le risorse che non vengono pubblicate in Brand Portal vengono messe in coda di replica. Eventuali risorse aggiunte alla cartella dopo l’attivazione del processo di pubblicazione non vengono pubblicate in Brand Portal. Quando l&#39;utente AEM pubblica nuovamente la cartella, solo le risorse che non erano state pubblicate in precedenza (esistenti nella coda di replica) vengono pubblicate in Brand Portal.
+Ciò vale per qualsiasi cartella pubblicata da  AEM Assets al Portale del marchio e cartella CONDIVISA all’interno di una cartella Contribution.
 
 
 
 **Ques. Chi ho a che fare con le domande?**
 
-**Ans.** Contatta il tuo Adobe Account Manager o l&#39;Assistenza clienti.
+**Ans.** Contatta il tuo Account Manager  Adobe o l&#39;Assistenza clienti.
 
 
 >[!NOTE]
 >
->Il programma di rilascio è provvisorio e soggetto a modifiche. Contatta il tuo Adobe Account Manager o l&#39;Assistenza clienti per ottenere la pianificazione della versione aggiornata.
+>Il programma di rilascio è provvisorio e soggetto a modifiche. Contatta il tuo Account Manager  Adobe o l&#39;Assistenza clienti per ottenere la pianificazione aggiornata della versione.
 
 
 
@@ -204,8 +204,8 @@ Ciò vale per qualsiasi cartella pubblicata da AEM Assets al Portale del marchio
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
-Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedete l&#39;accesso, contattate il vostro account manager Adobe.
+Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedete l&#39;accesso, contattate il vostro responsabile commerciale  Adobe.
 
 * [](https://daycare.day.com) [Accesso al prodotto](https://login.marketing.adobe.com)
 
-* [Assistenza clienti Adobe](https://helpx.adobe.com/contact.html)
+* [Assistenza clienti  Adobe](https://helpx.adobe.com/contact.html)
