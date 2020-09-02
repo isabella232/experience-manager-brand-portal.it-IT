@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: c359cf9c467fa6d20bebfdf2f8a72e8dd0e50916
+source-git-commit: 70d93d37b04d899979e38b454e342ebd78bad3bb
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Per creare una cartella di contributi, create una nuova cartella di tipo Contrib
 >Potete creare più cartelle di contributi all’interno di una cartella, ma non dovete creare una cartella di contributi all’interno di un’altra cartella di contributi.
 
 Per creare una cartella di contributi:
-1. Effettuate l’accesso all’istanza di creazione AEM.
+1. Effettuate l’accesso all’istanza AEM di creazione.
 
    L’URL predefinito è http:// localhost:4502/aem/start.html.
 
@@ -37,7 +37,7 @@ Per creare una cartella di contributi:
 
 1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL Viene visualizzata la finestra di dialogo Crea cartella]** .
 
-1. Immettete **[!UICONTROL Titolo]** e **[!UICONTROL Nome]** della cartella e abilitate la casella di controllo Contributo **** risorsa.
+1. Immettete **[!UICONTROL Titolo]** e **[!UICONTROL Nome]** della cartella e selezionate la casella di controllo Contributo **** risorsa.
 Si consiglia di utilizzare lettere minuscole senza spazio per denominare la cartella.
 
 1. Fai clic su **[!UICONTROL Crea]**. Potete visualizzare la cartella dei contributi elencata nell’archivio di AEM Assets .
