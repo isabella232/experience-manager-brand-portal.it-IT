@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 43425f5987c017682d9060dfbbe789a150b2e267
+source-git-commit: 80a7736d384383f7b196fe144ded1a3a4153eb91
 workflow-type: tm+mt
-source-wordcount: '4753'
+source-wordcount: '4758'
 ht-degree: 2%
 
 ---
@@ -61,16 +61,18 @@ L’amministratore di Brand Portal può abilitare qualsiasi combinazione per con
 
 <!--In Brand Portal 6.4.7, fast download, custom renditions, and system renditions are the three configurations available.-->
 
-* Se tutte e tre le configurazioni sono disattivate, le risorse vengono scaricate senza alcuna finestra di dialogo aggiuntiva che semplifica l’esperienza di download per gli utenti di Brand Portal. In base alla configurazione, il flusso di lavoro di download rimane costante per le risorse autonome, per più risorse, per le cartelle contenenti risorse, per le risorse con licenza o per quelle senza licenza e anche per il download delle risorse tramite il collegamento di condivisione.
+* Se sono disattivate sia le rappresentazioni **[!UICONTROL personalizzate che le rappresentazioni]** di **** sistema, le rappresentazioni originali delle risorse vengono scaricate senza alcuna finestra di dialogo aggiuntiva che semplifica l&#39;esperienza di download per gli utenti di Brand Portal.
 
 * Se è abilitata una rappresentazione **** personalizzata o una rappresentazione **[!UICONTROL di]** sistema, viene visualizzata la finestra di dialogo **[!UICONTROL Scarica]** e viene scaricata la risorsa originale insieme alle rappresentazioni delle risorse. Abilitando la configurazione del download **** rapido, il processo di download risulta più rapido.
+
+In base alla configurazione, il flusso di lavoro di download rimane costante per le risorse autonome, per più risorse, per le cartelle contenenti risorse, per le risorse con licenza o senza licenza e per il download delle risorse tramite il collegamento di condivisione.
 
 ![](assets/download-configuration.png)
 
 
 ## Novità in 6.4.6 {#what-changed-in-646}
 
-In Brand Portal 6.4.6, viene modificato il canale di autorizzazione tra  AEM Assets e Brand Portal. Brand Portal ora è supportato  servizio cloud AEM Assets,  AEM Assets 6.3 e versioni successive. In  AEM Assets 6.3 e versioni successive, Brand Portal era stato precedentemente configurato nell’interfaccia classica tramite il gateway OAuth legacy, che utilizza lo scambio di token JWT per ottenere un token di accesso IMS per l’autorizzazione.  AEM Assets è ora configurato con Brand Portal tramite  Adobe Developer Console, che fornisce un token IMS per l&#39;autorizzazione del tenant del Brand Portal.
+In Brand Portal 6.4.6, viene modificato il canale di autorizzazione tra  AEM Assets e Brand Portal. Brand Portal ora è supportato  AEM Assets come Cloud Service,  AEM Assets 6.3 e versioni successive. In  AEM Assets 6.3 e versioni successive, Brand Portal era stato precedentemente configurato nell’interfaccia classica tramite il gateway OAuth legacy, che utilizza lo scambio di token JWT per ottenere un token di accesso IMS per l’autorizzazione.  AEM Assets è ora configurato con Brand Portal tramite  Adobe Developer Console, che fornisce un token IMS per l&#39;autorizzazione del tenant del Brand Portal.
 
 <!-- The steps to configure integration are different depending on your AEM version, and whether you are configuring for the first-time, or upgrading the existing integration:
 -->
@@ -121,7 +123,7 @@ Consultate Domande frequenti sul [Brand Portal](brand-portal-faqs.md).
 ## Novità in 6.4.5 {#what-changed-in-645}
 
 
-Brand Portal 6.4.5 è una feature release che si propone di fornire agli utenti di Brand Portal (agenzie/team esterni) la possibilità di caricare contenuti in Brand Portal e pubblicarli in AEM Assets, senza necessità di accedere all’ambiente di authoring. Questa funzione è denominata **[Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md)**e migliorerà l’esperienza dei clienti fornendo agli utenti un meccanismo bidirezionale per contribuire e condividere le risorse con altri utenti del Brand Portal distribuiti a livello globale.
+Brand Portal 6.4.5 è una feature release che si propone di fornire agli utenti di Brand Portal (agenzie/team esterni) la possibilità di caricare contenuti in Brand Portal e pubblicarli in AEM Assets, senza necessità di accedere all’ambiente di authoring. Questa funzione è denominata **[Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md)** e migliorerà l’esperienza dei clienti fornendo agli utenti un meccanismo bidirezionale per contribuire e condividere le risorse con altri utenti del Brand Portal distribuiti a livello globale.
 
 ### Origine risorsa in Brand Portal {#asset-sourcing-in-bp}
 
@@ -194,7 +196,7 @@ Analogamente, specificando:
 
 >[!NOTE]
 >
->Selezionando la casella di controllo **Ricerca** parziale, per impostazione predefinita viene selezionato **Ignora maiuscole/minuscole** .
+>Quando si seleziona la casella di controllo Ricerca **** parziale, per impostazione predefinita viene selezionata l’opzione **Ignora maiuscole/minuscole** .
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-searching.md#facetedsearchbyapplyingfilterstosearch)
 
@@ -563,7 +565,7 @@ Per allineare l’esperienza utente del Brand Portal con AEM,  Adobe è in fase 
 
 ![](assets/omnisearch_whatsnew.png)
 
-* Potete anche aggiungere filtri di ricerca alla ricerca Omni per restringere ulteriormente la ricerca e velocizzarla.
+* Potete anche aggiungere dei filtri di ricerca alla ricerca Omni per restringere ulteriormente la ricerca e velocizzarla.
 
 ![](assets/omnisearch_withfilters.png)
 
@@ -582,7 +584,7 @@ Dopo aver scaricato una cartella nidificata, potete mantenere la gerarchia delle
 
 ### Prestazioni migliorate {#improved-performance}
 
-I miglioramenti nelle funzionalità di ricerca, ricerca e scaricamento migliorano notevolmente le prestazioni del Brand Portal.
+I miglioramenti apportati alle funzionalità di ricerca, ricerca e scaricamento migliorano notevolmente le prestazioni del Brand Portal.
 
 ### New digital rights management for assets {#new-digital-rights-management-for-assets}
 
