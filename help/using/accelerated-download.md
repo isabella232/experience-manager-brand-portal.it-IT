@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1090'
 ht-degree: 2%
 
 ---
@@ -26,15 +26,16 @@ Brand Portal consente di migliorare le prestazioni di download di file di risors
 >
 >La velocità di download varia a seconda degli utenti, in quanto dipende da fattori quali la larghezza di banda della rete, la latenza del server e la posizione geografica dei client.
 
-Se attivato, gli utenti del Brand Portal possono ridurre notevolmente il tempo necessario per scaricare i file di risorse desiderati dal Brand Portal o tramite il collegamento condiviso installando il client Aspera Connect.
 
-![](assets/enable-fast-file-download.png)
+Per impostazione predefinita, la configurazione Download **** rapido è abilitata, il che riduce notevolmente il tempo necessario per scaricare i file di risorse desiderati dal Brand Portal.
+
+![](assets/download-configuration.png)
 
 ## Prerequisiti per accelerare il download dei file {#prerequisites-to-accelerate-file-download}
 
 Per scaricare più rapidamente i file, accertatevi di quanto segue:
 
-* **[!UICONTROL Attiva accelerazione]** download (disabilitata per impostazione predefinita) da Impostazioni  generali nel pannello degli strumenti di amministrazione.
+* Andate a **[!UICONTROL Strumenti]** > **[!UICONTROL Scarica]** e verificate che la configurazione di download **** rapido sia abilitata in Impostazioni **** download.
 * La porta 33001 (TCP e UDP) è aperta sul firewall. Per ulteriori informazioni sui prerequisiti, consultate la documentazione [del client](https://downloads.asperasoft.com/en/documentation/8)Aspera Connect.
 * Installate Adobe Connect usando i privilegi di amministratore.
 * Per il supporto della piattaforma per il client di trasferimento Aspera, vedi Matrice [di supporto della piattaforma](https://www.asperasoft.com/company/support/transfer-clients/)Aspera Connect.
@@ -72,8 +73,8 @@ La tabella seguente mostra le prestazioni di download per i file da 2 GB che uti
 Per scaricare più rapidamente le risorse da Brand Portal:
 
 1. Effettuate l&#39;accesso al Portale del marchio utilizzando un browser supportato.
-1. Sfogliate e selezionate il file di risorse, la cartella o la raccolta da scaricare. Toccate o fate clic sull’opzione di download.
-Viene visualizzata una finestra di dialogo con l&#39;opzione [Abilita accelerazione] download selezionata.
+1. Sfogliate e selezionate le cartelle o risorse da scaricare. Dalla barra degli strumenti nella parte superiore, fate clic sull&#39;icona **[!UICONTROL Scarica]** . la finestra di dialogo **[!UICONTROL Scarica]** viene visualizzata con le caselle di controllo **[!UICONTROL Risorse]** e **[!UICONTROL Abilita accelerazione]** download selezionate per impostazione predefinita.
+
    ![](assets/download-assetsbp.png)
 
    >[!NOTE]
@@ -82,19 +83,25 @@ Viene visualizzata una finestra di dialogo con l&#39;opzione [Abilita accelerazi
 
    ![](assets/fast-download-emailchk.png)
 
-1. Toccate o fate clic sull’opzione **[!UICONTROL Scarica]** .
-Per velocizzare l&#39;esperienza di download nell&#39;account tenant del Portale marchio, è necessario che nel sistema sia installata l&#39;applicazione client Aspera Connect.
+1. Fate clic su **[!UICONTROL Scarica]**.
 
-1. **Scaricate il client** Aspera Connect se il client Aspera Connect non è installato sul sistema o se il client Aspera Connect esistente è obsoleto, nella pagina del browser viene visualizzato un prompt dal quale potete scaricare il client Aspera Connect specifico del sistema selezionando **[!UICONTROL Scarica versione]** più recente.
+   Per velocizzare l&#39;esperienza di download sull&#39;account tenant del portale di marchio, è necessario che l&#39;applicazione client Aspera Connect sia installata nell&#39;estensione del browser.
+
+1. **Download del client Aspera Connect**
+
+   Se il client Aspera Connect non è installato sul sistema in uso o se il client Aspera Connect esistente non è aggiornato, nella pagina del browser viene visualizzato un messaggio di richiesta dal quale potete scaricare il client Aspera Connect specifico del sistema selezionando **[!UICONTROL Scarica versione]** più recente.
 
    ![](assets/aspera-not-launched.png)
 
    Per scaricare la versione più recente di Aspera Connect da [https://downloads.asperasoft.com/connect2/](https://downloads.asperasoft.com/connect2/), selezionate **[!UICONTROL Scarica ora]** e seguite le istruzioni.
 
-1. **Installa il client** Aspera Connect Per installare l’installazione del client IBM Aspera Connect, esegui l’installazione dal file .msi dell’applicazione client IBM Aspera Connect e segui la procedura guidata di installazione.
+1. **Installazione del client Aspera Connect**
 
-1. Dopo aver installato correttamente il client, aggiornate la pagina del browser e riavviate i passaggi di download oppure selezionate **[!UICONTROL Riavvia]** nella finestra di dialogo **[!UICONTROL Download]** risorse (passaggio 2).
-Quando utilizzate Aspera Connect per la prima volta, il browser richiede di aprire il collegamento utilizzando **[!UICONTROL IBM Aspera Connect]**. Per saltare questa finestra di dialogo in futuro, abilitare **[!UICONTROL Ricorda la scelta per i collegamenti]** FASP.
+   Per installare l’installazione del client IBM Aspera Connect, esegui l’installazione dal file .msi dell’applicazione client IBM Aspera Connect e segui la procedura guidata di installazione.
+
+1. Una volta installato correttamente il client, aggiornate la pagina del browser e avviate nuovamente i passaggi di download.
+
+   Quando utilizzate Aspera Connect per la prima volta, il browser richiede di aprire il collegamento utilizzando **[!UICONTROL IBM Aspera Connect]**. Per saltare questa finestra di dialogo in futuro, abilitare **[!UICONTROL Ricorda la scelta per i collegamenti]** FASP.
 
    >[!NOTE]
    >
@@ -111,7 +118,7 @@ Al completamento del download, viene visualizzata una finestra di dialogo in cui
 
 >[!NOTE]
 >
->Nell’applicazione client Aspera Connect esiste una limitazione nota per cui non viene visualizzato alcun prompt per selezionare il percorso di download se viene **[!UICONTROL sempre richiesto all’utente di specificare dove salvare i file]** scaricati è attivato nella scheda [!UICONTROL Trasferimenti] all’interno delle [!UICONTROL Preferenze]. Prima di iniziare il download, indicate il percorso nella casella di testo **[!UICONTROL Salva i file scaricati in]**.
+>Nell’applicazione client Aspera Connect esiste una limitazione nota per cui non viene visualizzato alcun prompt per selezionare il percorso di download se viene **[!UICONTROL sempre richiesto all’utente di specificare dove salvare i file]** scaricati è attivato nella scheda **[!UICONTROL Trasferimenti]** all’interno delle **[!UICONTROL Preferenze]**. Prima di iniziare il download, indicate il percorso nella casella di testo **[!UICONTROL Salva i file scaricati in]**.
 
 ## Utilizzo dell&#39;acceleratore di file nel browser Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
@@ -121,8 +128,8 @@ Microsoft Edge viene eseguito in modalità protetta avanzata (EPM), impedendo la
 
 Per utilizzare la funzionalità di download accelerato in Microsoft Edge, rimuovete il sito Brand Portal dall&#39;elenco dei siti attendibili.
 
-1. Aprire il Pannello di controllo (premere il tasto **[!UICONTROL Finestra + X]**, quindi selezionare Pannello **[!UICONTROL di]** controllo).
-1. Vai a **[!UICONTROL Rete e Internet > Opzioni]** Internet. Click the **[!UICONTROL Security]** tab.
+1. Aprite l&#39;Pannello di controllo Campaign (tasto **[!UICONTROL Finestra + X]**, quindi selezionate **[!UICONTROL Pannello di controllo Campaign]**).
+1. Vai a **[!UICONTROL Rete e Internet]** > Opzioni **** Internet. Click the **[!UICONTROL Security]** tab.
 1. Fare clic sull&#39;area **[!UICONTROL Siti]** attendibili, quindi fare clic su **[!UICONTROL Siti]**.
 1. Rimuovere il sito Brand Portal dall&#39;elenco.
 
