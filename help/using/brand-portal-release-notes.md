@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '506'
 ht-degree: 7%
@@ -45,7 +45,7 @@ Questa versione include le nuove funzioni seguenti:
 * Download Settings configuration to configure asset download from Brand Portal. Fast download, custom renditions, and system renditions are the available configurations. 
 -->
 
-* Miglioramenti nel processo di download delle risorse che migliorano l’esperienza utente del Brand Portal durante il [download delle risorse dal Brand Portal](brand-portal-download-users.md). Gli amministratori di Brand Portal possono configurare Download **** rapido, rappresentazioni **** personalizzate e rappresentazioni **[!UICONTROL di]** sistema dalle impostazioni **[!UICONTROL Download]** .
+* Miglioramenti nel processo di download delle risorse che migliorano l’esperienza utente del Brand Portal durante il [download delle risorse dal Brand Portal](brand-portal-download-assets.md). Gli amministratori di Brand Portal possono configurare Download **** rapido, rappresentazioni **** personalizzate e rappresentazioni **[!UICONTROL di]** sistema dalle impostazioni **[!UICONTROL Download]** .
 
 For details, see [what&#39;s new in Brand Portal 6.4.7](whats-new.md).
 
