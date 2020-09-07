@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: 8fb85750f30ea1fee93cd770b94412bed7698c17
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 3%
@@ -23,7 +23,7 @@ Analogamente a una macro, un predefinito per immagini è una raccolta predefinit
 
 Un predefinito per immagini viene usato per generare rappresentazioni dinamiche delle immagini che possono essere visualizzate in anteprima e scaricate. Quando visualizzate l’anteprima delle immagini e delle relative rappresentazioni, potete scegliere un predefinito per riformattare le immagini in base alle specifiche impostate dall’amministratore.
 
-(*Se AEM (Autore) è in esecuzione in modalità&#x200B;**ibrida per file multimediali***dinamici) Per visualizzare le rappresentazioni dinamiche di una risorsa in Brand Portal, accertatevi che la relativa rappresentazione a forma di file piramidale sia presente nell’istanza di creazione AEM da cui pubblicate il progetto nel Brand Portal. Quando pubblicate la risorsa, la relativa rappresentazione PTIFF viene pubblicata anche sul Brand Portal.
+(*se AEM’istanza di creazione è in esecuzione in modalità&#x200B;**ibrida***elemento multimediale dinamico) Per visualizzare le rappresentazioni dinamiche di una risorsa in Brand Portal, accertatevi che la rappresentazione a forma di piramide sia presente nell’istanza di creazione AEM da cui pubblicate il file nel Portale marchio. Quando pubblicate la risorsa, la relativa rappresentazione PTIFF viene pubblicata anche sul Brand Portal.
 
 >[!NOTE]
 >
@@ -41,9 +41,9 @@ Gli amministratori di AEM possono creare predefiniti per immagini da visualizzar
 >
 >Le rappresentazioni dinamiche di un’immagine vengono create utilizzando il TIFF piramidale. Se il TIFF piramidale non è disponibile per alcuna risorsa, le rappresentazioni dinamiche per tale risorsa non possono essere recuperate nel portale marchio.
 >
->Se l’istanza AEM (Autore) è in esecuzione in modalità **ibrida per file multimediali** dinamici, le rappresentazioni TIFF piramidali delle risorse immagine vengono create e salvate AEM repository.
+>Se AEM’istanza di creazione è in esecuzione in modalità **ibrida** elemento multimediale dinamico, le rappresentazioni TIFF piramidali delle risorse di immagine vengono create e salvate AEM repository.
 >
->Se l’istanza AEM (Autore) è in esecuzione in modalità **Media**dinamica di Scene7, sul server Scene 7 sono disponibili rappresentazioni TIFF piramidali delle risorse immagine.
+>Se AEM’istanza di creazione è in esecuzione in modalità ****Contenuti multimediali dinamici di Scene7, nel server Scene 7 sono disponibili rappresentazioni TIFF piramidali delle risorse immagine.
 >Quando tali risorse vengono pubblicate sul portale del marchio, vengono applicati i predefiniti per immagini e vengono visualizzate le rappresentazioni dinamiche.
 
 
