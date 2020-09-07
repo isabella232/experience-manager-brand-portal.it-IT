@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '4758'
 ht-degree: 2%
@@ -48,7 +48,7 @@ Con Document Viewer, gli utenti di Brand Portal ora possono visualizzare le pagi
 
 ### Scarica esperienza {#download-configurations}
 
-Il processo di download delle risorse viene aggiornato e fornisce un’esperienza utente semplificata durante il [download delle risorse dal Brand Portal](brand-portal-download-users.md).
+Il processo di download delle risorse viene aggiornato e fornisce un’esperienza utente semplificata durante il [download delle risorse dal Brand Portal](brand-portal-download-assets.md).
 
 Il flusso di lavoro esistente per il download delle risorse da Brand Portal è inevitabilmente seguito dall’aspetto di una finestra di dialogo di **[!UICONTROL download]** con più opzioni di download tra cui scegliere.
 
