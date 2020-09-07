@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: fd116ab18140ed0b90c71107746ee971103765ff
 workflow-type: tm+mt
 source-wordcount: '1524'
 ht-degree: 9%
@@ -36,7 +36,7 @@ Adobe Experience Manager (AEM) Assets è configurato con Portale marchio tramite
 
 >[!NOTE]
 >
->La configurazione  AEM Assets con Portale del marchio tramite  Console per sviluppatori di Adobi è supportata  AEM Assets come Cloud Service,  AEM Assets 6.3 e versioni successive.
+>La configurazione  AEM Assets con Portale marchio tramite  console per sviluppatori di Adobi è supportata  AEM Assets come Cloud Service,  AEM Assets 6.3 e versioni successive.
 
 ### Prerequisites to configure AEM Assets with Brand Portal {#prerequisites}
 
@@ -88,7 +88,7 @@ Tuttavia, la sessione degli ospiti non consente di creare raccolte e ricerche sa
 
 [Ricerca di risorse pubbliche](brand-portal-searching.md)
 
-[Scaricare risorse pubbliche](brand-portal-download-users.md)
+[Scaricare risorse pubbliche](brand-portal-download-assets.md)
 
 [Aggiungere risorse a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -100,7 +100,7 @@ Un utente standard in Brand Portal è in genere un utente con il ruolo di Visual
 
 [Ricerca di risorse](brand-portal-searching.md)
 
-[Scaricare le risorse](brand-portal-download-users.md)
+[Scaricare le risorse](brand-portal-download-assets.md)
 
 ### Editor {#editor}
 
@@ -173,7 +173,7 @@ Per richiedere l’accesso, effettuate le seguenti operazioni:
    **Scenario 1**
    1. Se disponete di un [!UICONTROL Adobe ID], [!UICONTROL Enterprise ID]o [!UICONTROL Federated ID], fate clic su **[!UICONTROL Accedi]**.
 Viene visualizzata la pagina [!UICONTROL Accesso] .
-   1. Immetti le tue [!UICONTROL credenziali Adobe ID] e fai clic su **[!UICONTROL Accedi]**.<br />
+   1. Immettete le vostre [!UICONTROL credenziali Adobe ID] e fate clic su **[!UICONTROL Accedi]**.<br />
 
    ![Accesso  Adobe](assets/bplogin_request_access_3.png)
 
