@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: ca60fe1b76c6e99d835457627fcc4bf402b6bd87
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 4%
@@ -19,9 +19,9 @@ ht-degree: 4%
 
 # Browse assets on Brand Portal {#browsing-assets-on-brand-portal}
 
-Il portale del marchio AEM Assets offre diverse funzionalità ed elementi dell&#39;interfaccia utente che semplificano la navigazione tra le risorse, l&#39;attraversamento delle gerarchie di risorse e la ricerca delle risorse utilizzando diverse opzioni di visualizzazione.
+ AEM Assets Brand Portal offre diverse funzionalità ed elementi dell’interfaccia utente che semplificano la navigazione tra le risorse, l’attraversamento delle gerarchie di risorse e la ricerca delle risorse utilizzando diverse opzioni di visualizzazione.
 
-Il logo AEM nella barra degli strumenti di AEM nella parte superiore facilita l’accesso degli utenti amministratori al pannello degli strumenti amministrativi.
+AEM logo nella barra degli strumenti AEM nella parte superiore facilita l’accesso degli utenti amministratori al pannello degli strumenti amministrativi.
 
 ![](assets/aemlogo.png)
 
@@ -104,7 +104,7 @@ Nella vista a elenco sono visualizzate le informazioni relative a ciascuna risor
 * Titolo
 * Paese
 * Tipo
-* Dimensione
+* Dimension
 * Dimensione
 * Valutazione
 * Percorso cartella che mostra la gerarchia<sup>delle risorse*</sup>
@@ -118,7 +118,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Visualizzare le impostazioni nella vista a elenco
 
-Per impostazione predefinita, la vista Elenco mostra **[!UICONTROL il nome]** della risorsa come prima colonna. Vengono inoltre visualizzate informazioni aggiuntive, come **[!UICONTROL Titolo]** risorsa, **[!UICONTROL Impostazioni internazionali]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimensioni]**, **[!UICONTROL Dimensioni]******, , stato di pubblicazione. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
+Per impostazione predefinita, la vista Elenco mostra **[!UICONTROL il nome]** della risorsa come prima colonna. Vengono inoltre visualizzate informazioni aggiuntive, come **[!UICONTROL Titolo]** risorsa, **[!UICONTROL Impostazioni internazionali]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Dimensioni]******, , stato di pubblicazione. However, you can select the columns to be shown using **[!UICONTROL View Settings]**.
 
 ![](assets/list-view-setting.png)
 
@@ -215,7 +215,7 @@ Comment Type: draft
 <!--
 Comment Type: draft
 
-<h4>Deselecting All</h4>
+Deselecting All
 -->
 
 <!--
@@ -261,4 +261,4 @@ Per aprire la pagina delle proprietà della risorsa, usate l’opzione **[!UICON
 
 ![](assets/asset-properties.png)
 
-Potete anche visualizzare un elenco di tutte le risorse correlate (risorse di origine o derivate in AEM) nella pagina delle proprietà di una risorsa, poiché la relazione tra risorse viene anche pubblicata da AEM al Portale dei marchi.
+Potete anche visualizzare un elenco di tutte le relative risorse correlate (risorse di origine o derivate in AEM) nella pagina delle proprietà di una risorsa, poiché anche la relazione tra risorse viene pubblicata da AEM al Portale marchio.
