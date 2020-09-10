@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 69ed6cd7dc3dad8c3d3b0a82a8480cbeb5a61af4
+source-git-commit: ea7744001cfcf14cccf0e59eb2aa337ba8a3b1a2
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -20,26 +20,44 @@ ht-degree: 0%
 
 # Caricare le risorse nella cartella Contribution {#uplad-new-assets-to-contribution-folder}
 
-Gli utenti di Brand Portal [scaricano i requisiti](brand-portal-download-asset-requirements.md) delle risorse: breve documento allegato alla cartella dei contributi e scaricano le risorse della linea di base dalla cartella **SHARED** per comprendere la necessità di contributi.
-Gli utenti di Brand Portal possono quindi creare nuove risorse da assegnare al contributo e caricarle nella cartella **NEW** all’interno della cartella dei contributi.
+Gli utenti di Brand Portal possono [scaricare i requisiti](brand-portal-download-asset-requirements.md) delle risorse per comprendere meglio la necessità di un contributo.
+Possono quindi creare nuove risorse per il contributo e caricarle nella cartella NEW all’interno della cartella Contribution.
 
 >[!NOTE]
 >
->Gli utenti di Brand Portal possono caricare contenuto/risorse solo nella cartella **NEW** .
+>Gli utenti di Brand Portal possono caricare le risorse solo nella cartella NEW.
 >
->Il limite massimo di caricamento per qualsiasi account/tenant Brand Portal è **10** GB.
+>Il limite massimo di caricamento per qualsiasi tenant di Brand Portal è **10** GB, applicato cumulativamente a tutte le cartelle di contributi.
+
+
+Dopo aver pubblicato le risorse appena create su  AEM Assets, gli utenti del Brand Portal possono eliminarle dalla cartella NEW. Al contrario, l’amministratore di Brand Portal può eliminare le risorse dalla cartella NEW e SHARED.
+
+Una volta raggiunto l’obiettivo di creare la cartella dei contributi, l’amministratore di Brand Portal può eliminare la cartella dei contributi per liberare lo spazio di caricamento per gli altri utenti.
+
+>[!NOTE]
+>
+>Si consiglia di rilasciare lo spazio di caricamento dopo la pubblicazione della cartella dei contributi in  AEM Assets in modo che sia disponibile per gli altri utenti di Brand Portal per i contributi.
+>
+>Se è necessario estendere il limite di caricamento del tenant del Brand Portal oltre **10** GB, contattate  Adobe Support specificando il requisito.
 
 
 **Per caricare nuove risorse:**
 
 1. Effettuate l&#39;accesso all&#39;istanza Brand Portal.
 La dashboard di Brand Portal riflette tutte le cartelle esistenti consentite all’utente di Brand Portal insieme alla nuova cartella di contributi condivisi.
-1. Fate clic per aprire la cartella dei contributi. Nella cartella dei contributi sono visualizzate due sottocartelle **[!UICONTROL CONDIVISE]** e **[!UICONTROL NUOVO]** .
-1. Fate clic su **[!UICONTROL NUOVA]** cartella.
+
+1. Selezionate la cartella dei contributi e fate clic per aprirla. La cartella dei contributi contiene due sottocartelle: **[!UICONTROL SHARED]** e **[!UICONTROL NEW]**.
+
+1. Fate clic sulla cartella **[!UICONTROL NEW]** .
+
    ![](assets/upload-new-assets1.png)
-1. Fate clic su **[!UICONTROL Crea > File]** ![](assets/upload.png) per caricare singoli file o cartelle (.zip) contenenti più risorse.
+
+1. Fate clic su **[!UICONTROL Crea]** > **[!UICONTROL File]** per caricare singoli file o cartelle (.zip) contenenti più risorse.
+
    ![](assets/upload-new-assets2.png)
-1. Sfogliate e caricate nuove risorse (file/cartelle) nella cartella **[!UICONTROL NEW]** .
+
+1. Sfogliate e caricate le risorse (file o cartelle) nella cartella **[!UICONTROL NEW]** .
+
    ![](assets/upload-new-assets3.png)
 
-Al termine del caricamento, l’utente di Brand Portal può pubblicare nuovamente la cartella dei contributi  AEM Assets. Consultate [Pubblicare la cartella dei contributi per  AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Dopo aver caricato tutte le risorse o le cartelle nella cartella NEW, pubblicate la cartella Contribution in  AEM Assets. Consultate [Pubblicare la cartella dei contributi per  AEM Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
