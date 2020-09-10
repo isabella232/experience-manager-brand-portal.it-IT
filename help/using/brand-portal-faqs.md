@@ -10,9 +10,9 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1521'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Questo problema potrebbe verificarsi se avete configurato un tenant di Brand Por
 
 **Ques. Non è possibile pubblicare risorse da  AEM Assets a Brand Portal. Il registro di replica indica che la connessione è scaduta per timeout. C&#39;è una correzione rapida?**
 
-**Ans.** In genere la pubblicazione non riesce con un errore di timeout se nella coda di replica sono presenti più richieste in sospeso. Per risolvere il problema, assicurarsi che gli agenti di replica siano configurati in modo da evitare il timeout.
+**Ans.** In genere la pubblicazione non riesce con un errore di timeout se nella coda di replica sono presenti più richieste in sospeso. Per risolvere questo problema, assicurarsi che gli agenti di replica siano configurati in modo da evitare il timeout.
 
 Effettuate le seguenti operazioni per configurare l&#39;agente di replica:
 1. Accedete all’istanza di creazione  AEM Assets.
