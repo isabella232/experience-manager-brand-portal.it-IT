@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 translation-type: tm+mt
-source-git-commit: 77555866aaf5185a99b83d94f265ad08ec2b337e
+source-git-commit: a502a60a7d93595a202d50a79e2374c8d9734486
 workflow-type: tm+mt
 source-wordcount: '892'
 ht-degree: 2%
@@ -120,7 +120,7 @@ In base agli errori, si consiglia di registrare un ticket di assistenza, in modo
 
 In genere il processo di pubblicazione non riesce con un errore di timeout se nella coda di replica sono presenti più richieste in sospeso. Per risolvere questo problema, assicurarsi che gli agenti di replica siano configurati in modo da evitare il timeout.
 
-Effettuate le seguenti operazioni per configurare l&#39;agente di replica:
+Per configurare gli agenti di replica, effettuate le seguenti operazioni:
 1. Accedete all’istanza di creazione  AEM Assets.
 1. Dal pannello **Strumenti** , passare a **[!UICONTROL Distribuzione]** > **[!UICONTROL Replica]**.
 1. Nella pagina Replica, fate clic su **[!UICONTROL Agenti sull’autore]**. Potete visualizzare i quattro agenti di replica del tenant del Brand Portal.
