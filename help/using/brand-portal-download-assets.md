@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f4f92724cdd4ba8c79d3d72de5cba9451dceadb1
+source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
 workflow-type: tm+mt
-source-wordcount: '1294'
-ht-degree: 2%
+source-wordcount: '1356'
+ht-degree: 1%
 
 ---
 
@@ -116,6 +116,12 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
       >Alle risorse protette da licenza è associato [un contratto di](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) licenza, che viene fatto impostando la proprietà [](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadati della risorsa in  risorse di Experience Manager.
 
       ![](assets/licensed-asset-download-1.png)
+
+      >[!NOTE]
+      >
+      >Accertatevi di selezionare tutte le rappresentazioni di risorse necessarie durante il download dalla pagina dei dettagli della risorsa, quindi fate clic su **[!UICONTROL Scarica]**. Le rappresentazioni selezionate vengono scaricate nel computer locale.
+      > 
+      >Dopo il download, il pulsante **[!UICONTROL Scarica]** è disattivato per evitare di creare copie duplicate delle rappresentazioni scaricate. Per scaricare di più (copie mancanti o altre copie di rappresentazioni), aggiornate il browser e riattivate il pulsante di download.
 
       Se una qualsiasi delle rappresentazioni **** personalizzate o delle rappresentazioni **[!UICONTROL di]** sistema è abilitata nelle impostazioni **[!UICONTROL di]** download, viene visualizzata la finestra di dialogo **[!UICONTROL Scarica]** con la casella di controllo **[!UICONTROL Risorse]** selezionata per impostazione predefinita. Se è abilitata la configurazione di download **** rapido, per impostazione predefinita viene selezionata la casella di controllo **[!UICONTROL Abilita accelerazione]** download.
 
