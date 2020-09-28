@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: ca789ebfa9534a554e9fb973a36f8bef827a3a0d
+source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
 workflow-type: tm+mt
-source-wordcount: '1356'
-ht-degree: 1%
+source-wordcount: '1294'
+ht-degree: 2%
 
 ---
 
@@ -117,11 +117,14 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
       ![](assets/licensed-asset-download-1.png)
 
-      >[!NOTE]
-      >
-      >Accertatevi di selezionare tutte le rappresentazioni di risorse necessarie durante il download dalla pagina dei dettagli della risorsa, quindi fate clic su **[!UICONTROL Scarica]**. Le rappresentazioni selezionate vengono scaricate nel computer locale.
-      > 
-      >Dopo il download, il pulsante **[!UICONTROL Scarica]** è disattivato per evitare di creare copie duplicate delle rappresentazioni scaricate. Per scaricare di più (copie mancanti o altre copie di rappresentazioni), aggiornate il browser e riattivate il pulsante di download.
+      <!--
+     >>[!NOTE]
+     >
+     >Ensure to select all the required asset renditions while downloading them from the asset details page, and click **[!UICONTROL Download]**. The selected renditions are downloaded to your local machine.
+     > 
+     >Once you download, the **[!UICONTROL Download]** button is disabled to avoid creating duplicate copies of the downloaded renditions. To download more (missing or another copy of renditions), refresh the browser to re-enable the download button.
+     >
+     -->
 
       Se una qualsiasi delle rappresentazioni **** personalizzate o delle rappresentazioni **[!UICONTROL di]** sistema è abilitata nelle impostazioni **[!UICONTROL di]** download, viene visualizzata la finestra di dialogo **[!UICONTROL Scarica]** con la casella di controllo **[!UICONTROL Risorse]** selezionata per impostazione predefinita. Se è abilitata la configurazione di download **** rapido, per impostazione predefinita viene selezionata la casella di controllo **[!UICONTROL Abilita accelerazione]** download.
 
