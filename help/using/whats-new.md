@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 0c73578ea3be53f39e44d81826dcbc0be08acccf
+source-git-commit: d06381d84c70ab1566ac40c825233577de40af87
 workflow-type: tm+mt
-source-wordcount: '4758'
+source-wordcount: '4755'
 ht-degree: 2%
 
 ---
@@ -212,10 +212,12 @@ Gli amministratori possono ora configurare il modo in cui le cartelle vengono vi
 * **disattivato**, solo le cartelle condivise vengono visualizzate sulla pagina di destinazione.
 
 ![](assets/enable-folder-hierarchy.png)
-**Il caso d’uso**
 
 La funzionalità [Abilita gerarchia](../using/brand-portal-general-configuration.md) cartelle (se abilitata) consente di distinguere le cartelle con gli stessi nomi condivisi da gerarchie diverse. Al momento dell&#39;accesso, gli utenti non amministratori ora visualizzano le cartelle padre (e antenati) virtuali delle cartelle condivise.
-![](assets/disabled-folder-hierarchy1-2.png) ![](assets/enabled-hierarchy1-2.png)
+
+![](assets/disabled-folder-hierarchy1-2.png)
+
+![](assets/enabled-hierarchy1-2.png)
 
 Le cartelle condivise sono organizzate nelle rispettive directory nelle cartelle virtuali. È possibile riconoscere queste cartelle virtuali con un&#39;icona a forma di lucchetto.
 
@@ -231,7 +233,8 @@ La miniatura predefinita delle cartelle virtuali è la miniatura della prima car
 
 * Gli utenti amministratori possono utilizzare il browser Percorsi per accedere a qualsiasi directory di cartelle nel Brand Portal.
 * Gli utenti non amministratori possono utilizzare il browser Percorsi per navigare solo verso le cartelle (e tornare alle cartelle principali) condivise con loro.
-Ad esempio, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` viene condiviso con un utente non amministratore. L’utente può cercare risorse all’interno di folderC utilizzando il browser Percorso. Questo utente può anche passare a folderB e folderA (poiché sono antenati della cartellaC che viene condivisa con l&#39;utente).
+
+   Ad esempio, `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` viene condiviso con un utente non amministratore. L’utente può cercare risorse all’interno di folderC utilizzando il browser Percorso. Questo utente può anche passare a folderB e folderA (poiché sono antenati della cartellaC che viene condivisa con l&#39;utente).
 
 ![](assets/edit-search-form.png)
 
