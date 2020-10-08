@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e497fb791030d74d9e5672b68387661ca7140d8a
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 2%
@@ -28,7 +28,6 @@ Adobe Experience Manager Assets Brand Portal ottimizza l’esperienza di downloa
 >[!NOTE]
 >
 >Installate IBM Aspera Connect 3.9.9 nell’estensione del browser prima di scaricare le risorse dal Brand Portal.
-
 
 <!--
 **Types of renditions in Brand Portal:**
@@ -88,7 +87,6 @@ Test..
 >[!NOTE]
 >
 >Solo gli amministratori possono scaricare le risorse scadute. Per ulteriori informazioni sulle risorse scadute, consultate [Gestione dei diritti digitali delle risorse](../using/manage-digital-rights-of-assets.md).
-
 
 ## Passaggi per scaricare le risorse {#steps-to-download-assets}
 
@@ -166,7 +164,9 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
       >
       >Brand Portal supporta la configurazione di Dynamic Media sia in modalità Hybird che Scene7.
       >
-      >(*se AEM’istanza di creazione è in esecuzione in modalità&#x200B;**ibrida***elemento multimediale dinamico)      >Per visualizzare in anteprima o scaricare le rappresentazioni dinamiche di una risorsa, accertatevi che l’elemento multimediale dinamico sia attivato e che la rappresentazione a comparsa piramidale della risorsa sia disponibile nell’istanza di creazione  AEM Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata nel Portale marchio, viene pubblicata anche la relativa rappresentazione a forma di poligono piramidale.
+      >(*se AEM’istanza di creazione è in esecuzione in modalità&#x200B;**ibrida***elemento multimediale dinamico)
+      >
+      >Per visualizzare in anteprima o scaricare le rappresentazioni dinamiche di una risorsa, accertatevi che l’elemento multimediale dinamico sia attivato e che la rappresentazione a comparsa piramidale della risorsa sia disponibile nell’istanza di creazione  AEM Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata nel Portale marchio, viene pubblicata anche la relativa rappresentazione a forma di poligono piramidale.
 
    * Per mantenere la gerarchia delle cartelle del Portale marchio durante il download delle risorse, selezionate la casella di controllo **[!UICONTROL Crea cartella separata per ciascuna risorsa]** . Per impostazione predefinita, la gerarchia delle cartelle di Brand Portal viene ignorata e tutte le risorse vengono scaricate in una cartella del sistema locale.
 
@@ -179,7 +179,6 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
    >[!NOTE]
    >
    >Le risorse che vengono scaricate singolarmente sono visibili nel rapporto di download delle risorse. Tuttavia, se viene scaricata una cartella contenente delle risorse, la cartella e le risorse non vengono visualizzate nel rapporto di download delle risorse.
-
 
 ## Prevista prestazioni di download {#expected-download-performance}
 
@@ -199,4 +198,3 @@ L&#39;esperienza di download dei file può variare per gli utenti che si trovano
 >[!NOTE]
 >
 >I dati citati sono osservati in condizioni di test, che possono variare per gli utenti in diverse aree, a causa di latenza e larghezza di banda variabili.
-
