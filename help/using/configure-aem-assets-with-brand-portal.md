@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: de21e84b93a657570db2024c2ceba58704ba5844
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 10%
@@ -32,7 +32,6 @@ Adobe Experience Manager Assets è configurato con Brand Portal tramite  Adobe D
 >
 >La configurazione tramite OAuth legacy non è più supportata dal 6 aprile 2020 e viene modificata in configurazione tramite  console per sviluppatori di Adobe.
 
-
 >[!TIP]
 >
 >***Solo per i clienti esistenti***
@@ -40,7 +39,6 @@ Adobe Experience Manager Assets è configurato con Brand Portal tramite  Adobe D
 >La configurazione del gateway OAuth legacy continuerà a funzionare per i clienti esistenti.
 >
 >In caso di problemi con la configurazione del gateway OAuth precedente, elimina la configurazione esistente e crea una nuova configurazione tramite  console Sviluppatore di Adobe.
-
 
 I passaggi per configurare  AEM Assets con Brand Portal sono diversi a seconda della versione AEM e se si sta configurando per la prima volta o si stanno aggiornando le configurazioni esistenti:
 
@@ -51,5 +49,3 @@ I passaggi per configurare  AEM Assets con Brand Portal sono diversi a seconda d
 | **AEM 6.4 (6.4.8.0 e versioni successive)** | [Creare la configurazione](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Aggiornamento della configurazione](https://docs.adobe.com/content/help/en/experience-manager-64/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-64) |
 | **AEM 6.3 (6.3.3.8 e versioni successive)** | [Creare la configurazione](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html) | [Aggiornamento della configurazione](https://helpx.adobe.com/experience-manager/6-3/assets/using/brand-portal-configuring-integration.html#Upgradeconfiguration) |
 | **AEM 6.2** | Contattare il supporto | Contattare il supporto |
-
-
