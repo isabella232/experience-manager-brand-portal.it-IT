@@ -19,7 +19,7 @@ audience: author, marketer
 version: 6.5
 kt: 3838
 translation-type: tm+mt
-source-git-commit: a32eed22ebfbc683fca96950fc2e08bf5cfaccb3
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 0%
@@ -43,7 +43,6 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 >
 >Asset Sourcing non è supportato  AEM Assets come Cloud Service.
 
-
 >[!VIDEO](https://video.tv.adobe.com/v/29365/?quality=12)
 
 ![Origine risorsa Brand Portal](assets/asset-sourcing.png)
@@ -56,7 +55,6 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 >Il problema è stato risolto nella AEM 6.5.5. È possibile aggiornare l&#39;istanza di  AEM Assets al service pack più recente AEM 6.5.5 e [aggiornare le configurazioni](https://docs.adobe.com/content/help/en/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) su  Developer Console.
 >
 >Per la correzione immediata del AEM 6.5.4, si consiglia di [scaricare l’hotfix](https://www.adobeaemcloud.com/content/marketplace/marketplaceProxy.html?packagePath=/content/companies/public/adobe/packages/cq650/hotfix/cq-6.5.0-hotfix-33041) e installarlo nell’istanza di creazione.
-
 
 ## Consulta anche {#reference-articles}
 
