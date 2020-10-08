@@ -1,8 +1,8 @@
 ---
 title: Condividere le risorse come collegamento
 seo-title: Condividere le risorse come collegamento
-description: Gli amministratori del portale dei marchi AEM Assets possono condividere i collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
-seo-description: Gli amministratori del portale dei marchi AEM Assets possono condividere i collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
+description: ' gli amministratori di AEM Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.'
+seo-description: ' gli amministratori di AEM Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.'
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,7 +10,7 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 translation-type: tm+mt
-source-git-commit: 70640f9fa605d56160f01fde577ee699cfaac08d
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1118'
 ht-degree: 4%
@@ -20,7 +20,7 @@ ht-degree: 4%
 
 # Condividere le risorse come collegamento {#share-assets-as-a-link}
 
-Gli amministratori del portale dei marchi AEM Assets possono condividere i collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
+ gli amministratori di AEM Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
 
 La condivisione delle risorse tramite un collegamento è un modo pratico per renderle disponibili a soggetti esterni, in quanto i ricevitori non devono accedere al Portale marchio per accedere alle risorse.
 
@@ -31,7 +31,6 @@ Per ulteriori informazioni, consultate [Gestione di utenti, gruppi e ruoli](../u
 >[!NOTE]
 >
 >È possibile scaricare fino a 5 GB di file ZIP utilizzando la funzionalità di condivisione dei collegamenti in Brand Portal.
-
 
 Seguono i passaggi per condividere le risorse come collegamento:
 
@@ -190,7 +189,7 @@ La legenda seguente spiega i simboli utilizzati nella matrice:
 | ✓ | Questo formato di file supporta questa funzione |
 | ✕ | Questo formato di file non supporta questa funzione |
 | NA | Questa funzione non è applicabile a questo formato di file |
-| * | Questa funzione richiede il supporto del componente aggiuntivo per questo formato di file nell’istanza di creazione di AEM ma non nel Portale marchio dopo la pubblicazione delle risorse nel Portale marchio |
+| * | Questa funzione richiede il supporto del componente aggiuntivo per questo formato di file nell’istanza AEM’autore, ma non nel Portale marchio dopo la pubblicazione delle risorse nel Portale marchio |
 
 ## Annullamento della condivisione di risorse condivise come collegamento {#unshare-assets-shared-as-a-link}
 
