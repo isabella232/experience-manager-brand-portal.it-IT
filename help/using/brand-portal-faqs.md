@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: a87f85a11e8892e6f306a003d971403581a9e3d7
+source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -187,20 +187,13 @@ Gli utenti di Brand Portal accedono alla cartella **Contribution** e caricano il
 **Ans.** In AEM, i file di registro vengono conservati ogni volta che una cartella viene pubblicata nel Brand Portal. Al momento della pubblicazione, tutte le risorse che non vengono pubblicate in Brand Portal vengono messe in coda di replica. Eventuali risorse aggiunte alla cartella dopo l’attivazione del processo di pubblicazione non vengono pubblicate in Brand Portal. Quando l&#39;utente AEM pubblica nuovamente la cartella, solo le risorse che non erano state pubblicate in precedenza (esistenti nella coda di replica) vengono pubblicate in Brand Portal.
 Ciò vale per qualsiasi cartella pubblicata da  AEM Assets al Portale del marchio e cartella CONDIVISA all’interno di una cartella Contribution.
 
-
-
 **Ques. Chi ho a che fare con le domande?**
 
 **Ans.** Contatta il tuo Account Manager  Adobe o l&#39;Assistenza clienti.
 
-
 >[!NOTE]
 >
 >Il programma di rilascio è provvisorio e soggetto a modifiche. Contatta il tuo Account Manager  Adobe o l&#39;Assistenza clienti per ottenere la pianificazione aggiornata della versione.
-
-
-
-
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
