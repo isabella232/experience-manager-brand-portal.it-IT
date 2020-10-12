@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 3a2a9d315a5db80232e6f7fc8470ada88fddc1ff
+source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 1%
@@ -121,7 +121,6 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
       >Accertatevi di selezionare tutte le rappresentazioni di risorse necessarie durante il download dalla pagina dei dettagli della risorsa, quindi fate clic su **[!UICONTROL Scarica]**. Le rappresentazioni selezionate vengono scaricate nel computer locale.
       > 
       >Dopo il download, il pulsante **[!UICONTROL Scarica]** è disattivato per evitare di creare copie duplicate delle rappresentazioni scaricate. Per scaricare di più (copie mancanti o altre copie di rappresentazioni), aggiornate il browser e riattivate il pulsante di download.
-
 
       Se una qualsiasi delle rappresentazioni **** personalizzate o delle rappresentazioni **[!UICONTROL di]** sistema è abilitata nelle impostazioni **[!UICONTROL di]** download, viene visualizzata la finestra di dialogo **[!UICONTROL Scarica]** con la casella di controllo **[!UICONTROL Risorse]** selezionata per impostazione predefinita. Se è abilitata la configurazione di download **** rapido, per impostazione predefinita viene selezionata la casella di controllo **[!UICONTROL Abilita accelerazione]** download.
 
