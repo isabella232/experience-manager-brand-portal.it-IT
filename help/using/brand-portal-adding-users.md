@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '2209'
 ht-degree: 0%
@@ -223,6 +223,7 @@ Potete concedere all’amministratore di sistema o all’amministratore di prodo
    >
    >Per revocare i privilegi di amministratore per un utente, apportate le modifiche appropriate nella pagina **[!UICONTROL Modifica amministratore]** , quindi fate clic su **[!UICONTROL Salva]**.
 
+
 ## Gestione dei ruoli utente {#manage-user-roles}
 
 Un amministratore può modificare i ruoli per gli utenti in Brand Portal.
@@ -250,9 +251,11 @@ Oltre al ruolo Amministratore, Brand Portal supporta i seguenti ruoli:
    >
    >L&#39;elenco [!UICONTROL Ruolo] per gli utenti Amministratore è disattivato. Non potete selezionare questi utenti per modificarne i ruoli.
 
+
    >[!NOTE]
    >
    >Il ruolo utente è disabilitato anche se l’utente è membro del gruppo Editor. Per revocare i privilegi di modifica all’utente, rimuovete l’utente dal gruppo Editor oppure modificate il ruolo dell’intero gruppo nel visualizzatore.
+
 
 1. Fai clic su **[!UICONTROL Salva]**. Il ruolo viene modificato per l&#39;utente corrispondente. Se avete selezionato più utenti, i ruoli per tutti gli utenti vengono modificati contemporaneamente.
 
@@ -287,8 +290,10 @@ Per modificare il ruolo e il diritto di accesso alle rappresentazioni originali 
    >
    >Inoltre, le restrizioni per l’accesso alle rappresentazioni originali dei file immagine non si applicano agli amministratori anche se sono membri di gruppi limitati.
 
+
 1. Fai clic su **[!UICONTROL Salva]**. Il ruolo viene modificato per i gruppi corrispondenti.
 
    >[!NOTE]
    >
    >L’associazione utente-gruppo, o l’appartenenza al gruppo di un utente, viene sincronizzata nel Portale marchio ogni 8 ore. Le modifiche ai ruoli utente o gruppo diventano effettive dopo l’esecuzione del processo di sincronizzazione successivo.
+
