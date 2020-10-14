@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 2931e19289ad8a722e3bb952e39f25b374f743c4
+source-git-commit: 87169580dfa5386bd7b3b6a3cc0b611c0eceb1d5
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 8%
+source-wordcount: '544'
+ht-degree: 7%
 
 ---
 
@@ -55,19 +55,29 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 * Oltre alle configurazioni di **[!UICONTROL download]** esistenti, gli amministratori del Portale marchio possono configurare le autorizzazioni per diversi gruppi di utenti per visualizzare e (o) scaricare la risorsa originale e le relative rappresentazioni dalla pagina dei dettagli della risorsa. Queste configurazioni definiranno chi può accedere e (o) scaricare le rappresentazioni delle risorse.
 
+### Miglioramenti {#enhancements}
 
-### Problemi critici risolti {#critical-issues-fixed}
+Questa versione include i seguenti miglioramenti:
 
-Questa versione include correzioni al seguente problema critico:
+* La soglia di timeout sessione per gli utenti ospiti è stata ridotta da 2 ore a 15 minuti.
+* L’opzione Pagine **** di visualizzazione aggiuntive è stata rimossa per i PDF con più pagine, in quanto ora l’utente può visualizzare le pagine PDF dal visualizzatore Adobe Document Cloud.
 
-* Gli utenti non possono visualizzare le pagine PDF se il PDF contiene risorse secondarie.
 
+<!--
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issue:
+
+* The users are not able to view the PDF pages if the PDF contains sub assets.
+-->
 
 ### Problemi noti {#known-issues}
 
 Questa versione include il seguente problema noto:
 
-* Se l&#39;utente sta scaricando la risorsa tramite il collegamento di condivisione, la risorsa originale viene scaricata anche quando l&#39;opzione **[!UICONTROL Consenti download del file]** originale è disabilitata.
+* La ricerca nei report **[!UICONTROL delle]** risorse mostra l&#39;elaborazione nell&#39;interfaccia del prodotto senza risultati di ricerca.
+* Le codifiche video DM non sono visibili agli utenti non amministratori nella pagina dei dettagli della risorsa.
+* L’allineamento delle dimensioni delle rappresentazioni delle singole risorse e della dimensione totale del download è distorto nella finestra di dialogo Download.
 
 
 
