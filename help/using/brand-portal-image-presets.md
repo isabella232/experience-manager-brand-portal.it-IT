@@ -9,7 +9,7 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 3%
@@ -29,6 +29,7 @@ Un predefinito per immagini viene usato per generare rappresentazioni dinamiche 
 >
 >Quando si scaricano le immagini e le relative rappresentazioni, non è possibile scegliere tra i predefiniti esistenti. Potete invece specificare le proprietà di un predefinito per immagini personalizzato. Per ulteriori informazioni, consultate [Applicare i predefiniti per immagini durante il download delle immagini](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
+
 Per ulteriori informazioni sui parametri richiesti per la creazione dei predefiniti per immagini, consultate [Gestione dei predefiniti](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html)per immagini.
 
 ## Creare un predefinito per immagini {#create-an-image-preset}
@@ -44,6 +45,7 @@ Gli amministratori di AEM possono creare predefiniti per immagini da visualizzar
 >Se AEM’istanza di creazione è in esecuzione in modalità **** Contenuti multimediali dinamici di Scene7, nel server Scene 7 sono disponibili rappresentazioni TIFF piramidali delle risorse immagine.
 >
 >Quando tali risorse vengono pubblicate sul portale del marchio, vengono applicati i predefiniti per immagini e vengono visualizzate le rappresentazioni dinamiche.
+
 
 1. Dalla barra degli strumenti AEM nella parte superiore, fate clic sul logo del Adobe  per accedere agli strumenti amministrativi.
 
