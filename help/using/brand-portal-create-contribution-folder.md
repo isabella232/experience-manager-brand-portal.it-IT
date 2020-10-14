@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '258'
 ht-degree: 0%
@@ -45,6 +45,7 @@ Si consiglia di utilizzare lettere minuscole senza spazio per denominare la cart
    >[!NOTE]
    >
    >Un utente non amministratore può creare e condividere una cartella di contributi di risorse ma non può modificarla o eliminarla.
+
 
    ![](assets/create-contribution-folder.png)
 
