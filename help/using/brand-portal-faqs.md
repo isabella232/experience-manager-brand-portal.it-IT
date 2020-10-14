@@ -10,7 +10,7 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1521'
 ht-degree: 0%
@@ -194,6 +194,7 @@ Ciò vale per qualsiasi cartella pubblicata da  AEM Assets al Portale del marchi
 >[!NOTE]
 >
 >Il programma di rilascio è provvisorio e soggetto a modifiche. Contatta il tuo Account Manager  Adobe o l&#39;Assistenza clienti per ottenere la pianificazione aggiornata della versione.
+
 
 ## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
 
