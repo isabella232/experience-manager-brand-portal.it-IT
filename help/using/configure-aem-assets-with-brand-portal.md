@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '334'
 ht-degree: 10%
@@ -31,6 +31,7 @@ Adobe Experience Manager Assets è configurato con Brand Portal tramite  Adobe D
 >In precedenza, Brand Portal era stato configurato nell’interfaccia classica tramite Legacy OAuth Gateway, che utilizza lo scambio JSON Web Token (JWT) per ottenere un token IMS per l’autorizzazione.
 >
 >La configurazione tramite OAuth legacy non è più supportata dal 6 aprile 2020 e viene modificata in configurazione tramite  console per sviluppatori di Adobe.
+
 
 >[!TIP]
 >
