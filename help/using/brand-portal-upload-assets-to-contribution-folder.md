@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 0%
@@ -29,6 +29,7 @@ Possono quindi creare nuove risorse per il contributo e caricarle nella cartella
 >
 >Il limite massimo di caricamento per qualsiasi tenant di Brand Portal è **10** GB, applicato cumulativamente a tutte le cartelle di contributi.
 
+
 Dopo aver pubblicato le risorse appena create su  AEM Assets, gli utenti del Brand Portal possono eliminarle dalla cartella NEW. Al contrario, l’amministratore di Brand Portal può eliminare le risorse dalla cartella NEW e SHARED.
 
 Una volta raggiunto l’obiettivo di creare la cartella dei contributi, l’amministratore di Brand Portal può eliminare la cartella dei contributi per liberare lo spazio di caricamento per gli altri utenti.
@@ -38,6 +39,7 @@ Una volta raggiunto l’obiettivo di creare la cartella dei contributi, l’ammi
 >Si consiglia di rilasciare lo spazio di caricamento dopo la pubblicazione della cartella dei contributi in  AEM Assets in modo che sia disponibile per gli altri utenti di Brand Portal per i contributi.
 >
 >Se è necessario estendere il limite di caricamento del tenant del Brand Portal oltre **10** GB, contattate  Adobe Support specificando il requisito.
+
 
 **Per caricare nuove risorse:**
 
