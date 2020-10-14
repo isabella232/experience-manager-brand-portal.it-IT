@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71409bb00357a32541b0c7dbc001e7ec308d6dec
+source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
 workflow-type: tm+mt
 source-wordcount: '1356'
 ht-degree: 1%
@@ -107,11 +107,13 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
       >
       >Se state scaricando le risorse per la prima volta e non disponete di IBM Aspera Connect installato nel browser, vi verrà richiesto di installare l’acceleratore di download di Aspera.
 
+
       >[!NOTE]
       >
       >Se le risorse che state scaricando includono anche risorse con licenza, viene nuovamente visualizzata la pagina Gestione **** copyright. In questa pagina, selezionate le risorse, fate clic su **[!UICONTROL Accetto]** e quindi su **[!UICONTROL Scarica]**. Se scegliete di non essere d’accordo, le risorse con licenza non vengono scaricate.
       > 
       >Alle risorse protette da licenza è associato [un contratto di](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) licenza, che viene fatto impostando la proprietà [](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) metadati della risorsa in  risorse di Experience Manager.
+
 
       ![](assets/licensed-asset-download-1.png)
 
@@ -152,6 +154,7 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
       >
       >Gli amministratori possono personalizzare i messaggi e-mail, vale a dire logo, descrizione e piè di pagina, utilizzando la funzione [Branding](../using/brand-portal-branding.md) .
 
+
    * Potete selezionare un predefinito per immagini predefinito o creare una rappresentazione dinamica personalizzata dalla finestra di dialogo **[!UICONTROL Scarica]** .
 
       Per applicare un predefinito immagine [personalizzato alla risorsa e alle relative rappresentazioni](../using/brand-portal-image-presets.md#applyimagepresetswhendownloadingimages), selezionate la casella di controllo Rappresentazioni **[!UICONTROL dinamiche]** . Specificate le proprietà del predefinito per immagini (come dimensione, formato, spazio colore, risoluzione e modificatore di immagini) per applicare il predefinito per immagini personalizzato durante il download della risorsa e delle relative rappresentazioni. Per scaricare solo le rappresentazioni dinamiche, deselezionate la casella di controllo **[!UICONTROL Risorse]** .
@@ -166,6 +169,7 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
       >
       >Per visualizzare in anteprima o scaricare le rappresentazioni dinamiche di una risorsa, accertatevi che l’elemento multimediale dinamico sia attivato e che la rappresentazione a comparsa piramidale della risorsa sia disponibile nell’istanza di creazione  AEM Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata nel Portale marchio, viene pubblicata anche la relativa rappresentazione a forma di poligono piramidale.
 
+
    * Per mantenere la gerarchia delle cartelle del Portale marchio durante il download delle risorse, selezionate la casella di controllo **[!UICONTROL Crea cartella separata per ciascuna risorsa]** . Per impostazione predefinita, la gerarchia delle cartelle di Brand Portal viene ignorata e tutte le risorse vengono scaricate in una cartella del sistema locale.
 
 1. Fate clic su **[!UICONTROL Scarica]**.
@@ -177,6 +181,7 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
    >[!NOTE]
    >
    >Le risorse che vengono scaricate singolarmente sono visibili nel rapporto di download delle risorse. Tuttavia, se viene scaricata una cartella contenente delle risorse, la cartella e le risorse non vengono visualizzate nel rapporto di download delle risorse.
+
 
 ## Prevista prestazioni di download {#expected-download-performance}
 
@@ -193,6 +198,8 @@ L&#39;esperienza di download dei file può variare per gli utenti che si trovano
 | Londra | 179 millisecondi | 0,32 MB/s | 106 minuti |
 | Singapore | 196 millisecondi | 0,5 MB/s | 68 minuti |
 
+
 >[!NOTE]
 >
 >I dati citati sono osservati in condizioni di test, che possono variare per gli utenti in diverse aree, a causa di latenza e larghezza di banda variabili.
+
