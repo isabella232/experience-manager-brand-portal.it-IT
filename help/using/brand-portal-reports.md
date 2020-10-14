@@ -1,15 +1,15 @@
 ---
 title: Utilizzare i rapporti
 seo-title: Utilizzare i rapporti
-description: Gli amministratori del Brand Portal AEM Assets possono visualizzare i rapporti sull’utilizzo del Brand Portal e creare, gestire e visualizzare i rapporti sulle risorse scaricate, scadute, pubblicate e sui collegamenti condivisi tramite Brand Portal.
-seo-description: Gli amministratori del Brand Portal AEM Assets possono visualizzare i rapporti sull’utilizzo del Brand Portal e creare, gestire e visualizzare i rapporti sulle risorse scaricate, scadute, pubblicate e sui collegamenti condivisi tramite Brand Portal.
+description: ' gli amministratori di AEM Assets Brand Portal possono visualizzare rapporti sull’utilizzo del Brand Portal e creare, gestire e visualizzare rapporti sulle risorse scaricate, scadute, pubblicate e sui collegamenti condivisi tramite Brand Portal.'
+seo-description: ' gli amministratori di AEM Assets Brand Portal possono visualizzare rapporti sull’utilizzo del Brand Portal e creare, gestire e visualizzare rapporti sulle risorse scaricate, scadute, pubblicate e sui collegamenti condivisi tramite Brand Portal.'
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
 workflow-type: tm+mt
 source-wordcount: '994'
 ht-degree: 2%
@@ -27,7 +27,7 @@ L&#39;interfaccia di gestione dei report è intuitiva e include opzioni e contro
 
 Per visualizzare un rapporto, effettuate le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, tocca o fai clic sul logo AEM per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, toccate o fate clic sul logo AEM per accedere agli strumenti amministrativi.
 
    ![](assets/aemlogo.png)
 
@@ -79,7 +79,6 @@ Per visualizzare un rapporto, effettuate le seguenti operazioni:
    >
    >Il rapporto Condivisione collegamenti non visualizza gli utenti che hanno accesso alla risorsa condivisa tramite il collegamento o che hanno scaricato la risorsa tramite il collegamento.
    >
-   >
    >Per tenere traccia dei download tramite il collegamento condiviso, è necessario generare un rapporto di download dopo aver selezionato l&#39;opzione **[!UICONTROL Solo download]** condivisione collegamento nella pagina **[!UICONTROL Crea rapporto]** . Tuttavia, l&#39;utente (Scaricato da) è anonimo in questo caso.
 
 ## Generazione di rapporti {#generate-reports}
@@ -94,7 +93,7 @@ Una volta generati, gli amministratori possono generare e gestire i seguenti rap
 
 Le colonne nel rapporto Download, Scadenza e Pubblica possono essere personalizzate per la visualizzazione. Per generare un rapporto, effettuate le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, tocca o fai clic sul logo AEM per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, toccate o fate clic sul logo AEM per accedere agli strumenti amministrativi.
 
    ![](assets/aemlogo.png)
 
