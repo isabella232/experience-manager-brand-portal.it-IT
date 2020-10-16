@@ -10,7 +10,7 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 20c557653305f15e32546481ab29d8efff969a4b
 workflow-type: tm+mt
 source-wordcount: '5387'
 ht-degree: 2%
@@ -249,7 +249,7 @@ Una volta completato il caricamento nella cartella **NEW** , gli utenti del Bran
 
 Brand Portal 6.4.4 è caratterizzato da miglioramenti apportati alla ricerca di testo e in risposta alle richieste principali dei clienti. Consultate le note [sulla versione più recenti del Portale](brand-portal-release-notes.md)marchio.
 
-### Miglioramenti della ricerca {#search-enhancements}
+### Miglioramenti della ricerca
 
 A partire da Brand Portal 6.4.4 è supportata la ricerca parziale del testo nel predicato delle proprietà nel riquadro di filtraggio. Per consentire la ricerca parziale del testo, è necessario abilitare la ricerca **** parziale nel Predicato proprietà nel modulo di ricerca.
 
