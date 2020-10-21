@@ -1,11 +1,18 @@
 ---
-source-git-commit: 70e35f77b6bdd606ebcc73f1bb7951e53874e669
+source-git-commit: dca4fd9dfa7a021491cb77391b4d98d6fe61eafc
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '157'
+ht-degree: 3%
 
 ---
 # Documentazione su Adobe Experience Manager Brand Portal
 
-Questo è l&#39;archivio della documentazione di Adobe Experience Manager Brand Portal.
+| EXL-PR | EXL | Anteprima | Attiva | Pubblicato | Aiuto |
+|--- |--- |--- |--- |--- |--- |
+| [![Stato build](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_pr-exl/lastBuild/) | [![Stato build](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/experience-manager-brand-portal.en_exl/lastBuild/lastBuild) | [URL anteprima](https://experienceleague.corp.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL dal vivo](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html?lang=en) | [Guida all’authoring](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
+
+Questo è l’archivio della documentazione di Adobe Experience Manager Brand Portal.
 
 I vostri contributi alla documentazione sono i benvenuti. Consulta le risorse seguenti:
 
