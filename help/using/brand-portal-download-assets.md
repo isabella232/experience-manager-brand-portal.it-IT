@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 71623676e70168fda2fef286119bb20a4c2f4782
+source-git-commit: 124cfde2f5a72636202a0614c0c77e3c3c6b1691
 workflow-type: tm+mt
-source-wordcount: '1873'
+source-wordcount: '1879'
 ht-degree: 3%
 
 ---
@@ -166,7 +166,7 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
    Fate clic su una risorsa per visualizzare le rappresentazioni disponibili e selezionate le caselle di controllo corrispondenti alle rappresentazioni da scaricare.
 
-   Potete selezionare o escludere manualmente i rendering per le singole risorse oppure fare clic sull&#39;icona **Applica** per applicare lo stesso set di rappresentazioni a tutti i tipi di risorse simili (tutti i file immagine in questo esempio) selezionati per il download. Fate clic su **[!UICONTROL Fine]** per confermare la regola applicata.
+   Potete selezionare o escludere manualmente i rendering per singole risorse oppure fare clic sull&#39;icona **Applica** per selezionare lo stesso set di rappresentazioni da scaricare per tipi di risorse simili (tutti i file immagine in questo esempio). Nella finestra di dialogo **[!UICONTROL Applica tutto]** , fate clic su **[!UICONTROL Fine]** per applicare la regola a tutte le risorse simili.
 
    ![apply-all](assets/apply.png)
 
