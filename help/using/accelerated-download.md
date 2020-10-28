@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: ecd53a7d92dd020e6a3527793ff11efadcb531ee
+source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1107'
 ht-degree: 2%
 
 ---
@@ -35,9 +35,9 @@ Per impostazione predefinita, la configurazione Download **** rapido è abilitat
 Per scaricare più rapidamente i file, accertatevi di quanto segue:
 
 * Andate a **[!UICONTROL Strumenti]** > **[!UICONTROL Scarica]** e verificate che la configurazione di download **** rapido sia abilitata in Impostazioni **** download.
-* La porta 33001 (TCP e UDP) è aperta sul firewall. Per ulteriori informazioni sui prerequisiti, consultate la documentazione [del client](https://downloads.asperasoft.com/en/documentation/8)Aspera Connect.
-* Installate Adobe Connect usando i privilegi di amministratore.
-* Per il supporto della piattaforma per il client di trasferimento Aspera, vedi Matrice [di supporto della piattaforma](https://www.asperasoft.com/company/support/transfer-clients/)Aspera Connect.
+* Verificate che la porta 33001 (TCP e UDP) sia aperta sul firewall. Per ulteriori informazioni sui prerequisiti, consulta la documentazione [di](https://downloads.asperasoft.com/en/documentation/8)IBM Aspera Connect Client.
+* [Installate IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) nell&#39;estensione del browser utilizzando i privilegi di amministratore.
+* Per il supporto della piattaforma per il client di trasferimento Aspera, vedi Matrice [di supporto della piattaforma](https://www.asperasoft.com/company/support/transfer-clients/)IBM Aspera Connect.
 
 ## Download dei domini {#download-domains}
 
