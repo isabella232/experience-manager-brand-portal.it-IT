@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: ffded73e9fc16c325c6a77e963ebdb9ede5a7458
+source-git-commit: 5226e167491f3b9ab4a9e905b1f25e3d89e93cf6
 workflow-type: tm+mt
-source-wordcount: '5439'
+source-wordcount: '5471'
 ht-degree: 2%
 
 ---
@@ -50,7 +50,7 @@ Dalla finestra di dialogo **[!UICONTROL Scarica]** , gli utenti possono:
 * Crea una cartella separata per ogni risorsa.
 * Scaricate le risorse selezionate e le relative rappresentazioni.
 
-Il flusso di lavoro di download rimane costante per le risorse autonome, per più risorse, per le cartelle contenenti risorse, per le risorse con licenza o senza licenza e per il download delle risorse tramite il collegamento di condivisione.
+Il flusso di lavoro di download rimane costante per le risorse autonome, per più risorse, per le cartelle contenenti risorse, per le risorse con licenza o senza licenza e per il download delle risorse tramite il collegamento di condivisione. Consultate [i passaggi per scaricare le risorse da Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 ![download-dialog](assets/download-dialog-box.png)
 
@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0, gli utenti possono escludere rappresentazioni specifiche e [scaricare direttamente le rappresentazioni selezionate dal pannello **** Rappresentazioni](brand-portal-download-assets.md#download-assets-from-asset-details-page) nella pagina dei dettagli della risorsa senza dover aprire la finestra di dialogo **[!UICONTROL Scarica]** .
+In Brand Portal 2020.10.0, gli utenti possono escludere rappresentazioni specifiche e [scaricare direttamente le rappresentazioni selezionate dal pannello](brand-portal-download-assets.md#download-assets-from-asset-details-page) Rappresentazioni nella pagina dei dettagli della risorsa senza dover aprire la finestra di dialogo **[!UICONTROL Scarica]** .
 
 
 <!-- 
@@ -85,7 +85,7 @@ The user can clear the check boxes to exclude the renditions which are not requi
 
 ### Configurare le autorizzazioni di download {#download-permissions}
 
-Oltre alle configurazioni di [**[!UICONTROL download]**](brand-portal-download-assets.md) esistenti, gli amministratori del Portale marchio possono configurare le autorizzazioni per diversi gruppi di utenti per visualizzare e (o) scaricare la risorsa originale e le relative rappresentazioni dalla pagina dei dettagli della risorsa.
+Oltre alle configurazioni di **[!UICONTROL download]** esistenti, gli amministratori del Portale marchio possono configurare le autorizzazioni per diversi gruppi di utenti per visualizzare e (o) scaricare la risorsa originale e le relative rappresentazioni dalla pagina dei dettagli della risorsa.
 
 Accedi al tenant del Brand Portal come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Utenti]**.
 
@@ -99,6 +99,8 @@ La scheda **[!UICONTROL Gruppi]** nella pagina Ruoli **** utente consente agli a
 * Se entrambe le impostazioni sono disattivate, gli utenti possono visualizzare solo le risorse originali. Le rappresentazioni delle risorse non sono visibili agli utenti nella pagina dei dettagli della risorsa.
 * Se è attivata solo l’impostazione **[!UICONTROL Scarica originale]** , gli utenti possono visualizzare e scaricare solo le risorse originali dalla pagina dei dettagli della risorsa.
 * Se è attivata solo l’impostazione **[!UICONTROL Scarica rappresentazioni]** , gli utenti possono visualizzare la risorsa originale ma non scaricarla. Tuttavia, l’utente può visualizzare e scaricare le rappresentazioni delle risorse.
+
+Consultate [Configurare il download](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions)delle risorse.
 
 ![view-download-permissions](assets/download-permissions.png)
 
