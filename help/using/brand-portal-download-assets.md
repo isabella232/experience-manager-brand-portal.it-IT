@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: b27d61753367df23bcf707c290e036f201ab3351
+source-git-commit: a1c0811f8a1f6be0ecafcf6ed9b46eb52bcd49c5
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1883'
 ht-degree: 3%
 
 ---
@@ -197,11 +197,11 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
 >[!NOTE]
 >
->Brand Portal supporta la configurazione di contenuti multimediali dinamici sia in modalità ibrida che in modalità Scene7.
+>Brand Portal supporta la configurazione di Dynamic Media in modalità ibrida e Scene7.
 >
 >(*se AEM’istanza di creazione è in esecuzione in modalità&#x200B;**ibrida***elemento multimediale dinamico)
 >
->Per visualizzare in anteprima o scaricare le rappresentazioni dinamiche di una risorsa, accertatevi che l’elemento multimediale dinamico sia attivato e che la rappresentazione a comparsa piramidale della risorsa sia disponibile nell’istanza di creazione  AEM Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata da AEM a Portale marchio, viene pubblicata anche la relativa rappresentazione a forma di poligono piramidale.
+>Per visualizzare in anteprima o scaricare le rappresentazioni dinamiche di una risorsa, accertatevi che il supporto dinamico sia attivato e che la rappresentazione a forma di poligono piramidale della risorsa sia disponibile nell’istanza di creazione di  AEM Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata da AEM a Portale marchio, viene pubblicata anche la relativa rappresentazione a forma di poligono piramidale.
 
 
 
