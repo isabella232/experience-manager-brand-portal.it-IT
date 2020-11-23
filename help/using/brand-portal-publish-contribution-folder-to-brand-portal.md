@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 0a3f1a4379398730e92e9ac85b04134f92af9d23
 workflow-type: tm+mt
-source-wordcount: '193'
+source-wordcount: '192'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 # Pubblica cartella dei contributi in Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Una volta configurata [la cartella dei](brand-portal-configure-contribution-folder-properties.md)contributi, AEM utente (amministratore/non amministratore) può pubblicare la cartella dei contributi da  AEM Assets a Brand Portal. Gli utenti/gruppi del Portale marchio che dispongono dell’autorizzazione per accedere alla cartella dei contributi riceveranno una notifica e-mail/impulso al completamento dell’azione di pubblicazione.
+Una volta configurata [la cartella dei](brand-portal-configure-contribution-folder-properties.md)contributi, AEM utente (amministratore/non amministratore) può pubblicare la cartella dei contributi da  AEM Assets a Brand Portal. Gli utenti di Brand Portal che dispongono dell’autorizzazione per accedere alla cartella dei contributi riceveranno una notifica e-mail/impulso al completamento dell’azione di pubblicazione.
 
 
 **Per pubblicare la cartella dei contributi:**
