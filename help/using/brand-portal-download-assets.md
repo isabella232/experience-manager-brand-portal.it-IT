@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1886'
+source-wordcount: '1879'
 ht-degree: 3%
 
 ---
@@ -191,9 +191,8 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
 >[!NOTE]
 >
->Se per il download sono selezionate più di 20 risorse, la finestra di dialogo **[!UICONTROL Scarica]** viene ignorata e tutte le rappresentazioni accessibili all&#39;utente, escluse le rappresentazioni dinamiche, vengono scaricate direttamente in una cartella zip.
->
->Lo stesso comportamento viene seguito durante il download delle cartelle contenenti risorse e raccolte. Le rappresentazioni accessibili, escluse le rappresentazioni dinamiche, vengono scaricate direttamente in una cartella zip.
+>Se per il download sono selezionate una cartella, una raccolta o più di 20 risorse, la finestra di dialogo **[!UICONTROL Scarica]** viene ignorata e tutte le rappresentazioni di risorse accessibili all&#39;utente, ad eccezione delle rappresentazioni dinamiche, vengono scaricate in una cartella zip. Le rappresentazioni delle risorse vengono scaricate in una cartella separata per ciascuna risorsa all’interno della cartella zip.
+
 
 >[!NOTE]
 >
