@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 translation-type: tm+mt
-source-git-commit: e0f54b9a709d9414208bc6150e75a03f1d322cba
+source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1029'
 ht-degree: 1%
 
 ---
@@ -42,8 +42,11 @@ Per accedere al Portale marchio in modo anonimo, selezionate **[!UICONTROL Fate 
 
 ## Durata sessione ospite {#guest-session-duration}
 
-Una sessione utente ospite rimane attiva per 2 ore. Questo significa che lo stato di **[!UICONTROL Lightbox]** viene mantenuto fino a 1 ora dall’ora di inizio della sessione e, dopo 2 ore, la sessione ospite corrente viene riavviata in modo che lo stato Lightbox venga perso.\
-Ad esempio, un utente ospite accede al Brand Portal a 1500 ore e aggiunge risorse a Lightbox per il download alle 16:50 ore. Se l&#39;utente non scarica la raccolta **[!UICONTROL Lightbox]** (o le relative risorse) prima delle 17:00, **[!UICONTROL Lightbox]** diventerà vuota in quanto l&#39;utente dovrà riavviare la sessione alla fine di 1 ora (ovvero 1700 ore).
+
+Una sessione utente ospite rimane attiva per 15 minuti.
+Questo significa che lo stato della **[!UICONTROL Lightbox]** viene mantenuto per 15 minuti dall’ora di inizio della sessione e, successivamente, lo stato della Lightbox viene riavviato in modo da perdere lo stato della Lightbox.
+
+Ad esempio, un utente ospite accede al Brand Portal a 1500 ore e aggiunge risorse a **[!UICONTROL Lightbox]** per il download alle 15:05 ore. Se l&#39;utente non scarica la raccolta **[!UICONTROL Lightbox]** (o le relative risorse) prima delle 15:15 ore (entro 15 minuti dall&#39;accesso), dovrà riavviare la sessione. La **[!UICONTROL Lightbox]** sarà vuota e le risorse caricate non saranno più disponibili se la sessione viene persa.
 
 ## Sessioni ospiti simultanee consentite {#concurrent-guest-sessions-allowed}
 
