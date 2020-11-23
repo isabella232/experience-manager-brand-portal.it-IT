@@ -1,15 +1,15 @@
 ---
 title: Condividere le cartelle
 seo-title: Condividere le cartelle
-description: Il Brand Portal non supporta l’assimilazione delle risorse, pertanto le risorse devono essere pubblicate sul Brand Portal da un’istanza AEM Author preconfigurata. Le risorse pubblicate non sono accessibili agli utenti non amministratori di Brand Portal, a meno che non siano configurate durante la configurazione della replica con l’istanza AEM, e devono essere condivise con loro.
-seo-description: Il Brand Portal non supporta l’assimilazione delle risorse, pertanto le risorse devono essere pubblicate sul Brand Portal da un’istanza AEM Author preconfigurata. Le risorse pubblicate non sono accessibili agli utenti non amministratori di Brand Portal, a meno che non siano configurate durante la configurazione della replica con l’istanza AEM, e devono essere condivise con loro.
+description: Il Brand Portal non supporta l’assimilazione delle risorse. Pertanto, le risorse devono essere pubblicate nel Brand Portal da un’istanza di AEM Author preconfigurata. Le risorse pubblicate non sono accessibili agli utenti non amministratori di Brand Portal, a meno che non siano configurate durante la configurazione della replica con AEM’istanza, e devono essere condivise con loro.
+seo-description: Il Brand Portal non supporta l’assimilazione delle risorse. Pertanto, le risorse devono essere pubblicate nel Brand Portal da un’istanza di AEM Author preconfigurata. Le risorse pubblicate non sono accessibili agli utenti non amministratori di Brand Portal, a meno che non siano configurate durante la configurazione della replica con AEM’istanza, e devono essere condivise con loro.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
 topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: 0ae9860e2b6beb96f53e92bb114bb5756e371ad6
 workflow-type: tm+mt
 source-wordcount: '1154'
 ht-degree: 1%
@@ -19,13 +19,13 @@ ht-degree: 1%
 
 # Condivisione di cartelle sul Brand Portal {#share-folders}
 
-Le risorse devono essere pubblicate su Brand Portal da un’istanza AEM Author preconfigurata, in quanto Brand Portal non supporta l’assimilazione delle risorse.
+Le risorse devono essere pubblicate su Brand Portal da un’istanza di AEM Author preconfigurata, in quanto Brand Portal non supporta l’assimilazione delle risorse.
 
 ## Flusso di lavoro per la condivisione di cartelle in Brand Portal {#folder-sharing-workflow-in-brand-portal}
 
 Di seguito viene descritto il flusso di lavoro di condivisione delle cartelle e l’accesso degli utenti:
 
-* Per impostazione predefinita, tutte le cartelle pubblicate da AEM Assets a Brand Portal sono visibili solo all’amministratore di Brand Portal, a meno che non siano contrassegnate come pubbliche durante la configurazione della replica.
+* Per impostazione predefinita, tutte le cartelle pubblicate da  AEM Assets a Brand Portal sono visibili solo all’amministratore del Brand Portal, a meno che non siano contrassegnate come pubbliche durante la configurazione della replica.
 * L’amministratore utilizza la console Proprietà **** cartella per condividere una cartella con utenti o gruppi selettivi. Solo gli utenti o i gruppi con i quali la cartella è condivisa possono visualizzarla dopo l’accesso al Portale marchio. La cartella non è visibile agli altri utenti.
 * L’amministratore può anche scegliere di rendere pubblica una cartella tramite la casella di controllo Cartella **** pubblica nella console Proprietà **** cartella. Una cartella pubblica è visibile a tutti gli utenti.
 
@@ -33,13 +33,13 @@ Di seguito viene descritto il flusso di lavoro di condivisione delle cartelle e 
 
 ### Condivisione di cartelle con gruppi di utenti sul Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-I diritti di accesso alle risorse di una cartella dipendono dai diritti di accesso alla cartella principale, indipendentemente dalle impostazioni delle cartelle figlie. Questo comportamento è regolamentato da [ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) in AEM, poiché le cartelle figlie ereditano gli ACL dalle relative cartelle principali. Ad esempio, se una cartella A contiene la cartella B che contiene la cartella C, un gruppo di utenti (o utenti) con diritti di accesso nella cartella A dispone anche degli stessi diritti di accesso nella cartella B e nella cartella C. La cartella B, essendo la cartella secondaria di A, eredita i relativi ACL, mentre la cartella C, essendo la cartella figlia di B, eredita i relativi ACL.
+I diritti di accesso alle risorse di una cartella dipendono dai diritti di accesso alla cartella principale, indipendentemente dalle impostazioni delle cartelle figlie. Questo comportamento è regolato da [ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) in AEM, poiché le cartelle figlie ereditano ACL dalle relative cartelle principali. Ad esempio, se una cartella A contiene la cartella B che contiene la cartella C, un gruppo di utenti (o utenti) con diritti di accesso nella cartella A dispone anche degli stessi diritti di accesso nella cartella B e nella cartella C. La cartella B, essendo la cartella secondaria di A, eredita i relativi ACL, mentre la cartella C, essendo la cartella figlia di B, eredita i relativi ACL.
 
 Allo stesso modo, i gruppi di utenti (o utenti) che dispongono delle autorizzazioni per accedere solo alla cartella B hanno le stesse autorizzazioni di accesso nella cartella C ma non nella cartella A. Si consiglia pertanto alle organizzazioni di disporre il contenuto in modo che le risorse più esposte vengano inserite nella cartella figlio e che l’accesso alle cartelle principali possa essere limitato dagli elementi secondari.
 
 ### Public folder publish {#public-folder-publish}
 
-A meno che l’opzione Pubblica **[!UICONTROL cartella]** pubblica non sia selezionata durante la configurazione della replica di Brand Portal, gli utenti non amministratori (come editor e visualizzatori) non hanno accesso alle risorse pubblicate dai AEM Assets al Brand Portal.
+A meno che l’opzione Pubblica **[!UICONTROL cartella]** pubblica non sia selezionata durante la configurazione della replica di Brand Portal, gli utenti non amministratori (come editor e visualizzatori) non hanno accesso alle risorse pubblicate da  AEM Assets al Brand Portal.
 
 ![](assets/assetbpreplication.png)
 
@@ -47,13 +47,13 @@ Se l’opzione Pubblica **[!UICONTROL nella cartella]** pubblica è disabilitata
 
 >[!NOTE]
 >
->L’opzione per attivare la pubblicazione **[!UICONTROL delle cartelle]** pubbliche è disponibile a partire da AEM 6.3.2.1.
+>L’opzione per attivare la pubblicazione **[!UICONTROL delle cartelle]** pubbliche è disponibile a partire dalla AEM 6.3.2.1.
 
 ## Accesso alle cartelle condivise {#access-to-shared-folders}
 
 Nella seguente matrice vengono descritti i diritti di accesso e i diritti di condivisione o annullamento della condivisione delle risorse per vari ruoli utente:
 
-|  | Accesso a tutte le cartelle pubblicate da AEM Assets a Brand Portal | Accesso alle cartelle condivise | Condividere/annullare la condivisione dei diritti di cartella |
+|  | Accesso a tutte le cartelle pubblicate da  AEM Assets a Brand Portal | Accesso alle cartelle condivise | Condividere/annullare la condivisione dei diritti di cartella |
 |---------------|-----------|-----------|------------|
 | Administrator | Sì | Sì | Sì |
 | Editor | No* | Sì, solo se condiviso con loro o con il gruppo al quale appartengono | Sì, solo per le cartelle condivise con loro o con il gruppo al quale appartengono |
@@ -62,7 +62,7 @@ Nella seguente matrice vengono descritti i diritti di accesso e i diritti di con
 
 >[!NOTE]
 >
->Per impostazione predefinita, l’opzione Pubblica **[!UICONTROL cartella]** pubblica è disabilitata durante la configurazione della replica di Brand Portal con AEM Author. Se l’opzione è abilitata, per impostazione predefinita le cartelle pubblicate su Brand Portal saranno accessibili a tutti gli utenti (anche agli utenti non amministratori).
+>Per impostazione predefinita, l&#39;opzione Pubblica **[!UICONTROL cartella]** pubblica è disabilitata durante la configurazione della replica di Brand Portal con AEM Author. Se l’opzione è abilitata, per impostazione predefinita le cartelle pubblicate su Brand Portal saranno accessibili a tutti gli utenti (anche agli utenti non amministratori).
 
 ### Accesso utente non amministratore alle cartelle condivise {#non-admin-user-access-to-shared-folders}
 
@@ -124,6 +124,7 @@ Per condividere la cartella solo con gli utenti ospiti e nessun altro utente, se
 
 1. Se necessario, fate clic su **[!UICONTROL Cambia miniatura]** per modificare l’immagine in miniatura della cartella.
 1. Fai clic su **[!UICONTROL Salva]**.
+
 1. Per accedere alla cartella condivisa, accedete a Brand Portal con le credenziali dell’utente con cui avete condiviso la cartella. Rivedete la cartella condivisa nell&#39;interfaccia.
 
 ## Annulla condivisione cartelle {#unshare-the-folders}
