@@ -33,34 +33,34 @@ Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i proble
 
 Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni attraverso dispositivi diversi. Consente di migliorare l&#39;efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare risorse in formati approvati dall’azienda, in qualsiasi momento e ovunque.
 
-## What&#39;s New in 2020.10.0 {#whats-new-in-2020.10.0}
+## Novità in 2020.10.0 {#whats-new-in-2020.10.0}
 
-### New Features {#new-features}
+### Nuove funzioni {#new-features}
 
 Questa versione include le nuove funzioni seguenti:
 
-* La finestra di dialogo **[!UICONTROL Scarica]** è stata rinnovata in una vista a elenco con opzioni aggiuntive per escludere le rappresentazioni non richieste, applicare lo stesso set di regole per tipi di risorse simili e scaricare le rappresentazioni delle risorse selezionate. Consultate [i passaggi per scaricare le risorse da Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
+* La finestra di dialogo **[!UICONTROL Scarica]** viene rinnovata in una vista a elenco con opzioni aggiuntive per escludere le rappresentazioni non richieste, applicare lo stesso set di regole per tipi di risorse simili e scaricare le rappresentazioni di risorse selezionate. Consultate [passaggi per scaricare risorse da Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
 
 <!--
 * The new **[!UICONTROL Download]** dialog now appears with all the renditions of the selected assets or folders containing assets in a list view, wherein the Brand Portal users can apply same set of renditions for similar asset types and download the selected asset renditions. 
 -->
 
-* È ora possibile passare a **[!UICONTROL File]**, **[!UICONTROL Raccolte]** e Collegamenti **** condivisi da tutte le pagine Portale marchio con un solo clic.
+* È ora possibile passare alle **[!UICONTROL File]**, **[!UICONTROL Raccolte]** e **[!UICONTROL Collegamenti condivisi]** da tutte le pagine del Portale marchio con un solo clic.
 
-* Il pannello **[!UICONTROL Rappresentazioni]** nella pagina dei dettagli delle risorse ora consente agli utenti del Brand Portal di selezionare la risorsa originale e (o) le rappresentazioni di risorse specifiche e di scaricarle direttamente dal pannello **[!UICONTROL Rappresentazioni]** senza dover aprire la finestra di dialogo **[!UICONTROL Scarica]** . Consultate [Scaricare le risorse dalla pagina](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page)dei dettagli delle risorse.
+* Il pannello **[!UICONTROL Rappresentazioni]** nella pagina dei dettagli delle risorse ora consente agli utenti del Brand Portal di selezionare la risorsa originale e (o) le rappresentazioni specifiche delle risorse e di scaricarle direttamente dal pannello **[!UICONTROL Rappresentazioni]** senza dover aprire la finestra di dialogo **[!UICONTROL Scarica]**. Consultate [scaricare risorse dalla pagina dei dettagli delle risorse](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets-from-asset-details-page).
 
 <!--
 Brand Portal users can exclude specific renditions which are not required and directly download the original asset and its renditions from the **[!UICONTROL Renditions]** panel on the asset details page. 
 -->
 
-* Oltre alle configurazioni di **[!UICONTROL download]** esistenti, gli amministratori del Portale marchio possono anche [configurare le autorizzazioni per diversi gruppi di utenti](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) per visualizzare e (o) scaricare la risorsa originale e le relative rappresentazioni dalla pagina dei dettagli della risorsa. Queste configurazioni definiranno chi può accedere e (o) scaricare le rappresentazioni delle risorse.
+* Oltre alle configurazioni **[!UICONTROL Download]** esistenti, gli amministratori di Brand Portal possono anche [configurare le autorizzazioni per diversi gruppi di utenti](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download-permissions) per visualizzare e (o) scaricare la risorsa originale e le relative rappresentazioni dalla pagina dei dettagli della risorsa. Queste configurazioni definiranno chi può accedere e (o) scaricare le rappresentazioni delle risorse.
 
 ### Miglioramenti {#enhancements}
 
 Questa versione include i seguenti miglioramenti:
 
 * La soglia di timeout sessione per gli utenti ospiti è stata ridotta da 2 ore a 15 minuti.
-* L’opzione Pagine **** di visualizzazione aggiuntive è stata rimossa per i PDF con più pagine, in quanto ora l’utente può visualizzare le pagine PDF dal visualizzatore Adobe Document Cloud.
+* L&#39;opzione **[!UICONTROL Visualizza pagine]** aggiuntiva è stata rimossa per i PDF con più pagine, in quanto l&#39;utente ora può visualizzare le pagine PDF dal visualizzatore Adobe Document Cloud.
 
 
 <!--
@@ -75,7 +75,7 @@ This release includes fixes to the following critical issue:
 
 Questa versione include il seguente problema noto:
 
-* La ricerca nei report **[!UICONTROL delle]** risorse mostra l&#39;elaborazione nell&#39;interfaccia del prodotto senza risultati di ricerca.
+* La ricerca in **[!UICONTROL Report risorse]** mostra l&#39;elaborazione nell&#39;interfaccia del prodotto senza risultati di ricerca.
 * Le codifiche video DM non sono visibili agli utenti non amministratori nella pagina dei dettagli della risorsa.
 * L’allineamento delle dimensioni delle rappresentazioni delle singole risorse e della dimensione totale del download è distorto nella finestra di dialogo Download.
 
@@ -133,14 +133,14 @@ L’interfaccia utente di Brand Portal è disponibile nelle seguenti lingue:
 
 ## Piattaforme certificate {#certified-platforms}
 
-Per verificare quali piattaforme sono certificate per l’esecuzione con questa versione di Brand Portal, fate riferimento alla colonna **Supporto per l’interfaccia** touch nella tabella nella sezione Browser **supportati per l’authoring dell’interfaccia** utente dei requisiti [](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html)tecnici.
+Per verificare quali piattaforme sono certificate per l&#39;esecuzione con questa versione di Brand Portal, fare riferimento alla colonna **Supporto per l&#39;interfaccia touch** nella tabella nella sezione **Browser supportati per l&#39;interfaccia utente di authoring** di [Requisiti tecnici](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Collegamenti {#links}
 
 * [Pagina prodotto Adobe Experience Manager su adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
 * [Documentazione su Assets Brand Portal](https://helpx.adobe.com/it/experience-manager/brand-portal/user-guide.html)
 
-## Product Access and Support (Restricted Sites) {#product-access-and-support-restricted-sites}
+## Accesso e supporto al prodotto (siti limitati) {#product-access-and-support-restricted-sites}
 
 Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedete l&#39;accesso, contattate il vostro responsabile commerciale  Adobe.
 
