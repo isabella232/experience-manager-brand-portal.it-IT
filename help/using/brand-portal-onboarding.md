@@ -1,8 +1,8 @@
 ---
 title: Esperienza del primo accesso
 seo-title: Esperienza del primo accesso
-description: La prima volta che accedi è la stessa per tutti i nuovi utenti del Brand Portal di AEM Assets, inclusi gli amministratori. Dopo che un amministratore ti ha aggiunto all’account Brand Portal della tua organizzazione, non devi accettare gli inviti, ti verrà automaticamente aggiunto. Riceverete un messaggio e-mail di benvenuto contenente un collegamento all’account Brand Portal della vostra organizzazione.
-seo-description: La prima volta che accedi è la stessa per tutti i nuovi utenti del Brand Portal di AEM Assets, inclusi gli amministratori. Dopo che un amministratore ti ha aggiunto all’account Brand Portal della tua organizzazione, non devi accettare gli inviti, ti verrà automaticamente aggiunto. Riceverete un messaggio e-mail di benvenuto contenente un collegamento all’account Brand Portal della vostra organizzazione.
+description: La prima volta che accedete è la stessa per tutti i nuovi utenti  AEM Assets Brand Portal, inclusi gli amministratori. Dopo che un amministratore ti ha aggiunto all’account Brand Portal della tua organizzazione, non devi accettare gli inviti, ti verrà automaticamente aggiunto. Riceverete un messaggio e-mail di benvenuto contenente un collegamento all’account Brand Portal della vostra organizzazione.
+seo-description: La prima volta che accedete è la stessa per tutti i nuovi utenti  AEM Assets Brand Portal, inclusi gli amministratori. Dopo che un amministratore ti ha aggiunto all’account Brand Portal della tua organizzazione, non devi accettare gli inviti, ti verrà automaticamente aggiunto. Riceverete un messaggio e-mail di benvenuto contenente un collegamento all’account Brand Portal della vostra organizzazione.
 uuid: 654bdead-2fd9-4b9b-9272-21fd7c4df066
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -19,26 +19,26 @@ ht-degree: 2%
 
 # Esperienza del primo accesso {#first-time-login-experience}
 
-La prima volta che accedi è la stessa per tutti i nuovi utenti del Brand Portal di AEM Assets, inclusi gli amministratori. Dopo che un amministratore ti ha aggiunto all’account Brand Portal della tua organizzazione, non devi accettare gli inviti, ti verrà automaticamente aggiunto. Riceverete un messaggio e-mail di benvenuto contenente un collegamento all’account Brand Portal della vostra organizzazione.
+La prima volta che accedete è la stessa per tutti i nuovi utenti  AEM Assets Brand Portal, inclusi gli amministratori. Dopo che un amministratore ti ha aggiunto all’account Brand Portal della tua organizzazione, non devi accettare gli inviti, ti verrà automaticamente aggiunto. Riceverete un messaggio e-mail di benvenuto contenente un collegamento all’account Brand Portal della vostra organizzazione.
 
 Di seguito sono riportati i passaggi da eseguire per gli utenti che accedono al Portale marchio per la prima volta:
 
-1. Aprite il messaggio e-mail di benvenuto e fate clic su **[!UICONTROL Inizia]**.
+1. Aprite il messaggio e-mail di benvenuto e fate clic su **[!UICONTROL Get Started]**.
 
 1. Nella pagina di registrazione, specificate i vostri dettagli (inclusi nome, cognome, password e paese/regione).
    >[!NOTE]
    >
-   >Se siete già utenti di un Adobe Marketing Cloud , al posto della pagina di accesso viene visualizzata una pagina di accesso. Per accedere  Adobe Marketing Cloud, immettete il vostro Adobe ID  e la password.
+   >Se siete già utenti Adobe Marketing Cloud, al posto della pagina di accesso viene visualizzata una pagina di accesso. Per accedere ad Adobe Marketing Cloud, immettete il vostro Adobe ID  e la password.
 
    >[!NOTE]
    >
-   >Se l’organizzazione utilizza gli Enterprise ID, invece di visualizzare questa pagina di registrazione, viene reindirizzata alla pagina di accesso dell’organizzazione. Per ulteriori informazioni, consultate [Enterprise ID, accesso e assistenza](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html)sull&#39;account.
+   >Se l’organizzazione utilizza gli Enterprise ID, invece di visualizzare questa pagina di registrazione, viene reindirizzata alla pagina di accesso dell’organizzazione. Per ulteriori informazioni, vedere [ Enterprise ID, accesso e assistenza account](https://helpx.adobe.com/in/enterprise/kb/enterprise-id-faq.html).
 
-1. Fate clic su **[!UICONTROL Continua]** per passare alla pagina Brand Portal della vostra organizzazione.
-1. Dalla pagina di accesso al Brand Portal, fate clic su **[!UICONTROL Accesso]** per accedere al Brand Portal.
+1. Fate clic su **[!UICONTROL Continue]** per passare alla pagina Brand Portal della vostra organizzazione.
+1. Dalla pagina di accesso al Brand Portal, fate clic su **[!UICONTROL Accedi]** per accedere al Brand Portal.
 
    ![Pagina Accesso a Brand Portal](assets/signin-onboarding.png)
 
    >[!NOTE]
    >
-   >Non potete accedere al Portale marchio se non siete associati ad alcun profilo di prodotto. Per poter accedere al Portale marchio, dovete essere associati ad almeno un profilo di prodotto AEM.
+   >Non potete accedere al Portale marchio se non siete associati ad alcun profilo di prodotto. Per poter accedere al Portale marchio, devi essere associato ad almeno un profilo di prodotto AEM.
