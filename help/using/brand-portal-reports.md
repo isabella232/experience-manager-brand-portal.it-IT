@@ -31,7 +31,7 @@ Per visualizzare un rapporto, effettuate le seguenti operazioni:
 
    ![](assets/aemlogo.png)
 
-1. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Crea/gestisci rapporti]** per aprire la pagina Rapporti **** risorse.
+1. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Crea/Gestisci rapporti]** per aprire la pagina **[!UICONTROL Report risorse]**.
 
    ![](assets/access-asset-reports.png)
 
@@ -43,27 +43,27 @@ Per visualizzare un rapporto, effettuate le seguenti operazioni:
 
    Per visualizzare un rapporto, toccate o fate clic sul collegamento del rapporto. In alternativa, seleziona il rapporto e tocca o fai clic sull’icona Visualizza nella barra degli strumenti.
 
-   **[!UICONTROL Report]** sull’utilizzo visualizza informazioni sul numero di utenti correnti del Brand Portal, sullo spazio di archiviazione occupato da tutte le risorse e sul totale delle risorse conteggiate nel Brand Portal. Il rapporto mostra anche la capacità consentita per ciascuna di queste metriche di informazioni.
+   **[!UICONTROL In]** Rapporti sull’utilizzo sono visualizzate informazioni sul numero di utenti correnti del Brand Portal, sullo spazio di archiviazione occupato da tutte le risorse e sul totale delle risorse conteggiate nel Brand Portal. Il rapporto mostra anche la capacità consentita per ciascuna di queste metriche di informazioni.
 
    ![](assets/usage-report.png)
 
-   **[!UICONTROL Il rapporto Login]** utente fornisce informazioni sugli utenti che hanno eseguito l&#39;accesso al Portale marchio. Il rapporto mostra i nomi visualizzati, gli ID e-mail, le persone (amministratore, visualizzatore, editor, ospite), i gruppi, l&#39;ultimo login, lo stato dell&#39;attività e il conteggio di login di ciascun utente dalla distribuzione di Brand Portal 6.4.2 fino al momento della generazione del rapporto.
+   **[!UICONTROL Il rapporto]** Registri utente fornisce informazioni sugli utenti che hanno eseguito l&#39;accesso al Brand Portal. Il rapporto mostra i nomi visualizzati, gli ID e-mail, le persone (amministratore, visualizzatore, editor, ospite), i gruppi, l&#39;ultimo login, lo stato dell&#39;attività e il conteggio di login di ciascun utente dalla distribuzione di Brand Portal 6.4.2 fino al momento della generazione del rapporto.
 
    ![](assets/user-logins.png)
 
-   **[!UICONTROL Scaricate]** elenchi di rapporti e dettagli su tutte le risorse scaricate in un intervallo di date e ore specifico.
+   **[!UICONTROL Il rapporto]** Download elenca e fornisce dettagli su tutte le risorse scaricate in un intervallo di date e ore specifico.
 
    ![](assets/download-report.png)
 
    >[!NOTE]
    >
-   >Il rapporto **[!UICONTROL Scarica]** risorse visualizza solo le risorse che sono state selezionate singolarmente e scaricate dal Brand Portal. Se un utente ha scaricato una cartella contenente delle risorse, il rapporto non visualizza la cartella o le risorse all’interno della cartella.
+   >Il rapporto Risorse **[!UICONTROL Scarica]** visualizza solo le risorse che sono state selezionate singolarmente e scaricate dal Portale marchio. Se un utente ha scaricato una cartella contenente delle risorse, il rapporto non visualizza la cartella o le risorse all’interno della cartella.
 
-   **[!UICONTROL Il rapporto Scadenza]** elenca e fornisce dettagli a tutte le risorse scadute in un intervallo di tempo specifico.
+   **[!UICONTROL Nel rapporto]** Scadenza sono elencate e dettagliate tutte le risorse scadute in un intervallo di tempo specifico.
 
    ![](assets/expiration-report.png)
 
-   **[!UICONTROL Il rapporto Pubblica]** elenca e fornisce informazioni su tutte le risorse pubblicate da AEM a Brand Portal in un intervallo di tempo specificato.
+   **[!UICONTROL Il rapporto]** Pubblica elenca e fornisce informazioni su tutte le risorse pubblicate da AEM al Portale del marchio in un intervallo di tempo specificato.
 
    ![](assets/publish-report.png)
 
@@ -71,7 +71,7 @@ Per visualizzare un rapporto, effettuate le seguenti operazioni:
    >
    >Pubblica rapporto non visualizza informazioni sui frammenti di contenuto, in quanto non è possibile pubblicare i frammenti di contenuto nel Brand Portal.
 
-   **[!UICONTROL Nel rapporto]** Condivisione collegamenti sono elencate tutte le risorse condivise tramite collegamenti dall’interfaccia del Portale marchio in un intervallo di tempo specifico. Il rapporto informa anche quando la risorsa è stata condivisa tramite collegamento, da quale utente, quando scade il collegamento, e quanti collegamenti condivisi per il tenant (e gli utenti con cui è stato condiviso il collegamento della risorsa). Le colonne del Rapporto condivisione collegamenti non sono personalizzabili.
+   **[!UICONTROL I]** rapporti Condivisione collegamenti elencano tutte le risorse condivise tramite collegamenti dall’interfaccia di Brand Portal in un intervallo di tempo specifico. Il rapporto informa anche quando la risorsa è stata condivisa tramite collegamento, da quale utente, quando scade il collegamento, e quanti collegamenti condivisi per il tenant (e gli utenti con cui è stato condiviso il collegamento della risorsa). Le colonne del Rapporto condivisione collegamenti non sono personalizzabili.
 
    ![](assets/link-share-report.png)
 
@@ -79,11 +79,11 @@ Per visualizzare un rapporto, effettuate le seguenti operazioni:
    >
    >Il rapporto Condivisione collegamenti non visualizza gli utenti che hanno accesso alla risorsa condivisa tramite il collegamento o che hanno scaricato la risorsa tramite il collegamento.
    >
-   >Per tenere traccia dei download tramite il collegamento condiviso, è necessario generare un rapporto di download dopo aver selezionato l&#39;opzione **[!UICONTROL Solo download]** condivisione collegamento nella pagina **[!UICONTROL Crea rapporto]** . Tuttavia, l&#39;utente (Scaricato da) è anonimo in questo caso.
+   >Per tenere traccia dei download tramite il collegamento condiviso, è necessario generare un rapporto di download dopo aver selezionato l&#39;opzione **[!UICONTROL Solo download di condivisione collegamenti]** nella pagina **[!UICONTROL Crea rapporto]**. Tuttavia, l&#39;utente (Scaricato da) è anonimo in questo caso.
 
-## Generazione di rapporti {#generate-reports}
+## Genera report {#generate-reports}
 
-Una volta generati, gli amministratori possono generare e gestire i seguenti rapporti standard, per poi [accedervi](../using/brand-portal-reports.md#main-pars-header) in un secondo momento:
+Gli amministratori possono generare e gestire i seguenti rapporti standard, una volta generati, in modo che siano [accessibili](../using/brand-portal-reports.md#main-pars-header) in un secondo momento:
 
 * Accessi utenti
 * Scarica
@@ -97,20 +97,20 @@ Le colonne nel rapporto Download, Scadenza e Pubblica possono essere personalizz
 
    ![](assets/aemlogo.png)
 
-1. Dal pannello degli strumenti di amministrazione, toccate o fate clic su **[!UICONTROL Crea/Gestisci rapporti]** per aprire la pagina Rapporti **** risorse.
+1. Dal pannello degli strumenti di amministrazione, toccate o fate clic su **[!UICONTROL Crea/Gestisci rapporti]** per aprire la pagina **[!UICONTROL Report risorse]**.
 
    ![](assets/asset-reports.png)
 
 1. Nella pagina Rapporti su risorse, tocca o fai clic su **[!UICONTROL Crea]**.
-1. Dalla pagina **[!UICONTROL Crea rapporto]** , selezionate un rapporto da creare e toccate o fate clic su **[!UICONTROL Avanti]**.
+1. Dalla pagina **[!UICONTROL Crea rapporto]**, selezionate un rapporto da creare e toccate o fate clic su **[!UICONTROL Avanti]**.
 
    ![](assets/crete-report.png)
 
-1. Configurare i dettagli del rapporto. Specificate titolo, descrizione, struttura delle cartelle (dove il rapporto deve essere eseguito e generare statistiche) e intervallo di date per i rapporti **[!UICONTROL Download]**, **[!UICONTROL Scadenza]** e **[!UICONTROL Pubblica]** .
+1. Configurare i dettagli del rapporto. Specificare titolo, descrizione, struttura delle cartelle (dove il report deve essere eseguito e generare statistiche) e intervallo di date per i report **[!UICONTROL Download]**, **[!UICONTROL Scadenza]** e **[!UICONTROL Pubblica]**.
 
    ![](assets/create-report-page.png)
 
-   Al contrario, **[!UICONTROL Collega rapporto]** condivisione richiede solo i parametri di titolo, descrizione e intervallo di date.
+   Al contrario, **[!UICONTROL Link Share Report]** richiede solo i parametri del titolo, della descrizione e dell&#39;intervallo di date.
 
    ![](assets/create-link-share-report.png)
 
@@ -118,8 +118,8 @@ Le colonne nel rapporto Download, Scadenza e Pubblica possono essere personalizz
    >
    >I caratteri speciali # e % nel titolo del rapporto sono sostituiti da un trattino (-) nella generazione del rapporto.
 
-1. Toccate/fate clic su **[!UICONTROL Avanti]** per configurare le colonne dei rapporti Download, Scadenza e Pubblica.
-1. Selezionate o deselezionate le caselle di controllo appropriate, a seconda delle necessità. Ad esempio, per visualizzare i nomi degli utenti (che hanno scaricato delle risorse) nel rapporto **[!UICONTROL Download]** , selezionate **[!UICONTROL Scaricato da]**. L&#39;immagine seguente illustra la selezione di colonne predefinite nel rapporto Download.
+1. Toccate/fate clic su **[!UICONTROL Next]** per configurare le colonne dei rapporti Download, Scadenza e Pubblica.
+1. Selezionate o deselezionate le caselle di controllo appropriate, a seconda delle necessità. Ad esempio, per visualizzare i nomi degli utenti (che hanno scaricato le risorse) nel rapporto **[!UICONTROL Download]**, selezionare **[!UICONTROL Scaricato da]**. L&#39;immagine seguente illustra la selezione di colonne predefinite nel rapporto Download.
 
    ![](assets/createdownloadreport.png)
 
@@ -127,8 +127,8 @@ Le colonne nel rapporto Download, Scadenza e Pubblica possono essere personalizz
 
    Per aggiungere colonne personalizzate al rapporto Download, Publish o Expiration, effettuate le seguenti operazioni:
 
-   1. Per visualizzare una colonna personalizzata, toccate o fate clic su **[!UICONTROL Aggiungi]** in Colonne personalizzate.
-   1. Specificare il nome della colonna nel campo Nome **** colonna.
+   1. Per visualizzare una colonna personalizzata, toccate o fate clic su **[!UICONTROL Aggiungi]** all&#39;interno di [!UICONTROL Colonne personalizzate].
+   1. Specificare il nome della colonna nel campo **[!UICONTROL Nome colonna]**.
    1. Selezionate la proprietà a cui deve essere associata la colonna utilizzando il selettore delle proprietà.
 
       ![](assets/property-picker.png)
@@ -136,11 +136,11 @@ In alternativa, digitare il percorso nel campo percorso della proprietà.
 
       ![](assets/property-path.png)
 
-      Per aggiungere altre colonne personalizzate, toccate/fate clic su **Aggiungi** e ripetete i passaggi 2 e 3.
+      Per aggiungere altre colonne personalizzate, toccate o fate clic su **Aggiungi** e ripetete i passaggi 2 e 3.
 
 1. Tocca o fai clic su **[!UICONTROL Crea]**. Un messaggio notifica che è stata avviata la generazione del report.
 
-## Download dei rapporti {#download-reports}
+## Download di report {#download-reports}
 
 Per salvare e scaricare un rapporto come file .csv, effettuare una delle seguenti operazioni:
 
@@ -148,14 +148,14 @@ Per salvare e scaricare un rapporto come file .csv, effettuare una delle seguent
 
 ![](assets/download-asset-report.png)
 
-* Dalla pagina Rapporti risorse, aprite un rapporto. Selezionate **[!UICONTROL Scarica]** opzione nella parte superiore della pagina del rapporto.
+* Dalla pagina Rapporti risorse, aprite un rapporto. Selezionate l&#39;opzione **[!UICONTROL Download]** nella parte superiore della pagina del rapporto.
 
 ![](assets/download-report-fromwithin.png)
 
 ## Eliminare i rapporti {#delete-reports}
 
-Per eliminare un rapporto esistente, selezionatelo dalla pagina Rapporti **** risorse e toccate o fate clic su **[!UICONTROL Elimina]** dalla barra degli strumenti nella parte superiore.
+Per eliminare un rapporto esistente, selezionatelo dalla pagina **[!UICONTROL Rapporti risorse]** e toccate o fate clic su **[!UICONTROL Elimina]** nella barra degli strumenti in alto.
 
 >[!NOTE]
 >
->**[!UICONTROL Impossibile eliminare il rapporto sull&#39;utilizzo]** .
+>**[!UICONTROL Impossibile eliminare]** Usagereport.
