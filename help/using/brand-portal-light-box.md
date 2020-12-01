@@ -19,13 +19,13 @@ ht-degree: 4%
 
 # Gestire la raccolta Lightbox {#manage-the-lightbox-collection}
 
-**[!UICONTROL Lightbox]** è un tipo speciale di raccolta che consente di accedere facilmente alle risorse. Ogni utente dispone di una **[!UICONTROL Lightbox]** esclusiva creata automaticamente al primo accesso al Portale marchio. Impossibile eliminare la raccolta **[!UICONTROL Lightbox]** .
+**** Lightbox è un tipo speciale di raccolta che consente di accedere facilmente alle risorse. Ogni utente dispone di un **[!UICONTROL Lightbox]** esclusivo che viene creato automaticamente al primo accesso al Portale marchio. Impossibile eliminare la raccolta **[!UICONTROL Lightbox]**.
 
 ## Aggiungere risorse a lightbox {#add-assets-to-lightbox}
 
 Per aggiungere risorse a **[!UICONTROL Lightbox]**, effettuate le seguenti operazioni:
 
-1. Andate alla posizione delle risorse che desiderate aggiungere a **[!UICONTROL Lightbox]** e selezionatele.
+1. Andate alla posizione delle risorse che desiderate aggiungere a **[!UICONTROL Lightbox]** e selezionate le risorse.
 
    ![](assets/link_sharing_assetselection.png)
 
@@ -33,30 +33,30 @@ Per aggiungere risorse a **[!UICONTROL Lightbox]**, effettuate le seguenti opera
 
    ![](assets/add_to_collection.png)
 
-1. Nella pagina **[!UICONTROL Aggiungi alla raccolta]** , la raccolta **[!UICONTROL Lightbox]** è selezionata per impostazione predefinita.
+1. Nella pagina **[!UICONTROL Aggiungi alla raccolta]**, per impostazione predefinita viene selezionata la raccolta **[!UICONTROL Lightbox]**.
 
-   Fate clic su **[!UICONTROL Aggiungi]**. Le risorse selezionate vengono aggiunte alla **[!UICONTROL casella di controllo]**.
+   Fate clic su **[!UICONTROL Aggiungi]**. Le risorse selezionate vengono aggiunte alla **[!UICONTROL Lightbox]**.
 
    ![](assets/add_to_collectionlightbox.png)
 
-1. Per esaminare le risorse aggiunte a **[!UICONTROL Lightbox]**, fate clic su **[!UICONTROL Raccolte]** nella parte sinistra, quindi fate clic sulla raccolta **[!UICONTROL Lightbox]** .
+1. Per esaminare le risorse aggiunte a **[!UICONTROL Lightbox]**, fate clic su **[!UICONTROL Raccolte]** nella parte sinistra, quindi fate clic sulla raccolta **[!UICONTROL Lightbox]**.
 
    ![](assets/collections_lightbox.png)
 
-   Le risorse aggiunte a **[!UICONTROL Lightbox]** vengono visualizzate nella pagina **[!UICONTROL Lightbox]** .
+   Le risorse aggiunte a **[!UICONTROL Lightbox]** vengono visualizzate nella pagina **[!UICONTROL Lightbox]**.
 
    ![](assets/added_to_collectionlightbox.png)
 
 ## Rimuovere risorse da lightbox {#remove-assets-from-lightbox}
 
-1. Per esaminare le risorse in [!UICONTROL Lightbox], fate clic su **[!UICONTROL Raccolte]** nella barra a sinistra, quindi fate clic sulla raccolta [!UICONTROL Lightbox] .
+1. Per esaminare le risorse in [!UICONTROL Lightbox], fare clic su **[!UICONTROL Raccolte]** nella barra a sinistra, quindi fare clic sulla raccolta [!UICONTROL Lightbox].
 
    ![](assets/collections_lightbox-1.png)
 
-1. Selezionate la cartella che desiderate rimuovere dalla raccolta, quindi fate clic su **[!UICONTROL Rimuovi]** dalla barra degli strumenti nella parte superiore.
+1. Selezionate la cartella che desiderate rimuovere dalla raccolta, quindi fate clic su **[!UICONTROL Remove]** nella barra degli strumenti nella parte superiore.
 
    ![](assets/collections_lightboxdelete.png)
 
 1. Nella finestra del messaggio di avviso, fare clic su **[!UICONTROL Rimuovi]** per confermare la rimozione.
 
-La cartella viene eliminata dalla raccolta **[!UICONTROL Lightbox]** .
+La cartella viene eliminata dalla raccolta **[!UICONTROL Lightbox]**.
