@@ -20,15 +20,15 @@ ht-degree: 0%
 
 # Configurare la cartella dei contributi {#configure-contribution-folder}
 
-Per l’origine collaborativa delle risorse, gli utenti AEM (amministratori e utenti non amministratori che dispongono dell’autorizzazione) possono creare nuove cartelle di tipo **Contributo** risorsa, assicurando che la nuova cartella creata sia aperta all’invio delle risorse da parte degli utenti del Brand Portal.  Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate **SHARED** e **NEW**, all’interno della cartella **Contribution** appena creata.
+Per l’origine collaborativa delle risorse, AEM utenti (amministratori e utenti non amministratori che dispongono dell’autorizzazione) possono creare nuove cartelle di tipo **Contributo risorsa**, assicurando che la nuova cartella creata sia aperta all’invio delle risorse da parte degli utenti di Brand Portal.  Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate **SHARED** e **NEW**, all&#39;interno della cartella appena creata **Contribution**.
 
-Gli utenti di AEM definiscono quindi i requisiti delle risorse caricando un breve elenco dei tipi di risorse da aggiungere alla cartella dei contributi, nonché una serie di risorse di base, nella cartella **CONDIVISA** per garantire che gli utenti di Brand Portal dispongano delle informazioni necessarie. L’amministratore può quindi concedere agli utenti attivi di Brand Portal l’accesso alla cartella dei contributi prima di pubblicare la cartella dei contributi appena creata in Brand Portal.
+AEM utente definisce quindi i requisiti delle risorse caricando una breve descrizione dei tipi di risorse da aggiungere alla cartella dei contributi, nonché una serie di risorse di base, nella cartella **SHARED** per garantire che gli utenti del Brand Portal dispongano delle informazioni necessarie. L’amministratore può quindi concedere agli utenti attivi di Brand Portal l’accesso alla cartella dei contributi prima di pubblicare la cartella dei contributi appena creata in Brand Portal.
 
-Il video seguente illustra come configurare una cartella Contribution in AEM Assets:
+Il video seguente illustra come configurare una cartella Contribution in  AEM Assets:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-Durante la configurazione di una cartella di contributi, l’utente AEM esegue le seguenti attività:
+AEM utente esegue le seguenti attività durante la configurazione di una cartella di contributi:
 
 * [Crea cartella contributi](brand-portal-create-contribution-folder.md)
 * [Caricare i requisiti delle risorse](brand-portal-configure-contribution-folder-properties.md)
