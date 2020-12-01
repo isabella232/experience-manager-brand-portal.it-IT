@@ -18,7 +18,7 @@ ht-degree: 0%
 ---
 
 
-# Create contribution folder {#create-contribution-folder}
+# Crea cartella contributi {#create-contribution-folder}
 
 
 AEM amministratori e utenti non amministratori che dispongono dell’autorizzazione per creare una nuova cartella, possono creare una cartella di contributi in  AEM Assets.
@@ -35,9 +35,9 @@ Per creare una cartella di contributi:
 
 1. Passa a **[!UICONTROL Risorse]** > **[!UICONTROL File]**. Elenca tutte le cartelle esistenti nell&#39;archivio di AEM Assets .
 
-1. Click **[!UICONTROL Create]** to create a new folder. **[!UICONTROL Viene visualizzata la finestra di dialogo Crea cartella]** .
+1. Fare clic su **[!UICONTROL Crea]** per creare una nuova cartella. **[!UICONTROL Viene visualizzata la finestra di dialogo Crea]** cartella.
 
-1. Immettete **[!UICONTROL Titolo]** e **[!UICONTROL Nome]** della cartella e selezionate la casella di controllo Contributo **** risorsa.
+1. Immettete **[!UICONTROL Titolo]** e **[!UICONTROL Nome]** della cartella e selezionate la casella di controllo **[!UICONTROL Contributo risorsa]**.
 Si consiglia di utilizzare lettere minuscole senza spazio per denominare la cartella.
 
 1. Fai clic su **[!UICONTROL Crea]**. Potete visualizzare la cartella dei contributi elencata nell’archivio di AEM Assets .
@@ -49,10 +49,10 @@ Si consiglia di utilizzare lettere minuscole senza spazio per denominare la cart
 
    ![](assets/create-contribution-folder.png)
 
-1. Fate clic per aprire la cartella dei contributi. Potete vedere due sottocartelle:**[!UICONTROL SHARED]** e **[!UICONTROL NEW]** vengono create automaticamente nella cartella dei contributi.
+1. Fate clic per aprire la cartella dei contributi. Potete vedere due sottocartelle: **[!UICONTROL SHARED]** e **[!UICONTROL NEW]** vengono create automaticamente nella cartella dei contributi.
 
    ![](assets/contribution-folder.png)
 
-Ora potete [configurare le proprietà](brand-portal-configure-contribution-folder-properties.md)della cartella dei contributi.
+Ora è possibile [configurare le proprietà della cartella dei contributi](brand-portal-configure-contribution-folder-properties.md).
 
 
