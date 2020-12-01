@@ -24,28 +24,29 @@ ht-degree: 0%
 AEM amministratore esegue le seguenti attività durante la configurazione delle proprietà di una cartella di contributi.
 
 * **Aggiungi descrizione**: Fornite una descrizione di alto livello della cartella dei contributi.
-* **Breve** caricamento:  Carica documento Requisito risorsa contenente informazioni relative alle risorse.
+* **Breve** caricamento: Carica documento Requisito risorsa contenente informazioni relative alle risorse.
 * **Aggiungi collaboratori**: Aggiungete utenti Brand Portal per consentire loro di accedere alla cartella dei contributi.
 
 Il requisito risorsa si riferisce ai dettagli forniti dagli amministratori per aiutare i collaboratori (utenti del Brand Portal) a comprendere la necessità e i requisiti della cartella dei contributi. L’amministratore carica un documento sui requisiti delle risorse che contiene una breve descrizione del tipo di risorse da aggiungere alla cartella dei contributi e alle informazioni relative alle risorse, ad esempio lo scopo, il tipo di immagini, la dimensione massima, ecc.
 
 **Per configurare le proprietà della cartella dei contributi:**
 
-1. Accedete all’istanza di AEM creazioneURL predefinito: http:// localhost:4502/aem/start.html
+1. Effettuate il login all’istanza AEM di creazione
+URL predefinito: http:// localhost:4502/aem/start.html
 1. Andate a **[!UICONTROL Risorse > File]** e individuate la cartella dei contributi.
-1. Selezionate la cartella dei contributi e fate clic su **[!UICONTROL Proprietà]** per aprire la finestra Proprietà cartella.
+1. Selezionate la cartella dei contributi e fate clic su **[!UICONTROL Proprietà]** per aprire la finestra delle proprietà della cartella.
 
    ![](assets/properties.png)
 
    ![](assets/contribution-folder-property1.png)
 
-1. Passate alla scheda Contributo **** risorsa.
-1. Immettete una **[!UICONTROL descrizione]** di alto livello della cartella dei contributi.
-1. Fate clic su **[!UICONTROL Carica descrizione]** per sfogliare il computer locale e caricare un documento **sui requisiti delle** risorse.
+1. Andate alla scheda **[!UICONTROL Contributo risorsa]**.
+1. Immettete **[!UICONTROL Descrizione]** di livello elevato della cartella dei contributi.
+1. Fate clic su **[!UICONTROL Carica descrizione]** per sfogliare il computer locale e caricare un documento **Requisito risorsa**.
 
    ![](assets/upload.png)
 
-1. Nel campo **[!UICONTROL Aggiungi utente o Gruppo]** , aggiungete utenti del Brand Portal con cui desiderate condividere la cartella dei contributi. Questi utenti possono accedere e caricare il contenuto nella cartella dei contributi utilizzando l’interfaccia Brand Portal.
+1. Nel campo **[!UICONTROL Aggiungi utente o gruppo]**, aggiungete utenti Brand Portal con cui desiderate condividere la cartella dei contributi. Questi utenti possono accedere e caricare il contenuto nella cartella dei contributi utilizzando l’interfaccia Brand Portal.
 1. Fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/contribution-folder-property2.png)
@@ -54,4 +55,4 @@ Il requisito risorsa si riferisce ai dettagli forniti dagli amministratori per a
 >
 >Attualmente, i gruppi non possono essere assegnati a una cartella di contributi.
 >
->I risultati della ricerca si basano sull’elenco di utenti del Brand Portal configurato in  AEM Assets. Accertatevi di disporre dell’elenco di utenti aggiornato del Brand Portal. Consultate, [Carica elenco](brand-portal-configure-asset-sourcing.md)utenti Portale marchio.
+>I risultati della ricerca si basano sull’elenco di utenti del Brand Portal configurato in  AEM Assets. Accertatevi di disporre dell’elenco di utenti aggiornato del Brand Portal. Consultate [Carica elenco utenti Brand Portal](brand-portal-configure-asset-sourcing.md).
