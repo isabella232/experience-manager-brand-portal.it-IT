@@ -14,7 +14,7 @@ ht-degree: 74%
 
 # Guida al portale dei marchi di Adobe Experience Manager Assets {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** consente alle organizzazioni di soddisfare le proprie esigenze di marketing distribuendo in modo sicuro le risorse di prodotti e marchi approvati ad agenzie esterne, partner, team interni e rivenditori per il download.
+**Le organizzazioni Adobe Experience Manager Assets Brand** Portal aiutano le organizzazioni a soddisfare le proprie esigenze di marketing distribuendo in modo sicuro le risorse di prodotti e marchi approvati ad agenzie esterne, partner, team interni e rivenditori per il download.
 
 La mancanza di una soluzione sicura per la condivisione delle risorse può comportare:
 
