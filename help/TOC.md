@@ -35,10 +35,10 @@ ht-degree: 71%
    + [Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Pubblicare tag in Brand Portal](using/brand-portal-publish-tags.md)
    + [Pubblicare predefiniti, schemi e facet in Brand Portal](using/publish-schema-search-facets-presets.md)
-+ Origine risorsa in Brand Portal {#asset-sourcing-in-brand-portal}
++ Origine risorsa in Portale marchio {#asset-sourcing-in-brand-portal}
    + [Panoramica](using/brand-portal-asset-sourcing.md)
    + [Configurare l&#39;origine delle risorse in AEM](using/brand-portal-configure-asset-sourcing.md)
-   + Configurare la cartella Contribution in  AEM Assets {#configure-contribution-folder}
+   + Configurare la cartella Contributo in  AEM Assets {#configure-contribution-folder}
       + [Panoramica](using/brand-portal-contribution-folder.md)
       + [Crea cartella contributi](using/brand-portal-create-contribution-folder.md)
       + [Configurare le proprietà della cartella dei contributi](using/brand-portal-configure-contribution-folder-properties.md)
