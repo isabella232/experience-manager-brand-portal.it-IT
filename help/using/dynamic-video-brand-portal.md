@@ -10,7 +10,7 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 translation-type: tm+mt
-source-git-commit: b41f86824afd5be043c7b91035b01b71fdb69a26
+source-git-commit: b9d5f4df0d44a62f307a6a289fbcada6099bdc03
 workflow-type: tm+mt
 source-wordcount: '1207'
 ht-degree: 3%
@@ -75,8 +75,8 @@ Gli IP Egress sono i seguenti:
 
 | **Regione** | **IP Egress** |
 |--- |--- |
-| NA | 192,243,237,86 |
-| EMEA | 185,34,189,4 |
+| NA | 130.248.160.66, 52.151.32.108 |
+| EMEA | 185,34,189,1 |
 | APAC | 63,140,44,54 |
 
 Per elencare uno di questi IP di uscita, vedere [preparare l&#39;account per un servizio di verifica protetto](https://docs.adobe.com/content/help/en/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service).
