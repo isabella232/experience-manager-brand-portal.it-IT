@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 translation-type: tm+mt
-source-git-commit: 86078dd07b5d487f8cf5cd08bc46e4745529c873
+source-git-commit: cd6dc0501546a772b1ffd71ef1b09ba0a716e858
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1298'
 ht-degree: 10%
 
 ---
@@ -69,6 +69,12 @@ Per aggiungere un predicato di ricerca al pannello **[!UICONTROL Filtri]**:
    >Selezionando la casella di controllo **[!UICONTROL Ricerca parziale]**, per impostazione predefinita è selezionata l&#39;opzione **[!UICONTROL Ignora maiuscole/minuscole]**.
 
 1. Nel campo **[!UICONTROL Nome proprietà]**, aprire il selettore proprietà e selezionare la proprietà in base alla quale viene eseguita la ricerca. In alternativa, immettere un nome per la proprietà. Ad esempio, inserisci `  jcr :content/metadata/dc:title` o `./jcr:content/metadata/dc:title`.
+
+   >[!NOTE]
+   >
+   >In Brand Portal, tutte le proprietà (tranne quelle che iniziano con `xmp`) in `jcrcontent/metadata` di `dam:asset` sono indicizzate per impostazione predefinita.
+   >
+   >Durante la creazione di un predicato di proprietà è possibile utilizzare qualsiasi proprietà indicizzata. Se è configurata una qualsiasi proprietà non indicizzata, la query di ricerca su una proprietà non indicizzata potrebbe non dare alcun risultato alla ricerca.
 
    ![](assets/title-prop.png)
 
