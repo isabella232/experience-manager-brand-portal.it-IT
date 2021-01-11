@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 1a8658a3ced4fd211a1c1606a80bb51920ca8be1
+source-git-commit: 46e6bf2865aa90953791fdee9f24673e92cb19b7
 workflow-type: tm+mt
-source-wordcount: '1879'
+source-wordcount: '1940'
 ht-degree: 3%
 
 ---
@@ -35,12 +35,16 @@ Adobe Experience Manager Assets Brand Portal ottimizza l’esperienza di downloa
 
 ## Configurare il download delle risorse {#configure-download}
 
-Gli amministratori di Brand Portal possono configurare le impostazioni e le autorizzazioni di download delle risorse per gli utenti di Brand Portal, consentendo loro di accedere e scaricare le rappresentazioni delle risorse dall’interfaccia di Brand Portal.
+Gli amministratori di Brand Portal possono configurare le impostazioni per il download delle risorse e i gruppi di utenti per gli utenti di Brand Portal, consentendo loro di accedere e scaricare le rappresentazioni delle risorse dall’interfaccia di Brand Portal.
 
-L’accesso e il download delle rappresentazioni da Brand Portal sono definiti dalle seguenti configurazioni:
+>[!NOTE]
+>
+>Le impostazioni di download applicate all’interfaccia utente semplificano l’esperienza self-service degli utenti del Brand Portal per configurare e scaricare facilmente le rappresentazioni delle risorse. Non limita il download delle risorse a livello di applicazione, ad esempio gli utenti possono comunque accedere e scaricare le rappresentazioni delle risorse con il percorso URL completo.
+
+L’accesso e il download delle rappresentazioni delle risorse dall’interfaccia di Brand Portal sono definiti dalle seguenti configurazioni:
 
 * Abilita impostazioni di download
-* Configurare le autorizzazioni di download
+* Configurare le impostazioni del gruppo utenti
 
 ### Abilita impostazioni di download {#enable-download-settings}
 
@@ -75,11 +79,11 @@ Gli amministratori possono abilitare qualsiasi combinazione di impostazioni per 
 >
 >Solo gli amministratori possono scaricare le risorse scadute. Per ulteriori informazioni sulle risorse scadute, consultate [gestire i diritti digitali delle risorse](../using/manage-digital-rights-of-assets.md).
 
-### Configurare le autorizzazioni di download {#configure-download-permissions}
+### Configurare le impostazioni del gruppo di utenti {#configure-user-group-settings}
 
-Oltre alle **[!UICONTROL Impostazioni di download]**, gli amministratori del Brand Portal possono configurare ulteriormente le autorizzazioni per diversi gruppi di utenti per visualizzare e (o) scaricare le risorse originali e le relative rappresentazioni.
+Oltre alle **[!UICONTROL Impostazioni di download]**, gli amministratori di Brand Portal possono configurare ulteriormente le impostazioni per diversi gruppi di utenti per visualizzare e (o) scaricare le risorse originali e le relative rappresentazioni.
 
-Accedi al tenant del Portale marchio come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Utenti]**. Nella pagina **[!UICONTROL Ruoli utente]**, andate alla scheda **[!UICONTROL Gruppi]** per configurare le autorizzazioni di visualizzazione e (o) download per i gruppi di utenti.
+Accedi al tenant del Portale marchio come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Utenti]**. Nella pagina **[!UICONTROL Ruoli utente]**, andate alla scheda **[!UICONTROL Gruppi]** per configurare le impostazioni di visualizzazione e (o) di download per i gruppi di utenti.
 
 ![view-download-permissions](assets/download-permissions.png)
 
@@ -91,7 +95,7 @@ In base alla configurazione, il flusso di lavoro di download rimane costante per
 
 La seguente matrice definisce se un utente avrebbe accesso alle rappresentazioni in base alle [configurazioni di download](#configure-download):
 
-| **Impostazioni di download: Rappresentazioni personalizzate** | **Impostazioni di download: Rappresentazioni del sistema** | **Autorizzazioni gruppo utenti: Scarica originale** | **Autorizzazioni gruppo utenti: Download delle rappresentazioni** | **Risultato** |
+| **Impostazioni di download: Rappresentazioni personalizzate** | **Impostazioni di download: Rappresentazioni del sistema** | **Impostazioni gruppo utenti: Scarica originale** | **Impostazioni gruppo utenti: Download delle rappresentazioni** | **Risultato** |
 |---|---|---|---|---|
 | ATTIVATO | ATTIVATO | ATTIVATO | ATTIVATO | Visualizzare e scaricare tutte le rappresentazioni |
 | ATTIVATO | ATTIVATO | DISATTIVATO | DISATTIVATO | Visualizzare la risorsa originale |
@@ -112,7 +116,7 @@ Gli utenti di Brand Portal possono scaricare dall’interfaccia Brand Portal pi�
 
 >[!NOTE]
 >
->Se non disponete delle autorizzazioni per accedere o scaricare le rappresentazioni, contattate l’amministratore di Brand Portal.
+>Se non disponete dell’autorizzazione per accedere o scaricare le rappresentazioni delle risorse, contattate l’amministratore di Brand Portal.
 
 Se l&#39;utente ha accesso alle rappresentazioni, l&#39;utente dispone della finestra di dialogo avanzata **[!UICONTROL Download]** con le seguenti funzionalità:
 * Visualizza tutte le rappresentazioni disponibili di qualsiasi risorsa nell&#39;elenco dei download.
@@ -196,9 +200,9 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
 >[!NOTE]
 >
->Brand Portal supporta la configurazione di contenuti multimediali dinamici sia in modalità ibrida che in modalità Scene7.
+>Brand Portal supporta la configurazione di Dynamic Media in modalità ibrida e Scene7.
 >
->(*Se AEM&#39;istanza di creazione è in esecuzione in **modalità ibrida elemento multimediale dinamico***)
+>(*Se AEM&#39;istanza di creazione è in esecuzione in **modalità ibrida Dynamic Media***)
 >
 >Per visualizzare in anteprima o scaricare le rappresentazioni dinamiche di una risorsa, accertatevi che l’elemento multimediale dinamico sia attivato e che la rappresentazione a comparsa piramidale della risorsa sia disponibile nell’istanza di creazione  AEM Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata da AEM a Portale marchio, viene pubblicata anche la relativa rappresentazione a forma di poligono piramidale.
 
