@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 8e08fdfb95686d28960c0fd440754b90c22ae557
+source-git-commit: 6eb01e2eec7de6b704976c990fb6ffacbc67471a
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '261'
 ht-degree: 0%
 
 ---
@@ -45,9 +45,13 @@ Una notifica e-mail/impulso viene inviata agli utenti e agli amministratori del 
 
 Esistono due rapporti che gli amministratori possono utilizzare per visualizzare lo stato delle cartelle contributi risorse pubblicate da Brand Portal a  AEM Assets.
 
-* In Brand Portal, andate a **[!UICONTROL Strumenti]** > **[!UICONTROL Stato contributo risorsa]**. Questo rapporto riflette lo stato di tutti i processi di pubblicazione, comprese le diverse fasi del flusso di lavoro di pubblicazione (in coda e Completato).
+* In Brand Portal, andate a **[!UICONTROL Strumenti]** > **[!UICONTROL Stato contributo risorsa]**. Questo rapporto riflette lo stato di tutti i processi di pubblicazione nelle diverse fasi del flusso di lavoro di pubblicazione.
 
-* Nellistanza di creazione AEM Assets, passare a **[!UICONTROL Strumenti]** > **[!UICONTROL Processi]**. Questo rapporto riflette solo i processi di pubblicazione in sospeso.
+   ![](assets/contribution-folder-status.png)
+
+* Nellistanza di creazione AEM Assets, passare a **[!UICONTROL Strumenti]** > **[!UICONTROL Processi]**. Questo rapporto riflette lo stato finale (Successo o Errore) di tutti i processi di pubblicazione.
+
+   ![](assets/publishing-status.png)
 
 
 
