@@ -71,7 +71,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0, gli utenti possono escludere rappresentazioni specifiche e scaricare direttamente le rappresentazioni selezionate dal pannello Rappresentazioni[ nella pagina dei dettagli della risorsa senza dover aprire la finestra di dialogo ](brand-portal-download-assets.md#download-assets-from-asset-details-page)Scarica **[!UICONTROL .]**
+In Brand Portal 2020.10.0, gli utenti possono escludere rappresentazioni specifiche e scaricare direttamente le rappresentazioni selezionate dal pannello Rappresentazioni](brand-portal-download-assets.md#download-assets-from-asset-details-page) nella pagina dei dettagli della risorsa senza dover aprire la finestra di dialogo **[!UICONTROL Scarica]**.[
 
 
 <!-- 
@@ -342,20 +342,20 @@ Tenete presente che la ricerca in queste cartelle restituisce solo i risultati d
 
 [![](https://helpx.adobe.com/content/dam/help/en/experience-manager/brand-portal/images/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### Supporto delle rappresentazioni video per contenuti multimediali dinamici
+### Supporto delle rappresentazioni video Dynamic Media
 
-Gli utenti la cui istanza di AEM Author è attivata dalla modalità Dynamic Media ibrida possono visualizzare in anteprima e scaricare le rappresentazioni per contenuti multimediali dinamici, oltre ai file video originali.
+Gli utenti la cui istanza di AEM Author è in modalità ibrida Dynamic Media possono visualizzare l&#39;anteprima e scaricare le rappresentazioni per contenuti multimediali dinamici, oltre ai file video originali.
 
-Per consentire l&#39;anteprima e il download delle rappresentazioni multimediali dinamiche su account tenant specifici, gli amministratori devono specificare **Configurazione file multimediali dinamici** (URL del servizio video (URL DM-Gateway) e ID di registrazione per recuperare il video dinamico) nella configurazione **Video** dal pannello degli strumenti di amministrazione.
+Per consentire l&#39;anteprima e il download delle rappresentazioni multimediali dinamiche su account tenant specifici, gli amministratori devono specificare **Configurazione Dynamic Media** (URL del servizio video (URL DM-Gateway) e ID di registrazione per recuperare il video dinamico) nella configurazione **Video** dal pannello degli strumenti di amministrazione.
 
 
-È possibile visualizzare in anteprima i video per elementi multimediali dinamici su:
+I video Dynamic Media possono essere visualizzati in anteprima su:
 
 * Pagina dei dettagli della risorsa
 * Vista a schede della risorsa
 * Pagina di anteprima della condivisione dei collegamenti
 
-Le codifiche video per contenuti multimediali dinamici possono essere scaricate da:
+Le codifiche video Dynamic Media possono essere scaricate da:
 
 * Brand Portal
 * Collegamento condiviso
@@ -396,7 +396,7 @@ La versione offre un’esperienza di download semplificata con un numero ridotto
 * Scegliere di scaricare solo le rappresentazioni (e non le risorse originali).
 * Il download delle risorse quando l&#39;accesso alle rappresentazioni originali è limitato.
 
-## Che cosa è cambiato in 6.4.6 {#what-changed-in-1}
+## Che cosa è cambiato in 6.4.2 {#what-changed-in-1}
 
 La versione di Brand Portal 6.4.2 offre una serie di funzionalità per rispondere alle esigenze di distribuzione delle risorse delle organizzazioni e aiutarle a raggiungere un gran numero di utenti distribuiti a livello globale tramite l’accesso degli ospiti e un’esperienza ottimale con download accelerati. Brand Portal offre inoltre maggiore controllo alle organizzazioni attraverso nuove configurazioni per gli amministratori, nuovi rapporti aggiunti e per soddisfare le richieste dei clienti.
 
