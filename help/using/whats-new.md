@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
+source-git-commit: ff7f7c15d6852fe798152ac9960b3adef9c7676f
 workflow-type: tm+mt
-source-wordcount: '5798'
+source-wordcount: '5796'
 ht-degree: 1%
 
 ---
@@ -199,7 +199,7 @@ L’amministratore di Brand Portal può abilitare qualsiasi combinazione per con
 In base alla configurazione, il flusso di lavoro di download rimane costante per le risorse autonome, per più risorse, per le cartelle contenenti risorse, per le risorse con licenza o senza licenza e per il download delle risorse tramite il collegamento di condivisione.
 
 
-## Che cosa è cambiato in 6.4.6 {#what-changed-in-646}
+## Che cosa è cambiato in 6.4.2 {#what-changed-in-646}
 
 In Brand Portal 6.4.6, viene modificato il canale di autorizzazione tra  AEM Assets e Brand Portal. Brand Portal ora è supportato  AEM Assets come Cloud Service,  AEM Assets 6.3 e versioni successive. In  AEM Assets 6.3 e versioni successive, Brand Portal era stato precedentemente configurato nell’interfaccia classica tramite il gateway OAuth legacy, che utilizza lo scambio di token JWT per ottenere un token di accesso IMS per l’autorizzazione.  AEM Assets è ora configurato con Brand Portal tramite  Adobe Developer Console, che fornisce un token IMS per l&#39;autorizzazione del tenant del Brand Portal.
 
