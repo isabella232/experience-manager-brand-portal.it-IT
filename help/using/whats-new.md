@@ -1,8 +1,8 @@
 ---
 title: Novità di AEM Assets Brand Portal
 seo-title: Novità di AEM Assets Brand Portal
-description: Scopri le nuove funzioni e i miglioramenti per la release 2020.10.0.
-seo-description: Scopri le nuove funzioni e i miglioramenti per la release 2020.10.0.
+description: Scopri le nuove funzioni e i miglioramenti per la release 2021.02.0.
+seo-description: Scopri le nuove funzioni e i miglioramenti per la release 2021.02.0.
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: 1d57e3ec19f1ffc944e2547989b2627988cd19c1
+source-git-commit: c26a5cbabd9d12f9cf8b0b0ac61aca596bea1b0e
 workflow-type: tm+mt
-source-wordcount: '5479'
-ht-degree: 2%
+source-wordcount: '5798'
+ht-degree: 1%
 
 ---
 
@@ -21,6 +21,44 @@ ht-degree: 2%
 # Novità di AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni attraverso dispositivi diversi. Consente di migliorare l&#39;efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato.  Adobe sta lavorando per migliorare l&#39;esperienza complessiva del Brand Portal. Di seguito viene fornita una panoramica delle nuove funzioni e dei miglioramenti.
+
+## Cosa è cambiato in 2021.02.0 {#what-changed-in-feb-2021}
+
+Brand Portal 2021.02.0 è una versione ottimizzata che si concentra sul miglioramento dell’esperienza di download delle risorse e include correzioni importanti. Consente agli amministratori di configurare il comportamento di download predefinito di cartelle, raccolte e download in massa delle risorse a livello di tenant. Anche il Portale marchio **[!UICONTROL Rapporto sull&#39;utilizzo]** è stato modificato per riflettere gli utenti attivi del Brand Portal. Consultate le ultime [Note sulla versione del Portale dei marchi](brand-portal-release-notes.md).
+
+
+### Download risorse {#asset-download-setting}
+
+Oltre alle **[!UICONTROL Impostazioni di download]** esistenti, gli amministratori di Brand Portal possono ora configurare l&#39;impostazione **[!UICONTROL Download delle risorse]**. Questa impostazione consente agli amministratori di impostare il comportamento predefinito di download di cartelle, raccolte e download in massa di risorse (più di 20 risorse) a livello di tenant.
+
+<!--
+Earlier, all the asset renditions were directly downloaded in a zip folder in case of folder, collection, and bulk download of assets. As the **[!UICONTROL Download]** dialog is skipped for folders or collections, there was no mechanism to control the downloading behaviour of the assets. Due to this, the users were finding it difficut to search for a particular asset rendition from a folder containing huge bunch of downloaded renditions. 
+-->
+
+In precedenza, tutte le rappresentazioni delle risorse erano state scaricate direttamente in una cartella zip. La finestra di dialogo **[!UICONTROL Download]** è stata ignorata per le cartelle e le raccolte e non c&#39;era alcun metodo per controllare il comportamento di download delle risorse, rendendo difficile la ricerca di una rappresentazione particolare da un gran numero di download.
+
+**[!UICONTROL L&#39;impostazione]** Download risorse ora fornisce un&#39;opzione per creare una cartella separata per ciascuna risorsa durante il download delle cartelle, delle raccolte o del download in blocco delle risorse.
+
+Se l&#39;impostazione **[!UICONTROL Download risorse]** è disattivata, le cartelle o le raccolte vengono scaricate in una cartella zip contenente tutte le rappresentazioni delle risorse sotto la stessa cartella, fatta eccezione per il download delle risorse tramite il collegamento condiviso.
+
+
+Accedi al tenant del Portale marchio come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Scarica]**. Gli amministratori possono attivare l&#39;impostazione **[!UICONTROL Download delle risorse]** per creare una cartella separata per ogni risorsa durante il download di cartelle, raccolte e download in massa di risorse.
+
+![](assets/download-settings-new.png)
+
+<!--
+### Download using Share link {#download-using-share-link}
+
+The default behavior of downloading the assets using share link is now independent of the **[!UICONTROL Download Settings]**. A separate folder is created for each asset while downloading the assets using share link. 
+-->
+
+### Rapporto di utilizzo {#usage-report}
+
+Il Portale marchio **[!UICONTROL Rapporto sull&#39;utilizzo]** è stato modificato per riflettere solo gli utenti attivi del portale del marchio. Gli utenti del portale del marchio che non sono assegnati ad alcun profilo di prodotto nel Admin Console  sono considerati utenti inattivi e non vengono riportati nel **[!UICONTROL Rapporto sull&#39;utilizzo]**.
+
+Precedentemente, sia gli utenti attivi che quelli inattivi venivano visualizzati nel Rapporto sull&#39;utilizzo.
+
+![](assets/usage-report.png)
 
 ## Cosa è cambiato in 2020.10.0 {#what-changed-in-oct-2020}
 
@@ -83,13 +121,13 @@ The user can clear the check boxes to exclude the renditions which are not requi
 ![renditions-panel](assets/renditions-panel.png)
 
 
-### Configurare le autorizzazioni di download {#download-permissions}
+### Configurare le impostazioni di download {#download-permissions}
 
-Oltre alle configurazioni **[!UICONTROL Download]** esistenti, gli amministratori di Brand Portal possono anche configurare le autorizzazioni per diversi gruppi di utenti per visualizzare e (o) scaricare la risorsa originale e le relative rappresentazioni dalla pagina dei dettagli della risorsa.
+Oltre alle configurazioni **[!UICONTROL Download]** esistenti, gli amministratori di Brand Portal possono anche configurare le impostazioni per diversi gruppi di utenti per visualizzare e (o) scaricare la risorsa originale e le relative rappresentazioni dalla pagina dei dettagli della risorsa.
 
 Accedi al tenant del Portale marchio come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Utenti]**.
 
-Nella pagina **[!UICONTROL Ruoli utente]**, andate alla scheda **[!UICONTROL Gruppi]** per configurare le autorizzazioni di visualizzazione e (o) download per i gruppi di utenti.
+Nella pagina **[!UICONTROL Ruoli utente]**, andate alla scheda **[!UICONTROL Gruppi]** per configurare le impostazioni di visualizzazione e (o) di download per i gruppi di utenti.
 
 In precedenza, le impostazioni erano disponibili solo per impedire agli utenti del gruppo di scaricare la risorsa originale.
 
@@ -159,8 +197,6 @@ L’amministratore di Brand Portal può abilitare qualsiasi combinazione per con
 * Se è abilitata una delle **[!UICONTROL rappresentazioni personalizzate]** o **[!UICONTROL Rappresentazioni di sistema]**, viene visualizzata la finestra di dialogo **[!UICONTROL Scarica]** e viene scaricata la risorsa originale insieme alle rappresentazioni delle risorse. Abilitando la configurazione **[!UICONTROL Fast Download]** il processo di download risulta più rapido.
 
 In base alla configurazione, il flusso di lavoro di download rimane costante per le risorse autonome, per più risorse, per le cartelle contenenti risorse, per le risorse con licenza o senza licenza e per il download delle risorse tramite il collegamento di condivisione.
-
-![](assets/download-configuration.png)
 
 
 ## Che cosa è cambiato in 6.4.6 {#what-changed-in-646}
@@ -279,7 +315,7 @@ Il Portale marchio consente di utilizzare l&#39;asterisco (*) nella query di ric
 **Usa**
 maiuscole/minuscoleSe non si è certi delle parole esatte che si trovano nella frase ricercata, è possibile utilizzare una ricerca con caratteri jolly per riempire gli spazi vuoti nella query di ricerca.
 
-Ad esempio, specificando **climb*** tutte le risorse che hanno parole che iniziano con i caratteri **climb** nella propria frase del titolo, se il modulo di ricerca in Brand Portal utilizza Property Predicate per la ricerca parziale sul titolo delle risorse.
+Ad esempio, specificando **climb*** tutte le risorse con parole che iniziano con i caratteri **climb** nella propria frase del titolo, se il modulo di ricerca in Brand Portal utilizza Property Predicate per la ricerca parziale sul titolo delle risorse.
 
 ![](assets/wildcard-prop.png)
 
