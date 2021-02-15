@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: 8ab18a4a177f9764150ff571f89ae94a1f699d89
+source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1960'
 ht-degree: 3%
 
 ---
@@ -68,11 +68,16 @@ Le impostazioni disponibili sono:
 
    Queste sono le miniature generate automaticamente in  AEM Assets in base al flusso di lavoro &quot;DAM update asset&quot; (Risorsa di aggiornamento DAM).
 
+* **[!UICONTROL Download risorse]**
+
+   Consente di scaricare i rendering in una cartella separata per ciascuna risorsa. Questa impostazione è applicabile per scaricare cartelle, raccolte e download in massa di risorse (più di 20 risorse).
+
+
 Accedi al tenant del Portale marchio come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Scarica]**.
 
 Gli amministratori possono abilitare qualsiasi combinazione di impostazioni per consentire agli utenti di Brand Portal di accedere e scaricare le rappresentazioni.
 
-![](assets/download-configuration.png)
+![](assets/download-settings-new.png)
 
 
 >[!NOTE]
@@ -123,7 +128,7 @@ Se l&#39;utente ha accesso alle rappresentazioni, l&#39;utente dispone della fin
 * Escludete le rappresentazioni delle risorse non necessarie per il download.
 * Con un solo clic potete applicare lo stesso set di rappresentazioni a tutti i tipi di risorse simili.
 * Applicate un set diverso di rappresentazioni per tipi di risorse diversi.
-* Create una cartella separata per ogni rappresentazione di risorsa.
+* Create una cartella separata per ciascuna risorsa.
 * Scaricate le risorse selezionate e le relative rappresentazioni.
 
 ![download-dialog](assets/download-dialog-box.png)
@@ -176,7 +181,7 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
    ![rimuovere](assets/remove.png)
 
-   Per mantenere la gerarchia di cartelle del Portale marchio durante il download delle risorse, selezionate la casella di controllo **[!UICONTROL Crea cartella separata per ciascuna risorsa]**. Per impostazione predefinita, la gerarchia delle cartelle Brand Portal viene ignorata e tutte le risorse vengono scaricate in una cartella zip.
+   Per mantenere la gerarchia di cartelle del Portale marchio durante il download delle risorse, selezionate la casella di controllo **[!UICONTROL Crea cartella separata per ciascuna risorsa]**.
 
    Il pulsante di download riflette il numero di elementi selezionati. Dopo aver applicato le regole, fare clic su **[!UICONTROL Scarica elementi]**.
 
@@ -195,7 +200,9 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
 >[!NOTE]
 >
->Se per il download sono selezionate una cartella, una raccolta o più di 20 risorse, viene ignorata la finestra di dialogo **[!UICONTROL Scarica]** e tutte le rappresentazioni delle risorse accessibili all&#39;utente, escluse le rappresentazioni dinamiche, vengono scaricate in una cartella zip. Le rappresentazioni delle risorse vengono scaricate in una cartella separata per ciascuna risorsa all’interno della cartella zip.
+>Se per il download sono selezionate una cartella, una raccolta o più di 20 risorse, viene ignorata la finestra di dialogo **[!UICONTROL Scarica]** e tutte le rappresentazioni delle risorse accessibili all&#39;utente, escluse le rappresentazioni dinamiche, vengono scaricate in una cartella zip.
+>
+>Se l&#39;impostazione **[!UICONTROL Download delle risorse]** è abilitata in **[!UICONTROL Impostazioni di download]**, le rappresentazioni delle risorse vengono scaricate in una cartella separata per ciascuna risorsa all&#39;interno della cartella zip.
 
 
 >[!NOTE]
@@ -220,7 +227,7 @@ Se non siete [autorizzati dall&#39;amministratore ad avere accesso alle rapprese
 
 ### Scaricare risorse dalla pagina dei dettagli delle risorse {#download-assets-from-asset-details-page}
 
-Oltre al flusso di lavoro per il download, è disponibile un altro metodo per scaricare i rendering per singole risorse direttamente dalla pagina dei dettagli della risorsa.
+Oltre al flusso di lavoro per il download, esiste un altro metodo per scaricare i rendering per singole risorse direttamente dalla pagina dei dettagli della risorsa.
 
 Gli utenti possono visualizzare in anteprima diverse rappresentazioni, selezionare rappresentazioni specifiche e scaricarle direttamente dal pannello **[!UICONTROL Rappresentazioni]** nella pagina dei dettagli della risorsa senza dover aprire la finestra di dialogo **[!UICONTROL Scarica]**.
 
