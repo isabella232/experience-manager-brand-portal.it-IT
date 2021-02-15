@@ -10,7 +10,7 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 translation-type: tm+mt
-source-git-commit: 45664ffc0a5eb36e941d75a5773ef59cfa6b4646
+source-git-commit: 64aa436f8416b8280f465166dbe692c300843eed
 workflow-type: tm+mt
 source-wordcount: '1107'
 ht-degree: 2%
@@ -28,7 +28,7 @@ Brand Portal consente di migliorare le prestazioni di download di file di risors
 
 Per impostazione predefinita, la configurazione **[!UICONTROL Fast Download]** è abilitata, il che riduce notevolmente il tempo necessario per scaricare i file di risorse desiderati dal Brand Portal.
 
-![](assets/download-configuration.png)
+![](assets/download-configuration-old.png)
 
 ## Prerequisiti per accelerare il download dei file {#prerequisites-to-accelerate-file-download}
 
