@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 translation-type: tm+mt
-source-git-commit: f552aaa31c06cfe33b387e22d0a6e70fef9d147d
+source-git-commit: fab0855e8d30e7b6ddf9b4ae5b2ce1fb627c81ce
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1935'
 ht-degree: 3%
 
 ---
@@ -70,7 +70,7 @@ Le impostazioni disponibili sono:
 
 * **[!UICONTROL Download risorse]**
 
-   Consente di scaricare i rendering in una cartella separata per ciascuna risorsa. Questa impostazione è applicabile per scaricare cartelle, raccolte e download in massa di risorse (più di 20 risorse).
+   Consente di scaricare i rendering in una cartella separata per ciascuna risorsa. Questa impostazione è applicabile alle cartelle, alle raccolte e al download in blocco delle risorse (più di 20 risorse).
 
 
 Accedi al tenant del Portale marchio come amministratore e passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Scarica]**.
@@ -135,7 +135,7 @@ Se l&#39;utente ha accesso alle rappresentazioni, l&#39;utente dispone della fin
 
 >[!NOTE]
 >
->La finestra di dialogo **[!UICONTROL Scarica]** viene visualizzata solo se le risorse sono selezionate per il download e **[!UICONTROL Rappresentazioni personalizzate]** o **[!UICONTROL Rappresentazioni di sistema]** è abilitata in **[!UICONTROL Impostazioni di download]**.
+>La finestra di dialogo **[!UICONTROL Scarica]** viene visualizzata solo se in **[!UICONTROL Rappresentazioni personalizzate]** e (o) **[!UICONTROL Rappresentazioni del sistema]** è abilitata in **[!UICONTROL Impostazioni di download]**.
 
 
 ### Passaggi per scaricare le risorse {#bulk-download}
@@ -157,7 +157,7 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
       >[!NOTE]
       >
-      >Se state scaricando le risorse per la prima volta e non disponete di IBM Aspera Connect installato nel browser, vi verrà richiesto di installare l’acceleratore di download di Aspera.
+      >Se state scaricando le risorse per la prima volta e non disponete di IBM Aspera Connect installato nel browser, vi verrà richiesto di [installare l&#39;acceleratore di download Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
 
 
       >[!NOTE]
@@ -185,13 +185,13 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
    Il pulsante di download riflette il numero di elementi selezionati. Dopo aver applicato le regole, fare clic su **[!UICONTROL Scarica elementi]**.
 
-   ![download-dialog](assets/download-dialog-new.png)
+   ![download-dialog](assets/download-dialog-box-new.png)
 
 1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata in **[!UICONTROL Impostazioni di download]**. Di conseguenza, viene visualizzata una finestra di conferma per consentire il download accelerato tramite IBM Aspera Connect.
 
    Per continuare a utilizzare **[!UICONTROL Download rapido]**, fare clic su **[!UICONTROL Consenti]**. Tutte le rappresentazioni selezionate vengono scaricate in una cartella zip utilizzando IBM Aspera Connect.
 
-   Se non desiderate utilizzare IBM Aspera Connect, fate clic su **[!UICONTROL Rifiuta]**. Se **[!UICONTROL Fast Download]** viene negato o ha esito negativo, il sistema compila un messaggio di errore. Fate clic sul pulsante **[!UICONTROL Download normale]** per continuare a scaricare le risorse. Le rappresentazioni selezionate vengono scaricate in una cartella zip senza utilizzare IBM Aspera Connect.
+   Se non desiderate utilizzare IBM Aspera Connect, fate clic su **[!UICONTROL Rifiuta]**. Se **[!UICONTROL Fast Download]** viene negato o ha esito negativo, il sistema compila un messaggio di errore. Fate clic sul pulsante **[!UICONTROL Download normale]** per continuare a scaricare le risorse.
 
 >[!NOTE]
 >
@@ -249,7 +249,7 @@ Seguono i passaggi per scaricare le rappresentazioni delle risorse dalla pagina 
 
    Per continuare a utilizzare **[!UICONTROL Download rapido]**, fare clic su **[!UICONTROL Consenti]**. Tutte le rappresentazioni selezionate vengono scaricate in una cartella zip utilizzando IBM Aspera Connect.
 
-   Se si nega l&#39;utilizzo di **[!UICONTROL Download rapido]**, il sistema compila un messaggio di errore. Fare clic sul pulsante **[!UICONTROL Download normale]** per continuare il download. Le rappresentazioni selezionate vengono scaricate in una cartella zip senza utilizzare IBM Aspera Connect.
+   Se si nega l&#39;utilizzo di **[!UICONTROL Download rapido]**, il sistema compila un messaggio di errore. Fate clic sul pulsante **[!UICONTROL Download normale]** per continuare a scaricare le risorse.
 
 >[!NOTE]
 >
