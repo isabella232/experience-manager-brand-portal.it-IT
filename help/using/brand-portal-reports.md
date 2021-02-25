@@ -9,9 +9,9 @@ topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 translation-type: tm+mt
-source-git-commit: 9c937603cf325919cb49d3418b06266fa1b93cf1
+source-git-commit: 0e26e6ae38d7b62576bc1751965a71168ad8faf5
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1023'
 ht-degree: 2%
 
 ---
@@ -39,11 +39,12 @@ Per visualizzare un rapporto, effettuate le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il rapporto sull&#39;utilizzo è presente per impostazione predefinita in Brand Portal. Non può essere creato o eliminato. Tuttavia, potete creare, scaricare ed eliminare i rapporti Download, Scadenza, Pubblica, Condivisione collegamenti e Login utente.
+   >Il rapporto Utilizzo è un rapporto predefinito generato in Brand Portal. Non può essere creato o eliminato. Tuttavia, potete creare, scaricare ed eliminare i rapporti Download, Scadenza, Pubblica, Condivisione collegamenti e Login utente.
 
-   Per visualizzare un rapporto, toccate o fate clic sul collegamento del rapporto. In alternativa, seleziona il rapporto e tocca o fai clic sull’icona Visualizza nella barra degli strumenti.
+   Per visualizzare un rapporto, fai clic sul collegamento del rapporto. In alternativa, seleziona il rapporto e tocca o fai clic sull’icona Visualizza nella barra degli strumenti.
 
-   **[!UICONTROL In]** Rapporti sull’utilizzo sono visualizzate informazioni sul numero di utenti correnti del Brand Portal, sullo spazio di archiviazione occupato da tutte le risorse e sul totale delle risorse conteggiate nel Brand Portal. Il rapporto mostra anche la capacità consentita per ciascuna di queste metriche di informazioni.
+   **[!UICONTROL In]** Rapporti sull’utilizzo sono visualizzate informazioni sul numero di utenti attivi del Brand Portal, sullo spazio di archiviazione occupato da tutte le risorse e sul totale delle risorse conteggiate nel Brand Portal. Gli utenti del portale del marchio che non sono assegnati ad alcun profilo di prodotto nel Admin Console  sono considerati utenti inattivi e non vengono riportati nel **[!UICONTROL Rapporto sull&#39;utilizzo]**.
+Il rapporto mostra anche la capacità consentita per ciascuna di queste metriche di informazioni.
 
    ![](assets/usage-report.png)
 
@@ -94,8 +95,6 @@ Gli amministratori possono generare e gestire i seguenti rapporti standard, una 
 Le colonne nel rapporto Download, Scadenza e Pubblica possono essere personalizzate per la visualizzazione. Per generare un rapporto, effettuate le seguenti operazioni:
 
 1. Dalla barra degli strumenti nella parte superiore, toccate o fate clic sul logo AEM per accedere agli strumenti amministrativi.
-
-   ![](assets/aemlogo.png)
 
 1. Dal pannello degli strumenti di amministrazione, toccate o fate clic su **[!UICONTROL Crea/Gestisci rapporti]** per aprire la pagina **[!UICONTROL Report risorse]**.
 
