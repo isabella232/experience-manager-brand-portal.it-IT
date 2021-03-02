@@ -1,8 +1,8 @@
 ---
 title: Note sulla versione
 seo-title: Note sulla versione
-description: Ottieni informazioni approfondite su funzioni, miglioramenti, problemi critici risolti e problemi noti di Adobe Experience Manager Assets Brand Portal 2021.02.0.
-seo-description: Ottenete informazioni approfondite sui miglioramenti, i problemi critici risolti e i problemi noti in Adobe Experience Manager Assets Brand Portal 2021.02.0.
+description: Ottieni informazioni approfondite su funzioni, miglioramenti, problemi critici risolti e problemi noti nella versione 2021.02.0 di Adobe Experience Manager Assets Brand Portal.
+seo-description: Scopri i miglioramenti, i problemi critici risolti e i problemi noti nella versione 2021.02.0 di Adobe Experience Manager Assets Brand Portal.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,36 +10,38 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 69cf1756a546355ed767ac13c51fb09932254dbc
+source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 7%
+source-wordcount: '558'
+ht-degree: 6%
 
 ---
 
 
 # Note sulla versione {#release-notes}
 
-Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti di Adobe Experience Manager Assets Brand Portal 2021.02.0.
+Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti con la versione 2021.02.0 di Adobe Experience Manager Assets Brand Portal.
 
 ## Informazioni sulla versione {#release-information}
 
-| Prodotto | Portale marchio Adobe Experience Manager Assets |
+| Prodotto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
 | Versione | 2021.02.0 |
 | Data | Febbraio 2021 |
 
 ## Panoramica {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni attraverso dispositivi diversi. Consente di migliorare l&#39;efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare risorse in formati approvati dall’azienda, in qualsiasi momento e ovunque.
+Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare le risorse in formati approvati dall’azienda, in qualsiasi momento e ovunque.
 
-## Novità in 2021.02.0 {#whats-new-in-2021.02.0}
+## Novità di 2021.02.0 {#whats-new-in-2021.02.0}
 
 ### Nuove funzioni {#new-features}
 
-Questa versione include le nuove funzioni seguenti:
+Questa versione include le seguenti nuove funzionalità:
 
-* In **[!UICONTROL Impostazioni di download]** è stata introdotta un&#39;ulteriore impostazione **[!UICONTROL Download delle risorse]**. Crea una cartella separata per ciascuna risorsa durante il download delle cartelle, delle raccolte o del download in blocco delle risorse. Vedere [impostazioni di download](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* La funzione Origine risorse è ora disponibile su AEM Assets as a Cloud Service. Consente agli utenti di Brand Portal di caricare le risorse nelle cartelle dei contributi consentite e pubblicare la cartella dei contributi da Brand Portal nell’istanza di AEM Assets as a Cloud Service.
+
+* Un&#39;ulteriore impostazione **[!UICONTROL Download delle risorse]** è stata introdotta in **[!UICONTROL Impostazioni di download]**. Crea una cartella separata per ogni risorsa durante il download delle cartelle, delle raccolte o del download in blocco di risorse. Consulta [scarica impostazioni](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -67,8 +69,8 @@ Brand Portal users can exclude specific renditions which are not required and di
 
 Questa versione include i seguenti miglioramenti:
 
-* Per il download delle cartelle, viene creata una cartella separata per ciascuna risorsa utilizzando il collegamento di condivisione, indipendentemente dalle **[!UICONTROL Impostazioni di download]**.
-* Il Portale marchio **[!UICONTROL Rapporto sull&#39;utilizzo]** è stato modificato per riflettere solo gli utenti attivi del Portale marchio.
+* Per il download delle cartelle, viene creata una cartella separata per ogni risorsa utilizzando il collegamento di condivisione, indipendentemente dalle **[!UICONTROL impostazioni di download]**.
+* Il Brand Portal **[!UICONTROL Rapporto utilizzo]** è stato modificato per riflettere solo gli utenti attivi di Brand Portal.
 
 <!--
 * The threshold of session timeout for the guest users has been reduced from 2 hours to 15 minutes.
@@ -80,15 +82,15 @@ Questa versione include i seguenti miglioramenti:
 
 Questa versione include correzioni ai seguenti problemi critici:
 
-* Se vengono scaricate solo le risorse originali, la risorsa riflette la sua estensione e non si apre finché l’estensione non viene modificata manualmente in zip.
-* L&#39;interfaccia utente della cartella della raccolta non risponde quando si fa clic sulla freccia di navigazione.
-* **[!UICONTROL Il pulsante]** Createbon è visibile nella  **** visualizzazione Colonna anche quando le cartelle sono vuote.
-* **[!UICONTROL La]** ricerca Omni non riesce con un messaggio di errore 414 (URI richiesta troppo lungo) se il dispatcher viene bypassato durante l&#39;accesso all&#39;istanza del Brand Portal.
-* Se la risorsa contiene una virgola (`,`) nel nome del file, viene scaricata una cartella zip vuota.
-* Gli utenti del visualizzatore hanno la possibilità di aggiungere utenti alla raccolta che hanno creato.
-* Si verifica un comportamento incoerente quando una risorsa (miniatura o rappresentazione Web) viene scaricata tramite il collegamento di condivisione.
+* Nel caso in cui vengano scaricate solo le risorse originali, la risorsa riflette la propria estensione e non si apre finché l’estensione non viene modificata manualmente in zip.
+* L&#39;interfaccia utente della cartella di raccolta non risponde quando si fa clic sulla freccia di navigazione.
+* **** Il pulsante di creazione è visibile in  **** Columnview anche quando le cartelle sono vuote.
+* **[!UICONTROL La]** ricerca Omni non riesce con un messaggio di errore 414 (Request-URI Too Long) se il dispatcher viene bypassato durante l’accesso all’istanza di Brand Portal.
+* Viene scaricata una cartella zip vuota se la risorsa contiene una virgola (`,`) nel nome del file.
+* Gli utenti del visualizzatore possono aggiungere utenti alla raccolta creata.
+* Si verifica un comportamento incoerente quando una risorsa (miniatura o rendering web) viene scaricata utilizzando il collegamento di condivisione.
 
-Consultate [novità in Brand Portal 2021.02.0](whats-new.md).
+Consulta [novità di Brand Portal 2021.02.0](whats-new.md).
 
 <!--
 ### Known Issues {#known-issues}
@@ -153,16 +155,16 @@ L’interfaccia utente di Brand Portal è disponibile nelle seguenti lingue:
 
 ## Piattaforme certificate {#certified-platforms}
 
-Per verificare quali piattaforme sono certificate per l&#39;esecuzione con questa versione di Brand Portal, fare riferimento alla colonna **Supporto per l&#39;interfaccia touch** nella tabella nella sezione **Browser supportati per l&#39;interfaccia utente di authoring** di [Requisiti tecnici](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
+Per verificare quali piattaforme sono certificate per l’esecuzione con questa versione di Brand Portal, consulta la colonna **Supporto per l’interfaccia touch** nella tabella della sezione **Browser supportati per l’authoring Interfaccia utente** di [Requisiti tecnici](https://helpx.adobe.com/experience-manager/6-4/sites/deploying/using/technical-requirements.html).
 
 ## Collegamenti {#links}
 
-* [Pagina prodotto Adobe Experience Manager su adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
-* [Documentazione su Assets Brand Portal](https://helpx.adobe.com/it/experience-manager/brand-portal/user-guide.html)
+* [Pagina del prodotto Adobe Experience Manager su adobe.com](http://www.adobe.com/in/marketing-cloud/experience-manager.html)
+* [Documentazione di Assets Brand Portal](https://helpx.adobe.com/it/experience-manager/brand-portal/user-guide.html)
 
-## Accesso e supporto al prodotto (siti limitati) {#product-access-and-support-restricted-sites}
+## Accesso e supporto ai prodotti (siti con restrizioni) {#product-access-and-support-restricted-sites}
 
-Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedete l&#39;accesso, contattate il vostro responsabile commerciale  Adobe.
+Questi siti sono disponibili solo per i clienti. Se sei un cliente e hai bisogno di accedere, contatta il tuo account manager Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
@@ -170,4 +172,4 @@ Questi siti sono disponibili solo per i clienti. Se siete un cliente e richiedet
 
 * [Accesso al prodotto](https://login.marketing.adobe.com)
 
-* [Assistenza clienti  Adobe](https://helpx.adobe.com/contact.html)
+* [Assistenza clienti Adobe](https://helpx.adobe.com/contact.html)
