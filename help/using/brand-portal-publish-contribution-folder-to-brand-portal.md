@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 translation-type: tm+mt
-source-git-commit: 4221199d874ce63a936e5e6e02a16ee95cab4499
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '1113'
+source-wordcount: '1125'
 ht-degree: 0%
 
 ---
@@ -41,9 +41,12 @@ L’utente AEM esegue le seguenti attività durante la configurazione di una car
 Gli amministratori AEM e gli utenti non amministratori che dispongono dell’autorizzazione per creare una nuova cartella possono creare una cartella di contributi in AEM Assets.
 Per creare una cartella dei contributi, crea una nuova cartella di tipo Contributo risorse, in modo che la nuova cartella creata sia aperta all’invio delle risorse da parte degli utenti di Brand Portal.  Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate SHARED e NEW, all’interno della cartella dei contributi.
 
+
 >[!NOTE]
 >
 >Puoi creare più cartelle di contributi all’interno di una cartella. Non creare una cartella di contributo all’interno di un’altra cartella di contributo.
+
+È possibile configurare le proprietà della cartella dei contributi separatamente e durante la creazione della cartella dei contributi. In questo esempio, configuriamo le proprietà separatamente.
 
 **Per creare una cartella di contributo:**
 1. Accedi alla tua istanza di AEM Assets.
@@ -68,7 +71,6 @@ Si consiglia di utilizzare lettere minuscole senza spazio per denominare la cart
 
    ![](assets/contribution-folder.png)
 
-È inoltre possibile configurare le proprietà della cartella Contributo durante la creazione della cartella Contributo.
 
 ## Configura le proprietà della cartella dei contributi {#configure-contribution-folder-properties}
 
