@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: 302bbf441453a760fe53d981a61b2eb014ebd1f0
+source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 6%
+source-wordcount: '580'
+ht-degree: 7%
 
 ---
 
@@ -91,6 +91,13 @@ Questa versione include correzioni ai seguenti problemi critici:
 * Si verifica un comportamento incoerente quando una risorsa (miniatura o rendering web) viene scaricata utilizzando il collegamento di condivisione.
 
 Consulta [novità di Brand Portal 2021.02.0](whats-new.md).
+
+
+### Problemi noti {#known-issues}
+
+Questa versione include il seguente problema noto:
+
+* Gli utenti non ricevono notifiche e-mail per i flussi di lavoro di pubblicazione Asset Sourcing.
 
 <!--
 ### Known Issues {#known-issues}
