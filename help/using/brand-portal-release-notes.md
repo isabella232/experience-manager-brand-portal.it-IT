@@ -10,17 +10,17 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 translation-type: tm+mt
-source-git-commit: d70817274ac7be84528778352f34934a0d4a60fc
+source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
 workflow-type: tm+mt
-source-wordcount: '580'
-ht-degree: 7%
+source-wordcount: '587'
+ht-degree: 6%
 
 ---
 
 
 # Note sulla versione {#release-notes}
 
-Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti con la versione 2021.02.0 di Adobe Experience Manager Assets Brand Portal.
+Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione 2021.02.0 di Adobe Experience Manager Assets Brand Portal.
 
 ## Informazioni sulla versione {#release-information}
 
@@ -39,9 +39,11 @@ Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, contro
 
 Questa versione include le seguenti nuove funzionalità:
 
-* La funzione Origine risorse è ora disponibile su AEM Assets as a Cloud Service. Consente agli utenti di Brand Portal di caricare le risorse nelle cartelle dei contributi consentite e pubblicare la cartella dei contributi da Brand Portal nell’istanza di AEM Assets as a Cloud Service.
+* AEM Assets as a Cloud Service viene configurato automaticamente con Brand Portal attivando Brand Portal da Cloud Manager.
 
-* Un&#39;ulteriore impostazione **[!UICONTROL Download delle risorse]** è stata introdotta in **[!UICONTROL Impostazioni di download]**. Crea una cartella separata per ogni risorsa durante il download delle cartelle, delle raccolte o del download in blocco di risorse. Consulta [scarica impostazioni](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#configure-download).
+* La funzione Origine risorse è ora disponibile in AEM Assets as a Cloud Service. Consente agli utenti di Brand Portal di caricare le risorse nelle cartelle dei contributi consentite e pubblicare la cartella dei contributi da Brand Portal in AEM Assets come istanza di Cloud Service.
+
+* Un&#39;ulteriore impostazione **[!UICONTROL Download delle risorse]** è stata introdotta in **[!UICONTROL Impostazioni di download]**. Crea una cartella separata per ogni risorsa durante il download delle cartelle, delle raccolte o del download in blocco di risorse.
 
 <!-- 
 * The **[!UICONTROL Download]** dialog is revamped in a list view with additional options to exclude the renditions which are not required, apply the same set of rules for similar asset types, and download the selected asset renditions. See [steps to download assets from Brand Portal](https://docs.adobe.com/content/help/en/experience-manager-brand-portal/using/download/brand-portal-download-assets.html#download-assets).
@@ -171,7 +173,7 @@ Per verificare quali piattaforme sono certificate per l’esecuzione con questa 
 
 ## Accesso e supporto ai prodotti (siti con restrizioni) {#product-access-and-support-restricted-sites}
 
-Questi siti sono disponibili solo per i clienti. Se sei un cliente e hai bisogno di accedere, contatta il tuo account manager Adobe.
+Questi siti sono disponibili solo per i clienti. Se sei un cliente e hai bisogno di accedervi, contatta il tuo account manager Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 
@@ -179,4 +181,4 @@ Questi siti sono disponibili solo per i clienti. Se sei un cliente e hai bisogno
 
 * [Accesso al prodotto](https://login.marketing.adobe.com)
 
-* [Assistenza clienti Adobe](https://helpx.adobe.com/contact.html)
+* [Adobe Customer Care](https://helpx.adobe.com/contact.html)
