@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 translation-type: tm+mt
-source-git-commit: d32c06e08499acb97badff40658fded0edeb2038
+source-git-commit: 7bb5e71bd25b312a77f0a6cc15ad86b6f9d43407
 workflow-type: tm+mt
-source-wordcount: '6053'
+source-wordcount: '6125'
 ht-degree: 3%
 
 ---
@@ -28,9 +28,19 @@ Brand Portal 2021.02.0 è una versione ottimizzata che introduce il flusso di la
 
 ### Automazione di Brand Portal su AEM Assets as a Cloud Service {#bp-automation-on-cloud-service}
 
-AEM Assets as a Cloud Service viene configurato automaticamente con Brand Portal attivando Brand Portal da Cloud Manager. Un utente di Cloud Manager attiva il flusso di lavoro di attivazione che crea le configurazioni richieste nel backend e attiva Brand Portal sulla stessa organizzazione IMS di AEM Assets come istanza di Cloud Service.
+AEM Assets as a Cloud Service viene configurato automaticamente con Brand Portal attivando Brand Portal da Cloud Manager.
 
 In precedenza, AEM Assets as a Cloud Service era configurato manualmente con Brand Portal utilizzando Adobe Developer Console.
+
+Un utente di Cloud Manager attiva il flusso di lavoro di attivazione che crea le configurazioni richieste nel backend e attiva Brand Portal sulla stessa organizzazione IMS di AEM Assets come istanza di Cloud Service.
+
+Per attivare Brand Portal sul tuo AEM Assets come istanza di Cloud Service:
+
+1. Accedi ad Adobe Cloud Manager e passa a **[!UICONTROL Ambienti]**.
+1. Seleziona gli ambienti (uno per uno) dall’elenco per visualizzare i dettagli dell’ambiente. Una volta trovato l’ambiente associato a Brand Portal, fai clic sul pulsante **[!UICONTROL Attiva Brand Portal]** per avviare il flusso di lavoro di attivazione.
+1. Una volta attivato il tenant di Brand Portal, lo stato diventa Attivato.
+
+![Visualizza stato](assets/create-environment5.png)
 
 Consulta [attivare Brand Portal su AEM Assets come Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html?lang=en).
 
@@ -215,7 +225,7 @@ L’amministratore di Brand Portal può abilitare qualsiasi combinazione per con
 In base alla configurazione, il flusso di lavoro di download rimane costante per le risorse autonome, per più risorse, per le cartelle contenenti risorse, risorse con licenza o senza licenza e per il download delle risorse tramite il collegamento di condivisione.
 
 
-## Modifiche apportate alla versione 6.4.6 {#what-changed-in-646}
+## Modifiche apportate alla versione 6.4.2 {#what-changed-in-646}
 
 In Brand Portal 6.4.6, il canale di autorizzazione tra AEM Assets e Brand Portal viene modificato. Brand Portal è ora supportato da AEM Assets as a Cloud Service, AEM Assets 6.3 e versioni successive. In AEM Assets 6.3 e versioni successive, Brand Portal era precedentemente configurato nell’interfaccia classica tramite la versione precedente di OAuth Gateway, che utilizza lo scambio di token JWT per ottenere un token di accesso IMS per l’autorizzazione. AEM Assets è ora configurato con Brand Portal tramite Adobe Developer Console, che fornisce un token IMS per l’autorizzazione del tenant di Brand Portal.
 
