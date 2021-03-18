@@ -1,66 +1,67 @@
 ---
 title: Amministrare le configurazioni tenant generali
 seo-title: Amministrare le configurazioni tenant generali
-description: Configurate l'accelerazione del download, la creazione di raccolte pubbliche, la creazione di raccolte pubbliche e abilitate gli utenti amministratori a eliminare le risorse sui tenant.
-seo-description: Configurate l'accelerazione del download, la creazione di raccolte pubbliche, la creazione di raccolte pubbliche e abilitate gli utenti amministratori a eliminare le risorse sui tenant.
+description: Configura l’accelerazione di download, la creazione di raccolte avanzate pubbliche, la creazione di raccolte pubbliche e abilita gli utenti amministratori a eliminare le risorse sugli tenant.
+seo-description: Configura l’accelerazione di download, la creazione di raccolte avanzate pubbliche, la creazione di raccolte pubbliche e abilita gli utenti amministratori a eliminare le risorse sugli tenant.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 59faef1d9ecdabad95326717548d534229cbff16
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 4%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # Amministrare le configurazioni tenant generali {#administer-general-tenant-configurations}
 
- AEM Assets Brand Portal consente alle organizzazioni di configurare le seguenti funzionalità per tenant specifici:
+AEM Assets Brand Portal consente alle organizzazioni di configurare le seguenti funzionalità per tenant specifici:
 
 * Eliminazione delle risorse da parte degli amministratori
 * Creazione di raccolte pubbliche da parte di utenti non amministratori
-* Creazione di raccolte smart pubbliche da parte di utenti non amministratori
-* Gerarchia principale delle cartelle condivise visibile agli utenti non amministratori
+* Creazione di raccolte avanzate pubbliche da parte di utenti non amministratori
+* Gerarchia padre di cartelle condivise visibili agli utenti non amministratori
 
-Queste configurazioni sono state fornite come configurazioni **[!UICONTROL Impostazioni generali]** nel pannello degli strumenti amministrativi.
+Queste configurazioni sono state fornite come configurazioni **[!UICONTROL Impostazioni generali]** nel pannello strumenti amministrativi.
 
 ![](assets/general-config.png)
 
-**Configurazione**   AC per consentire agli amministratori di eliminare le risorse dal Brand Portal. (Il valore predefinito è attivato)
+****   Configurazione AC per consentire agli amministratori di eliminare le risorse da Brand Portal. (Il valore predefinito è abilitato)
 
-**Configurazione**   BConfigurazione per consentire agli utenti non amministratori di creare raccolte pubbliche. (Il valore predefinito è attivato)
+****   Configurazione BC per consentire agli utenti non amministratori di creare raccolte pubbliche. (Il valore predefinito è abilitato)
 
-**Configurazione**   per consentire agli utenti non amministratori di creare raccolte pubbliche smart. (Il valore predefinito è attivato)
+****   Configurazione per consentire agli utenti non amministratori di creare raccolte avanzate pubbliche. (Il valore predefinito è abilitato)
 
-**Configurazione**  DConfigurazione per visualizzare la gerarchia delle cartelle (dalla radice) delle cartelle condivise agli utenti non amministratori (editor, visualizzatori, utenti ospiti). (Il valore predefinito è disabilitato)
+****  Configurazione di DC per visualizzare la gerarchia delle cartelle (dalla radice) delle cartelle condivise agli utenti non amministratori (editor, visualizzatori, utenti ospiti). (Il valore predefinito è disabilitato)
 
-## Abilita/disabilita configurazioni generali {#enable-disable-general-configurations}
+## Attiva/disattiva le configurazioni generali {#enable-disable-general-configurations}
 
-Per attivare/disattivare ciascuna delle seguenti configurazioni:
+Per abilitare/disabilitare ciascuna di queste configurazioni:
 
-1. Effettuate l&#39;accesso con i privilegi di amministratore.
-1. Selezionate il logo AEM per accedere agli strumenti amministrativi, dalla barra degli strumenti nella parte superiore.
-1. Dal pannello degli strumenti di amministrazione, selezionare **[!UICONTROL Generale]** per aprire la pagina **[!UICONTROL Impostazioni generali]**.
-1. Utilizzate il rispettivo interruttore di attivazione/disattivazione per attivare o disattivare una qualsiasi delle configurazioni Generali.
+1. Accedi con privilegi di amministratore.
+1. Seleziona il logo AEM per accedere agli strumenti amministrativi dalla barra degli strumenti nella parte superiore.
+1. Dal pannello strumenti amministrativi, seleziona **[!UICONTROL Generale]** per aprire la pagina **[!UICONTROL Impostazioni generali]**.
+1. Usare il rispettivo interruttore di attivazione/disattivazione per attivare o disattivare una qualsiasi delle configurazioni Generali.
 1. **[!UICONTROL Salva le modifiche.]**
-1. Disconnessione per rendere attive le modifiche.
+1. Esci per rendere effettive le modifiche.
 
-## Consenti agli utenti amministratori di eliminare le risorse dal Portale marchio {#allow-admin-users-to-delete-assets-from-brand-portal}
+## Consenti agli utenti amministratori di eliminare le risorse da Brand Portal {#allow-admin-users-to-delete-assets-from-brand-portal}
 
-**[!UICONTROL Consentire agli utenti di]** eliminare la configurazione consente alle organizzazioni di consentire (o limitare) agli utenti con privilegi di amministratore di eliminare risorse e cartelle dal Brand Portal.
+**[!UICONTROL Consenti agli utenti di]** eliminare la configurazione consente alle organizzazioni di consentire (o limitare) agli utenti con privilegi di amministratore di eliminare risorse e cartelle da Brand Portal.
 
-## Consenti creazione raccolte pubbliche da parte di utenti non amministratori {#allow-public-collections-creation-by-non-admins}
+## Consenti creazione raccolte pubbliche da parte di non amministratori {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL Consenti ]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) creazione di raccolte pubbliche. La configurazione controlla se i non amministratori possono creare raccolte pubbliche sul Portale marchio. La configurazione è abilitata per impostazione predefinita. Disattivando le organizzazioni di configurazione è possibile impedire l&#39;utilizzo di numerose raccolte pubbliche sul proprio portale, in modo da poter risparmiare spazio sul sistema.
+[[!UICONTROL Consenti la ]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) creazione di raccolte pubbliche controlla se i non amministratori possono creare raccolte pubbliche su Brand Portal. La configurazione è abilitata per impostazione predefinita. Disabilitando le organizzazioni di configurazione è possibile impedire l&#39;utilizzo di numerose raccolte pubbliche sul loro portale in modo da poter risparmiare spazio sul sistema.
 
-## Consenti creazione di raccolte smart pubbliche da parte di utenti non amministratori {#allow-public-smart-collections-creation-by-non-admins}
+## Consenti creazione di raccolte avanzate pubbliche da parte di non amministratori {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL Consenti ]](../using/brand-portal-searching.md#main-pars-header-500620467) creazione di raccolte smart pubbliche: la configurazione controlla se i non amministratori possono salvare le ricerche come raccolte smart e renderle pubbliche per quel tenant. La configurazione è abilitata per impostazione predefinita. Disattivando le organizzazioni di configurazione è possibile impedire che un numero enorme di raccolte pubbliche intelligenti create da utenti non amministratori nel Brand Portal dell&#39;organizzazione.
+[[!UICONTROL Consenti la ]](../using/brand-portal-searching.md#main-pars-header-500620467) creazione di raccolte avanzate pubbliche controlla se i non amministratori possono salvare le loro ricerche come raccolte avanzate e renderle pubbliche per quel tenant. La configurazione è abilitata per impostazione predefinita. Disabilitando le organizzazioni di configurazione puoi impedire che un numero enorme di raccolte avanzate pubbliche create da utenti non amministratori sul Brand Portal dell’organizzazione.
 
 <!-- 
 ## Allow download acceleration {#allow-download-acceleration}
@@ -70,4 +71,4 @@ Per attivare/disattivare ciascuna delle seguenti configurazioni:
 
 ## Abilita gerarchia cartelle {#enable-folder-hierarchy}
 
-[[!UICONTROL Abilita configurazione ]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) gerarchia cartelle consente agli amministratori di controllare in che modo gli utenti non amministratori (editor, visualizzatori e utenti ospiti) vedono le cartelle condivise dopo l’accesso.
+[[!UICONTROL Abilita configurazione ]](../using/brand-portal-sharing-folders.md#non-admin-user-access-to-shared-folders) gerarchia cartelle consente agli amministratori di controllare come gli utenti non amministratori (editor, visualizzatori e utenti ospiti) visualizzano le cartelle condivise dopo l&#39;accesso.
