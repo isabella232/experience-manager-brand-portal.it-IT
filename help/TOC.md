@@ -6,16 +6,18 @@ audience: end-user
 user-guide-title: AEM Brand Portal
 breadcrumb-title: Guida di Brand Portal
 user-guide-description: Utilizza AEM Assets Brand Portal per soddisfare le esigenze di marketing distribuendo in modo sicuro le risorse approvate del brand e dei prodotti ad agenzie esterne, partner, team interni e rivenditori per consentire il download.
+feature: Brand Portal
+role: Professionista
 translation-type: tm+mt
-source-git-commit: 268ee9dc83e98e01107f474780b658b8ccefafa4
+source-git-commit: 06a7a37c2978351342369c703416fbdb58145f20
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 78%
+source-wordcount: '287'
+ht-degree: 80%
 
 ---
 
 
-# Guida ad Adobe Experience Manager Assets Brand Portal {#using}
+# Guida a Brand Portal di Adobe Experience Manager Assets {#using}
 
 + [Guida di Brand Portal](using/home.md)
 + Introduzione {#introduction}
@@ -25,7 +27,7 @@ ht-degree: 78%
    + [Domande frequenti](using/brand-portal-faqs.md)
    + [Formati di file supportati](using/brand-portal-supported-formats.md)
    + [Accesso a Brand Portal come ospite](using/guest-access.md)
-   + [Informazioni su Brand Portal con AEM Assets](https://docs.adobe.com/content/help/it-IT/experience-manager-brand-portal/using/home.html)
+   + [Informazioni su Brand Portal con AEM Assets](https://docs.adobe.com/content/help/it/experience-manager-brand-portal/using/home.html)
    + [Navigazione nelle risorse in Brand Portal](using/browse-assets-brand-portal.md)
 + Pubblicare da AEM Assets in Brand Portal {#publish}
    + [Configurare AEM Assets con Brand Portal](using/configure-aem-assets-with-brand-portal.md)
@@ -35,7 +37,7 @@ ht-degree: 78%
    + [Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal](using/troubleshoot-parallel-publishing.md)
    + [Pubblicare tag in Brand Portal](using/brand-portal-publish-tags.md)
    + [Pubblicare predefiniti, schemi e facet in Brand Portal](using/publish-schema-search-facets-presets.md)
-+ Origine risorse in Brand Portal {#asset-sourcing-in-brand-portal}
++ Asset Sourcing in Brand Portal {#asset-sourcing-in-brand-portal}
    + [Panoramica su Asset Sourcing](using/brand-portal-asset-sourcing.md)
    + [Configurare la cartella dei contributi in AEM Assets](using/brand-portal-publish-contribution-folder-to-brand-portal.md)
    + [Pubblicare la cartella dei contributi in AEM Assets](using/brand-portal-publish-contribution-folder-to-aem-assets.md)
