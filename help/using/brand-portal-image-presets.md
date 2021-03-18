@@ -1,107 +1,108 @@
 ---
 title: Applicare predefiniti immagine o rappresentazioni dinamiche
 seo-title: Applicare predefiniti immagine o rappresentazioni dinamiche
-description: 'Analogamente a una macro, un predefinito per immagini è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono  AEM Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diverse. '
-seo-description: 'Analogamente a una macro, un predefinito per immagini è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono  AEM Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diverse. '
+description: 'Come una macro, un predefinito immagine è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono ad AEM Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diversi. '
+seo-description: 'Come una macro, un predefinito immagine è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono ad AEM Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diversi. '
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 2f6ec4ac56390b2243e1d1a2c2adb34eb9aad7b2
+source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 3%
+source-wordcount: '872'
+ht-degree: 4%
 
 ---
 
 
 # Applicare predefiniti immagine o rappresentazioni dinamiche {#apply-image-presets-or-dynamic-renditions}
 
-Analogamente a una macro, un predefinito per immagini è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono  AEM Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diverse.
+Come una macro, un predefinito immagine è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono ad AEM Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diversi.
 
-Un predefinito per immagini viene usato per generare rappresentazioni dinamiche delle immagini che possono essere visualizzate in anteprima e scaricate. Quando visualizzate l’anteprima delle immagini e delle relative rappresentazioni, potete scegliere un predefinito per riformattare le immagini in base alle specifiche impostate dall’amministratore.
+Un predefinito per immagini consente di generare rappresentazioni dinamiche delle immagini che possono essere visualizzate in anteprima e scaricate. Quando visualizzi in anteprima le immagini e le relative rappresentazioni, puoi scegliere un predefinito per riformattare le immagini in base alle specifiche impostate dall’amministratore.
 
-(*Se AEM&#39;istanza di creazione è in esecuzione in **modalità ibrida elemento multimediale dinamico***) Per visualizzare le rappresentazioni dinamiche di una risorsa in Brand Portal, accertatevi che la relativa rappresentazione in formato piramidale esista nell&#39;istanza di creazione AEM da cui pubblicate nel Portale marchio. Quando pubblicate la risorsa, la relativa rappresentazione PTIFF viene pubblicata anche sul Brand Portal.
-
->[!NOTE]
->
->Quando si scaricano le immagini e le relative rappresentazioni, non è possibile scegliere tra i predefiniti esistenti. Potete invece specificare le proprietà di un predefinito per immagini personalizzato. Per ulteriori informazioni, consultate [Applicare i predefiniti per immagini durante il download di immagini](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
-
-
-Per ulteriori informazioni sui parametri richiesti per la creazione dei predefiniti per immagini, consultate [Gestione dei predefiniti per immagini](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
-
-## Creare un predefinito per immagini {#create-an-image-preset}
-
-Gli amministratori di AEM possono creare predefiniti per immagini da visualizzare come rappresentazioni dinamiche nella pagina dei dettagli della risorsa. Potete creare un predefinito per immagini da zero o salvarne uno esistente con un nuovo nome. Quando create un predefinito per immagini, scegliete una dimensione per la distribuzione delle immagini e i comandi di formattazione. Quando un’immagine viene trasmessa per la visualizzazione, il suo aspetto viene ottimizzato in base ai comandi scelti.
+(*Se AEM’istanza di authoring è in esecuzione in **Modalità ibrida di Dynamic Media***) Per visualizzare le rappresentazioni dinamiche di una risorsa in Brand Portal, accertati che la relativa rappresentazione a forma di piramide esista nell’istanza di authoring AEM da dove pubblichi su Brand Portal. Quando pubblichi la risorsa, la relativa rappresentazione PTIFF viene pubblicata anche su Brand Portal.
 
 >[!NOTE]
 >
->Le rappresentazioni dinamiche di un’immagine vengono create utilizzando il TIFF piramidale. Se il TIFF piramidale non è disponibile per alcuna risorsa, le rappresentazioni dinamiche per tale risorsa non possono essere recuperate nel portale marchio.
->
->Se AEM’istanza di creazione è in esecuzione in **modalità ibrida elemento multimediale dinamico**, le rappresentazioni TIFF piramidali delle risorse di immagine vengono create e salvate AEM repository.
->
->Se AEM’istanza di authoring è in esecuzione in modalità **Contenuti multimediali dinamici di Scene 7**, sul server Scene 7 sono disponibili rappresentazioni TIFF piramidali delle risorse immagine.
->
->Quando tali risorse vengono pubblicate sul portale del marchio, vengono applicati i predefiniti per immagini e vengono visualizzate le rappresentazioni dinamiche.
+>Quando si scaricano le immagini e le relative rappresentazioni, non è possibile scegliere tra i predefiniti esistenti. È invece possibile specificare le proprietà di un predefinito immagine personalizzato. Per ulteriori informazioni, consulta [Applicare i predefiniti immagine durante il download di immagini](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
 
-1. Dalla barra degli strumenti AEM nella parte superiore, fate clic sul logo del Adobe  per accedere agli strumenti amministrativi.
+Per ulteriori informazioni sui parametri richiesti durante la creazione dei predefiniti per immagini, consulta [Gestione dei predefiniti per immagini](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
 
-1. Dal pannello degli strumenti di amministrazione, fate clic su **[!UICONTROL Predefiniti immagine]**.
+## Crea un predefinito immagine {#create-an-image-preset}
+
+Gli amministratori AEM possono creare predefiniti per immagini da visualizzare come rappresentazioni dinamiche nella pagina dei dettagli della risorsa. Puoi creare un predefinito per immagini da zero o salvarne uno esistente con un nuovo nome. Quando crei un predefinito per immagini, scegli una dimensione per la distribuzione delle immagini e i comandi di formattazione. Quando un&#39;immagine viene distribuita per la visualizzazione, il suo aspetto viene ottimizzato in base ai comandi selezionati.
+
+>[!NOTE]
+>
+>Le rappresentazioni dinamiche di un&#39;immagine vengono create utilizzando il relativo TIFF piramidale. Se il TIFF piramidale non è disponibile per alcuna risorsa, le rappresentazioni dinamiche per tale risorsa non possono essere recuperate in Brand Portal.
+>
+>Se AEM&#39;istanza di authoring è in esecuzione in modalità **Dynamic Media Hybrid**, le rappresentazioni TIFF piramidali delle risorse immagine vengono create e salvate nell&#39;archivio AEM.
+>
+>Se invece AEM&#39;istanza autore è in esecuzione in modalità **Dynamic Media Scene 7**, sul server Scene 7 esistono rappresentazioni TIFF piramidali delle risorse immagine.
+>
+>Quando tali risorse vengono pubblicate su Brand Portal, vengono applicati i predefiniti immagine e vengono visualizzate le rappresentazioni dinamiche.
+
+
+1. Dalla barra degli strumenti AEM in alto, fai clic sul logo Adobe per accedere agli strumenti amministrativi.
+
+1. Dal pannello degli strumenti amministrativi, fai clic su **[!UICONTROL Predefiniti immagini]**.
 
    ![](assets/admin-tools-panel-4.png)
 
-1. Nella pagina dei predefiniti per immagini, fate clic su **[!UICONTROL Crea]**.
+1. Nella pagina dei predefiniti immagine, fai clic su **[!UICONTROL Crea]**.
 
    ![](assets/image_preset_homepage.png)
 
-1. Nella pagina **[!UICONTROL Edit Image Preset]** (Modifica predefinito immagine), inserite i valori nelle schede **[!UICONTROL Basic]** e **[!UICONTROL Advanced]**, a seconda dei casi, compreso un nome. Le opzioni sono descritte in [Opzioni dei predefiniti per immagini](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). I predefiniti vengono visualizzati nel riquadro a sinistra e possono essere usati all’istante con altre risorse.
+1. Nella pagina **[!UICONTROL Modifica predefinito immagine]**, immetti i valori desiderati nelle schede **[!UICONTROL Base]** e **[!UICONTROL Avanzate]**, compreso un nome. Le opzioni sono descritte in [Opzioni Preimpostazione immagine](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). I predefiniti vengono visualizzati nel riquadro a sinistra e possono essere usati all’istante con altre risorse.
 
    ![](assets/image_preset_create.png)
 
    >[!NOTE]
    >
-   >Potete anche usare la pagina **[!UICONTROL Modifica predefinito immagine]** per modificare le proprietà di un predefinito esistente. Per modificare un predefinito per immagini, selezionatelo dalla pagina dei predefiniti per immagini e fate clic su **[!UICONTROL Modifica]**.
+   >È inoltre possibile utilizzare la pagina **[!UICONTROL Modifica predefinito immagine]** per modificare le proprietà di un predefinito immagine esistente. Per modificare un predefinito immagine, selezionalo dalla pagina dei predefiniti immagine e fai clic su **[!UICONTROL Modifica]**.
 
-1. Fai clic su **[!UICONTROL Salva]**. Il predefinito per immagini viene creato e visualizzato nella pagina dei predefiniti per immagini.
-1. Per eliminare un predefinito per immagini, selezionatelo dalla pagina dei predefiniti per immagini e fate clic su **[!UICONTROL Elimina]**. Nella pagina di conferma, fare clic su **[!UICONTROL Elimina]** per confermare l&#39;eliminazione. Il predefinito per immagini viene rimosso dalla pagina dei predefiniti per immagini.
+1. Fai clic su **[!UICONTROL Salva]**. Il predefinito per immagini viene creato e visualizzato nella pagina dei predefiniti per immagini .
+1. Per eliminare un predefinito immagine, selezionalo dalla pagina dei predefiniti immagine e fai clic su **[!UICONTROL Elimina]**. Nella pagina di conferma, fai clic su **[!UICONTROL Elimina]** per confermare l’eliminazione. Il predefinito per immagini viene rimosso dalla pagina dei predefiniti per immagini .
 
-## Applicazione di predefiniti per immagini durante l&#39;anteprima delle immagini {#apply-image-presets-when-previewing-images}
+## Applica i predefiniti immagine durante l&#39;anteprima delle immagini {#apply-image-presets-when-previewing-images}
 
-Quando visualizzate l’anteprima delle immagini e delle relative rappresentazioni, scegliete uno dei predefiniti esistenti per riformattare le immagini in base alle specifiche impostate dall’amministratore.
+Quando visualizzi in anteprima le immagini e le relative rappresentazioni, scegli tra i predefiniti esistenti per riformattare le immagini in base alle specifiche impostate dall’amministratore.
 
-1. Dall’interfaccia Brand Portal, fate clic su un’immagine per aprirla.
-1. Fate clic sull&#39;icona della sovrapposizione a sinistra, quindi scegliete **[!UICONTROL Rappresentazioni]**.
+1. Dall’interfaccia di Brand Portal, fai clic su un’immagine per aprirla.
+1. Fai clic sull&#39;icona di sovrapposizione a sinistra e scegli **[!UICONTROL Rappresentazioni]**.
 
    ![](assets/image-preset-previewrenditions.png)
 
-1. Nell&#39;elenco **[!UICONTROL Rendering]**, selezionare la rappresentazione dinamica appropriata, ad esempio **[!UICONTROL Miniatura]**. Il rendering dell&#39;immagine di anteprima è basato sulla scelta della rappresentazione.
+1. Dall’elenco **[!UICONTROL Rendering]**, seleziona il rendering dinamico appropriato, ad esempio **[!UICONTROL Miniatura]**. Il rendering dell’immagine di anteprima si basa sulla scelta del rendering.
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## Applicare i predefiniti per immagini durante il download di immagini {#apply-image-presets-when-downloading-images}
+## Applica i predefiniti immagine durante il download delle immagini {#apply-image-presets-when-downloading-images}
 
-Quando scaricate immagini e relative rappresentazioni da Brand Portal, non potete scegliere tra i predefiniti per immagini esistenti. Tuttavia, potete personalizzare le proprietà dei predefiniti per immagini in base ai quali desiderate riformattare le immagini.
+Quando si scaricano immagini e le relative rappresentazioni da Brand Portal, non è possibile scegliere tra i predefiniti per immagini esistenti. Tuttavia, è possibile personalizzare le proprietà dei predefiniti immagine in base alle quali si desidera riformattare le immagini.
 
-1. Dall’interfaccia Brand Portal, effettuate una delle seguenti operazioni:
+1. Dall’interfaccia di Brand Portal, effettua una delle seguenti operazioni:
 
-   * Passate il puntatore sull’immagine da scaricare. Dalle miniature delle azioni rapide disponibili, fate clic sull&#39;icona **[!UICONTROL Scarica]**.
+   * Passa il puntatore sull&#39;immagine da scaricare. Dalle miniature delle azioni rapide disponibili, fai clic sull&#39;icona **[!UICONTROL Scarica]** .
 
    ![](assets/downloadsingleasset.png)
 
-   * Selezionate l’immagine da scaricare. Dalla barra degli strumenti nella parte superiore, fare clic sull&#39;icona **[!UICONTROL Scarica]**.
+   * Seleziona l&#39;immagine da scaricare. Dalla barra degli strumenti nella parte superiore, fai clic sull&#39;icona **[!UICONTROL Scarica]** .
 
    ![](assets/downloadassets.png)
 
-1. Nella finestra di dialogo **[!UICONTROL Scarica]**, selezionate le opzioni desiderate a seconda che dobbiate scaricare la risorsa con o senza le relative rappresentazioni.
+1. Dalla finestra di dialogo **[!UICONTROL Scarica]**, seleziona le opzioni richieste a seconda che desideri scaricare la risorsa con o senza le relative rappresentazioni.
 
    ![](assets/donload-assets-dialog.png)
 
-1. Per scaricare le rappresentazioni dinamiche della risorsa, selezionate l&#39;opzione **[!UICONTROL Rappresentazioni dinamiche]**.
-1. Potete personalizzare le proprietà dei predefiniti per immagini in base alle quali desiderate riformattare dinamicamente l’immagine e le relative rappresentazioni durante il download. Specificate le dimensioni, il formato, lo spazio colore, la risoluzione e il modificatore di immagine.
+1. Per scaricare le rappresentazioni dinamiche della risorsa, seleziona l’opzione **[!UICONTROL Rendering dinamico]** .
+1. Personalizza le proprietà del predefinito immagine in base alle quali desideri riformattare dinamicamente l&#39;immagine e le relative rappresentazioni durante il download. Specifica le dimensioni, il formato, lo spazio colore, la risoluzione e il modificatore di immagine.
 
    ![](assets/dynamicrenditions.png)
 
-1. Fare clic su **[!UICONTROL Scarica]**. Le rappresentazioni dinamiche personalizzate vengono scaricate in un file ZIP insieme all&#39;immagine e alle rappresentazioni che avete scelto di scaricare. Tuttavia, se viene scaricata una singola risorsa, non viene creato alcun file ZIP che ne garantisca la rapidità di download.
+1. Fai clic su **[!UICONTROL Scarica]**. Le rappresentazioni dinamiche personalizzate vengono scaricate in un file ZIP insieme all&#39;immagine e alle rappresentazioni che hai scelto di scaricare. Tuttavia, se viene scaricata una singola risorsa non viene creato alcun file zip, il che assicura un download rapido.
