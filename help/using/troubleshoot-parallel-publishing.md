@@ -8,25 +8,24 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '892'
 ht-degree: 3%
 
 ---
 
-
 # Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal {#troubleshoot-issues-in-parallel-publishing-to-brand-portal}
 
-Brand Portal è configurato con AEM Assets per disporre di risorse di marchio approvate direttamente assimilate (o pubblicate) dall’istanza di authoring di AEM Assets. Una volta [configurato](../using/configure-aem-assets-with-brand-portal.md), AEM Author utilizza un agente di replica per replicare le risorse selezionate al servizio cloud di Brand Portal per un utilizzo approvato dagli utenti di Brand Portal. Gli agenti di replica multipli vengono utilizzati AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 e successivi per consentire la pubblicazione parallela ad alta velocità.
+Brand Portal è configurato con AEM Assets per disporre di risorse di marchio approvate direttamente assimilate (o pubblicate) dall’istanza di authoring di AEM Assets. Una volta [configurato](../using/configure-aem-assets-with-brand-portal.md), AEM Author utilizza un agente di replica per replicare le risorse selezionate al servizio cloud Brand Portal per l’utilizzo approvato dagli utenti Brand Portal. Gli agenti di replica multipli vengono utilizzati AEM 6.2 SP1-CFP5, AEM CFP 6.3.0.2 e successivi per consentire la pubblicazione parallela ad alta velocità.
 
 >[!NOTE]
 >
 >Adobe consiglia di effettuare l’aggiornamento a AEM 6.4.1.0 per garantire che AEM Assets Brand Portal sia configurato correttamente con AEM Assets. Una limitazione in AEM 6.4 genera un errore durante la configurazione di AEM Assets con Brand Portal e la replica non riesce.
 
-Durante la configurazione del servizio cloud per il brand portal in **[!UICONTROL /etc/cloudservice]**, tutti gli utenti e i token necessari vengono generati automaticamente e salvati nell&#39;archivio. Viene creata la configurazione del servizio cloud, vengono creati anche gli utenti del servizio necessari per gli agenti di replica e replica per replicare il contenuto. Questo crea quattro agenti di replica. Quindi, quando pubblichi numerose risorse da AEM a Brand Portal, queste vengono messe in coda e distribuite tra questi agenti di replica tramite Round Robin.
+Durante la configurazione del servizio cloud per il brand portal in **[!UICONTROL /etc/cloudservice]**, tutti gli utenti e i token necessari vengono generati automaticamente e salvati nell&#39;archivio. Viene creata la configurazione del servizio cloud, vengono creati anche gli utenti del servizio necessari per gli agenti di replica e replica per replicare il contenuto. Questo crea quattro agenti di replica. Quindi quando pubblichi numerose risorse da AEM a Brand Portal, queste vengono messe in coda e distribuite tra questi agenti di replica tramite Round Robin.
 
 Tuttavia, la pubblicazione può non riuscire a intermittenza a causa di lavori sling di grandi dimensioni, dell’aumento di Network e di **[!UICONTROL Disk I/O]** sull’istanza di AEM Author o delle prestazioni rallentate dell’istanza di AEM Author. È quindi consigliabile verificare la connessione con gli agenti di replica prima di iniziare la pubblicazione.
 
@@ -62,7 +61,7 @@ Last Modified Date: 2018-06-21T22:56:21.256-0400
 <p>?? another thing to check in /useradmin</p>
 -->
 
-### Pulizia delle configurazioni di pubblicazione esistenti di Brand Portal {#clean-up-existing-config}
+### Pulizia delle configurazioni di pubblicazione Brand Portal esistenti {#clean-up-existing-config}
 
 Nella maggior parte dei casi in cui la pubblicazione non funziona, il motivo può essere che l’utente che la pubblica (ad esempio: `mac-<tenantid>-replication` non dispone dell&#39;ultima chiave privata, e quindi la pubblicazione non riesce con l&#39;errore &quot;401 non autorizzato&quot; e nessun altro errore viene segnalato nei registri degli agenti di replica. È possibile evitare la risoluzione dei problemi e creare una nuova configurazione. Affinché la nuova configurazione funzioni correttamente, elimina quanto segue dalla configurazione AEM autore:
 
@@ -116,17 +115,17 @@ Se un agente di replica (che pubblicava su Brand Portal solo bene) smette di ela
 
 Se si verificano continui errori di pubblicazione e la coda è bloccata, controlla **[!UICONTROL prova connessione]** e prova a risolvere gli errori che vengono segnalati.
 
-In base agli errori, ti consigliamo di registrare un ticket di supporto, in modo che il team di progettazione di Brand Portal possa aiutarti a risolvere i problemi.
+In base agli errori, ti consigliamo di registrare un ticket di assistenza, in modo che il team di progettazione Brand Portal possa aiutarti a risolvere i problemi.
 
 
-## Configura gli agenti di replica per evitare l&#39;errore di timeout della connessione {#connection-timeout}
+## Configura gli agenti di replica per evitare l’errore di timeout della connessione {#connection-timeout}
 
 Di solito il processo di pubblicazione non riesce con un errore di timeout se ci sono più richieste in sospeso nella coda di replica. Per risolvere questo problema, assicurati che gli agenti di replica siano configurati per evitare timeout.
 
 Esegui i seguenti passaggi per configurare gli agenti di replica:
 1. Accedi alla tua istanza di authoring di AEM Assets.
 1. Dal pannello **Strumenti**, passa a **[!UICONTROL Implementazione]** > **[!UICONTROL Replica]**.
-1. Nella pagina Replica, fai clic su **[!UICONTROL Agenti sull&#39;autore]**. Puoi visualizzare i quattro agenti di replica del tenant di Brand Portal.
+1. Nella pagina Replica, fai clic su **[!UICONTROL Agenti sull&#39;autore]**. Puoi visualizzare i quattro agenti di replica del tenant Brand Portal.
 1. Fai clic sull&#39;URL dell&#39;agente di replica per aprire i dettagli dell&#39;agente.
 1. Fare clic su **[!UICONTROL Modifica]** per modificare le impostazioni dell&#39;agente di replica.
 1. In Impostazioni agente , fai clic sulla scheda **[!UICONTROL Extended]** .
