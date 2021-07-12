@@ -7,9 +7,8 @@ user-guide-title: AEM Brand Portal
 breadcrumb-title: Guida di Brand Portal
 user-guide-description: Utilizza AEM Assets Brand Portal per soddisfare le esigenze di marketing distribuendo in modo sicuro le risorse approvate del brand e dei prodotti ad agenzie esterne, partner, team interni e rivenditori per consentire il download.
 feature: Brand Portal
-role: Business Practitioner
-translation-type: tm+mt
-source-git-commit: be344fc258d82c39fe0d6a0af1fbebdc9bef2dcf
+role: User
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
 source-wordcount: '281'
 ht-degree: 80%
@@ -17,7 +16,7 @@ ht-degree: 80%
 ---
 
 
-# Guida a Brand Portal di Adobe Experience Manager Assets {#using}
+# Guida di Adobe Experience Manager Assets Brand Portal {#using}
 
 + [Guida di Brand Portal](using/home.md)
 + Introduzione {#introduction}
@@ -27,7 +26,7 @@ ht-degree: 80%
    + [Domande frequenti](using/brand-portal-faqs.md)
    + [Formati di file supportati](using/brand-portal-supported-formats.md)
    + [Accesso a Brand Portal come ospite](using/guest-access.md)
-   + [Informazioni su Brand Portal con AEM Assets](https://docs.adobe.com/content/help/it/experience-manager-brand-portal/using/home.html)
+   + [Brand Portal con AEM Assets](https://docs.adobe.com/content/help/it/experience-manager-brand-portal/using/home.html)
    + [Navigazione nelle risorse in Brand Portal](using/browse-assets-brand-portal.md)
 + Pubblicare da AEM Assets in Brand Portal {#publish}
    + [Configurare AEM Assets con Brand Portal](using/configure-aem-assets-with-brand-portal.md)
