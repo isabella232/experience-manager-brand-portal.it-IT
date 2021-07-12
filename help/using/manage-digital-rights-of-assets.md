@@ -9,31 +9,30 @@ topic-tags: download-install
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '830'
+source-wordcount: '829'
 ht-degree: 2%
 
 ---
 
-
 # Gestire i diritti digitali delle risorse {#manage-digital-rights-of-assets}
 
-Garantire la distribuzione e l&#39;utilizzo sicuri delle risorse creative e del materiale del brand è fondamentale per proteggere il brand. Questo può essere applicato in tutta l’organizzazione e all’esterno associando una data di scadenza (e un’ora) alle risorse approvate pubblicate da AEM a Brand Portal o autorizzando tali risorse per l’uso condizionale. Brand Portal consente inoltre di specificare una data di scadenza per i collegamenti alle risorse condivise da Brand Portal.
+Garantire la distribuzione e l&#39;utilizzo sicuri delle risorse creative e del materiale del brand è fondamentale per proteggere il brand. Questo può essere applicato in tutta l’organizzazione e all’esterno associando una data di scadenza (e un’ora) alle risorse approvate pubblicate da AEM a Brand Portal o autorizzando tali risorse per l’uso condizionale. Inoltre, Brand Portal consente di specificare una data di scadenza per i collegamenti alle risorse condivise da Brand Portal.
 
-Continua a leggere per scoprire come le risorse sono protette su Brand Portal e per comprendere le relative autorizzazioni di utilizzo.
+Continua a leggere per sapere come sono protette le risorse su Brand Portal e per comprendere le relative autorizzazioni di utilizzo.
 
-## Scadenza risorsa {#asset-expiration}
+## Scadenza risorse {#asset-expiration}
 
-La scadenza delle risorse è un modo efficace per controllare l’utilizzo delle risorse approvate su Brand Portal in un’organizzazione. Tutte le risorse pubblicate da AEM Assets a Brand Portal possono avere una data di scadenza, il che limita l’utilizzo di tali risorse a diversi ruoli utente.
+La scadenza delle risorse è un modo efficace per controllare l’utilizzo delle risorse approvate su Brand Portal in un’organizzazione. Tutte le risorse pubblicate da AEM Assets a Brand Portal possono avere una data di scadenza, il che limita l’utilizzo di tali risorse da parte di ruoli utente diversi.
 
 ### Autorizzazioni di utilizzo relative alle risorse scadute {#usage-permissions-expired-assets}
 
-In Brand Portal gli amministratori possono visualizzare, scaricare e aggiungere alle raccolte le risorse scadute. Gli editor e i visualizzatori possono invece visualizzare e aggiungere alle raccolte solo le risorse scadute.
+In Brand Portal, gli amministratori possono visualizzare, scaricare e aggiungere alle raccolte le risorse scadute. Gli editor e i visualizzatori possono invece visualizzare e aggiungere alle raccolte solo le risorse scadute.
 
-Gli amministratori possono pubblicare risorse scadute da AEM Assets su Brand Portal. Tuttavia, le risorse scadute non possono essere condivise tramite inchiostro da Brand Portal. Se selezioni una risorsa scaduta da una cartella contenente sia risorse scadute che non scadute, l&#39;azione **[!UICONTROL Condividi collegamento]** non è disponibile. Tuttavia, se selezioni una cartella contenente risorse scadute e non scadute, sono disponibili le azioni [!UICONTROL Condividi] e **[!UICONTROL Condividi collegamento]** .
+Gli amministratori possono pubblicare risorse scadute da AEM Assets in Brand Portal. Tuttavia, le risorse scadute non possono essere condivise tramite inchiostro da Brand Portal. Se selezioni una risorsa scaduta da una cartella contenente sia risorse scadute che non scadute, l&#39;azione **[!UICONTROL Condividi collegamento]** non è disponibile. Tuttavia, se selezioni una cartella contenente risorse scadute e non scadute, sono disponibili le azioni [!UICONTROL Condividi] e **[!UICONTROL Condividi collegamento]** .
 
 >[!NOTE]
 >
@@ -74,7 +73,7 @@ Per ulteriori informazioni sulla condivisione dei collegamenti, consulta [Condiv
 
 ## Risorse concesse in licenza {#licensed-assets}
 
-Le risorse concesse in licenza sono soggette all’accettazione di un contratto di licenza prima di essere scaricate da Brand Portal. Questo contratto per le risorse con licenza viene stipulato quando si scarica direttamente la risorsa da Brand Portal o tramite un collegamento condiviso. Che sia scaduto o meno, le risorse protette da licenza possono essere visualizzate da tutti gli utenti. Tuttavia, il download e l’utilizzo di risorse con licenza scadute sono limitati. Per informazioni sul comportamento delle risorse con licenza scadute e delle attività consentite in base ai ruoli utente, consulta [autorizzazioni di utilizzo delle risorse scadute](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
+Le risorse concesse in licenza sono soggette all’accettazione di un contratto di licenza prima del download da Brand Portal. Questo contratto per le risorse con licenza viene stipulato quando si scarica direttamente la risorsa da Brand Portal o tramite un collegamento condiviso. Che sia scaduto o meno, le risorse protette da licenza possono essere visualizzate da tutti gli utenti. Tuttavia, il download e l’utilizzo di risorse con licenza scadute sono limitati. Per informazioni sul comportamento delle risorse con licenza scadute e delle attività consentite in base ai ruoli utente, consulta [autorizzazioni di utilizzo delle risorse scadute](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
 Le risorse protette da licenza hanno [un contratto di licenza allegato](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets), che viene fatto impostando la proprietà [metadati della risorsa](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
 
