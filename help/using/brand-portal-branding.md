@@ -1,26 +1,25 @@
 ---
 title: Personalizzare sfondo, intestazione e messaggio e-mail
 seo-title: Personalizzare sfondo, intestazione e messaggio e-mail
-description: Gli amministratori di Brand Portal possono apportare personalizzazioni limitate all’interfaccia visualizzata agli utenti. Puoi scegliere un’immagine di sfondo specifica (sfondo) per la pagina di accesso di Brand Portal. Puoi anche aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in base al marchio del cliente.
-seo-description: Gli amministratori di Brand Portal possono apportare personalizzazioni limitate all’interfaccia visualizzata agli utenti. Puoi scegliere un’immagine di sfondo specifica (sfondo) per la pagina di accesso di Brand Portal. Puoi anche aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in base al marchio del cliente.
+description: Gli amministratori di Brand Portal possono apportare personalizzazioni limitate all’interfaccia visualizzata agli utenti. È possibile scegliere un'immagine di sfondo specifica (sfondo) per la pagina di accesso di Brand Portal. Puoi anche aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in base al marchio del cliente.
+seo-description: Gli amministratori di Brand Portal possono apportare personalizzazioni limitate all’interfaccia visualizzata agli utenti. È possibile scegliere un'immagine di sfondo specifica (sfondo) per la pagina di accesso di Brand Portal. Puoi anche aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in base al marchio del cliente.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '813'
+source-wordcount: '812'
 ht-degree: 2%
 
 ---
 
-
 # Personalizzare sfondo, intestazione e messaggio e-mail {#customize-wallpaper-header-and-email-message}
 
-Gli amministratori di Brand Portal possono apportare personalizzazioni limitate all’interfaccia visualizzata agli utenti. Puoi scegliere un’immagine di sfondo specifica (sfondo) per la pagina di accesso di Brand Portal. Puoi anche aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in base al marchio del cliente.
+Gli amministratori di Brand Portal possono apportare personalizzazioni limitate all’interfaccia visualizzata agli utenti. È possibile scegliere un&#39;immagine di sfondo specifica (sfondo) per la pagina di accesso di Brand Portal. Puoi anche aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in base al marchio del cliente.
 
 ## Personalizzare lo sfondo della schermata di accesso {#customize-the-login-screen-wallpaper}
 
@@ -46,13 +45,13 @@ In assenza di un&#39;immagine dello sfondo con marchio personalizzato, nella pag
    Effettua una delle operazioni seguenti:
 
    * Per caricare un&#39;immagine dal computer, fai clic su **[!UICONTROL Carica]**. Passa all’immagine desiderata e caricala.
-   * Per utilizzare un’immagine esistente di Brand Portal, fai clic su **[!UICONTROL Seleziona da esistente]**. Scegli un’immagine utilizzando il selettore delle risorse.
+   * Per utilizzare un&#39;immagine Brand Portal esistente, fai clic su **[!UICONTROL Seleziona da esistente]**. Scegli un’immagine utilizzando il selettore delle risorse.
 
    ![](assets/asset-picker.png)
 
 1. Specifica un testo di intestazione e una descrizione per l’immagine di sfondo. Per salvare le modifiche, fai clic su **[!UICONTROL Salva]** nella barra degli strumenti nella parte superiore.
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sull’icona **[!UICONTROL Anteprima]** per generare un’anteprima dell’interfaccia di Brand Portal con l’immagine.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sull&#39;icona **[!UICONTROL Anteprima]** per generare un&#39;anteprima dell&#39;interfaccia Brand Portal con l&#39;immagine.
 
    ![](assets/chlimage_1.png)
 
@@ -60,11 +59,11 @@ In assenza di un&#39;immagine dello sfondo con marchio personalizzato, nella pag
 
 1. Per attivare o disattivare lo sfondo predefinito, procedi come segue nella pagina **[!UICONTROL Configura branding > Sfondo]** :
 
-   * Per visualizzare l’immagine dello sfondo predefinito nella pagina di accesso di Brand Portal, fai clic su **[!UICONTROL Disattiva sfondo]** nella barra degli strumenti nella parte superiore. Un messaggio conferma che l’immagine personalizzata è disattivata.
+   * Per visualizzare l&#39;immagine dello sfondo predefinito nella pagina di accesso di Brand Portal, fare clic su **[!UICONTROL Disattiva sfondo]** nella barra degli strumenti nella parte superiore. Un messaggio conferma che l’immagine personalizzata è disattivata.
 
    ![](assets/chlimage_1-1.png)
 
-   * Per ripristinare l’immagine personalizzata nella pagina di accesso di Brand Portal, fai clic su **[!UICONTROL Attiva sfondo]** nella barra degli strumenti. Un messaggio conferma il ripristino dell’immagine.
+   * Per ripristinare l&#39;immagine personalizzata nella pagina di accesso di Brand Portal, fai clic su **[!UICONTROL Attiva sfondo]** nella barra degli strumenti. Un messaggio conferma il ripristino dell’immagine.
 
    ![](assets/chlimage_1-2.png)
 
@@ -72,9 +71,9 @@ In assenza di un&#39;immagine dello sfondo con marchio personalizzato, nella pag
 
 
 
-## Personalizza l’intestazione {#customize-the-header}
+## Personalizzare l’intestazione {#customize-the-header}
 
-L’intestazione viene visualizzata su varie pagine di Brand Portal dopo l’accesso a Brand Portal.
+L’intestazione viene visualizzata su varie pagine Brand Portal dopo l’accesso a Brand Portal.
 
 1. Dalla barra degli strumenti AEM in alto, fai clic sul logo Adobe per accedere agli strumenti amministrativi.
 
@@ -84,13 +83,13 @@ L’intestazione viene visualizzata su varie pagine di Brand Portal dopo l’acc
 
    ![](assets/admin-tools-panel-11.png)
 
-1. Per personalizzare l’intestazione della pagina per l’interfaccia di Brand Portal, nella pagina **[!UICONTROL Configura branding]** , seleziona **[!UICONTROL Immagine intestazione]** dalla barra a sinistra. Viene visualizzata l’immagine di intestazione predefinita.
+1. Per personalizzare l’intestazione della pagina per l’interfaccia Brand Portal, nella pagina **[!UICONTROL Configura branding]** , seleziona **[!UICONTROL Immagine intestazione]** dalla barra a sinistra. Viene visualizzata l’immagine di intestazione predefinita.
 
    ![](assets/default-header.png)
 
 1. Per caricare un&#39;immagine di intestazione, fai clic sull&#39;icona **[!UICONTROL Scegli immagine]** e scegli **[!UICONTROL Carica]**.
 
-   Per utilizzare un’immagine esistente di Brand Portal, scegli **[!UICONTROL Seleziona da esistente]**.
+   Per utilizzare un&#39;immagine Brand Portal esistente, scegli **[!UICONTROL Seleziona da esistente]**.
 
    ![](assets/choose_wallpaperimage-1.png)
 
@@ -105,18 +104,18 @@ Per salvare le modifiche, fai clic su **[!UICONTROL Salva]** nella barra degli s
 
    ![](assets/configure_brandingheaderimageurl.png)
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sull’icona **[!UICONTROL Anteprima]** per generare un’anteprima dell’interfaccia di Brand Portal con l’immagine di intestazione.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sull&#39;icona **[!UICONTROL Anteprima]** per generare un&#39;anteprima dell&#39;interfaccia Brand Portal con l&#39;immagine di intestazione.
 
    ![](assets/chlimage_1-3.png)
    ![](assets/custom_header_preview.png)
 
 1. Per attivare o disattivare l&#39;immagine di intestazione, procedi come segue nella pagina **[!UICONTROL Configura branding > Immagine intestazione]** :
 
-   * Per evitare che un’immagine di intestazione appaia nelle pagine di Brand Portal, fai clic su **[!UICONTROL Disattiva intestazione]** nella barra degli strumenti nella parte superiore. Un messaggio conferma che l’immagine è disattivata.
+   * Per evitare che un&#39;immagine di intestazione appaia sulle pagine Brand Portal, fai clic su **[!UICONTROL Disattiva intestazione]** nella barra degli strumenti nella parte superiore. Un messaggio conferma che l’immagine è disattivata.
 
    ![](assets/chlimage_1-4.png)
 
-   * Per far riapparire l’immagine di intestazione nelle pagine di Brand Portal, fai clic su **[!UICONTROL Attiva intestazione]** nella barra degli strumenti nella parte superiore. Un messaggio conferma che l’immagine è attivata.
+   * Per far riapparire l&#39;immagine di intestazione sulle pagine Brand Portal, fai clic su **[!UICONTROL Attiva intestazione]** nella barra degli strumenti nella parte superiore. Un messaggio conferma che l’immagine è attivata.
 
    ![](assets/chlimage_1-5.png)
 
