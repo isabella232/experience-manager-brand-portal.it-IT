@@ -8,15 +8,14 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1298'
 ht-degree: 10%
 
 ---
-
 
 # Utilizzare i facet di ricerca personalizzati {#use-custom-search-facets}
 
@@ -30,7 +29,7 @@ Puoi utilizzare vari predicati di ricerca per personalizzare il pannello **[!UIC
 >
 >AEM consente alle organizzazioni di [pubblicare i moduli di ricerca personalizzati da AEM Author](../using/publish-schema-search-facets-presets.md#publish-search-facets-to-brand-portal) a Brand Portal, invece di ricreare lo stesso modulo su Brand Portal.
 
-## Aggiungi un predicato di ricerca {#add-a-search-predicate}
+## Aggiungere un predicato di ricerca {#add-a-search-predicate}
 
 Per aggiungere un predicato di ricerca al pannello **[!UICONTROL Filtri]**:
 
