@@ -8,15 +8,14 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 212a1b3a-686f-4250-be06-b679b6039887
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 4%
+source-wordcount: '871'
+ht-degree: 3%
 
 ---
-
 
 # Applicare predefiniti immagine o rappresentazioni dinamiche {#apply-image-presets-or-dynamic-renditions}
 
@@ -24,7 +23,7 @@ Come una macro, un predefinito immagine è una raccolta predefinita di comandi d
 
 Un predefinito per immagini consente di generare rappresentazioni dinamiche delle immagini che possono essere visualizzate in anteprima e scaricate. Quando visualizzi in anteprima le immagini e le relative rappresentazioni, puoi scegliere un predefinito per riformattare le immagini in base alle specifiche impostate dall’amministratore.
 
-(*Se AEM’istanza di authoring è in esecuzione in **Modalità ibrida di Dynamic Media***) Per visualizzare le rappresentazioni dinamiche di una risorsa in Brand Portal, accertati che la relativa rappresentazione a forma di piramide esista nell’istanza di authoring AEM da dove pubblichi su Brand Portal. Quando pubblichi la risorsa, la relativa rappresentazione PTIFF viene pubblicata anche su Brand Portal.
+(*Se AEM&#39;istanza di authoring è in esecuzione in **Modalità ibrida Dynamic Media***) Per visualizzare le rappresentazioni dinamiche di una risorsa in Brand Portal, assicurati che la relativa rappresentazione a forma di piramide esista nell&#39;istanza di authoring AEM da dove pubblichi in Brand Portal. Quando pubblichi la risorsa, anche il relativo rendering PTIFF viene pubblicato in Brand Portal.
 
 >[!NOTE]
 >
@@ -33,7 +32,7 @@ Un predefinito per immagini consente di generare rappresentazioni dinamiche dell
 
 Per ulteriori informazioni sui parametri richiesti durante la creazione dei predefiniti per immagini, consulta [Gestione dei predefiniti per immagini](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
 
-## Crea un predefinito immagine {#create-an-image-preset}
+## Creare un predefinito per immagini {#create-an-image-preset}
 
 Gli amministratori AEM possono creare predefiniti per immagini da visualizzare come rappresentazioni dinamiche nella pagina dei dettagli della risorsa. Puoi creare un predefinito per immagini da zero o salvarne uno esistente con un nuovo nome. Quando crei un predefinito per immagini, scegli una dimensione per la distribuzione delle immagini e i comandi di formattazione. Quando un&#39;immagine viene distribuita per la visualizzazione, il suo aspetto viene ottimizzato in base ai comandi selezionati.
 
@@ -69,11 +68,11 @@ Gli amministratori AEM possono creare predefiniti per immagini da visualizzare c
 1. Fai clic su **[!UICONTROL Salva]**. Il predefinito per immagini viene creato e visualizzato nella pagina dei predefiniti per immagini .
 1. Per eliminare un predefinito immagine, selezionalo dalla pagina dei predefiniti immagine e fai clic su **[!UICONTROL Elimina]**. Nella pagina di conferma, fai clic su **[!UICONTROL Elimina]** per confermare l’eliminazione. Il predefinito per immagini viene rimosso dalla pagina dei predefiniti per immagini .
 
-## Applica i predefiniti immagine durante l&#39;anteprima delle immagini {#apply-image-presets-when-previewing-images}
+## Applicare i predefiniti immagine durante l’anteprima delle immagini  {#apply-image-presets-when-previewing-images}
 
 Quando visualizzi in anteprima le immagini e le relative rappresentazioni, scegli tra i predefiniti esistenti per riformattare le immagini in base alle specifiche impostate dall’amministratore.
 
-1. Dall’interfaccia di Brand Portal, fai clic su un’immagine per aprirla.
+1. Nell’interfaccia di Brand Portal, fai clic su un’immagine per aprirla.
 1. Fai clic sull&#39;icona di sovrapposizione a sinistra e scegli **[!UICONTROL Rappresentazioni]**.
 
    ![](assets/image-preset-previewrenditions.png)
@@ -82,7 +81,7 @@ Quando visualizzi in anteprima le immagini e le relative rappresentazioni, scegl
 
    ![](assets/image-preset-previewrenditionthumbnail.png)
 
-## Applica i predefiniti immagine durante il download delle immagini {#apply-image-presets-when-downloading-images}
+## Applicare i predefiniti immagine durante il download delle immagini {#apply-image-presets-when-downloading-images}
 
 Quando si scaricano immagini e le relative rappresentazioni da Brand Portal, non è possibile scegliere tra i predefiniti per immagini esistenti. Tuttavia, è possibile personalizzare le proprietà dei predefiniti immagine in base alle quali si desidera riformattare le immagini.
 
