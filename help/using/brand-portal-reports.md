@@ -8,19 +8,18 @@ content-type: reference
 topic-tags: administration
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1023'
 ht-degree: 2%
 
 ---
 
-
 # Utilizzare i rapporti {#work-with-reports}
 
-La funzionalità di reporting è fondamentale per valutare l’utilizzo di Brand Portal e sapere in che modo gli utenti interni ed esterni interagiscono con le risorse approvate. Gli amministratori possono visualizzare il rapporto Utilizzo del Brand Portal, sempre disponibile nella pagina Rapporti su risorse . Tuttavia, i rapporti relativi agli accessi utente e alle risorse scaricate, scadute, pubblicate e condivise tramite i collegamenti possono essere generati e visualizzati dalla pagina Rapporti sulle risorse . Questi rapporti sono utili per analizzare la distribuzione delle risorse, che consentono di derivare metriche di successo chiave per misurare l’adozione di risorse approvate all’interno e all’esterno dell’organizzazione.
+La funzionalità di reporting è fondamentale per valutare l’utilizzo di Brand Portal e sapere in che modo gli utenti interni ed esterni interagiscono con le risorse approvate. Gli amministratori possono visualizzare il rapporto Utilizzo Brand Portal , sempre disponibile nella pagina Rapporti su risorse . Tuttavia, i rapporti relativi agli accessi utente e alle risorse scaricate, scadute, pubblicate e condivise tramite i collegamenti possono essere generati e visualizzati dalla pagina Rapporti sulle risorse . Questi rapporti sono utili per analizzare la distribuzione delle risorse, che consentono di derivare metriche di successo chiave per misurare l’adozione di risorse approvate all’interno e all’esterno dell’organizzazione.
 
 L’interfaccia di gestione dei rapporti è intuitiva e include opzioni e controlli a grana fine per accedere ai rapporti salvati. Puoi visualizzare, scaricare o eliminare i rapporti dalla pagina Rapporti su risorse , in cui sono elencati tutti i rapporti generati in precedenza.
 
@@ -40,16 +39,16 @@ Per visualizzare un rapporto, effettua le seguenti operazioni:
 
    >[!NOTE]
    >
-   >Il rapporto sull’utilizzo è un rapporto predefinito generato in Brand Portal. Non può essere creato o eliminato. Tuttavia, puoi creare, scaricare ed eliminare i rapporti Download, Scadenza, Pubblicazione, Condivisione collegamenti e Registri utente.
+   >Il rapporto di utilizzo è un rapporto predefinito generato in Brand Portal. Non può essere creato o eliminato. Tuttavia, puoi creare, scaricare ed eliminare i rapporti Download, Scadenza, Pubblicazione, Condivisione collegamenti e Registri utente.
 
    Per visualizzare un rapporto, fai clic sul collegamento del rapporto. In alternativa, seleziona il rapporto e tocca o fai clic sull’icona Visualizza nella barra degli strumenti.
 
-   **[!UICONTROL In]** Report utilizzo vengono visualizzate informazioni sul numero di utenti attivi di Brand Portal, sullo spazio di archiviazione occupato da tutte le risorse e sul conteggio totale delle risorse in Brand Portal. Gli utenti del brand portal che non sono assegnati ad alcun profilo di prodotto nell’Admin Console sono considerati utenti inattivi e non vengono riportati nel **[!UICONTROL Rapporto sull’utilizzo]**.
+   **[!UICONTROL In]** Report utilizzo vengono visualizzate informazioni sul numero di utenti Brand Portal attivi, sullo spazio di archiviazione occupato da tutte le risorse e sul conteggio totale delle risorse in Brand Portal. Gli utenti del brand portal che non sono assegnati ad alcun profilo di prodotto nell’Admin Console sono considerati utenti inattivi e non vengono riportati nel **[!UICONTROL Rapporto sull’utilizzo]**.
 Il rapporto mostra anche la capacità consentita per ciascuna di queste metriche di informazioni.
 
    ![](assets/usage-report.png)
 
-   **[!UICONTROL User]** Loginsreport fornisce informazioni sugli utenti che hanno effettuato l’accesso a Brand Portal. Il rapporto mostra nomi visualizzati, ID e-mail, utenti tipo (amministratore, visualizzatore, editor, ospite), gruppi, ultimo accesso, stato dell’attività e conteggio di accesso di ogni utente dalla distribuzione di Brand Portal 6.4.2 fino al momento della generazione del rapporto.
+   **[!UICONTROL User]** Loginsreport fornisce informazioni sugli utenti che hanno effettuato l&#39;accesso a Brand Portal. Il rapporto mostra nomi visualizzati, ID e-mail, utenti tipo (amministratore, visualizzatore, editor, ospite), gruppi, ultimo accesso, stato dell’attività e conteggio di accesso di ogni utente dalla distribuzione Brand Portal 6.4.2 fino al momento della generazione del rapporto.
 
    ![](assets/user-logins.png)
 
@@ -71,7 +70,7 @@ Il rapporto mostra anche la capacità consentita per ciascuna di queste metriche
 
    >[!NOTE]
    >
-   >Il rapporto di pubblicazione non visualizza informazioni sui frammenti di contenuto, in quanto i frammenti di contenuto non possono essere pubblicati su Brand Portal.
+   >Pubblica rapporto non visualizza informazioni sui frammenti di contenuto, in quanto i frammenti di contenuto non possono essere pubblicati in Brand Portal.
 
    **[!UICONTROL I]** rapporti Condivisione collegamenti elencano tutte le risorse condivise tramite collegamenti dall’interfaccia di Brand Portal in un intervallo di tempo specifico. Il rapporto informa anche quando la risorsa è stata condivisa tramite collegamento, in base a quale utente, quando scade il collegamento e il numero di collegamenti condivisi per il tenant (e gli utenti con cui è stato condiviso il collegamento della risorsa). Le colonne del rapporto Condivisione collegamenti non sono personalizzabili.
 
@@ -152,7 +151,7 @@ Per salvare e scaricare un rapporto come file .csv, effettua una delle seguenti 
 
 ![](assets/download-report-fromwithin.png)
 
-## Elimina rapporti {#delete-reports}
+## Eliminare i rapporti {#delete-reports}
 
 Per eliminare un rapporto esistente, selezionalo dalla pagina **[!UICONTROL Rapporti sulle risorse]** e tocca o fai clic su **[!UICONTROL Elimina]** nella barra degli strumenti in alto.
 
