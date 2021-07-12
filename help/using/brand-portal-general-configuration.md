@@ -9,15 +9,14 @@ topic-tags: administration
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '402'
+ht-degree: 4%
 
 ---
-
 
 # Amministrare le configurazioni tenant generali {#administer-general-tenant-configurations}
 
@@ -57,11 +56,11 @@ Per abilitare/disabilitare ciascuna di queste configurazioni:
 
 ## Consenti creazione raccolte pubbliche da parte di non amministratori {#allow-public-collections-creation-by-non-admins}
 
-[[!UICONTROL Consenti la ]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) creazione di raccolte pubbliche controlla se i non amministratori possono creare raccolte pubbliche su Brand Portal. La configurazione è abilitata per impostazione predefinita. Disabilitando le organizzazioni di configurazione è possibile impedire l&#39;utilizzo di numerose raccolte pubbliche sul loro portale in modo da poter risparmiare spazio sul sistema.
+[[!UICONTROL Consenti ]](../using/brand-portal-share-collection.md#main-pars-text-1915052376) creazione raccolte pubbliche controlla se i non amministratori possono creare raccolte pubbliche in Brand Portal. La configurazione è abilitata per impostazione predefinita. Disabilitando le organizzazioni di configurazione è possibile impedire l&#39;utilizzo di numerose raccolte pubbliche sul loro portale in modo da poter risparmiare spazio sul sistema.
 
-## Consenti creazione di raccolte avanzate pubbliche da parte di non amministratori {#allow-public-smart-collections-creation-by-non-admins}
+## Consenti creazione di raccolte avanzate pubbliche da parte di utenti non amministratori {#allow-public-smart-collections-creation-by-non-admins}
 
-[[!UICONTROL Consenti la ]](../using/brand-portal-searching.md#main-pars-header-500620467) creazione di raccolte avanzate pubbliche controlla se i non amministratori possono salvare le loro ricerche come raccolte avanzate e renderle pubbliche per quel tenant. La configurazione è abilitata per impostazione predefinita. Disabilitando le organizzazioni di configurazione puoi impedire che un numero enorme di raccolte avanzate pubbliche create da utenti non amministratori sul Brand Portal dell’organizzazione.
+[[!UICONTROL Consenti la ]](../using/brand-portal-searching.md#main-pars-header-500620467) creazione di raccolte avanzate pubbliche controlla se i non amministratori possono salvare le loro ricerche come raccolte avanzate e renderle pubbliche per quel tenant. La configurazione è abilitata per impostazione predefinita. Disabilitando le organizzazioni di configurazione puoi impedire che un numero enorme di raccolte avanzate pubbliche create da utenti non amministratori su Brand Portal dell’organizzazione.
 
 <!-- 
 ## Allow download acceleration {#allow-download-acceleration}
