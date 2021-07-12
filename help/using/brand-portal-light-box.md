@@ -8,15 +8,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: ed79b120-a1c1-479c-a843-6546dcc660d7
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: 84160b81-e321-4920-9a86-e4cce3fa874c
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '284'
+ht-degree: 4%
 
 ---
-
 
 # Gestire la raccolta Lightbox {#manage-the-lightbox-collection}
 
@@ -48,7 +47,7 @@ Per aggiungere risorse a **[!UICONTROL Lightbox]**, procedi come segue:
 
    ![](assets/added_to_collectionlightbox.png)
 
-## Rimuovere risorse da lightbox {#remove-assets-from-lightbox}
+## Rimuovere risorse da Lightbox {#remove-assets-from-lightbox}
 
 1. Per esaminare le risorse in [!UICONTROL Lightbox], fai clic su **[!UICONTROL Raccolte]** nella barra a sinistra, quindi fai clic sulla raccolta [!UICONTROL Lightbox].
 
