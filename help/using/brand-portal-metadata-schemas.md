@@ -8,15 +8,14 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
-role: Administrator
-translation-type: tm+mt
-source-git-commit: 263653916e4bc183827c197c3beb137c9e59ccb1
+role: Admin
+exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
+source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
 workflow-type: tm+mt
-source-wordcount: '1757'
+source-wordcount: '1756'
 ht-degree: 11%
 
 ---
-
 
 # Utilizzare il modulo schema metadati {#use-the-metadata-schema-form}
 
@@ -24,7 +23,7 @@ Uno schema di metadati descrive il layout della pagina Proprietà e le propriet�
 
 La pagina **[!UICONTROL Proprietà]** di ogni risorsa include proprietà di metadati predefinite a seconda del tipo MIME della risorsa. Gli amministratori possono utilizzare l’Editor schema metadati per modificare gli schemi esistenti o aggiungere schemi di metadati personalizzati. AEM Assets Brand Portal fornisce moduli predefiniti per risorse di vari tipi MIME. Tuttavia, è anche possibile aggiungere moduli personalizzati per tali risorse.
 
-## Aggiungi un modulo schema metadati {#add-a-metadata-schema-form}
+## Aggiungere un modulo schema metadati {#add-a-metadata-schema-form}
 
 Per creare un nuovo modulo schema metadati, procedi come segue:
 
@@ -92,14 +91,14 @@ La scheda **[!UICONTROL Genera modulo]** elenca gli elementi che è possibile ut
 | **[!UICONTROL Campo nascosto]** | Aggiungi un campo nascosto. Viene inviato come parametro POST al momento del salvataggio della risorsa. |
 | **[!UICONTROL Risorsa con riferimento da]** | Aggiungi questo componente per visualizzare l’elenco delle risorse a cui fa riferimento la risorsa. |
 | **[!UICONTROL Risorsa con riferimento a]** | Aggiungi per visualizzare un elenco di risorse che fanno riferimento alla risorsa. |
-| **[!UICONTROL Valutazione risorsa]** | Valutazione media di una risorsa aggiunta da AEM Assets prima che venga pubblicata su Brand Portal. |
+| **[!UICONTROL Valutazione risorsa]** | Valutazione media di una risorsa aggiunta da AEM Assets prima che venga pubblicata in Brand Portal. |
 | **[!UICONTROL Metadati contestuali]** | Aggiungi per controllare la visualizzazione di altre schede di metadati nella pagina Proprietà delle risorse. |
 
 >[!NOTE]
 >
 >Non utilizzare **[!UICONTROL Riferimenti prodotto]**, in quanto non funziona.
 
-#### Modifica il componente metadati {#edit-the-metadata-component}
+#### Modifica del componente metadati {#edit-the-metadata-component}
 
 Per modificare le proprietà di un componente metadati sul modulo, fai clic sul componente e modificane le proprietà nella scheda **[!UICONTROL Impostazioni]** .
 
@@ -124,9 +123,9 @@ Di seguito sono riportati i valori validi per questa proprietà:
 
 >[!NOTE]
 >
->Tutti i campi di metadati sono di sola lettura nel modulo di editor di metadati di una risorsa. Poiché i metadati della risorsa devono essere modificati in AEM Assets prima che una risorsa venga pubblicata su Brand Portal.
+>Tutti i campi di metadati sono di sola lettura nel modulo di editor di metadati di una risorsa. Poiché i metadati della risorsa devono essere modificati in AEM Assets prima che una risorsa venga pubblicata in Brand Portal.
 
-#### Aggiungi o elimina una scheda nel modulo schema {#add-or-delete-a-tab-in-the-schema-form}
+#### Aggiunta o eliminazione di una scheda nel modulo schema {#add-or-delete-a-tab-in-the-schema-form}
 
 Il modulo schema predefinito include le schede **[!UICONTROL Base]** e **[!UICONTROL Avanzate]**. L’editor dello schema consente di aggiungere o eliminare una scheda.
 
@@ -138,7 +137,7 @@ Il modulo schema predefinito include le schede **[!UICONTROL Base]** e **[!UICON
 
 * Per eliminare una scheda, fai clic su **[!UICONTROL x]**. Fai clic su **[!UICONTROL Salva]** per salvare le modifiche.
 
-## Applicare uno schema di metadati a una cartella {#apply-a-metadata-schema-to-a-folder}
+## Applicazione di uno schema di metadati a una cartella {#apply-a-metadata-schema-to-a-folder}
 
 Brand Portal consente di personalizzare e controllare lo schema dei metadati in modo che la pagina **[!UICONTROL Proprietà]** di una risorsa visualizzi solo le informazioni specifiche che scegli di mostrare. Per controllare i metadati visualizzati nella pagina **[!UICONTROL Proprietà]**, rimuovi i metadati richiesti dal modulo schema metadati e applicali alla cartella specifica.
 
