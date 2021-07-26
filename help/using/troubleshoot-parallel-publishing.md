@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '892'
-ht-degree: 3%
+source-wordcount: '884'
+ht-degree: 2%
 
 ---
 
@@ -74,11 +74,11 @@ ii) delete
    i. cerca l&#39;utente `mac-<tenantid>replication`
 ii) elimina questo utente
 
-Ora il sistema è completamente pulito. Ora puoi provare a creare una nuova configurazione cloudservice e continuare a utilizzare l&#39;applicazione JWT già esistente in [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/). Non è necessario creare una nuova applicazione, ma solo la chiave pubblica deve essere aggiornata dalla configurazione cloud appena creata.
+Ora il sistema è completamente pulito. Ora puoi provare a creare una nuova configurazione cloudservice e continuare a utilizzare l&#39;applicazione JWT già esistente in `https://legacy-oauth.cloud.adobe.io/`. Non è necessario creare una nuova applicazione, ma solo la chiave pubblica deve essere aggiornata dalla configurazione cloud appena creata.
 
 ## Problema di visibilità tenant dell’applicazione JWT per la connessione sviluppatore {#developer-connection-jwt-application-tenant-visibility-issue}
 
-Se è attiva [https://legacy-oauth.cloud.adobe.io/](https://legacy-oauth.cloud.adobe.io/), vengono elencate tutte le organizzazioni (tenant) per le quali gli utenti correnti detengono l&#39;amministratore di sistema. Se non trovi il nome dell’organizzazione qui o non riesci a creare un’applicazione per un tenant obbligatorio qui, verifica di disporre di diritti (amministratore di sistema) sufficienti per eseguire questa operazione.
+Se è su `https://legacy-oauth.cloud.adobe.io/`, vengono elencate tutte le organizzazioni (tenant) per le quali gli utenti correnti detengono l’amministratore di sistema. Se non trovi il nome dell’organizzazione qui o non riesci a creare un’applicazione per un tenant obbligatorio qui, verifica di disporre di diritti (amministratore di sistema) sufficienti per eseguire questa operazione.
 
 C&#39;è un problema noto in questa interfaccia utente che per ogni tenant sono visibili solo le prime 10 applicazioni. Quando crei l&#39;applicazione, resta su quella pagina e segnalibro l&#39;URL. Non è necessario passare alla pagina di elenco dell&#39;applicazione e trovare l&#39;applicazione creata. Puoi accedere direttamente a questo URL contrassegnato con segnalibro e aggiornare/eliminare l’applicazione ogni volta che necessario.
 
