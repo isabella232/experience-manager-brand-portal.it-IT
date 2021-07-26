@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 30a97ddeda3df4714f2746cb60b5c25dae0848f1
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1960'
+source-wordcount: '1954'
 ht-degree: 4%
 
 ---
@@ -28,7 +28,7 @@ Adobe Experience Manager Assets Brand Portal migliora l’esperienza di download
 
 >[!NOTE]
 >
->In Brand Portal 2020.10.0 (e versioni successive), l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata per impostazione predefinita, che utilizza IBM Aspera Connect per il download accelerato delle risorse. [Installa IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) nell’estensione del browser prima di scaricare le risorse da Brand Portal. Per ulteriori dettagli, consulta la [guida per accelerare i download da Brand Portal](../using/accelerated-download.md).
+>In Brand Portal 2020.10.0 (e versioni successive), l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata per impostazione predefinita, che utilizza IBM Aspera Connect per il download accelerato delle risorse. [Installa IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) nell’estensione del browser prima di scaricare le risorse da Brand Portal. Per ulteriori dettagli, consulta la [guida per accelerare i download da Brand Portal](../using/accelerated-download.md).
 >
 >Se non desideri utilizzare IBM Aspera Connect e continuare con il normale processo di download, contatta l&#39;amministratore Brand Portal per disattivare l&#39;impostazione **[!UICONTROL Download rapido]**.
 
@@ -83,7 +83,7 @@ Gli amministratori possono abilitare qualsiasi combinazione di impostazioni per 
 >
 >Solo gli amministratori possono scaricare le risorse scadute. Per ulteriori informazioni sulle risorse scadute, consulta [gestire i diritti digitali delle risorse](../using/manage-digital-rights-of-assets.md).
 
-### Configura le impostazioni del gruppo di utenti {#configure-user-group-settings}
+### Configurare le impostazioni dei gruppi di utenti {#configure-user-group-settings}
 
 Oltre alle **[!UICONTROL Impostazioni di download]**, gli amministratori di Brand Portal possono configurare ulteriormente le impostazioni per diversi gruppi di utenti per visualizzare e (o) scaricare le risorse originali e le relative rappresentazioni.
 
@@ -156,7 +156,7 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
       >[!NOTE]
       >
-      >Se stai scaricando le risorse per la prima volta e non hai installato IBM Aspera Connect nel tuo browser, ti verrà richiesto di [installare l&#39;acceleratore di download Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
+      >Se stai scaricando le risorse per la prima volta e non hai installato IBM Aspera Connect nel tuo browser, ti verrà richiesto di [installare l&#39;acceleratore di download Aspera](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
 
 
       >[!NOTE]
@@ -210,7 +210,7 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 >
 >(*Se AEM&#39;istanza dell&#39;autore è in esecuzione su **Modalità ibrida Dynamic Media***)
 >
->Per visualizzare in anteprima o scaricare rappresentazioni dinamiche di una risorsa, accertati che l’elemento multimediale dinamico sia abilitato e che la rappresentazione a soffietto piramidale della risorsa esista nell’istanza di authoring di AEM Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata da AEM a Brand Portal, viene pubblicata anche la relativa rappresentazione a soffietto piramidale.
+>Per visualizzare in anteprima o scaricare rappresentazioni dinamiche di una risorsa, accertati che l’elemento multimediale dinamico sia abilitato e che la rappresentazione a soffietto piramidale della risorsa esista nell’istanza di authoring di AEM Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata da AEM a Brand Portal, viene pubblicata anche la relativa rappresentazione a soffietto a piramide.
 
 
 
