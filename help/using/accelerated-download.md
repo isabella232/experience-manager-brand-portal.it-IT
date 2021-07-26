@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 6e6d771e93a3b76f72548f1a3cc61d75e31342ad
+source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
 workflow-type: tm+mt
-source-wordcount: '1049'
+source-wordcount: '1043'
 ht-degree: 3%
 
 ---
@@ -35,10 +35,10 @@ Per scaricare i file più velocemente, assicurati quanto segue:
 
 * Passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Scarica]** e verifica che la configurazione **[!UICONTROL Download rapido]** sia abilitata in **[!UICONTROL Impostazioni di download]**.
 * Assicurarsi che la porta 33001 (sia TCP che UDP) sia aperta sul firewall. Per ulteriori informazioni sui prerequisiti, consulta la [documentazione del client IBM Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
-* [Installa IBM Aspera Connect 3.9.9](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html) nell&#39;estensione del browser utilizzando i privilegi di amministratore.
+* [Installa IBM Aspera Connect 3.9.9](https://www.ibm.com/docs/en/aspera-connect/3.9.9) nell&#39;estensione del browser utilizzando i privilegi di amministratore.
 * Per il supporto della piattaforma del client di trasferimento Aspera, vedi [Matrice di supporto della piattaforma IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
-## Download dei domini {#download-domains}
+## Scaricare i domini {#download-domains}
 
 Di seguito sono riportati i domini di download per diverse aree geografiche:
 
@@ -49,7 +49,7 @@ Di seguito sono riportati i domini di download per diverse aree geografiche:
 | EMEA LON5 | downloads-emea1.brand-portal.adobe.com |
 | APAC SIN2 | downloads-apac1.brand-portal.adobe.com |
 
-## Prestazioni di download di esempio utilizzando l&#39;acceleratore di file {#expected-download-performance-using-file-accelerator}
+## Prestazioni di download di esempio utilizzando l’acceleratore di file {#expected-download-performance-using-file-accelerator}
 
 La tabella seguente mostra le prestazioni di download per i file da 2 GB che utilizzano l&#39;acceleratore di download dei file Aspera Connect:
 
@@ -66,7 +66,7 @@ La tabella seguente mostra le prestazioni di download per i file da 2 GB che uti
 | Londra | 179 | 35 | 58 |
 | Singapore | 196 | 34 | 60 |
 
-## Scarica il flusso di lavoro utilizzando l&#39;acceleratore di file {#download-workflow-using-file-accelerator}
+## Download del flusso di lavoro tramite l’acceleratore di file {#download-workflow-using-file-accelerator}
 
 Per scaricare più rapidamente le risorse da Brand Portal:
 
@@ -92,7 +92,7 @@ Per scaricare più rapidamente le risorse da Brand Portal:
 
 1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata in **[!UICONTROL Impostazioni di download]**. Pertanto, appare una casella di conferma per scaricare risorse utilizzando IBM Aspera Connect.
 
-   Se stai scaricando le risorse per la prima volta e non hai installato IBM Aspera Connect nel tuo browser o la versione esistente è obsoleta, ti verrà richiesto di [installare l&#39;acceleratore di download Aspera](https://www.ibm.com/support/knowledgecenter/SSXMX3_3.9.9/kc/connect_welcome.html).
+   Se stai scaricando le risorse per la prima volta e non hai installato IBM Aspera Connect nel tuo browser o la versione esistente è obsoleta, ti verrà richiesto di [installare l&#39;acceleratore di download Aspera](https://www.ibm.com/docs/en/aspera-connect/3.9.9).
 
    ![](assets/aspera-not-launched.png)
 
@@ -173,7 +173,7 @@ On successful completion of the download, a dialog box shows the location where 
    >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
 -->
 
-## Utilizzo dell&#39;acceleratore di file nel browser Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
+## Utilizzo di file accelerator nel browser Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
 Microsoft Edge viene eseguito in modalità protetta avanzata (EPM) per impedire la comunicazione con il server Aspera Connect, mentre si trova nella stessa rete privata o con un sito attendibile. Pertanto, viene visualizzato un pop-up ogni volta che viene stabilita una connessione con il server.
 
@@ -200,7 +200,7 @@ Inoltre, il client Aspera Connect può essere contrassegnato per l&#39;avvio aut
 
 ![](assets/aspera-automaticallylaunch.png)
 
-## Risolvere i problemi relativi all&#39;accelerazione del download {#troubleshoot-issues-with-download-acceleration}
+## Risolvere i problemi relativi all’accelerazione del download {#troubleshoot-issues-with-download-acceleration}
 
 Se l&#39;accelerazione del download non funziona, segui questi passaggi per risolvere i problemi:
 
