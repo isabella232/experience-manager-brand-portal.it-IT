@@ -1,8 +1,8 @@
 ---
 title: Condividere le risorse come collegamento
-seo-title: Condividere le risorse come collegamento
+seo-title: Share assets as a link
 description: Gli amministratori di AEM Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
-seo-description: Gli amministratori di AEM Assets Brand Portal possono condividere collegamenti di più risorse con utenti interni autorizzati ed entità esterne, inclusi partner e fornitori. Gli editor possono visualizzare e condividere solo le risorse condivise con loro.
+seo-description: AEM Assets Brand Portal Administrators can share links of multiple assets with authorized internal users and external entities, including partners and vendors. Editors can view and share only the assets shared with them.
 uuid: 8889ac24-c56d-4a47-b792-80c34ffb5c3f
 contentOwner: bdhar
 content-type: reference
@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: a7cd98a48a92f45e439577c352c8b399d24912a9
+source-git-commit: b1f72b060b88f1de0a16d75319f21f02a4b72915
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '965'
 ht-degree: 5%
 
 ---
@@ -27,10 +27,6 @@ La condivisione delle risorse tramite un collegamento è un modo pratico per ren
 -->
 
 Per ulteriori informazioni, consulta [Gestione di utenti, gruppi e ruoli utente](../using/brand-portal-adding-users.md#manage-user-roles).
-
->[!NOTE]
->
->È consentito scaricare fino a 5 GB di file ZIP utilizzando la funzionalità di condivisione dei collegamenti su Brand Portal.
 
 
 Di seguito sono riportati i passaggi per condividere le risorse come collegamento:
@@ -107,7 +103,7 @@ Per scaricare le risorse condivise:
 
 >[!NOTE]
 >
->Brand Portal limita il download di risorse di dimensioni superiori a 5 GB per file.
+>Brand Portal limita il download di risorse superiori a **1** GB per dimensione del file utilizzando la condivisione dei collegamenti.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -128,9 +124,6 @@ Per scaricare le risorse condivise:
 
 1. Click **[!UICONTROL Download]**. The assets (and renditions if selected) are downloaded as a ZIP file to your local folder. However, no zip file is created if a single asset is downloaded without any of the renditions, thereby ensuring speedy download.
 
->[!NOTE]
->
->Brand Portal restricts downloading assets larger than 5GB per file size.
 -->
 
 ## Supporto di anteprima e miniature per i formati delle risorse {#preview-thumbnail-support}
@@ -205,7 +198,7 @@ La legenda seguente spiega i simboli utilizzati nella matrice:
 | ND | Questa funzione non è applicabile al formato di file corrente |
 | * | Questa funzione richiede il supporto aggiuntivo per questo formato di file nell’istanza di authoring AEM ma non in Brand Portal dopo la pubblicazione delle risorse in Brand Portal |
 
-## Annullare la condivisione delle risorse condivise come collegamento {#unshare-assets-shared-as-a-link}
+## Annullare la condivisione di risorse condivise come collegamento {#unshare-assets-shared-as-a-link}
 
 Per annullare la condivisione come collegamento di risorse condivise in precedenza, effettua le seguenti operazioni:
 
