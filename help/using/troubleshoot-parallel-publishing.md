@@ -1,8 +1,8 @@
 ---
 title: Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal
-seo-title: Risolvere i problemi relativi alla pubblicazione parallela in Brand Portal
+seo-title: Troubleshoot issues in parallel publishing to Brand Portal
 description: Risolvere i problemi relativi alla pubblicazione parallela.
-seo-description: Risolvere i problemi relativi alla pubblicazione parallela.
+seo-description: Troubleshoot parallel publishing.
 uuid: 51e45cca-8c96-4c69-84ef-2ef34f3bcde2
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ topic-tags: brand-portal
 discoiquuid: a4801024-b509-4c51-afd8-e337417e658b
 role: Admin
 exl-id: 631beabc-b145-49ba-a8e4-f301497be6da
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: fa346d075c6f8c5bd7aeed2318932b1747c388c2
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 2%
+source-wordcount: '873'
+ht-degree: 1%
 
 ---
 
@@ -123,6 +123,7 @@ In base agli errori, ti consigliamo di registrare un ticket di assistenza, in mo
 Di solito il processo di pubblicazione non riesce con un errore di timeout se ci sono più richieste in sospeso nella coda di replica. Per risolvere questo problema, assicurati che gli agenti di replica siano configurati per evitare timeout.
 
 Esegui i seguenti passaggi per configurare gli agenti di replica:
+
 1. Accedi alla tua istanza di authoring di AEM Assets.
 1. Dal pannello **Strumenti**, passa a **[!UICONTROL Implementazione]** > **[!UICONTROL Replica]**.
 1. Nella pagina Replica, fai clic su **[!UICONTROL Agenti sull&#39;autore]**. Puoi visualizzare i quattro agenti di replica del tenant Brand Portal.
