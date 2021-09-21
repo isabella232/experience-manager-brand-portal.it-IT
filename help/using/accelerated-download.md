@@ -1,8 +1,8 @@
 ---
 title: Accelerare i download di Brand Portal
-seo-title: Accelerare i download di Brand Portal
+seo-title: Speed up the Brand Portal downloads
 description: Migliora le prestazioni di download da Brand Portal e dai collegamenti condivisi.
-seo-description: Migliora le prestazioni di download da Brand Portal e dai collegamenti condivisi.
+seo-description: Enhance download performance from Brand Portal and the shared links.
 uuid: 2871137e-6471-49a7-872a-841bd92543d1
 contentOwner: mgulati
 topic-tags: download-install
@@ -10,9 +10,9 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
 workflow-type: tm+mt
-source-wordcount: '1033'
+source-wordcount: '1037'
 ht-degree: 3%
 
 ---
@@ -37,6 +37,10 @@ Per scaricare i file più velocemente, assicurati quanto segue:
 * Assicurarsi che la porta 33001 (sia TCP che UDP) sia aperta sul firewall. Per ulteriori informazioni sui prerequisiti, consulta la [documentazione del client IBM Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
 * **Installa IBM Aspera Connect 3.9.9** nell&#39;estensione del browser utilizzando i privilegi di amministratore (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * Per il supporto della piattaforma del client di trasferimento Aspera, vedi [Matrice di supporto della piattaforma IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
+
+>[!NOTE]
+>
+>C&#39;è un problema noto con IBM Aspera Connect. Il download rapido non funziona con IBM Aspera Connect versione 3.10 e successive.
 
 ## Scaricare i domini {#download-domains}
 
@@ -92,7 +96,7 @@ Per scaricare più rapidamente le risorse da Brand Portal:
 
 1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata in **[!UICONTROL Impostazioni di download]**. Pertanto, appare una casella di conferma per scaricare risorse utilizzando IBM Aspera Connect.
 
-   Se stai scaricando le risorse per la prima volta e non hai installato IBM Aspera Connect nel tuo browser o la versione esistente è obsoleta, ti verrà richiesto di installare l&#39;acceleratore di download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+   Se stai scaricando le risorse per la prima volta e non hai installato IBM Aspera Connect nel tuo browser o la versione esistente è obsoleta, ti chiede di installare l&#39;acceleratore di download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
    ![](assets/aspera-not-launched.png)
 
