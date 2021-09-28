@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: e7877973da87362c5fddd6c3aa8135719eff044a
+source-git-commit: 51dc6f9c3b3a59751d7910513279e52906d97b88
 workflow-type: tm+mt
-source-wordcount: '998'
-ht-degree: 1%
+source-wordcount: '1026'
+ht-degree: 0%
 
 ---
 
@@ -50,6 +50,10 @@ Ad esempio, un utente guest accede a Brand Portal a 1500 ore e aggiunge risorse 
 ## Sessioni ospiti simultanee consentite {#concurrent-guest-sessions-allowed}
 
 Il numero di sessioni guest simultanee è limitato al 10% della quota utente totale per organizzazione. Significa che per un&#39;organizzazione con una quota di utenti di 200, un massimo di 20 utenti ospiti può lavorare contemporaneamente. Al 21° utente viene negato l’accesso e può accedervi come ospite solo se termina la sessione di uno dei 20 utenti attivi.
+
+>[!NOTE]
+>
+>Brand Portal non invia notifiche se il numero di utenti con licenza supera il valore contrattuale (quota). Inoltre, non limita alcuna attività degli utenti con licenza.
 
 ## Interazione con gli utenti ospiti con Brand Portal {#guest-user-interaction-with-brand-portal}
 
