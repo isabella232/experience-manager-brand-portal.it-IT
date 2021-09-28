@@ -1,5 +1,5 @@
 ---
-title: Domande frequenti
+title: 'Domande frequenti '
 seo-title: null
 description: Ottieni informazioni approfondite sulle domande frequenti in Adobe Experience Manager Assets Brand Portal.
 seo-description: null
@@ -10,14 +10,14 @@ topic-tags: frequently-asked-questions
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 4a8f7fbd-7485-421d-a8db-755324d2dbef
-source-git-commit: 22104bff436b432e2198bd770f1f39d5c4350518
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '1482'
-ht-degree: 1%
+source-wordcount: '1480'
+ht-degree: 0%
 
 ---
 
-# Domande frequenti {#frequently-asked-questions}
+# Domande frequenti  {#frequently-asked-questions}
 
 Le domande frequenti su Brand Portal si concentrano sulle query e sui problemi che gli utenti finali potrebbero incontrare durante l&#39;utilizzo dell&#39;ultima versione di AEM Assets Brand Portal 6.4.6 o delle versioni precedenti.
 
@@ -38,7 +38,7 @@ Le domande frequenti su Brand Portal si concentrano sulle query e sui problemi c
 
 **Ans.** Sì, si verifica un problema noto durante la pubblicazione delle risorse della cartella dei contributi in AEM Assets in AEM 6.5.4 tramite Adobe Developer Console.
 
-Il problema è risolto in AEM 6.5.5. È possibile aggiornare l&#39;istanza AEM Assets all&#39;ultimo service pack AEM 6.5.5 e [aggiornare le configurazioni](https://docs.adobe.com/content/help/it-IT/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) in Adobe Developer Console.
+Il problema è risolto in AEM 6.5.5. È possibile aggiornare l&#39;istanza AEM Assets all&#39;ultimo service pack AEM 6.5.5 e [aggiornare le configurazioni](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) in Adobe Developer Console.
 
 <!--
 Broken link of download hotfix, comment out this section until we have the latest URL.
@@ -58,6 +58,7 @@ Questo problema può verificarsi quando hai configurato un tenant Brand Portal s
 **Ans.** Di solito la pubblicazione non riesce con un errore di timeout se ci sono più richieste in sospeso nella coda di replica. Per risolvere questo problema, assicurati che gli agenti di replica siano configurati per evitare timeout.
 
 Esegui i seguenti passaggi per configurare l’agente di replica:
+
 1. Accedi alla tua istanza di authoring di AEM Assets.
 1. Dal pannello **Strumenti**, passa a **[!UICONTROL Implementazione]** > **[!UICONTROL Replica]**.
 1. Nella pagina Replica, fai clic su **[!UICONTROL Agenti sull&#39;autore]**. Puoi visualizzare i quattro agenti di replica per il tenant Brand Portal.

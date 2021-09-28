@@ -1,8 +1,8 @@
 ---
 title: Applicare predefiniti immagine o rappresentazioni dinamiche
-seo-title: Applicare predefiniti immagine o rappresentazioni dinamiche
+seo-title: Apply image presets or dynamic renditions
 description: 'Come una macro, un predefinito immagine è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono ad AEM Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diversi. '
-seo-description: 'Come una macro, un predefinito immagine è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono ad AEM Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diversi. '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '800'
 ht-degree: 3%
 
 ---
@@ -30,7 +30,7 @@ Un predefinito per immagini consente di generare rappresentazioni dinamiche dell
 >Quando si scaricano le immagini e le relative rappresentazioni, non è possibile scegliere tra i predefiniti esistenti. È invece possibile specificare le proprietà di un predefinito immagine personalizzato. Per ulteriori informazioni, consulta [Applicare i predefiniti immagine durante il download di immagini](../using/brand-portal-image-presets.md#main-pars-text-1403412644).
 
 
-Per ulteriori informazioni sui parametri richiesti durante la creazione dei predefiniti per immagini, consulta [Gestione dei predefiniti per immagini](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html).
+Per ulteriori informazioni sui parametri richiesti durante la creazione dei predefiniti per immagini, consulta [Gestione dei predefiniti per immagini](../using/brand-portal-image-presets.md).
 
 ## Creare un predefinito per immagini {#create-an-image-preset}
 
@@ -57,7 +57,7 @@ Gli amministratori AEM possono creare predefiniti per immagini da visualizzare c
 
    ![](assets/image_preset_homepage.png)
 
-1. Nella pagina **[!UICONTROL Modifica predefinito immagine]**, immetti i valori desiderati nelle schede **[!UICONTROL Base]** e **[!UICONTROL Avanzate]**, compreso un nome. Le opzioni sono descritte in [Opzioni Preimpostazione immagine](https://docs.adobe.com/docs/en/AEM/6-0/administer/integration/dynamic-media/image-presets.html#Image%20preset%20options). I predefiniti vengono visualizzati nel riquadro a sinistra e possono essere usati all’istante con altre risorse.
+1. Nella pagina **[!UICONTROL Modifica predefinito immagine]**, immetti i valori desiderati nelle schede **[!UICONTROL Base]** e **[!UICONTROL Avanzate]**, compreso un nome. I predefiniti vengono visualizzati nel riquadro a sinistra e possono essere usati all’istante con altre risorse.
 
    ![](assets/image_preset_create.png)
 
