@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: a2a6eb19fb5405f59e3c88182c2a9c15f2bb4183
+source-git-commit: 262d69829eda31b6f55d2e9c3254efd62fe259c1
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 8%
@@ -101,7 +101,7 @@ This release includes the following enhancements:
 Questa versione include correzioni ai seguenti problemi critici:
 
 * Le risorse di una cartella di contributi della stessa dimensione non vengono pubblicate da Brand Portal ad Experience Manager Assets.
-* La dimensione di una cartella contributo risorse non viene ridotta quando la cartella contributo viene annullata la pubblicazione.
+* Quando si annulla la pubblicazione di una cartella di contributo risorse, la dimensione della cartella di contributo non viene ridotta.
 * Gli utenti non sono in grado di rimuovere il profilo dello schema metadati applicato da una cartella.
 * Il conteggio dei gruppi nella pagina delle autorizzazioni utente non è corretto.
 * La navigazione nell’elenco richiede troppo tempo per la pagina delle raccolte.
