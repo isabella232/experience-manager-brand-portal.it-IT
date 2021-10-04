@@ -1,50 +1,49 @@
 ---
-title: Panoramica di AEM Assets Brand Portal
-seo-title: Panoramica di AEM Assets Brand Portal
-description: AEM Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi.
-seo-description: AEM Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi.
+title: Panoramica di Experience Manager Assets Brand Portal
+seo-title: Overview of Experience Manager Assets Brand Portal
+description: Experience Manager Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi.
+seo-description: Experience Manager Assets Brand Portal can help you easily acquire, control, and securely distribute approved creative assets to external parties and internal business users across devices.
 uuid: b1e54d03-eb2e-488e-af4d-bae817dd135a
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
-translation-type: tm+mt
-source-git-commit: 59eeaedd7f66a0a5affa53f82f3ebbb2bcea535d
+exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1528'
 ht-degree: 7%
 
 ---
 
-
-# Panoramica di AEM Assets Brand Portal {#overview-of-aem-assets-brand-portal}
+# Panoramica di Experience Manager Assets Brand Portal {#overview-of-aem-assets-brand-portal}
 
 In qualità di addetto al marketing, a volte è necessario collaborare con i partner di canale e gli utenti aziendali interni per creare, gestire e fornire rapidamente contenuti digitali pertinenti ai clienti. La distribuzione tempestiva di contenuti rilevanti in tutto il percorso di clienti è fondamentale per incrementare la domanda, la conversione, il coinvolgimento e la fidelizzazione dei clienti.
 
 Tuttavia, è una sfida sviluppare soluzioni che supportino la condivisione efficiente e sicura di logo di marchio approvati, linee guida, risorse di campagne o scatti di prodotti con team interni, partner e rivenditori estesi.
 
-**Adobe Experience Manager (AEM) Assets Brand** Portal si concentra sulla necessità dell’addetto al marketing di collaborare in modo efficace con gli utenti di Brand Portal distribuiti a livello globale, fornendo funzionalità di distribuzione delle risorse e contributi alle risorse.
+**Adobe Experience Manager (AEM) Assets Brand** Portal si concentra sulla necessità dell’addetto al marketing di collaborare in modo efficace con gli utenti Brand Portal distribuiti a livello globale, fornendo funzionalità di distribuzione delle risorse e contributo delle risorse.
 
-La distribuzione delle risorse consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi. Il contributo risorse consente invece agli utenti di Brand Portal di caricare le risorse su Brand Portal e pubblicarle in AEM Assets, senza necessità di accedere all’ambiente di authoring. La funzione di contributo è denominata **Origine risorse in Brand Portal**. Insieme, migliora l’esperienza complessiva di Brand Portal nella distribuzione delle risorse e nel contributo degli utenti di Brand Portal (agenzie/team esterni), accelera il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato.
-Consulta [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
+La distribuzione delle risorse consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi. Il contributo risorse consente invece agli utenti di Brand Portal di caricare le risorse in Brand Portal e pubblicarle in Experience Manager Assets, senza necessità di accedere all’ambiente di authoring. La funzione di contributo è denominata **Origine risorse in Brand Portal**. Insieme, migliora l’esperienza complessiva di Brand Portal nella distribuzione delle risorse e il contributo degli utenti Brand Portal (agenzie/team esterni), accelera i tempi di commercializzazione delle risorse e riduce il rischio di non conformità e di accesso non autorizzato.
+Vedere [Origine risorse in Brand Portal](brand-portal-asset-sourcing.md).
 
 L’ambiente portale basato su browser consente di caricare, sfogliare, cercare, visualizzare in anteprima ed esportare facilmente le risorse nei formati approvati.
 
-## Configurare AEM Assets con Brand Portal {#configure-brand-portal}
+## Configurare Experience Manager Assets con Brand Portal {#configure-brand-portal}
 
-La configurazione di Adobe Experience Manager Assets con Brand Portal consente agli utenti di Brand Portal di pubblicare risorse, distribuirle risorse e apportare risorse.
+La configurazione di Adobe Experience Manager Assets con Brand Portal abilita la pubblicazione delle risorse, la distribuzione delle risorse e le funzioni di contributo delle risorse per gli utenti Brand Portal.
 
 >[!NOTE]
 >
->La configurazione di AEM Assets con Brand Portal è supportata in AEM Assets as a Cloud Service, AEM Assets 6.3 e versioni successive.
+>La configurazione di risorse di Experience Manager con Brand Portal è supportata su risorse di Experience Manager come Cloud Service, risorse di Experience Manager 6.3 e versioni successive.
 
-AEM Assets as a Cloud Service viene configurato automaticamente con Brand Portal attivando Brand Portal da Cloud Manager. Il flusso di lavoro di attivazione crea le configurazioni richieste nel backend e attiva Brand Portal nella stessa organizzazione IMS di AEM Assets come istanza di Cloud Service.
+Experience Manager Assets as a Cloud Service viene configurato automaticamente con Brand Portal attivando Brand Portal da Cloud Manager. Il flusso di lavoro di attivazione crea le configurazioni richieste nel backend e attiva Brand Portal sulla stessa organizzazione IMS come istanza di Cloud Service di Experience Manager Assets.
 
-Al contrario, AEM Assets (on-premise e Managed Service) viene configurato manualmente con Brand Portal utilizzando Adobe Developer Console, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant di Brand Portal.
+Risorse Experience Manager (on-premise e servizio gestito) è configurato manualmente con Brand Portal tramite Adobe Developer Console, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant Brand Portal.
 
-Per ulteriori informazioni, consulta [configurazione di AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+Per ulteriori informazioni, consulta [configurazione di Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
-## Utenti e utenti in Brand Portal {#Personas}
+## Utenti in Brand Portal {#Personas}
 
 Brand Portal supporta i seguenti ruoli utente:
 
@@ -74,7 +73,7 @@ Nella tabella seguente sono elencate le attività che gli utenti di questi ruoli
 
 ### Utente ospite {#guest-user}
 
-Qualsiasi utente con accesso limitato alle risorse su Brand Portal senza autenticazione è un utente ospite. La sessione guest consente agli utenti di accedere a cartelle e raccolte pubbliche. In qualità di utente ospite, puoi sfogliare i dettagli delle risorse e avere una visualizzazione completa delle risorse dei membri delle cartelle pubbliche e delle raccolte. Puoi cercare, scaricare e aggiungere risorse pubbliche alla raccolta [!UICONTROL Lightbox].
+Qualsiasi utente con accesso limitato alle risorse su Brand Portal senza autenticazione è un utente guest. La sessione guest consente agli utenti di accedere a cartelle e raccolte pubbliche. In qualità di utente ospite, puoi sfogliare i dettagli delle risorse e avere una visualizzazione completa delle risorse dei membri delle cartelle pubbliche e delle raccolte. Puoi cercare, scaricare e aggiungere risorse pubbliche alla raccolta [!UICONTROL Lightbox].
 
 Tuttavia, la sessione guest ti limita a creare raccolte e ricerche salvate e a condividerle ulteriormente. Gli utenti di una sessione guest non possono accedere alle impostazioni di cartelle e raccolte e non possono condividere le risorse come collegamento. Elenco delle attività eseguibili da un utente guest:
 
@@ -84,7 +83,7 @@ Tuttavia, la sessione guest ti limita a creare raccolte e ricerche salvate e a c
 
 [Scaricare risorse pubbliche](brand-portal-download-assets.md)
 
-[Aggiungere risorse a  [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
+[Aggiungi risorse a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
 ### Visualizzatore {#viewer}
 
@@ -108,9 +107,9 @@ Oltre alle attività eseguibili da un visualizzatore, un editor può eseguire le
 
 [Condividere le risorse come collegamento](brand-portal-link-share.md)
 
-### Administrator {#administrator}
+### Amministratore {#administrator}
 
-Un amministratore include un utente contrassegnato come amministratore di sistema o amministratore di prodotto di Brand Portal in [!UICONTROL Admin Console]. Un amministratore può aggiungere e rimuovere amministratori di sistema e utenti, definire predefiniti, inviare e-mail agli utenti e visualizzare i rapporti sull’utilizzo e l’archiviazione del portale.
+Un amministratore include un utente contrassegnato come amministratore di sistema o amministratore di prodotto Brand Portal in [!UICONTROL Admin Console]. Un amministratore può aggiungere e rimuovere amministratori di sistema e utenti, definire predefiniti, inviare e-mail agli utenti e visualizzare i rapporti sull’utilizzo e l’archiviazione del portale.
 
 Un amministratore può eseguire tutte le attività che un editor può eseguire:
 
@@ -134,32 +133,32 @@ Oltre alle attività di cui sopra, un autore in AEM Assets può eseguire le segu
 
 [Pubblicare raccolte su Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
 
-## Alias alternativo per l’url di Brand Portal {#tenant-alias-for-portal-url}
+## Alias alternativo per l&#39;URL di Brand Portal {#tenant-alias-for-portal-url}
 
-A partire da Brand Portal 6.4.3, le organizzazioni possono disporre di un URL alternativo (alias) per l’URL esistente del tenant di Brand Portal. L’URL alias può essere creato con un prefisso alternativo nell’URL.\
-Tieni presente che solo il prefisso dell’URL di Brand Portal può essere personalizzato e non l’intero URL. Ad esempio, un&#39;organizzazione con un dominio esistente **[!UICONTROL geomettrix.brand-portal.adobe.com]** può ottenere **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** creato su richiesta.
+A partire da Brand Portal 6.4.3, le organizzazioni possono disporre di un URL alternativo (alias) per l’URL esistente del proprio tenant Brand Portal. L’URL alias può essere creato con un prefisso alternativo nell’URL.\
+Tieni presente che solo il prefisso dell’URL Brand Portal può essere personalizzato e non l’intero URL. Ad esempio, un&#39;organizzazione con un dominio esistente **[!UICONTROL geomettrix.brand-portal.adobe.com]** può ottenere **[!UICONTROL geomettrixinc.brand-portal.adobe.com]** creato su richiesta.
 
 Tuttavia, l’istanza di authoring AEM può essere [configurata](../using/configure-aem-assets-with-brand-portal.md) solo con l’URL dell’ID tenant e non con l’URL dell’alias del tenant (alternativo).
 
 >[!NOTE]
 >
->Per ottenere un alias per il nome del tenant nell’URL del portale esistente, le organizzazioni devono contattare il supporto Adobe con una nuova richiesta di creazione dell’alias del tenant. Questa richiesta viene elaborata controllando prima se l&#39;alias è disponibile e quindi creando l&#39;alias.
+>Per ottenere un alias per il nome del tenant nell’URL del portale esistente, le organizzazioni devono contattare il supporto clienti con una nuova richiesta di creazione di alias del tenant. Questa richiesta viene elaborata controllando prima se l&#39;alias è disponibile e quindi creando l&#39;alias.
 >
 >Per sostituire il vecchio alias o eliminarlo, è necessario seguire lo stesso processo.
 
 ## Richiedere l’accesso a Brand Portal {#request-access-to-brand-portal}
 
-Gli utenti possono richiedere l’accesso a Brand Portal dalla schermata di accesso. Queste richieste vengono inviate agli amministratori di Brand Portal che concedono l’accesso agli utenti tramite l’Adobe [!UICONTROL Admin Console]. Dopo aver concesso l’accesso, gli utenti ricevono un messaggio e-mail di notifica.
+Gli utenti possono richiedere l’accesso a Brand Portal dalla schermata di accesso. Queste richieste vengono inviate agli amministratori di Brand Portal, che concedono l&#39;accesso agli utenti tramite l&#39;Adobe [!UICONTROL Admin Console]. Dopo aver concesso l’accesso, gli utenti ricevono un messaggio e-mail di notifica.
 
 Per richiedere l&#39;accesso, procedi come segue:
 
-1. Dalla pagina di accesso di Brand Portal, seleziona **[!UICONTROL Fai clic qui]** corrispondente a **[!UICONTROL Hai accesso?]**. Tuttavia, per accedere alla sessione guest, selezionare il **[!UICONTROL Fare clic qui]** corrispondente a **[!UICONTROL Guest Access?]**.
+1. Dalla pagina di accesso di Brand Portal, seleziona **[!UICONTROL Fai clic qui]** corrispondente a **[!UICONTROL Accesso necessario?]**. Tuttavia, per accedere alla sessione guest, selezionare il **[!UICONTROL Fare clic qui]** corrispondente a **[!UICONTROL Guest Access?]**.
 
    ![Schermata di accesso di Brand Portal](assets/bp-login-requestaccess.png)
 
    Viene visualizzata la pagina [!UICONTROL Richiedi accesso] .
 
-1. Per richiedere l’accesso a Brand Portal di un’organizzazione, è necessario disporre di un [!UICONTROL Federated ID], [!UICONTROL Enterprise ID] o [!UICONTROL Adobe ID] valido.
+1. Per richiedere l&#39;accesso a Brand Portal di un&#39;organizzazione, è necessario disporre di un&#39;Enterprise ID [!UICONTROL Adobe ID],  o [!UICONTROL Federated ID] valida.
 
    Nella pagina [!UICONTROL Richiedi accesso], accedi utilizzando il tuo ID (scenario 1) o crea un [!UICONTROL Adobe ID] (scenario 2):<br />
    ![[!UICONTROL Richiesta di accesso]](assets/bplogin_request_access_2.png)
@@ -188,20 +187,20 @@ Viene visualizzata la pagina [!UICONTROL Iscriviti] .
 
    ![](assets/bplogin-request-access.png)
 
-## Gli amministratori di prodotto concedono l&#39;accesso a {#grant-access-to-brand-portal}
+## Gli amministratori di prodotto concedono l&#39;accesso {#grant-access-to-brand-portal}
 
-Gli amministratori di prodotto di Brand Portal ricevono le richieste di accesso nell’area di notifica di Brand Portal e tramite e-mail nella casella in entrata.
+Gli amministratori di prodotto Brand Portal ricevono le richieste di accesso nella propria area di notifica Brand Portal e tramite e-mail nella propria casella in entrata.
 
 ![Notifica richiesta di accesso](assets/bplogin_request_access_7.png)
 
-Per concedere l’accesso, gli amministratori di prodotto devono fare clic sulla notifica pertinente nell’area di notifica di Brand Portal, quindi fare clic su **[!UICONTROL Concedi accesso]**.
+Per concedere l&#39;accesso, gli amministratori di prodotto devono fare clic sulla notifica pertinente nell&#39;area di notifica Brand Portal, quindi fare clic su **[!UICONTROL Concedi accesso]**.
 In alternativa, gli amministratori di prodotto possono seguire il collegamento fornito nell’e-mail di richiesta di accesso per visitare l’Adobe [!UICONTROL Admin Console] e aggiungere l’utente alla configurazione di prodotto pertinente.
 
-Viene eseguito il reindirizzamento alla pagina principale [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Utilizza l’Adobe [!UICONTROL Admin Console] per creare utenti e assegnarli ai profili di prodotto (precedentemente noti come configurazioni di prodotto), che vengono visualizzati come gruppi in Brand Portal. Per ulteriori informazioni sull&#39;aggiunta di utenti in [!UICONTROL Admin Console], vedere [Aggiungere un utente](brand-portal-adding-users.md#add-a-user) (seguire i passaggi 4-7 della procedura per aggiungere un utente).
+Viene eseguito il reindirizzamento alla pagina principale [Adobe [!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview). Utilizza l&#39;Adobe [!UICONTROL Admin Console] per creare utenti e assegnarli ai profili di prodotto (precedentemente noti come configurazioni di prodotto), che vengono visualizzati come gruppi in Brand Portal. Per ulteriori informazioni sull&#39;aggiunta di utenti in [!UICONTROL Admin Console], vedere [Aggiungere un utente](brand-portal-adding-users.md#add-a-user) (seguire i passaggi 4-7 della procedura per aggiungere un utente).
 
-## Lingue di Brand Portal {#brand-portal-language}
+## Lingue Brand Portal {#brand-portal-language}
 
-Puoi modificare la lingua di Brand Portal dall’Adobe [!UICONTROL Impostazioni Experience Cloud].
+È possibile modificare la lingua di Brand Portal dall&#39;Adobe [!UICONTROL Impostazioni Experience Cloud].
 
 ![Notifica richiesta di accesso](assets/BPLang.png)
 
@@ -213,9 +212,9 @@ Per modificare la lingua:
 
 1. Nella pagina [!UICONTROL Impostazioni Experience Cloud], seleziona una lingua dal menu a discesa [!UICONTROL Lingua].
 
-## Notifica di manutenzione di Brand Portal {#brand-portal-maintenance-notification}
+## Notifica di manutenzione Brand Portal {#brand-portal-maintenance-notification}
 
-Prima che Brand Portal venga programmato per la manutenzione, una notifica viene visualizzata come banner dopo l’accesso a Brand Portal. Notifica di esempio:
+Prima che Brand Portal venga pianificato per la manutenzione, una notifica viene visualizzata come banner dopo l’accesso a Brand Portal. Notifica di esempio:
 
 ![](assets/bp_maintenance_notification.png)
 
@@ -229,5 +228,8 @@ Puoi ignorare questa notifica e continuare a utilizzare Brand Portal. Questa not
 
 ## Risorse correlate {#related-resources}
 
-* [Adobe Customer Care](https://helpx.adobe.com/it/marketing-cloud/contact-support.html)
+<!--
+* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+-->
+
 * [Forum su AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

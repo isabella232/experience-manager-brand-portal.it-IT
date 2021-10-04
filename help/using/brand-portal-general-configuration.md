@@ -1,8 +1,8 @@
 ---
 title: Amministrare le configurazioni tenant generali
-seo-title: Amministrare le configurazioni tenant generali
+seo-title: Administer general tenant configurations
 description: Configura l’accelerazione di download, la creazione di raccolte avanzate pubbliche, la creazione di raccolte pubbliche e abilita gli utenti amministratori a eliminare le risorse sugli tenant.
-seo-description: Configura l’accelerazione di download, la creazione di raccolte avanzate pubbliche, la creazione di raccolte pubbliche e abilita gli utenti amministratori a eliminare le risorse sugli tenant.
+seo-description: Configure download acceleration, public smart collection creation, public collection creation, and enable admin users to delete assets on tenants.
 uuid: 3c46cd7c-c38b-4bc7-b566-93f977bc8227
 contentOwner: mgulati
 topic-tags: administration
@@ -11,16 +11,16 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f4c237bc-f6a4-4bc4-af56-3d9c3027daf4
 role: Admin
 exl-id: 5607be8e-0a7f-4692-b71b-5f66eb9ac5ee
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 4%
+source-wordcount: '381'
+ht-degree: 3%
 
 ---
 
 # Amministrare le configurazioni tenant generali {#administer-general-tenant-configurations}
 
-AEM Assets Brand Portal consente alle organizzazioni di configurare le seguenti funzionalità per tenant specifici:
+Experience Manager Assets Brand Portal consente alle organizzazioni di configurare le seguenti funzionalità per tenant specifici:
 
 * Eliminazione delle risorse da parte degli amministratori
 * Creazione di raccolte pubbliche da parte di utenti non amministratori
@@ -44,7 +44,7 @@ Queste configurazioni sono state fornite come configurazioni **[!UICONTROL Impos
 Per abilitare/disabilitare ciascuna di queste configurazioni:
 
 1. Accedi con privilegi di amministratore.
-1. Seleziona il logo AEM per accedere agli strumenti amministrativi dalla barra degli strumenti nella parte superiore.
+1. Seleziona il logo Experience Manager per accedere agli strumenti amministrativi dalla barra degli strumenti nella parte superiore.
 1. Dal pannello strumenti amministrativi, seleziona **[!UICONTROL Generale]** per aprire la pagina **[!UICONTROL Impostazioni generali]**.
 1. Usare il rispettivo interruttore di attivazione/disattivazione per attivare o disattivare una qualsiasi delle configurazioni Generali.
 1. **[!UICONTROL Salva le modifiche.]**

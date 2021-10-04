@@ -1,8 +1,8 @@
 ---
 title: Utilizzare i rapporti
-seo-title: Utilizzare i rapporti
-description: Gli amministratori di AEM Assets Brand Portal possono visualizzare i rapporti sull’utilizzo di Brand Portal e creare, gestire e visualizzare i rapporti relativi alle risorse scaricate, scadute, pubblicate e ai collegamenti condivisi tramite Brand Portal.
-seo-description: Gli amministratori di AEM Assets Brand Portal possono visualizzare i rapporti sull’utilizzo di Brand Portal e creare, gestire e visualizzare i rapporti relativi alle risorse scaricate, scadute, pubblicate e ai collegamenti condivisi tramite Brand Portal.
+seo-title: Work with reports
+description: Experience Manager Gli amministratori di Assets Brand Portal possono visualizzare i rapporti sull’utilizzo di Brand Portal e creare, gestire e visualizzare i rapporti relativi alle risorse scaricate, scadute, pubblicate e ai collegamenti condivisi tramite Brand Portal.
+seo-description: Experience Manager Assets Brand Portal Administrators can view report about Brand Portal usage, and create, manage, and view reports around assets downloaded, expired, published, and link shared through Brand Portal.
 uuid: dc4e5275-a614-4b95-8c70-2b7e470c50a7
 content-type: reference
 topic-tags: administration
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 7683074f-b6ea-42e0-a411-3b13eb88d1f2
 role: Admin
 exl-id: 03d0292c-23c2-4ea0-9781-eb27768e6c33
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '996'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ L’interfaccia di gestione dei rapporti è intuitiva e include opzioni e contro
 
 Per visualizzare un rapporto, effettua le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, tocca o fai clic sul logo AEM per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, tocca o fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
 
    ![](assets/aemlogo.png)
 
@@ -64,7 +64,7 @@ Il rapporto mostra anche la capacità consentita per ciascuna di queste metriche
 
    ![](assets/expiration-report.png)
 
-   **** Il rapporto di pubblicazione elenca e fornisce informazioni su tutte le risorse pubblicate da AEM a Brand Portal in un intervallo di tempo specificato.
+   **** Il rapporto di pubblicazione elenca e fornisce informazioni su tutte le risorse pubblicate da Experience Manager Assets in Brand Portal in un intervallo di tempo specificato.
 
    ![](assets/publish-report.png)
 
@@ -94,7 +94,7 @@ Gli amministratori possono generare e gestire i seguenti rapporti standard, una 
 
 Le colonne del rapporto Download, Scadenza e Pubblicazione possono essere personalizzate per la visualizzazione. Per generare un rapporto, effettua le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, tocca o fai clic sul logo AEM per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, tocca o fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
 
 1. Dal pannello degli strumenti amministrativi, tocca o fai clic su **[!UICONTROL Crea/gestisci rapporti]** per aprire la pagina **[!UICONTROL Rapporti sulle risorse]**.
 

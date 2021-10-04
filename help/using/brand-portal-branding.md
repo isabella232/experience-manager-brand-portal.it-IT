@@ -1,8 +1,8 @@
 ---
 title: Personalizzare sfondo, intestazione e messaggio e-mail
-seo-title: Personalizzare sfondo, intestazione e messaggio e-mail
+seo-title: Customize wallpaper, header, and email message
 description: Gli amministratori di Brand Portal possono apportare personalizzazioni limitate all’interfaccia visualizzata agli utenti. È possibile scegliere un'immagine di sfondo specifica (sfondo) per la pagina di accesso di Brand Portal. Puoi anche aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in base al marchio del cliente.
-seo-description: Gli amministratori di Brand Portal possono apportare personalizzazioni limitate all’interfaccia visualizzata agli utenti. È possibile scegliere un'immagine di sfondo specifica (sfondo) per la pagina di accesso di Brand Portal. Puoi anche aggiungere un’immagine di intestazione e personalizzare le e-mail di condivisione delle risorse in base al marchio del cliente.
+seo-description: Brand Portal administrators can make limited customizations to the interface displayed to users. You can choose a specific background image (wallpaper) for the Brand Portal login page. You can also add a header image and customize asset sharing emails to match the customer’s brand.
 uuid: e078d0b9-18b5-467a-ae90-7f0b9fd0d414
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 7b573a4f-2d4e-48d6-b259-436d0cfbdce9
 role: Admin
 exl-id: 9f5c2a6a-8844-4ca4-b0d9-8f50b6164219
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '762'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ Gli amministratori di Brand Portal possono apportare personalizzazioni limitate 
 
 In assenza di un&#39;immagine dello sfondo con marchio personalizzato, nella pagina di accesso viene visualizzato uno sfondo predefinito.
 
-1. Dalla barra degli strumenti AEM in alto, fai clic sul logo Adobe per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
 
    ![](assets/aemlogo.png)
 
@@ -75,7 +75,7 @@ In assenza di un&#39;immagine dello sfondo con marchio personalizzato, nella pag
 
 L’intestazione viene visualizzata su varie pagine Brand Portal dopo l’accesso a Brand Portal.
 
-1. Dalla barra degli strumenti AEM in alto, fai clic sul logo Adobe per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
 
    ![](assets/aemlogo.png)
 
@@ -127,7 +127,7 @@ Per salvare le modifiche, fai clic su **[!UICONTROL Salva]** nella barra degli s
 
 Quando le risorse vengono condivise come collegamento, gli utenti ricevono un’e-mail contenente il collegamento. Gli amministratori possono personalizzare la messaggistica, ovvero il logo, la descrizione e il piè di pagina, di queste e-mail.
 
-1. Dalla barra degli strumenti AEM in alto, fai clic sul logo Adobe per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
 
    ![](assets/aemlogo.png)
 

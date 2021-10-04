@@ -1,8 +1,8 @@
 ---
 title: Utilizzare il modulo schema metadati
-seo-title: Utilizzare il modulo schema metadati
+seo-title: Use the metadata schema form
 description: Uno schema di metadati descrive il layout della pagina Proprietà e le proprietà dei metadati visualizzate per le risorse che utilizzano lo schema specifico. Lo schema applicato a una risorsa determina i campi di metadati visualizzati nella relativa pagina Proprietà.
-seo-description: Uno schema di metadati descrive il layout della pagina Proprietà e le proprietà dei metadati visualizzate per le risorse che utilizzano lo schema specifico. Lo schema applicato a una risorsa determina i campi di metadati visualizzati nella relativa pagina Proprietà.
+seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
@@ -10,9 +10,9 @@ topic-tags: administration
 discoiquuid: 500b46da-ef67-46a0-a069-192f4b1a0eca
 role: Admin
 exl-id: fbedff90-a6cb-4175-8308-817cc9f5b450
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1756'
+source-wordcount: '1718'
 ht-degree: 11%
 
 ---
@@ -21,13 +21,13 @@ ht-degree: 11%
 
 Uno schema di metadati descrive il layout della pagina Proprietà e le proprietà dei metadati visualizzate per le risorse che utilizzano lo schema specifico. Lo schema applicato a una risorsa determina i campi di metadati visualizzati nella relativa pagina Proprietà.
 
-La pagina **[!UICONTROL Proprietà]** di ogni risorsa include proprietà di metadati predefinite a seconda del tipo MIME della risorsa. Gli amministratori possono utilizzare l’Editor schema metadati per modificare gli schemi esistenti o aggiungere schemi di metadati personalizzati. AEM Assets Brand Portal fornisce moduli predefiniti per risorse di vari tipi MIME. Tuttavia, è anche possibile aggiungere moduli personalizzati per tali risorse.
+La pagina **[!UICONTROL Proprietà]** di ogni risorsa include proprietà di metadati predefinite a seconda del tipo MIME della risorsa. Gli amministratori possono utilizzare l’Editor schema metadati per modificare gli schemi esistenti o aggiungere schemi di metadati personalizzati. Experience Manager Assets Brand Portal fornisce moduli predefiniti per risorse di vari tipi MIME. Tuttavia, è anche possibile aggiungere moduli personalizzati per tali risorse.
 
 ## Aggiungere un modulo schema metadati {#add-a-metadata-schema-form}
 
 Per creare un nuovo modulo schema metadati, procedi come segue:
 
-1. Dalla barra degli strumenti AEM in alto, fai clic sul logo Adobe per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
 
    ![](assets/aemlogo.png)
 
@@ -51,7 +51,7 @@ Per creare un nuovo modulo schema metadati, procedi come segue:
 
 Per modificare un modulo schema metadati, procedi come segue:
 
-1. Dalla barra degli strumenti AEM in alto, fai clic sul logo Adobe per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
 
    ![](assets/aemlogo.png)
 
@@ -86,12 +86,12 @@ La scheda **[!UICONTROL Genera modulo]** elenca gli elementi che è possibile ut
 | **[!UICONTROL Numero]** | Aggiungi un componente numerico. |
 | **[!UICONTROL Data]** | Aggiungi un componente data . |
 | **[!UICONTROL A discesa]** | Aggiungi un elenco a discesa. |
-| **[!UICONTROL Tag standard]** | Aggiungi un tag. **Nota:** gli amministratori potrebbero dover modificare il valore del percorso, ad esempio  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, se pubblicano il modulo schema metadati da AEM, dove il percorso non include le informazioni sul tenant, ad esempio  `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Tag avanzati]** | Sono stati rilevati automaticamente i tag se hai acquistato e configurato il componente aggiuntivo per tag avanzati AEM. |
+| **[!UICONTROL Tag standard]** | Aggiungi un tag. **Nota:** gli amministratori potrebbero dover modificare il valore del percorso, ad esempio  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, se pubblicano il modulo dello schema metadati da Experience Manager Assets, dove il percorso non include le informazioni sul tenant, ad esempio  `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Tag avanzati]** | Tag rilevati automaticamente se hai acquistato e configurato il componente aggiuntivo per tag avanzati di Experience Manager Assets. |
 | **[!UICONTROL Campo nascosto]** | Aggiungi un campo nascosto. Viene inviato come parametro POST al momento del salvataggio della risorsa. |
 | **[!UICONTROL Risorsa con riferimento da]** | Aggiungi questo componente per visualizzare l’elenco delle risorse a cui fa riferimento la risorsa. |
 | **[!UICONTROL Risorsa con riferimento a]** | Aggiungi per visualizzare un elenco di risorse che fanno riferimento alla risorsa. |
-| **[!UICONTROL Valutazione risorsa]** | Valutazione media di una risorsa aggiunta da AEM Assets prima che venga pubblicata in Brand Portal. |
+| **[!UICONTROL Valutazione risorsa]** | Valutazione media di una risorsa aggiunta da Experience Manager Assets prima che venga pubblicata in Brand Portal. |
 | **[!UICONTROL Metadati contestuali]** | Aggiungi per controllare la visualizzazione di altre schede di metadati nella pagina Proprietà delle risorse. |
 
 >[!NOTE]
@@ -123,7 +123,7 @@ Di seguito sono riportati i valori validi per questa proprietà:
 
 >[!NOTE]
 >
->Tutti i campi di metadati sono di sola lettura nel modulo di editor di metadati di una risorsa. Poiché i metadati della risorsa devono essere modificati in AEM Assets prima che una risorsa venga pubblicata in Brand Portal.
+>Tutti i campi di metadati sono di sola lettura nel modulo di editor di metadati di una risorsa. Poiché i metadati della risorsa devono essere modificati in Experience Manager Assets prima di pubblicarli in Brand Portal.
 
 #### Aggiunta o eliminazione di una scheda nel modulo schema {#add-or-delete-a-tab-in-the-schema-form}
 
@@ -143,7 +143,7 @@ Brand Portal consente di personalizzare e controllare lo schema dei metadati in 
 
 Per applicare un modulo schema metadati a una cartella, procedi come segue:
 
-1. Dalla barra degli strumenti AEM in alto, fai clic sul logo Adobe per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
 
    ![](assets/aemlogo.png)
 

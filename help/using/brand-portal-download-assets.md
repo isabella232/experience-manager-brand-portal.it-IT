@@ -1,8 +1,8 @@
 ---
 title: Scaricare le risorse
-seo-title: Scaricare le risorse
+seo-title: Download assets
 description: Tutti gli utenti possono scaricare contemporaneamente più risorse e cartelle accessibili a loro. In questo modo, le risorse del marchio approvate possono essere distribuite in modo sicuro e offline.
-seo-description: Tutti gli utenti possono scaricare contemporaneamente più risorse e cartelle accessibili a loro. In questo modo, le risorse del marchio approvate possono essere distribuite in modo sicuro e offline.
+seo-description: All users can simultaneously download multiple assets and folders accessible to them. This way, approved brand assets can be securely distributed for offline use.
 uuid: 4b57118e-a76e-4d8a-992a-cb3c3097bc03
 content-type: reference
 contentOwner: Vishabh Gupta
@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 3333b15ed5ce22f54f0f2cd55b8f31ad9d9272c7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1944'
+source-wordcount: '1924'
 ht-degree: 4%
 
 ---
@@ -59,13 +59,13 @@ Le impostazioni disponibili sono:
 
    Abilita il download di rappresentazioni personalizzate e (o) dinamiche delle risorse.
 
-   Tutte le rappresentazioni delle risorse diverse dalla risorsa originale e dalle rappresentazioni generate dal sistema sono denominate rappresentazioni personalizzate. Include rappresentazioni statiche e dinamiche disponibili per la risorsa. Qualsiasi utente può creare un rendering statico personalizzato in AEM Assets, mentre solo l’amministratore AEM può creare rappresentazioni dinamiche personalizzate. Per informazioni dettagliate, consulta [come applicare predefiniti immagine o rappresentazioni dinamiche](../using/brand-portal-image-presets.md).
+   Tutte le rappresentazioni delle risorse diverse dalla risorsa originale e dalle rappresentazioni generate dal sistema sono denominate rappresentazioni personalizzate. Include rappresentazioni statiche e dinamiche disponibili per la risorsa. Qualsiasi utente può creare un rendering statico personalizzato in Experience Manager Assets, mentre solo l’amministratore può creare rappresentazioni dinamiche personalizzate. Per informazioni dettagliate, consulta [come applicare predefiniti immagine o rappresentazioni dinamiche](../using/brand-portal-image-presets.md).
 
 * **[!UICONTROL Rappresentazioni di sistema]**
 
    Abilita il download di rappresentazioni generate dal sistema delle risorse.
 
-   Queste sono le miniature generate automaticamente in AEM Assets in base al flusso di lavoro &quot;Risorsa di aggiornamento DAM&quot;.
+   Si tratta delle miniature generate automaticamente in Risorse di Experience Manager in base al flusso di lavoro &quot;Risorsa di aggiornamento DAM&quot;.
 
 * **[!UICONTROL Download risorse]**
 
@@ -208,9 +208,9 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 >
 >Brand Portal supporta la configurazione di Dynamic Media in modalità ibrida e Scene 7.
 >
->(*Se AEM&#39;istanza dell&#39;autore è in esecuzione su **Modalità ibrida Dynamic Media***)
+>(*Se l’istanza di authoring di Experience Manager Assets è in esecuzione su **Dynamic Media Hybrid mode***)
 >
->Per visualizzare in anteprima o scaricare rappresentazioni dinamiche di una risorsa, accertati che l’elemento multimediale dinamico sia abilitato e che la rappresentazione a soffietto piramidale della risorsa esista nell’istanza di authoring di AEM Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata da AEM a Brand Portal, viene pubblicata anche la relativa rappresentazione a soffietto a piramide.
+>Per visualizzare in anteprima o scaricare rappresentazioni dinamiche di una risorsa, accertati che l’elemento multimediale dinamico sia abilitato e che la rappresentazione a soffietto piramidale della risorsa esista nell’istanza di authoring di Experience Manager Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata da Risorse Experienci Manager a Brand Portal, viene pubblicata anche la relativa rappresentazione a forma di file a forma di piramide.
 
 
 

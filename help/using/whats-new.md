@@ -10,14 +10,14 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: d5e39edc43d6d405e96edc76cbd1357ade58ea89
+source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
 workflow-type: tm+mt
-source-wordcount: '6339'
+source-wordcount: '6340'
 ht-degree: 1%
 
 ---
 
-# Novità di AEM Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
+# Novità di Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato. Adobe sta lavorando per migliorare l’esperienza Brand Portal complessiva. Ecco un&#39;occhiata alle nuove funzioni e ai miglioramenti.
 
@@ -525,7 +525,7 @@ Analogamente, le risorse pubblicate possono essere rimosse dal portale in un sec
 
 ### Alias tenant configurabile nell&#39;URL
 
-Le organizzazioni possono personalizzare l’URL del portale utilizzando un prefisso alternativo nell’URL. Per ottenere un alias per il nome del tenant nell’URL del portale esistente, le organizzazioni devono contattare il supporto Adobe.
+Le organizzazioni possono personalizzare l’URL del portale utilizzando un prefisso alternativo nell’URL. Per ottenere un alias per il nome del tenant nell’URL del portale esistente, le organizzazioni devono contattare l’Assistenza clienti.
 
 Solo il prefisso dell’URL Brand Portal può essere personalizzato e non l’intero URL.\
 Ad esempio, un&#39;organizzazione con un dominio esistente **geomettrix.brand-portal.adobe.com** può ottenere **geomettrixinc.brand-portal.adobe.com** creato su richiesta.
@@ -668,7 +668,7 @@ Brand Portal 6.4.1 è una versione di aggiornamento della piattaforma che introd
 
 * Nuova funzionalità per visualizzare in anteprima i file audio caricati da AEM nella pagina dei dettagli della risorsa.
 * Nuova funzionalità Risorse correlate fornita nelle proprietà delle risorse. Le risorse correlate con altre risorse di origine/derivata su AEM e pubblicate su Brand Portal ora hanno la loro relazione intatta in Brand Portal, con i collegamenti alle relative risorse nella pagina delle proprietà.
-* È stata introdotta una nuova configurazione per impedire agli utenti non amministratori di creare raccolte pubbliche. Le organizzazioni possono lavorare con il team di supporto Adobe per configurare questa funzionalità su account specifici.
+* È stata introdotta una nuova configurazione per impedire agli utenti non amministratori di creare raccolte pubbliche. Le organizzazioni possono collaborare con il team di Assistenza clienti per configurare questa funzionalità su account specifici.
 
 ### Miglioramenti alla ricerca
 

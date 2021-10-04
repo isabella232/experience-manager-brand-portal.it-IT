@@ -1,8 +1,8 @@
 ---
 title: Applicare predefiniti immagine o rappresentazioni dinamiche
 seo-title: Apply image presets or dynamic renditions
-description: 'Come una macro, un predefinito immagine è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono ad AEM Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diversi. '
-seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable AEM Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
+description: 'Come una macro, un predefinito immagine è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono ad Experience Manager Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diverse. '
+seo-description: Like a macro, an image preset is a predefined collection of sizing and formatting commands saved under a name. Image presets enable Experience Manager Assets Brand Portal to dynamically deliver images of different sizes, formats, and properties.
 uuid: a3c8705c-5fbd-472c-8b61-f65b3e552c1b
 content-type: reference
 topic-tags: administration
@@ -10,20 +10,20 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: a512dfa0-fef3-4c3f-a389-a0a3a7415bac
 role: Admin
 exl-id: 212a1b3a-686f-4250-be06-b679b6039887
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '814'
 ht-degree: 3%
 
 ---
 
 # Applicare predefiniti immagine o rappresentazioni dinamiche {#apply-image-presets-or-dynamic-renditions}
 
-Come una macro, un predefinito immagine è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono ad AEM Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diversi.
+Come una macro, un predefinito immagine è una raccolta predefinita di comandi di ridimensionamento e formattazione salvati con un nome. I predefiniti per immagini consentono ad Experience Manager Assets Brand Portal di distribuire dinamicamente immagini di dimensioni, formati e proprietà diverse.
 
 Un predefinito per immagini consente di generare rappresentazioni dinamiche delle immagini che possono essere visualizzate in anteprima e scaricate. Quando visualizzi in anteprima le immagini e le relative rappresentazioni, puoi scegliere un predefinito per riformattare le immagini in base alle specifiche impostate dall’amministratore.
 
-(*Se AEM&#39;istanza di authoring è in esecuzione in **Modalità ibrida Dynamic Media***) Per visualizzare le rappresentazioni dinamiche di una risorsa in Brand Portal, assicurati che la relativa rappresentazione a forma di piramide esista nell&#39;istanza di authoring AEM da dove pubblichi in Brand Portal. Quando pubblichi la risorsa, anche il relativo rendering PTIFF viene pubblicato in Brand Portal.
+(*Se l’istanza di authoring di Experience Manager Assets è in esecuzione in **Modalità ibrida Dynamic Media***) Per visualizzare le rappresentazioni dinamiche di una risorsa in Brand Portal, accertati che la relativa rappresentazione a forma di piramide esista nell’istanza di authoring di Experience Manager Assets da cui pubblichi in Brand Portal. Quando pubblichi la risorsa, anche il relativo rendering PTIFF viene pubblicato in Brand Portal.
 
 >[!NOTE]
 >
@@ -34,20 +34,20 @@ Per ulteriori informazioni sui parametri richiesti durante la creazione dei pred
 
 ## Creare un predefinito per immagini {#create-an-image-preset}
 
-Gli amministratori AEM possono creare predefiniti per immagini da visualizzare come rappresentazioni dinamiche nella pagina dei dettagli della risorsa. Puoi creare un predefinito per immagini da zero o salvarne uno esistente con un nuovo nome. Quando crei un predefinito per immagini, scegli una dimensione per la distribuzione delle immagini e i comandi di formattazione. Quando un&#39;immagine viene distribuita per la visualizzazione, il suo aspetto viene ottimizzato in base ai comandi selezionati.
+Gli amministratori di Experience Manager Assets possono creare predefiniti per immagini da visualizzare come rappresentazioni dinamiche nella pagina dei dettagli della risorsa. Puoi creare un predefinito per immagini da zero o salvarne uno esistente con un nuovo nome. Quando crei un predefinito per immagini, scegli una dimensione per la distribuzione delle immagini e i comandi di formattazione. Quando un&#39;immagine viene distribuita per la visualizzazione, il suo aspetto viene ottimizzato in base ai comandi selezionati.
 
 >[!NOTE]
 >
 >Le rappresentazioni dinamiche di un&#39;immagine vengono create utilizzando il relativo TIFF piramidale. Se il TIFF piramidale non è disponibile per alcuna risorsa, le rappresentazioni dinamiche per tale risorsa non possono essere recuperate in Brand Portal.
 >
->Se AEM&#39;istanza di authoring è in esecuzione in modalità **Dynamic Media Hybrid**, le rappresentazioni TIFF piramidali delle risorse immagine vengono create e salvate nell&#39;archivio AEM.
+>Se l’istanza di authoring di Experience Manager Assets è in esecuzione in **modalità ibrida Dynamic Media**, le rappresentazioni TIFF piramidali delle risorse immagine vengono create e salvate nell’archivio di Experience Manager Assets.
 >
->Se invece AEM&#39;istanza autore è in esecuzione in modalità **Dynamic Media Scene 7**, sul server Scene 7 esistono rappresentazioni TIFF piramidali delle risorse immagine.
+>Se invece l’istanza di authoring di Experience Manager Assets è in esecuzione in modalità **Dynamic Media Scene 7**, sul server Scene 7 esistono rappresentazioni TIFF piramidali delle risorse di immagini.
 >
 >Quando tali risorse vengono pubblicate su Brand Portal, vengono applicati i predefiniti immagine e vengono visualizzate le rappresentazioni dinamiche.
 
 
-1. Dalla barra degli strumenti AEM in alto, fai clic sul logo Adobe per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
 
 1. Dal pannello degli strumenti amministrativi, fai clic su **[!UICONTROL Predefiniti immagini]**.
 

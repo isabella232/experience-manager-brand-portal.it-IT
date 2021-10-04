@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1190'
 ht-degree: 2%
 
 ---
@@ -29,19 +29,19 @@ Gli utenti Brand Portal possono:
 
 >[!NOTE]
 >
->Per lavorare con i video e pubblicarli in Brand Portal, accertati che l’istanza di authoring AEM sia configurata in modalità ibrida Dynamic Media o in modalità Dynamic Media **[!DNL Scene 7]** .
+>Per lavorare con i video e pubblicarli in Brand Portal, accertati che l’istanza di authoring di Experience Manager sia configurata in modalità ibrida Dynamic Media o in modalità Dynamic Media **[!DNL Scene 7]** .
 
 Per visualizzare in anteprima, riprodurre e scaricare i video, Brand Portal espone le due configurazioni seguenti agli amministratori:
 
-* [Configurazione ibrida di Dynamic MediaSe l’istanza di AEM Author è in esecuzione in modalità ibrida di Dynamic Media. ](#configure-dm-hybrid-settings)
+* [Configurazione ibrida di Dynamic MediaSe l’istanza di authoring di Experience Manager è in esecuzione in modalità ibrida di contenuti multimediali dinamici. ](#configure-dm-hybrid-settings)
 
 * [Dynamic  [!DNL Scene 7] ](#configure-dm-scene7-settings)
-MediaconfigurationSe l’istanza di AEM Author è in esecuzione in **[!DNL Scene 7]** modalità Dynamic Media.
-Imposta una di queste configurazioni in base alle configurazioni impostate nell’istanza di AEM Author con cui viene replicato il tenant Brand Portal.
+MediaconfigurationSe l&#39;istanza di authoring di Experience Manager è in esecuzione in **[!DNL Scene 7]** modalità Dynamic Media.
+Imposta una di queste configurazioni in base alle configurazioni impostate nell’istanza di authoring di Experience Manager con cui viene replicato il tenant Brand Portal.
 
 >[!NOTE]
 >
->I video dinamici non sono supportati sui tenant Brand Portal configurati con AEM Author in esecuzione in modalità runmode **[!UICONTROL Scene7Connect]**.
+>I video dinamici non sono supportati sui tenant Brand Portal configurati con Experience Manager Author in esecuzione in modalità runmode **[!UICONTROL Scene7Connect]**.
 
 ## Come vengono riprodotti i video dinamici? {#how-are-dynamic-videos-played}
 

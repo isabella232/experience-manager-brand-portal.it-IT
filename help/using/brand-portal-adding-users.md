@@ -1,8 +1,8 @@
 ---
 title: Gestire utenti, gruppi e ruoli utente
 seo-title: Manage users, groups, and user roles
-description: Gli amministratori possono utilizzare Adobe Admin Console per creare utenti e profili di prodotto AEM Assets Brand Portal e gestire i loro ruoli utilizzando l’interfaccia utente di Brand Portal. Questo privilegio non è disponibile per visualizzatori ed editor.
-seo-description: Administrators can use Adobe Admin Console to create AEM Assets Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
+description: Gli amministratori possono utilizzare Adobe Admin Console per creare utenti e profili di prodotto Brand Portal e gestire i loro ruoli utilizzando l’interfaccia utente di Brand Portal. Questo privilegio non è disponibile per visualizzatori ed editor.
+seo-description: Administrators can use Adobe Admin Console to create Brand Portal users and product profiles, and manage their roles using the Brand Portal user interface. This privilege is not available to Viewers and Editors.
 uuid: 0dc1867c-6d1b-4d0d-a25e-0df207c269b8
 content-type: reference
 topic-tags: administration
@@ -10,18 +10,18 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: ba468e80-d077-4af6-b782-238fc557e22b
 role: Admin
 exl-id: 35b1fd75-f9e4-4145-80bd-84de091f8b2b
-source-git-commit: 257a4686e1f5fba1ae4900bfa966e3ad6bb81a7a
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2185'
 ht-degree: 0%
 
 ---
 
 # Gestire utenti, gruppi e ruoli utente {#manage-users-groups-and-user-roles}
 
-Gli amministratori possono utilizzare Adobe Admin Console per creare utenti e profili di prodotto AEM Assets Brand Portal e gestire i loro ruoli utilizzando l’interfaccia utente di Brand Portal. Questo privilegio non è disponibile per visualizzatori ed editor.
+Gli amministratori possono utilizzare Adobe Admin Console per creare utenti e profili di prodotto di Experience Manager Assets Brand Portal e gestire i loro ruoli utilizzando l’interfaccia utente di Brand Portal. Questo privilegio non è disponibile per visualizzatori ed editor.
 
-In [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) puoi visualizzare tutti i prodotti associati alla tua organizzazione. Un prodotto potrebbe essere una qualsiasi soluzione di Experience Cloud, ad esempio Adobe Analytics, Adobe Target o AEM Brand Portal. Devi scegliere il prodotto AEM Brand Portal e creare profili di prodotto.
+In [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) puoi visualizzare tutti i prodotti associati alla tua organizzazione. Un prodotto potrebbe essere una qualsiasi soluzione di Experience Cloud, ad esempio Adobe Analytics, Adobe Target o Experience Manager Assets Brand Portal. Devi scegliere il prodotto AEM Brand Portal e creare profili di prodotto.
 
 <!--
 Comment Type: draft
@@ -127,7 +127,7 @@ Per aggiungere utenti a un gruppo Brand Portal, aggiungili al profilo di prodott
 >
 >Puoi accedere a [[!UICONTROL Admin Console]](https://adminconsole.adobe.com/enterprise/overview) direttamente o da Brand Portal. Se accedi direttamente ad Admin Console, segui i passaggi 4-7 della procedura seguente per aggiungere utenti a un profilo di prodotto.
 
-1. Dalla barra degli strumenti AEM in alto, fai clic sul logo Adobe per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
 
    ![Logo AEM](assets/aemlogo.png)
 
@@ -209,7 +209,7 @@ Per aggiungere utenti a un gruppo Brand Portal, aggiungili al profilo di prodott
    >
    >Brand Portal supporta solo i ruoli Amministratore di sistema e Amministratore di prodotto.
    >
-   >Adobe consiglia di evitare di utilizzare il ruolo Amministratore di sistema perché concede privilegi di amministratore a livello di organizzazione per tutti i prodotti di un&#39;organizzazione. Ad esempio, l’amministratore di sistema di un’organizzazione che include tre prodotti marketing cloud dispone dell’intero insieme di privilegi per tutti e tre i prodotti. Solo un amministratore di sistema può configurare AEM Assets in modo che le risorse possano essere pubblicate da AEM Assets a Brand Portal. Per ulteriori informazioni, consulta [Configurare AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
+   >Adobe consiglia di evitare di utilizzare il ruolo Amministratore di sistema perché concede privilegi di amministratore a livello di organizzazione per tutti i prodotti di un&#39;organizzazione. Ad esempio, l’amministratore di sistema di un’organizzazione che include tre prodotti marketing cloud dispone dell’intero insieme di privilegi per tutti e tre i prodotti. Solo un amministratore di sistema può configurare Risorse Experience Manager in modo che le risorse possano essere pubblicate da Experience Manager Assets in Brand Portal. Per ulteriori informazioni, consulta [Configurare risorse di Experience Manager con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
    >
    >Al contrario, il ruolo Amministratore prodotto concede privilegi di amministratore solo per un prodotto specifico. Se desideri applicare un controllo di accesso più granulare all’interno di Brand Portal, utilizza il ruolo Amministratore prodotto e seleziona il prodotto come Brand Portal.
 

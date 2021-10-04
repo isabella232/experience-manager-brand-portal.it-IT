@@ -4,10 +4,10 @@ seo-title: Adobe Experience Manager Assets Brand Portal Guide
 description: Guida di Adobe Experience Manager Assets Brand Portal
 seo-description: Describes how to use Brand Portal
 exl-id: bc9a7ab7-4d43-4004-94b3-b2c9eadad9e3
-source-git-commit: d7dbf9ae2d27dda2edb60d8f861e618fb6332ec7
+source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 75%
+source-wordcount: '348'
+ht-degree: 69%
 
 ---
 
@@ -41,8 +41,8 @@ Questa guida utente illustra in dettaglio le funzionalità offerte da Brand Port
 |--- |---|
 | [Novità](whats-new.md) | Informazioni sulle modifiche e sulle nuove funzionalità introdotte nelle varie versioni di Brand Portal. |
 | [Note sulla versione](brand-portal-release-notes.md) | Miglioramenti, problemi critici risolti e problemi noti presenti nella versione corrente. |
-| [Configurare AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Informazioni su come replicare Brand Portal con AEM Assets per pubblicare le risorse. |
-| [Risolvere i problemi relativi alla pubblicazione parallela](troubleshoot-parallel-publishing.md) | Informazioni su come risolvere i problemi di replica tra Brand Portal e AEM Assets. |
+| [Configurare Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Come replicare Brand Portal con Experience Manager Assets per pubblicare le risorse. |
+| [Risolvere i problemi relativi alla pubblicazione parallela](troubleshoot-parallel-publishing.md) | Risolvere i problemi relativi alla replica tra Brand Portal e Experience Manager Assets. |
 | [Formati di file supportati](brand-portal-supported-formats.md) | Formati di file supportati in Brand Portal per l’anteprima e il download. |
 | [Pubblicare le risorse in Brand Portal](brand-portal-sharing-folders.md) | Informazioni su come pubblicare cartelle, raccolte, collegamenti, predefiniti, schemi, facet e tag in Brand Portal. |
 | [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md) | Come configurare Asset Sourcing in AEM Assets, caricare le risorse in Brand Portal e pubblicare nuovamente la cartella Contribution in AEM Assets. |
