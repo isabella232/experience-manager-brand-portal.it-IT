@@ -10,7 +10,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: download-install
 discoiquuid: f90c2214-beea-4695-9102-8b952bc9fd17
 exl-id: be264b1c-38d9-4075-b56a-113f34a2c6bf
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '1924'
 ht-degree: 4%
@@ -65,7 +65,7 @@ Le impostazioni disponibili sono:
 
    Abilita il download di rappresentazioni generate dal sistema delle risorse.
 
-   Si tratta delle miniature generate automaticamente in Risorse di Experience Manager in base al flusso di lavoro &quot;Risorsa di aggiornamento DAM&quot;.
+   Queste sono le miniature generate automaticamente in Experience Manager Assets in base al flusso di lavoro &quot;Risorsa di aggiornamento DAM&quot;.
 
 * **[!UICONTROL Download risorse]**
 
@@ -156,14 +156,14 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
       >[!NOTE]
       >
-      >Se stai scaricando le risorse per la prima volta e non hai installato IBM Aspera Connect nel tuo browser, ti verrà richiesto di installare l&#39;acceleratore di download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+      >Se scarichi le risorse per la prima volta e nel browser non è installato IBM Aspera Connect, ti verrà richiesto di installare l&#39;acceleratore di download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
 
       >[!NOTE]
       >
       >Se le risorse che stai scaricando includono anche risorse con licenza, sei reindirizzato alla pagina **[!UICONTROL Gestione copyright]** . In questa pagina, seleziona le risorse, fai clic su **[!UICONTROL Accetto]**, quindi fai clic su **[!UICONTROL Scarica]**. Se scegli di non essere d&#39;accordo, le risorse concesse in licenza non vengono scaricate.
       > 
-      >Le risorse protette da licenza hanno [un contratto di licenza allegato](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets), che viene fatto impostando la proprietà [metadati della risorsa](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+      >Le risorse protette da licenza hanno [un contratto di licenza allegato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html), che viene fatto impostando la proprietà [metadati della risorsa](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) in Experience Manager Assets.
 
 
       ![risorsa con licenza](assets/licensed-asset-new.png)
@@ -186,7 +186,7 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata in **[!UICONTROL Impostazioni di download]**. Pertanto, appare una casella di conferma per consentire il download accelerato utilizzando IBM Aspera Connect.
+1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata in **[!UICONTROL Impostazioni di download]**. Pertanto, viene visualizzata una casella di conferma per consentire il download accelerato utilizzando IBM Aspera Connect.
 
    Per continuare a utilizzare **[!UICONTROL Download rapido]**, fai clic su **[!UICONTROL Consenti]**. Tutte le rappresentazioni selezionate vengono scaricate in una cartella zip utilizzando IBM Aspera Connect.
 
@@ -208,9 +208,9 @@ Di seguito sono riportati i passaggi per scaricare risorse o cartelle contenenti
 >
 >Brand Portal supporta la configurazione di Dynamic Media in modalità ibrida e Scene 7.
 >
->(*Se l’istanza di authoring di Experience Manager Assets è in esecuzione su **Dynamic Media Hybrid mode***)
+>(*Se l&#39;istanza di authoring di Experience Manager Assets è in esecuzione su **Modalità ibrida di Dynamic Media***)
 >
->Per visualizzare in anteprima o scaricare rappresentazioni dinamiche di una risorsa, accertati che l’elemento multimediale dinamico sia abilitato e che la rappresentazione a soffietto piramidale della risorsa esista nell’istanza di authoring di Experience Manager Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata da Risorse Experienci Manager a Brand Portal, viene pubblicata anche la relativa rappresentazione a forma di file a forma di piramide.
+>Per visualizzare in anteprima o scaricare rappresentazioni dinamiche di una risorsa, accertati che l’elemento multimediale dinamico sia abilitato e che la rappresentazione a comparsa a piramide della risorsa esista nell’istanza di authoring di Experience Manager Assets da cui sono state pubblicate le risorse. Quando una risorsa viene pubblicata da Experience Manager Assets a Brand Portal, viene pubblicata anche la relativa rappresentazione a forma di file piramidale.
 
 
 
@@ -244,7 +244,7 @@ Di seguito sono riportati i passaggi per scaricare i rendering delle risorse dal
 
    ![rendering-panel](assets/renditions-panel.png)
 
-1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata in **[!UICONTROL Impostazioni di download]**. Pertanto, appare una casella di conferma per consentire il download accelerato utilizzando IBM Aspera Connect.
+1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata in **[!UICONTROL Impostazioni di download]**. Pertanto, viene visualizzata una casella di conferma per consentire il download accelerato utilizzando IBM Aspera Connect.
 
    Per continuare a utilizzare **[!UICONTROL Download rapido]**, fai clic su **[!UICONTROL Consenti]**. Tutte le rappresentazioni selezionate vengono scaricate in una cartella zip utilizzando IBM Aspera Connect.
 
@@ -328,7 +328,7 @@ Following are the steps to download assets or folders containing assets from Bra
      >
      >If the assets you are downloading also include licensed assets, you are redirected to the **[!UICONTROL Copyright Management]** page. In this page, select the assets, click **[!UICONTROL Agree]**, and then click **[!UICONTROL Download]**. If you choose to disagree, licensed assets are not downloaded. 
      > 
-     >License-protected assets have [license agreement attached](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) to them, which is done by setting asset's [metadata property](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in Experience Manager Assets.
+     >License-protected assets have [license agreement attached]() to them, which is done by setting asset's [metadata property]() in Experience Manager Assets.
 
 
      ![](assets/licensed-asset-download-1.png)

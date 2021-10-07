@@ -1,7 +1,7 @@
 ---
 title: Condividere le cartelle
 seo-title: Share folders
-description: Brand Portal non supporta l’acquisizione di risorse, pertanto le risorse devono essere pubblicate in Brand Portal da un’istanza di authoring di Experience Manager Assets preconfigurata. Le risorse pubblicate non sono accessibili agli utenti non amministratori di Brand Portal, a meno che non siano configurate durante la configurazione della replica con l’istanza Experience Manager, e devono essere condivise con loro.
+description: Brand Portal non supporta l’acquisizione di risorse, pertanto le risorse devono essere pubblicate in Brand Portal da un’istanza di Experience Manager Assets Author preconfigurata. Le risorse pubblicate non sono accessibili agli utenti non amministratori di Brand Portal, a meno che non siano configurate durante la configurazione della replica con l’istanza Experience Manager, e devono essere condivise con loro.
 seo-description: Brand Portal does not support asset ingestion so assets must be published to Brand Portal from a pre-configured Experience Manager Assets Author instance. Published assets are not accessible to non-admin users of Brand Portal, unless configured while configuring replication with Experience Manager instance, and need to be shared with them.
 uuid: 340d0a49-b708-4f0e-9fb8-99c824942f34
 content-type: reference
@@ -9,9 +9,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 2332c16f-40be-4673-8cc6-2360d5b74116
 exl-id: d28cf927-60e8-437e-9cba-92f7e19020e7
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1110'
+source-wordcount: '1109'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Le risorse devono essere pubblicate in Brand Portal da un’istanza di authoring
 
 Di seguito viene descritto il flusso di lavoro di condivisione delle cartelle e l’accesso utente:
 
-* Per impostazione predefinita, tutte le cartelle pubblicate da Experience Manager Assets in Brand Portal sono visibili solo all’amministratore di Brand Portal, a meno che non siano contrassegnate come pubbliche durante la configurazione della replica.
+* Per impostazione predefinita, tutte le cartelle pubblicate da Experience Manager Assets a Brand Portal sono visibili solo all&#39;amministratore Brand Portal, a meno che non siano contrassegnate come pubbliche durante la configurazione della replica.
 * L&#39;amministratore utilizza la console **[!UICONTROL Proprietà cartella]** per condividere una cartella con utenti o gruppi selettivi. Solo gli utenti o i gruppi con i quali la cartella è condivisa possono visualizzare la cartella dopo l’accesso a Brand Portal. La cartella non è visibile ad altri utenti.
 * L&#39;amministratore può anche scegliere di rendere pubblica una cartella tramite la casella di controllo **[!UICONTROL Cartella pubblica]** nella console **[!UICONTROL Proprietà cartella]**. Una cartella pubblica è visibile a tutti gli utenti.
 
@@ -32,7 +32,7 @@ Di seguito viene descritto il flusso di lavoro di condivisione delle cartelle e 
 
 ### Condivisione di cartelle con gruppi di utenti in Brand Portal {#sharing-folders-with-user-groups-on-brand-portal}
 
-I diritti di accesso alle risorse di una cartella dipendono dai diritti di accesso alla cartella padre, indipendentemente dalle impostazioni delle cartelle figlie. Questo comportamento è gestito da [ACL](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/security.html#PermissionsinAEM) in AEM, in quanto le cartelle figlio ereditano ACL dalle relative cartelle principali. Ad esempio, se una cartella A contiene la cartella B che contiene la cartella C, un gruppo di utenti (o utenti) con diritti di accesso sulla cartella A ha anche gli stessi diritti di accesso sulla cartella B e sulla cartella C. La cartella B, essendo la cartella figlia di A, eredita i propri ACL, e la cartella C, essendo la cartella figlio di B, eredita i propri ACL.
+I diritti di accesso alle risorse di una cartella dipendono dai diritti di accesso alla cartella padre, indipendentemente dalle impostazioni delle cartelle figlie. Questo comportamento è gestito da [ACL](https://experienceleague.adobe.com/docs/experience-manager-65/administering/security/security.html) in AEM, in quanto le cartelle figlio ereditano ACL dalle relative cartelle principali. Ad esempio, se una cartella A contiene la cartella B che contiene la cartella C, un gruppo di utenti (o utenti) con diritti di accesso sulla cartella A ha anche gli stessi diritti di accesso sulla cartella B e sulla cartella C. La cartella B, essendo la cartella figlia di A, eredita i propri ACL, e la cartella C, essendo la cartella figlio di B, eredita i propri ACL.
 
 Allo stesso modo, i gruppi di utenti (o gli utenti) che dispongono delle autorizzazioni per accedere solo alla cartella B hanno le stesse autorizzazioni di accesso sulla cartella C ma non sulla cartella A. Si consiglia pertanto alle organizzazioni di disporre il proprio contenuto in modo che le risorse più esposte vengano posizionate nella cartella secondaria e dall&#39;accesso alle cartelle principali all&#39;accesso alle cartelle principali possa essere limitato.
 
@@ -79,7 +79,7 @@ Gli utenti non amministratori visualizzano la struttura delle cartelle (a partir
 
 Queste cartelle principali sono le cartelle virtuali e non è possibile eseguire azioni su di esse. È possibile riconoscere queste cartelle virtuali con un&#39;icona di blocco.
 
-A differenza delle cartelle condivise, non sono visibili attività di azione al passaggio del mouse o alla selezione in **[!UICONTROL Vista a schede]**. **** Il pulsante Panoramica viene visualizzato quando si seleziona una cartella virtuale in Vista a  **[!UICONTROL colonne]** e Vista a  **[!UICONTROL elenco]**.
+A differenza delle cartelle condivise, non sono visibili attività di azione al passaggio del mouse o alla selezione in **[!UICONTROL Vista a schede]**. **** Il pulsante di panoramica viene visualizzato quando si seleziona una cartella virtuale in  **[!UICONTROL Vista a]** colonne e Vista a  **[!UICONTROL elenco]**.
 
 >[!NOTE]
 >

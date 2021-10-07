@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 7%
+source-wordcount: '1530'
+ht-degree: 6%
 
 ---
 
@@ -35,11 +35,11 @@ La configurazione di Adobe Experience Manager Assets con Brand Portal abilita la
 
 >[!NOTE]
 >
->La configurazione di risorse di Experience Manager con Brand Portal è supportata su risorse di Experience Manager come Cloud Service, risorse di Experience Manager 6.3 e versioni successive.
+>La configurazione di Experience Manager Assets con Brand Portal è supportata su Experience Manager Assets as a Cloud Service, Experience Manager Assets 6.3 e versioni successive.
 
-Experience Manager Assets as a Cloud Service viene configurato automaticamente con Brand Portal attivando Brand Portal da Cloud Manager. Il flusso di lavoro di attivazione crea le configurazioni richieste nel backend e attiva Brand Portal sulla stessa organizzazione IMS come istanza di Cloud Service di Experience Manager Assets.
+Experience Manager Assets as a Cloud Service viene configurato automaticamente con Brand Portal attivando Brand Portal da Cloud Manager. Il flusso di lavoro di attivazione crea le configurazioni richieste nel backend e attiva Brand Portal sulla stessa organizzazione IMS dell’istanza as a Cloud Service di Experience Manager Assets.
 
-Risorse Experience Manager (on-premise e servizio gestito) è configurato manualmente con Brand Portal tramite Adobe Developer Console, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant Brand Portal.
+Experience Manager Assets (on-premise e Managed Service) è configurato manualmente con Brand Portal tramite Adobe Developer Console, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant Brand Portal.
 
 Per ulteriori informazioni, consulta [configurazione di Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -129,9 +129,9 @@ Oltre alle attività di cui sopra, un autore in AEM Assets può eseguire le segu
 
 [Configurare AEM Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md)
 
-[Pubblicare cartelle su Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-folder.html)
+[Pubblicare cartelle su Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
 
-[Pubblicare raccolte su Brand Portal](https://helpx.adobe.com/experience-manager/6-5/assets/using/brand-portal-publish-collection.html)
+[Pubblicare raccolte su Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-collection.html)
 
 ## Alias alternativo per l&#39;URL di Brand Portal {#tenant-alias-for-portal-url}
 
@@ -229,7 +229,7 @@ Puoi ignorare questa notifica e continuare a utilizzare Brand Portal. Questa not
 ## Risorse correlate {#related-resources}
 
 <!--
-* [Adobe Customer Support](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [Adobe Customer Support]()
 -->
 
 * [Forum su AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)

@@ -1,7 +1,7 @@
 ---
 title: Pubblicare tag in Brand Portal
 seo-title: Publish tags to Brand Portal
-description: Scopri come pubblicare tag da Experience Manager Assets in Brand Portal.
+description: Scopri come pubblicare tag da Experience Manager Assets a Brand Portal.
 seo-description: Learn how to publish tags from Experience Manager Assets to Brand Portal.
 uuid: 4167367e-1af8-476b-97a5-730c43bd0816
 topic-tags: publish
@@ -9,7 +9,7 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
 discoiquuid: 3c8e9251-195d-4c56-a9a9-27bc8b2a82a4
 exl-id: 842656a6-1a2b-4b64-954d-1e663923a1a1
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
 source-wordcount: '610'
 ht-degree: 4%
@@ -18,9 +18,9 @@ ht-degree: 4%
 
 # Pubblicare tag in Brand Portal {#publish-tags-to-brand-portal}
 
-Scopri come pubblicare tag da Experience Manager Assets in Brand Portal.
+Scopri come pubblicare tag da Experience Manager Assets a Brand Portal.
 
-I tag sono utili per organizzare le risorse e migliorare la possibilità di cercare le risorse a cui sono associate. I tag possono essere paragonati a parole chiave o etichette (metadati) collegate alle risorse e consentono di trovare rapidamente le risorse in seguito a una ricerca. Per informazioni su come assegnare tag alle risorse in Experience Manager Assets, consulta [utilizzare i tag per organizzare le risorse](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+I tag sono utili per organizzare le risorse e migliorare la possibilità di cercare le risorse a cui sono associate. I tag possono essere paragonati a parole chiave o etichette (metadati) collegate alle risorse e consentono di trovare rapidamente le risorse in seguito a una ricerca. Per informazioni su come assegnare tag alle risorse in Experience Manager Assets, consulta [utilizzare tag per organizzare le risorse](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
 
 I tag (associati alle risorse e alle raccolte in AEM) vengono pubblicati automaticamente in Brand Portal quando le risorse (e le raccolte) con i tag associati vengono pubblicate in Brand Portal. I tag pubblicati sono utili per consentire alle ricerche di trovare le risorse associate.
 
@@ -50,7 +50,7 @@ tagAccedi all’istanza di AEM Author con privilegi amministrativi e accedi a  *
 
       *(obbligatorio)* Titolo da visualizzare per il tag.
    * **[!UICONTROL Nome]**
-      *(obbligatorio)* Un nome per il tag. Se non viene specificato, dal Titolo viene creato un nome di nodo valido. Consulta [TagID](https://helpx.adobe.com/experience-manager/6-5/sites/developing/using/framework.html#TagID).
+      *(obbligatorio)* Un nome per il tag. Se non viene specificato, dal Titolo viene creato un nome di nodo valido. Consulta [TagID](https://experienceleague.adobe.com/docs/experience-manager-65/developing/platform/tagging/framework.html).
    * **Descrizione**
 
       *(facoltativo)* Una descrizione del tag.
@@ -67,7 +67,7 @@ JCR del tag .
 
 1. **Allega il tag a una risorsa (o raccolta)**.
 
-   Seleziona una risorsa (o una raccolta) e allega il tag desiderato utilizzando la sezione Proprietà o la sezione Gestione tag della risorsa. Per ulteriori informazioni su come assegnare tag alle risorse in AEM Assets, consulta [utilizzare i tag per organizzare le risorse](https://helpx.adobe.com/experience-manager/6-5/assets/using/organize-assets.html#Usetagstoorganizeassets).
+   Seleziona una risorsa (o una raccolta) e allega il tag desiderato utilizzando la sezione Proprietà o la sezione Gestione tag della risorsa. Per ulteriori informazioni su come assegnare tag alle risorse in AEM Assets, consulta [utilizzare i tag per organizzare le risorse](https://experienceleague.adobe.com/docs/experience-manager-65/assets/managing/organize-assets.html).
 
 1. **Pubblicare risorse (o raccolte) in Brand Portal**.\
    Quando pubblichi una risorsa (o una raccolta) in Brand Portal, il tag allegato è disponibile anche in Brand Portal.

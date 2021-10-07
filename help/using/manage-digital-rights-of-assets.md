@@ -1,8 +1,8 @@
 ---
 title: Gestire i diritti digitali delle risorse
-seo-title: Gestire i diritti digitali delle risorse
+seo-title: Manage digital rights of assets
 description: La concessione di licenze e l’impostazione della scadenza delle risorse e dei collegamenti condivisi garantiscono un utilizzo controllato di tali risorse e la loro protezione.
-seo-description: La concessione di licenze e l’impostazione della scadenza delle risorse e dei collegamenti condivisi garantiscono un utilizzo controllato di tali risorse e la loro protezione.
+seo-description: Licensing assets and setting expiration for assets and shared links ensure controlled usage of these assets and safeguard them.
 uuid: ce30e398-0109-41bf-a4d2-2fcca476f499
 contentOwner: bdhar
 topic-tags: download-install
@@ -11,10 +11,10 @@ content-type: reference
 discoiquuid: f77003ba-31fe-4a9e-96c8-dbc4c2eba79e
 role: Admin
 exl-id: 86c31891-0627-41ca-b571-8dac3a074d55
-source-git-commit: 26b009fec800d9b437bde5838009c71b1b3b7ac6
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '829'
-ht-degree: 2%
+source-wordcount: '805'
+ht-degree: 1%
 
 ---
 
@@ -75,7 +75,7 @@ Per ulteriori informazioni sulla condivisione dei collegamenti, consulta [Condiv
 
 Le risorse concesse in licenza sono soggette all’accettazione di un contratto di licenza prima del download da Brand Portal. Questo contratto per le risorse con licenza viene stipulato quando si scarica direttamente la risorsa da Brand Portal o tramite un collegamento condiviso. Che sia scaduto o meno, le risorse protette da licenza possono essere visualizzate da tutti gli utenti. Tuttavia, il download e l’utilizzo di risorse con licenza scadute sono limitati. Per informazioni sul comportamento delle risorse con licenza scadute e delle attività consentite in base ai ruoli utente, consulta [autorizzazioni di utilizzo delle risorse scadute](../using/manage-digital-rights-of-assets.md#usage-permissions-expired-assets).
 
-Le risorse protette da licenza hanno [un contratto di licenza allegato](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets), che viene fatto impostando la proprietà [metadati della risorsa](https://helpx.adobe.com/experience-manager/6-5/assets/using/drm.html#DigitalRightsManagementinAssets) in AEM Assets.
+Le risorse protette da licenza hanno [un contratto di licenza allegato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html), che viene fatto impostando la proprietà [metadati della risorsa](https://experienceleague.adobe.com/docs/experience-manager-65/assets/administer/drm.html) in AEM Assets.
 
 Se scegli di scaricare risorse protette da licenza, vieni reindirizzato alla pagina **[!UICONTROL Gestione copyright]**.
 

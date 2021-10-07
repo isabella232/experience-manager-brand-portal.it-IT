@@ -10,9 +10,9 @@ content-type: reference
 topic-tags: download-install
 discoiquuid: e18d992a-a3b5-45f2-9696-8161993213ee
 exl-id: 08d6a0fb-061e-4bef-b8e2-bb8522e7482e
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1191'
 ht-degree: 2%
 
 ---
@@ -60,14 +60,14 @@ Poiché le codifiche video non sono memorizzate nell’archivio Brand Portal e v
 Per lavorare con i video dinamici su Brand Portal, assicurati di:
 
 * **Avvia AEM Author in**
-modalità DM (Dynamic Media) Avvia l’istanza di authoring di AEM (con cui è configurato Brand Portal) su  [Dynamic Media Hybrid ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#EnablingDynamicMedia) modeor  [Dynamic  [!DNL Scene 7] Mediamode](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#EnablingDynamicMediainScene7mode).
+modalità DM (Dynamic Media) Avvia l’istanza di authoring di AEM (con cui è configurato Brand Portal) su  [Dynamic Media Hybrid ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) modeor  [Dynamic  [!DNL Scene 7] Mediamode](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html).
 * **Configura i servizi cloud Dynamic Media su AEM**
-AuthorIn base alla modalità Dynamic Media su cui è in esecuzione AEM Author, imposta uno dei servizi cloud  [Dynamic Media ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dynamic.html#ConfiguringDynamicMediaCloudServices) o  [[!DNL Scene 7] Cloud ](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) Services su AEM Author da  **Strumenti**  |  **Cloud Services**  |  **Dynamic Media**.
+AuthorIn base alla modalità Dynamic Media su cui è in esecuzione AEM Author, imposta uno dei servizi cloud  [Dynamic Media ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dynamic.html) o  [[!DNL Scene 7] Cloud ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) Services su AEM Author da  **Strumenti**  |  **Cloud Services**  |  **Dynamic Media**.
 * **Configurare Dynamic Media su Brand**
 PortalIn base alle configurazioni cloud Dynamic Media su AEM Author, configurare le impostazioni  [Dynamic Media ](#configure-dm-hybrid-settings) o  [[!DNL Scene 7] ](#configure-dm-scene7-settings)  le impostazioni dagli strumenti amministrativi Brand Portal.
 Assicurati che [tenant Brand Portal separati](#separate-tenants) siano utilizzati per le istanze di AEM Author configurate con le modalità Dynamic Media Hybrid e Dynamic Media **[!UICONTROL Scene7]**, se utilizzi funzionalità di Dynamic Media Hybrid e Dynamic Media **[!UICONTROL S7]**.
 * **Pubblicare cartelle con codifiche video applicate a Brand**
-PortalApplicare codifiche  [video ](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) e pubblicare su Brand Portal la cartella contenente risorse rich media dall’istanza di authoring di AEM.
+PortalApplicare codifiche  [video ](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) e pubblicare su Brand Portal la cartella contenente risorse rich media dall’istanza di authoring di AEM.
 * **Inserire nell&#39;elenco Consentiti gli IP dell&#39;evento in SPS se l&#39;anteprima sicura è**
 abilitataSe utilizzi Dynamic Media-**[!DNL Scene 7]** (con anteprima  [sicura ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html) abilitata per una società), si consiglia all&#39;amministratore  **[!DNL Scene 7]** della società di  [inserire nell&#39;elenco Consentiti gli ](https://experienceleague.adobe.com/docs/dynamic-media-classic/using/upload-publish/testing-assets-making-them-public.html#testing-the-secure-testing-service) IP dell&#39;uscita pubblica per le rispettive aree utilizzando l&#39;interfaccia flash SPS (**[!UICONTROL Scene 7]** Publishing System).
 Gli IP Egress sono i seguenti:
@@ -114,7 +114,7 @@ Se l&#39;istanza di AEM Author è in esecuzione in modalità ibrida di Dynamic M
 
 >[!NOTE]
 >
->I [profili di codifica video](https://helpx.adobe.com/experience-manager/6-5/assets/using/video-profiles.html) non vengono pubblicati in Brand Portal, ma vengono recuperati dal server **[!UICONTROL Scene 7]** . Pertanto, affinché le codifiche video vengano riprodotte correttamente in Brand Portal, assicurati che i dettagli di configurazione siano gli stessi della [[!UICONTROL configurazione cloud Scene7]](https://helpx.adobe.com/experience-manager/6-5/assets/using/config-dms7.html#ConfiguringDynamicMediaCloudServices) nella tua istanza di AEM Author.
+>I [profili di codifica video](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/video-profiles.html) non vengono pubblicati in Brand Portal, ma vengono recuperati dal server **[!UICONTROL Scene 7]** . Pertanto, affinché le codifiche video vengano riprodotte correttamente in Brand Portal, assicurati che i dettagli di configurazione siano gli stessi della [configurazione cloud Scene7](https://experienceleague.adobe.com/docs/experience-manager-65/assets/dynamic/config-dms7.html) nella tua istanza di AEM Author.
 
 Per configurare le configurazioni Dynamic Media sui tenant Brand Portal:
 

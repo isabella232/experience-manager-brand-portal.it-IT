@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1124'
 ht-degree: 7%
 
 ---
@@ -43,13 +43,13 @@ Per cercare risorse in Brand Portal:
 
    *Ricerca di risorse tramite omnisearch*
 
-Per informazioni sul comportamento di ricerca con risorse con tag avanzati, consulta [comprendere i risultati e il comportamento della ricerca](https://helpx.adobe.com/experience-manager/6-5/assets/using/search-assets.html).
+Per informazioni sul comportamento di ricerca con risorse con tag avanzati, consulta [comprendere i risultati e il comportamento della ricerca](https://experienceleague.adobe.com/docs/experience-manager-65/assets/using/search-assets.html).
 
 ## Ricerca tramite facet nel pannello Filtri {#search-using-facets-in-filters-panel}
 
 I facet di ricerca nel pannello Filtri aggiungono granularità all’esperienza di ricerca e rendono efficiente la funzionalità di ricerca. I facet di ricerca utilizzano più dimensioni (predicati) che consentono di eseguire ricerche complesse. È possibile espandere facilmente il livello di dettaglio desiderato per una ricerca più mirata.
 
-Ad esempio, se si cerca un&#39;immagine, è possibile scegliere se si desidera una bitmap o un&#39;immagine vettoriale. Puoi ridurre ulteriormente l’ambito della ricerca specificando il tipo MIME per l’immagine nel facet di ricerca Tipo file . Allo stesso modo, durante la ricerca di documenti, è possibile specificare il formato, ad esempio PDF o MS Word.
+Ad esempio, se si cerca un&#39;immagine, è possibile scegliere se si desidera una bitmap o un&#39;immagine vettoriale. Puoi ridurre ulteriormente l’ambito della ricerca specificando il tipo MIME per l’immagine nel facet di ricerca Tipo file . Allo stesso modo, durante la ricerca di documenti, è possibile specificare il formato, ad esempio il formato PDF o MS Word.
 
 ![Pannello Filtri nel pannello Brand ](assets/file-type-search.png "PortalFilters in Brand Portal")
 
@@ -70,12 +70,12 @@ Ad esempio, utilizza i seguenti filtri standard:
    >Per gli utenti non amministratori, [!UICONTROL Browser percorsi] nel pannello [!UICONTROL Filtro] mostra solo la struttura del contenuto delle cartelle (e delle relative cartelle precedenti) condivise con loro.\
    >Per gli utenti amministratori, il browser Percorsi consente di passare a qualsiasi cartella in Brand Portal.
 
-   * **[!UICONTROL Tipo di file]** per specificare il tipo (immagine, documento, multimedia, archivio) del file di risorsa che stai cercando. Inoltre, è possibile limitare l&#39;ambito della ricerca, ad esempio, specificare il tipo MIME (Tiff, Bitmap, GIMP Images) per l&#39;immagine o il formato (PDF o MS Word) per i documenti.
+   * **[!UICONTROL Tipo di file]** per specificare il tipo (immagine, documento, multimedia, archivio) del file di risorsa che stai cercando. Inoltre, è possibile limitare l’ambito della ricerca, ad esempio, specificare il tipo MIME (Tiff, Bitmap, GIMP Images) per l’immagine o il formato (PDF o MS Word) per i documenti.
    * **[!UICONTROL File]** : consente di cercare le risorse in base alle loro dimensioni. È possibile specificare i limiti inferiori e superiori dell’intervallo di dimensioni per limitare la ricerca e specificare l’unità di misura da cercare.
-   * **** Lo stato consente di cercare le risorse in base agli stati delle risorse, ad esempio Approvazione (approvata, Modifiche richieste, Rifiutate, In sospeso) e Scadenza.
+   * **** Ricerca statica delle risorse in base agli stati delle risorse, ad esempio Approvazione (approvata, Modifiche richieste, Rifiutate, In sospeso) e Scadenza.
    * **[!UICONTROL Valutazione media]** per cercare le risorse in base al rating delle risorse.
    * **** Orientamento per cercare le risorse in base all’orientamento (orizzontale, verticale, quadrato) delle risorse.
-   * **** Ricerca stile per le risorse in base allo stile (a colori e in bianco e nero) delle risorse.
+   * **** Consente di cercare in stile le risorse in base allo stile (colorato e monocromatico) delle risorse.
    * **[!UICONTROL Video]** Formatico cerca le risorse video in base al loro formato (DVI, Flash, MPEG4, MPEG, OGG Theora, QuickTime, Windows Media, WebM).
 
    È possibile utilizzare [facet di ricerca personalizzati](../using/brand-portal-search-facets.md) nel pannello Filtri modificando il modulo di ricerca sottostante.
