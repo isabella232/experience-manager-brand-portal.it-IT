@@ -1,5 +1,5 @@
 ---
-title: 'Configurare e pubblicare la cartella dei contributi da Experience Manager Assets in Brand Portal '
+title: 'Configurare e pubblicare la cartella dei contributi da Experience Manager Assets a Brand Portal '
 seo-title: Configure and publish contribution folder from Experience Manager Assets to Brand Portal
 description: Scopri come configurare e pubblicare una cartella di contributi da Experience Manager Assets a Brand Portal.
 seo-description: Get an insight into configuring and publishing a contribution folder from Experience Manager Assets to Brand Portal.
@@ -10,55 +10,58 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: e95dbff93ec4d207fe32a1752f9ccf59ee7c4e90
+source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
 workflow-type: tm+mt
-source-wordcount: '1127'
+source-wordcount: '1148'
 ht-degree: 0%
 
 ---
 
-# Configurare la cartella dei contributi in Risorse Experience Manager {#configure-contribution-folder}
+# Configurare la cartella dei contributi in Experience Manager Assets {#configure-contribution-folder}
 
-Per l’origine collaborativa delle risorse, gli utenti di Experience Manager Assets (amministratori e utenti non amministratori con autorizzazioni) possono creare nuove cartelle di tipo **Contributo risorse**, garantendo che la nuova cartella creata sia aperta all’invio delle risorse da parte degli utenti Brand Portal.  Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate **SHARED** e **NEW**, all’interno della cartella **Contribution** appena creata.
+Per l’origine collaborativa delle risorse, gli utenti di Experience Manager Assets (amministratori e utenti non amministratori con autorizzazione) possono creare nuove cartelle di tipo **Contributo risorse**, garantendo che la nuova cartella creata sia aperta all’invio delle risorse da parte degli utenti Brand Portal.  Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate **SHARED** e **NEW**, all’interno della cartella **Contribution** appena creata.
 
-L’utente Risorse di Experience Manager definisce quindi i requisiti delle risorse caricando una breve descrizione dei tipi di risorse da aggiungere alla cartella dei contributi, nonché un set di risorse della linea di base, nella cartella **CONDIVISI** per garantire agli utenti Brand Portal le informazioni necessarie. L’amministratore può quindi concedere agli utenti Brand Portal attivi l’accesso alla cartella dei contributi prima di pubblicare la nuova cartella Contribution in Brand Portal.
+L’utente Experience Manager Assets definisce quindi i requisiti delle risorse caricando una breve descrizione dei tipi di risorse da aggiungere alla cartella dei contributi, nonché un set di risorse della linea di base, nella cartella **SHARED** per garantire che gli utenti Brand Portal dispongano delle informazioni necessarie. L’amministratore può quindi concedere agli utenti Brand Portal attivi l’accesso alla cartella dei contributi prima di pubblicare la nuova cartella Contribution in Brand Portal.
 
 Il video seguente illustra come configurare una cartella Contribution in Experience Manager Assets:
 
 >[!VIDEO](https://video.tv.adobe.com/v/30547)
 
-L’utente di Experience Manager Assets esegue le seguenti attività durante la configurazione di una cartella di contributi:
+L’utente Experience Manager Assets esegue le seguenti attività durante la configurazione di una cartella di contributi:
 
 * [Crea cartella contributi](#create-contribution-folder)
 * [Caricare i requisiti delle risorse e assegnare i collaboratori](#configure-contribution-folder-properties)
 * [Caricare le risorse della linea di base](#uplad-new-assets-to-contribution-folder)
-* [Pubblicare la cartella dei contributi da Experience Manager Assets in Brand Portal](#publish-contribution-folder-to-brand-portal)
+* [Pubblicare la cartella dei contributi da Experience Manager Assets a Brand Portal](#publish-contribution-folder-to-brand-portal)
 
 ## Crea cartella contributi {#create-contribution-folder}
 
 
-Ad Experience Manager, gli amministratori di Risorse e gli utenti non amministratori che dispongono dell’autorizzazione per creare una nuova cartella possono creare una cartella di contributo in Risorse Experience Manager.
+Gli amministratori di Experience Manager Assets e gli utenti non amministratori che dispongono dell’autorizzazione per creare una nuova cartella possono creare una cartella di contributo in Experience Manager Assets.
 Per creare una cartella dei contributi, crea una nuova cartella di tipo Contributo risorse, in modo che la nuova cartella creata sia aperta all’invio delle risorse da parte degli utenti Brand Portal.  Questo attiva automaticamente un flusso di lavoro che crea due sottocartelle aggiuntive, denominate SHARED e NEW, all’interno della cartella dei contributi.
 
 
 >[!NOTE]
 >
->Puoi creare più cartelle di contributi all’interno di una cartella. Non creare una cartella di contributo all’interno di un’altra cartella di contributo.
+>Puoi creare più cartelle di contributi all’interno di una cartella.
+>
+>Una cartella contributo risorse contiene cartelle NUOVE e CONDIVISE per la distribuzione e il contributo delle risorse. Non creare una risorsa, una cartella o una cartella di contributo all’interno di una cartella di contributo risorse.
+
 
 È possibile configurare le proprietà della cartella dei contributi separatamente e durante la creazione della cartella dei contributi. In questo esempio, configuriamo le proprietà separatamente.
 
 **Per creare una cartella di contributo:**
 
-1. Accedi all’istanza Risorse di Experience Manager.
+1. Accedi alla tua istanza Experience Manager Assets.
 
-1. Passa a **[!UICONTROL Risorse]** > **[!UICONTROL File]**. Elenca tutte le cartelle esistenti nell’archivio Risorse di Experience Manager.
+1. Passa a **[!UICONTROL Risorse]** > **[!UICONTROL File]**. Elenca tutte le cartelle esistenti nell&#39;archivio Experience Manager Assets.
 
 1. Fai clic su **[!UICONTROL Crea]** per creare una nuova cartella. **[!UICONTROL Viene visualizzata la finestra di dialogo Crea]** cartella .
 
 1. Immetti **[!UICONTROL Titolo]** e **[!UICONTROL Nome]** della cartella e seleziona la casella di controllo **[!UICONTROL Contributo risorsa]** .
 Si consiglia di utilizzare lettere minuscole senza spazio per denominare la cartella.
 
-1. Fai clic su **[!UICONTROL Crea]**. Puoi visualizzare la cartella dei contributi elencata nell’archivio Risorse di Experience Manager.
+1. Fai clic su **[!UICONTROL Crea]**. Puoi visualizzare la cartella dei contributi elencata nell’archivio di Experience Manager Assets.
 
    >[!NOTE]
    >
@@ -84,7 +87,7 @@ Per requisito risorsa si intendono i dettagli forniti dagli amministratori per a
 
 **Per configurare le proprietà della cartella dei contributi:**
 
-1. Accedi all’istanza Risorse di Experience Manager.
+1. Accedi alla tua istanza Experience Manager Assets.
 
 1. Passa a **[!UICONTROL Risorse > File]** e individua la cartella dei contributi.
 1. Seleziona la cartella dei contributi e fai clic su **[!UICONTROL Proprietà]** per aprire la finestra delle proprietà della cartella.
@@ -106,7 +109,7 @@ Per requisito risorsa si intendono i dettagli forniti dagli amministratori per a
 
 >[!NOTE]
 >
->I risultati della ricerca si basano sull’elenco di utenti Brand Portal configurato in Risorse di Experience Manager. Assicurati di avere l&#39;elenco utenti Brand Portal aggiornato.
+>I risultati della ricerca si basano sull’elenco di utenti Brand Portal configurato in Experience Manager Assets. Assicurati di avere l&#39;elenco utenti Brand Portal aggiornato.
 
 ## Caricare risorse nella cartella Contribution {#uplad-new-assets-to-contribution-folder}
 
@@ -120,13 +123,13 @@ Possono quindi creare nuove risorse per il contributo e caricarle nella cartella
 >Il limite massimo di caricamento per qualsiasi tenant Brand Portal è **10** GB, che viene applicato cumulativamente a tutte le cartelle dei contributi.
 
 
-Dopo aver pubblicato le risorse appena create in Risorse di Experience Manager, gli utenti Brand Portal possono eliminarle dalla cartella NEW. Al contrario, l’amministratore di Brand Portal può eliminare le risorse sia dalla cartella NEW che da quella SHARED.
+Dopo aver pubblicato le risorse appena create in Experience Manager Assets, gli utenti Brand Portal possono eliminarle dalla cartella NEW. Al contrario, l’amministratore di Brand Portal può eliminare le risorse sia dalla cartella NEW che da quella SHARED.
 
 Una volta raggiunto l’obiettivo di creare la cartella dei contributi, l’amministratore di Brand Portal può eliminare la cartella dei contributi per rilasciare lo spazio di caricamento per altri utenti.
 
 >[!NOTE]
 >
->Si consiglia di rilasciare lo spazio di caricamento dopo la pubblicazione della cartella Contributo in Risorse Experience Manager in modo che sia disponibile per gli altri utenti Brand Portal per il contributo.
+>Si consiglia di rilasciare lo spazio di caricamento dopo la pubblicazione della cartella Contributo in Experience Manager Assets in modo che sia disponibile per gli altri utenti Brand Portal per il contributo.
 >
 >Se è necessario estendere il limite di caricamento del tenant Brand Portal oltre **10** GB, contatta l’Assistenza clienti specificando il requisito.
 
@@ -155,12 +158,12 @@ Dopo aver caricato tutte le risorse o le cartelle nella cartella NEW , pubblica 
 
 ## Pubblicare la cartella dei contributi in Brand Portal {#publish-contribution-folder-to-brand-portal}
 
-Una volta configurata la cartella dei contributi, l’utente Risorse di Experience Manager (utente amministratore/non amministratore) può pubblicare la cartella dei contributi da Risorse di Experience Manager in Brand Portal. Gli utenti Brand Portal che dispongono dell’autorizzazione per accedere alla cartella dei contributi riceveranno una notifica e-mail/impulso al completamento dell’azione di pubblicazione.
+Una volta configurata la cartella dei contributi, l’utente Experience Manager Assets (amministratore/non amministratore) può pubblicare la cartella dei contributi da Experience Manager Assets a Brand Portal. Gli utenti Brand Portal che dispongono dell’autorizzazione per accedere alla cartella dei contributi riceveranno una notifica e-mail/impulso al completamento dell’azione di pubblicazione.
 
 
 **Per pubblicare la cartella dei contributi:**
 
-1. Accedi all’istanza Risorse di Experience Manager.
+1. Accedi alla tua istanza Experience Manager Assets.
 
 1. Passa a **[!UICONTROL Risorse > File]** e individua la cartella dei contributi in cui vuoi pubblicare in Brand Portal.
 1. Seleziona la cartella dei contributi e fai clic su **[!UICONTROL Pubblicazione rapida]** > **[!UICONTROL Pubblica in Brand Portal]**.
@@ -169,4 +172,4 @@ Una volta configurata la cartella dei contributi, l’utente Risorse di Experien
 
    Dopo la pubblicazione della cartella Contributo in Brand Portal, riceverai un messaggio di successo.
 
-Viene inviata una notifica e-mail/impulso agli utenti Brand Portal assegnati alla cartella dei contributi. Gli utenti Brand Portal possono accedere alla cartella dei contributi e iniziare il contributo. Consulta [Caricare risorse nella cartella Contributo e pubblicare su Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
+Viene inviata una notifica e-mail/impulso agli utenti Brand Portal assegnati alla cartella dei contributi. Gli utenti Brand Portal possono accedere alla cartella dei contributi e iniziare il contributo. Consulta [Caricare risorse nella cartella Contribution e pubblicare su Experience Manager Assets](brand-portal-publish-contribution-folder-to-aem-assets.md).
