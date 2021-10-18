@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 533b2a637700770ff08c88da92892af863265902
 workflow-type: tm+mt
-source-wordcount: '1149'
+source-wordcount: '1217'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,11 @@ Per requisito risorsa si intendono i dettagli forniti dagli amministratori per a
 
 >[!NOTE]
 >
->I risultati della ricerca si basano sull’elenco di utenti Brand Portal configurato in Experience Manager Assets. Assicurati di avere l&#39;elenco utenti Brand Portal aggiornato.
+>I risultati della ricerca si basano sull’elenco di utenti Brand Portal configurato in Experience Manager Assets. Verifica di disporre dell’elenco utenti Brand Portal aggiornato.
+
+Gli amministratori possono scaricare il file `user.csv` da [!DNL Admin Console] e usarlo come modello di base per l’aggiunta di utenti Brand Portal. Vai a [!UICONTROL Utenti] e fai clic sull&#39;opzione [!UICONTROL Esporta utenti in csv] per scaricare il file `users.csv`. Nell’elenco degli utenti di esempio riportato di seguito sono descritti gli attributi necessari per aggiungere gli utenti. L’unico attributo obbligatorio per una voce utente è `Email` e tutti gli altri attributi sono facoltativi.
+
+[Ottieni file](assets/users.csv)
 
 ## Caricare risorse nella cartella Contribution {#uplad-new-assets-to-contribution-folder}
 
