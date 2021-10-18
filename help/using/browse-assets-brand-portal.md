@@ -9,7 +9,7 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: 4caa4263bd74b51af7504295161c421524e51f0c
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
 source-wordcount: '1014'
 ht-degree: 4%
@@ -26,7 +26,7 @@ Il logo di Experience Manager nella barra degli strumenti nella parte superiore 
 
 ![](assets/admin-tools-panel-2.png)
 
-![](assets/bp_subheader.png)<br />
+![](assets/bp_subheader.png)
 
 Selettore della barra in alto a sinistra negli elenchi a discesa di Brand Portal per esporre le opzioni per navigare nelle gerarchie delle risorse, semplificare la ricerca e visualizzare le risorse.
 
@@ -106,7 +106,7 @@ Nella vista a elenco sono visualizzate informazioni per ogni risorsa al livello 
 * Dimension
 * Dimensione
 * Valutazione
-* Percorso della cartella che mostra la gerarchia delle risorse<sup>*</sup>
+* Percorso della cartella che mostra la gerarchia delle risorse
 * Data di pubblicazione della risorsa in Brand Portal
 
 La colonna Percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. Per spostarti verso il basso nella gerarchia, tocca o fai clic sul nome della risorsa; per tornare verso l’alto utilizza le [breadcrumb nell’intestazione](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).

@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 9acad588-977a-45de-b544-f2cc8874ba12
-source-git-commit: 47e810aebedd5dbc945828fe8bdd987639538317
+source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
 workflow-type: tm+mt
-source-wordcount: '1148'
+source-wordcount: '1149'
 ht-degree: 0%
 
 ---
@@ -43,9 +43,9 @@ Per creare una cartella dei contributi, crea una nuova cartella di tipo Contribu
 
 >[!NOTE]
 >
->Puoi creare più cartelle di contributi all’interno di una cartella.
+>Gli amministratori possono creare più cartelle di contributi delle risorse all’interno di una cartella.
 >
->Una cartella contributo risorse contiene cartelle NUOVE e CONDIVISE per la distribuzione e il contributo delle risorse. Non creare una risorsa, una cartella o una cartella di contributo all’interno di una cartella di contributo risorse.
+>Una cartella contributo risorse contiene cartelle NUOVE e CONDIVISE per la distribuzione e il contributo delle risorse. Non creare una risorsa, una cartella o una cartella di contributo all’interno di una cartella di contributo.
 
 
 È possibile configurare le proprietà della cartella dei contributi separatamente e durante la creazione della cartella dei contributi. In questo esempio, configuriamo le proprietà separatamente.
