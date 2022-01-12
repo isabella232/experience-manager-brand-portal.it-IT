@@ -9,9 +9,9 @@ content-type: reference
 topic-tags: introduction
 discoiquuid: a70ce694-81d1-4829-9e61-b6412e013e5c
 exl-id: 405d7861-a140-44b1-ae1f-4f0839f05033
-source-git-commit: e7545344a0fc6dd5e0176705a16625c2976e0de6
+source-git-commit: 3abf39161febc536f431206c2f098e7d61a10846
 workflow-type: tm+mt
-source-wordcount: '1014'
+source-wordcount: '1080'
 ht-degree: 4%
 
 ---
@@ -60,7 +60,7 @@ La vista a schede mostra schede informative per ogni elemento al livello corrent
 * Dimensione
 * Dimensioni
 
-Per spostarti verso il basso nella gerarchia, tocca o fai clic sulle schede (facendo attenzione a evitare le azioni rapide); per tornare verso l’alto utilizza le [breadcrumb nell’intestazione](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+Per spostarti verso il basso nella gerarchia, tocca o fai clic sulle schede (facendo attenzione a evitare le azioni rapide); per tornare verso l’alto utilizza la funzione [breadcrumb nell’intestazione](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 ![](assets/cardquickactions.png)
 
@@ -80,7 +80,7 @@ L’opzione Panoramica è disponibile per gli utenti non amministratori (editor,
 * nella barra degli strumenti nella parte superiore della selezione di una risorsa o di una cartella.
 * nel menu a discesa selezionando il selettore della barra.
 
-Selezionando l’opzione **[!UICONTROL Panoramica]** mentre è selezionata una risorsa/cartella, gli utenti possono vedere il titolo, il percorso e l’ora della creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, l’opzione Panoramica consente agli utenti di visualizzare i metadati della risorsa.
+Alla selezione della **[!UICONTROL Panoramica]** mentre è selezionata una risorsa o una cartella, gli utenti possono vedere il titolo, il percorso e l’ora della creazione della risorsa. Nella pagina dei dettagli della risorsa, invece, l’opzione Panoramica consente agli utenti di visualizzare i metadati della risorsa.
 
 ![](assets/overview-option.png)
 
@@ -88,7 +88,7 @@ Selezionando l’opzione **[!UICONTROL Panoramica]** mentre è selezionata una r
 
 #### Visualizzare le impostazioni nella vista a schede
 
-**[!UICONTROL La finestra di dialogo]** Impostazioni vista viene visualizzata quando si seleziona  **[!UICONTROL Visualizza impostazioni]** dal selettore della vista. Consente di ridimensionare le miniature delle risorse nella vista Scheda. In questo modo, puoi personalizzare la visualizzazione e controllare il numero di miniature visualizzate.
+**[!UICONTROL Visualizza impostazioni]** viene visualizzata la finestra di dialogo al momento della selezione **[!UICONTROL Visualizza impostazioni]** dal selettore di visualizzazione. Consente di ridimensionare le miniature delle risorse nella vista Scheda. In questo modo, puoi personalizzare la visualizzazione e controllare il numero di miniature visualizzate.
 
 ![](assets/cardviewsettings.png)
 
@@ -109,7 +109,7 @@ Nella vista a elenco sono visualizzate informazioni per ogni risorsa al livello 
 * Percorso della cartella che mostra la gerarchia delle risorse
 * Data di pubblicazione della risorsa in Brand Portal
 
-La colonna Percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. Per spostarti verso il basso nella gerarchia, tocca o fai clic sul nome della risorsa; per tornare verso l’alto utilizza le [breadcrumb nell’intestazione](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
+La colonna Percorso consente di identificare facilmente la posizione della risorsa nella gerarchia delle cartelle. Per spostarti verso il basso nella gerarchia, tocca o fai clic sul nome della risorsa; per tornare verso l’alto utilizza la funzione [breadcrumb nell’intestazione](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/essentials/basic-handling.html).
 
 <!--
 Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:05.096-0400" type="annotation">Removed:- "Selecting assets in list view To select all items in the list, use the checkbox at the upper left of the list. When all items in the list are selected, this check box appears checked. To deselect all, click or tap the checkbox. When only some items are selected, it appears with a minus sign. To select all, click or tap the checkbox. To deselect all, click or tap the checkbox again. You can change the order of items using the dotted vertical bar at the far right of each item in the list. Tap/click the vertical selection bar and drag the item to a new position in the list."
@@ -117,7 +117,7 @@ Comment Type: draft lastmodifiedby="mgulati" lastmodifieddate="2018-08-17T03:12:
 
 ### Visualizzare le impostazioni nella vista a elenco
 
-La vista a elenco mostra la risorsa **[!UICONTROL Nome]** come prima colonna per impostazione predefinita. Vengono visualizzate anche informazioni aggiuntive, come la risorsa **[!UICONTROL Titolo]**, **[!UICONTROL Impostazioni internazionali]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Dimensioni]**, **[!UICONTROL Valutazione]**, lo stato di pubblicazione. Tuttavia, è possibile selezionare le colonne da visualizzare utilizzando **[!UICONTROL Visualizza impostazioni]**.
+Visualizzazione a elenco mostra la risorsa **[!UICONTROL Nome]** come prima colonna per impostazione predefinita. Informazioni aggiuntive, ad esempio la risorsa **[!UICONTROL Titolo]**, **[!UICONTROL Impostazioni internazionali]**, **[!UICONTROL Tipo]**, **[!UICONTROL Dimension]**, **[!UICONTROL Dimensione]**, **[!UICONTROL Valutazione]**, viene visualizzato anche lo stato di pubblicazione . Tuttavia, puoi selezionare le colonne da visualizzare utilizzando **[!UICONTROL Visualizza impostazioni]**.
 
 ![](assets/list-view-setting.png)
 
@@ -234,7 +234,7 @@ Comment Type: draft
 
 Oltre a queste visualizzazioni, utilizza la vista ad albero per approfondire la gerarchia delle risorse mentre visualizzi e selezioni le risorse o le cartelle desiderate.
 
-Per aprire la visualizzazione struttura, tocca o fai clic sul selettore della barra in alto a sinistra e seleziona la **[!UICONTROL Struttura contenuto]** dal menu.
+Per aprire la vista ad albero, tocca o fai clic sul selettore della barra in alto a sinistra e seleziona la **[!UICONTROL Struttura contenuto]** dal menu.
 
 ![](assets/contenttree.png)
 
@@ -252,11 +252,19 @@ Per visualizzare i metadati della risorsa o le relative rappresentazioni, utiliz
 
 ![](assets/asset-overview.png)
 
-Puoi visualizzare tutti i rendering disponibili della risorsa nella pagina dei dettagli della risorsa e selezionare un rendering per visualizzarlo in anteprima.
+Puoi visualizzare tutti i rendering disponibili della risorsa nella pagina dei dettagli della risorsa e selezionare un rendering dalla **[!UICONTROL Rendering]** per visualizzarlo in anteprima.
 
 ![](assets/renditions.png)
 
-Per aprire la pagina delle proprietà della risorsa, utilizza l’opzione **[!UICONTROL Proprietà (p)]** nella barra superiore.
+>[!CAUTION]
+>
+>(**Experience Manager Assets as a Cloud Service** Solo) I seguenti problemi noti verranno risolti nella prossima versione:
+>
+>La **[!UICONTROL Rendering]** Il pannello non elenca tutti i rendering statici delle risorse pubblicate su Brand Portal dopo il 16 dicembre 2021.
+>
+>La **[!UICONTROL Rendering]** Nel pannello sono elencate le rappresentazioni di ritaglio avanzato della risorsa. Tuttavia, l’utente non può visualizzare in anteprima o scaricare le rappresentazioni di ritaglio avanzato.
+
+Per aprire la pagina delle proprietà della risorsa, utilizza **[!UICONTROL Proprietà (p)]** dalla barra superiore.
 
 ![](assets/asset-properties.png)
 
