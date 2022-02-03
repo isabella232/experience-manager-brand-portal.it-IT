@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1528'
+ht-degree: 7%
 
 ---
 
@@ -83,7 +83,7 @@ Tuttavia, la sessione guest ti limita a creare raccolte e ricerche salvate e a c
 
 * [Cercare risorse pubbliche](brand-portal-searching.md)
 
-* [Scaricare risorse pubbliche](download-assets.md)
+* [Scaricare risorse pubbliche](brand-portal-download-assets.md)
 
 * [Aggiungi risorse a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
@@ -95,7 +95,7 @@ Un utente standard in Brand Portal è in genere un utente con il ruolo di Visual
 
 * [Cercare risorse](brand-portal-searching.md)
 
-* [Scaricare le risorse](download-assets.md)
+* [Scaricare le risorse](brand-portal-download-assets.md)
 
 ### Editor {#editor}
 

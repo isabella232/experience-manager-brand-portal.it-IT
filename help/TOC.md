@@ -8,10 +8,10 @@ breadcrumb-title: Guida di Brand Portal
 user-guide-description: Utilizza Experience Manager Assets Brand Portal per soddisfare le esigenze di marketing distribuendo in modo sicuro le risorse approvate relative a prodotti e marchi da scaricare ad agenzie esterne, partner, team interni e rivenditori.
 feature: Brand Portal
 role: User
-source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
+source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '277'
+ht-degree: 61%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 0%
    + [Cercare le risorse in Brand Portal](using/brand-portal-searching.md)
    + [Utilizzare i facet di ricerca personalizzati](using/brand-portal-search-facets.md)
 + Utilizzare le funzionalità di download {#download}
-   + [Scaricare le risorse](using/download-assets.md)
+   + [Scaricare le risorse](using/brand-portal-download-assets.md)
    + [Supporto di video dinamici in Brand Portal](using/dynamic-video-brand-portal.md)
    + [Gestire la raccolta Lightbox](using/brand-portal-light-box.md)
    + [Gestire i diritti digitali delle risorse](using/manage-digital-rights-of-assets.md)
