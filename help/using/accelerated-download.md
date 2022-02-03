@@ -10,10 +10,10 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 301f7a0b-5527-4aac-b731-bfc145fed0c0
 exl-id: cf28df58-c6dd-4b12-8279-01351892009f
-source-git-commit: f5b5840897b3975631e072744a01fedb624379ff
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
 workflow-type: tm+mt
-source-wordcount: '1037'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Adobe Experience Manager Assets Brand Portal consente di migliorare le prestazio
 >
 >La velocità di download varia a seconda degli utenti, in quanto dipende da fattori quali la larghezza di banda della rete, la latenza del server e la posizione geografica dei client.
 
-Per impostazione predefinita, la configurazione **[!UICONTROL Download rapido]** è abilitata, il che riduce notevolmente il tempo necessario per scaricare i file di risorse desiderati da Brand Portal.
+La **[!UICONTROL Download rapido]** per impostazione predefinita è abilitata, il che riduce notevolmente il tempo necessario per scaricare i file di risorse desiderati da Brand Portal.
 
 ![](assets/download-settings-new.png)
 
@@ -33,9 +33,9 @@ Per impostazione predefinita, la configurazione **[!UICONTROL Download rapido]**
 
 Per scaricare i file più velocemente, assicurati quanto segue:
 
-* Passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Scarica]** e verifica che la configurazione **[!UICONTROL Download rapido]** sia abilitata in **[!UICONTROL Impostazioni di download]**.
-* Assicurarsi che la porta 33001 (sia TCP che UDP) sia aperta sul firewall. Per ulteriori informazioni sui prerequisiti, consulta la [documentazione del client IBM Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
-* **Installa IBM Aspera Connect 3.9.9** nell&#39;estensione del browser utilizzando i privilegi di amministratore (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
+* Passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Scarica]** e verifica che **[!UICONTROL Download rapido]** configurazione abilitata in **[!UICONTROL Impostazioni di download]**.
+* Assicurarsi che la porta 33001 (sia TCP che UDP) sia aperta sul firewall. Per ulteriori informazioni sui prerequisiti, consulta [Documentazione del client di IBM Aspera Connect](https://downloads.asperasoft.com/en/documentation/8).
+* **Installare IBM Aspera Connect 3.9.9** nell’estensione del browser utilizzando i privilegi di amministratore (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 * Per il supporto della piattaforma del client di trasferimento Aspera, vedi [Matrice di supporto della piattaforma IBM Aspera Connect](https://www.asperasoft.com/company/support/transfer-clients/).
 
 >[!NOTE]
@@ -74,27 +74,27 @@ La tabella seguente mostra le prestazioni di download per i file da 2 GB che uti
 
 Per scaricare più rapidamente le risorse da Brand Portal:
 
-1. Accedi al tuo tenant Brand Portal. Per impostazione predefinita, viene visualizzata la vista **[!UICONTROL File]** contenente tutte le risorse e le cartelle pubblicate.
+1. Accedi al tuo tenant Brand Portal. Per impostazione predefinita, la **[!UICONTROL File]** apre la visualizzazione che contiene tutte le risorse e le cartelle pubblicate.
 
    Effettua una delle operazioni seguenti:
 
-   * Seleziona le risorse o le cartelle da scaricare. Dalla barra degli strumenti nella parte superiore, fai clic sull&#39;icona **[!UICONTROL Scarica]** .
+   * Seleziona le risorse o le cartelle da scaricare. Dalla barra degli strumenti nella parte superiore, fai clic sul pulsante **[!UICONTROL Scarica]** icona.
 
       ![select-multiple-assets](assets/select-assets-new.png)
 
-   * Per scaricare rappresentazioni specifiche di una risorsa, posiziona il puntatore del mouse sulla risorsa e fai clic sull’icona **[!UICONTROL Scarica]** disponibile nelle miniature delle azioni rapide.
+   * Per scaricare rappresentazioni specifiche di una risorsa, posiziona il puntatore del mouse sulla risorsa e fai clic sul pulsante **[!UICONTROL Scarica]** icona disponibile nelle miniature delle azioni rapide.
 
       ![select-asset](assets/select-asset.png)
 
-1. Viene visualizzata la finestra di dialogo **[!UICONTROL Scarica]** in cui sono elencate tutte le risorse selezionate.
+1. La **[!UICONTROL Scarica]** viene visualizzata una finestra di dialogo in cui sono elencate tutte le risorse selezionate.
 
-   Per mantenere la gerarchia delle cartelle di Brand Portal durante il download delle risorse, seleziona la casella di controllo **[!UICONTROL Crea cartella separata per ogni risorsa]**.
+   Per mantenere la gerarchia delle cartelle di Brand Portal durante il download delle risorse, seleziona la **[!UICONTROL Crea una cartella separata per ogni risorsa]** casella di controllo.
 
-   Il pulsante di download riflette il conteggio degli elementi selezionati. Dopo aver applicato le regole, fai clic su **[!UICONTROL Scarica elementi]**. Per ulteriori informazioni su come applicare le regole, consulta [scaricare risorse](../using/brand-portal-download-assets.md#download-assets).
+   Il pulsante di download riflette il conteggio degli elementi selezionati. Dopo aver applicato le regole, fai clic su **[!UICONTROL Scaricare gli elementi]**. Per ulteriori informazioni su come applicare le regole, consulta [scaricare risorse](../using/download-assets.md#download-assets).
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata in **[!UICONTROL Impostazioni di download]**. Pertanto, appare una casella di conferma per scaricare risorse utilizzando IBM Aspera Connect.
+1. Per impostazione predefinita, **[!UICONTROL Download rapido]** è abilitata nella **[!UICONTROL Impostazioni di download]**. Pertanto, viene visualizzata una casella di conferma per scaricare le risorse utilizzando IBM Aspera Connect.
 
    Se stai scaricando le risorse per la prima volta e non hai installato IBM Aspera Connect nel tuo browser o la versione esistente è obsoleta, ti chiede di installare l&#39;acceleratore di download Aspera (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`).
 
@@ -114,11 +114,11 @@ Per scaricare più rapidamente le risorse da Brand Portal:
 
    ![](assets/aspera-download-2.png)
 
-   Se non desideri utilizzare IBM Aspera Connect, fai clic su **[!UICONTROL Rifiuta]**. Se **[!UICONTROL Download rapido]** viene negato o non riesce, il sistema compila un messaggio di errore. Fai clic sul pulsante **[!UICONTROL Download normale]** per continuare a scaricare le risorse.
+   Se non desideri utilizzare IBM Aspera Connect, fai clic su **[!UICONTROL Nega]**. Se **[!UICONTROL Download rapido]** viene negato o non riesce, il sistema compila un messaggio di errore. Fai clic sul pulsante **[!UICONTROL Download normale]** per continuare a scaricare le risorse.
 
 >[!NOTE]
 >
->Se l&#39;impostazione **[!UICONTROL Download rapido]** è disattivata dall&#39;amministratore, le rappresentazioni selezionate vengono scaricate direttamente in una cartella zip senza utilizzare IBM Aspera Connect.
+>Se la **[!UICONTROL Download rapido]** l&#39;impostazione è disattivata dall&#39;amministratore; le rappresentazioni selezionate vengono scaricate direttamente in una cartella zip senza utilizzare IBM Aspera Connect.
 
 <!-- 
 On successful completion of the download, a dialog box shows the location where assets are downloaded onto the user's system. If there is a failure, it shows error.
@@ -177,22 +177,22 @@ On successful completion of the download, a dialog box shows the location where 
    >There is a known limitation in Aspera Connect client application that no prompt to select download location appears if **[!UICONTROL Always ask me where to save downloaded files]** is enabled under the tab **[!UICONTROL Transfers]** within **[!UICONTROL Preferences]**. Before any download begins, provide the location in the text box **[!UICONTROL Save downloaded files to]**.
 -->
 
-## Utilizzo di file accelerator nel browser Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
+## Utilizzo di file accelerator sul browser Microsoft Edge {#using-file-accelerator-on-microsoft-edge-browser}
 
 Microsoft Edge viene eseguito in modalità protetta avanzata (EPM) per impedire la comunicazione con il server Aspera Connect, mentre si trova nella stessa rete privata o con un sito attendibile. Pertanto, viene visualizzato un pop-up ogni volta che viene stabilita una connessione con il server.
 
 ![](assets/switchapps-msedge.png)
 
-Per utilizzare la funzionalità di download accelerato su Microsoft Edge, rimuovere il sito Brand Portal dall&#39;elenco dei siti attendibili.
+Per utilizzare la funzionalità di download accelerato su Microsoft Edge, rimuovere il sito Brand Portal dall’elenco dei siti attendibili.
 
 1. Apri il Pannello di controllo Campaign (**[!UICONTROL Tasto finestra + X]**, quindi seleziona **[!UICONTROL Pannello di controllo Campaign]**).
-1. Vai a **[!UICONTROL Rete e Internet]** > **[!UICONTROL Opzioni Internet]**. Fare clic sulla scheda **[!UICONTROL Sicurezza]**.
-1. Fare clic sulla **[!UICONTROL zona siti attendibili]**, quindi fare clic su **[!UICONTROL Sites]**.
+1. Vai a **[!UICONTROL Rete e Internet]** > **[!UICONTROL Opzioni Internet]**. Fai clic sul pulsante **[!UICONTROL Sicurezza]** scheda .
+1. Fai clic sul pulsante **[!UICONTROL Area siti attendibili]**, quindi fai clic su **[!UICONTROL Sites]**.
 1. Rimuovere il sito Brand Portal dall&#39;elenco.
 
 ## Preferenze del client Aspera Connect {#aspera-connect-client-preferences}
 
-Ci sono alcune preferenze utili che possono essere impostate nella preferenza del client IBM Aspera Connect facendo clic con il pulsante destro del mouse sull&#39;icona e selezionando **[!UICONTROL Preferenze]**.
+Ci sono alcune preferenze utili che possono essere impostate nella preferenza del client di IBM Aspera Connect facendo clic con il pulsante destro del mouse sull&#39;icona e selezionando **[!UICONTROL Preferenze]**.
 
 ![](assets/download_assets_frombrandportalimg19.png)
 
@@ -208,15 +208,15 @@ Inoltre, il client Aspera Connect può essere contrassegnato per l&#39;avvio aut
 
 Se l&#39;accelerazione del download non funziona, segui questi passaggi per risolvere i problemi:
 
-1. Controlla che le porte non siano bloccate, visitando [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) dal computer.
+1. Controlla che le porte non siano bloccate, visitando [https://test-connect.asperasoft.com](https://test-connect.asperasoft.com/) dalla tua macchina.
 
    Se le porte non sono OK, contattare il team di rete e assicurarsi che le porte 33001 (sia TCP che UDP) non siano bloccate nel firewall.
 
-1. Se le porte sono OK, controlla se la rete non è lenta, misurando la larghezza di banda disponibile utilizzando [https://www.speedtest.net/](https://www.speedtest.net/).
+1. Se le porte sono OK, controllare se la rete non è lenta, misurando la larghezza di banda disponibile utilizzando [https://www.speedtest.net/](https://www.speedtest.net/).
 
    Se la larghezza di banda è di pochi (1-10 Mbps) o in Kbps, utilizza le preferenze di Aspera e cerca di limitare la larghezza di banda uguale alla larghezza di banda disponibile.
 
-1. Per confermare il funzionamento dei download dal server demo Aspera, utilizza [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
-   (accesso:  asperaweb , password:  demoaspera )
+1. Per verificare se i download dal server demo Aspera funzionano, utilizza [https://demo.asperasoft.com/aspera/user](https://demo.asperasoft.com/aspera/user).\
+   (accesso: asperaweb , password: demoaspera )
 
 1. Se nessuno dei passaggi precedenti funziona, deseleziona l’opzione Abilita accelerazione download e utilizza il normale download.

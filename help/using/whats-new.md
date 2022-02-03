@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: e460f4713886f084c87418cf23d1fa468a734f49
+source-git-commit: 12187c4a98e1541be27b06eefedb1b654c5fb083
 workflow-type: tm+mt
-source-wordcount: '6316'
-ht-degree: 1%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -184,14 +184,14 @@ Brand Portal 2020.10.0 è una versione ottimizzata che si concentra sulla sempli
 
 In precedenza, il **[!UICONTROL Scarica]** È stata visualizzata una finestra di dialogo con più opzioni, ad esempio crea una cartella separata per ogni risorsa, invia una e-mail, seleziona la risorsa originale, le rappresentazioni personalizzate, le rappresentazioni dinamiche, esclude le rappresentazioni di sistema e abilita l’accelerazione del download, che era ambigua per gli utenti non tecnici o nuovi, specialmente quando sono state selezionate più risorse o cartelle per il download. Inoltre, l’utente non poteva visualizzare tutte le rappresentazioni delle risorse o escludere un rendering personalizzato o dinamico specifico.
 
-Il nuovo **[!UICONTROL Scarica]** La finestra di dialogo genera il processo di selezione e filtrazione delle risorse, facilitando agli utenti di Brand Portal di prendere decisioni efficaci durante il download delle rappresentazioni delle risorse. Elenca tutte le risorse selezionate e le relative rappresentazioni a seconda delle [**[!UICONTROL Scarica]**](brand-portal-download-assets.md) configurazione e **[!UICONTROL Scarica]** impostazioni.
+Il nuovo **[!UICONTROL Scarica]** La finestra di dialogo genera il processo di selezione e filtrazione delle risorse, facilitando agli utenti di Brand Portal di prendere decisioni efficaci durante il download delle rappresentazioni delle risorse. Elenca tutte le risorse selezionate e le relative rappresentazioni a seconda delle [**[!UICONTROL Scarica]**](download-assets.md) configurazione e **[!UICONTROL Scarica]** impostazioni.
 
 >[!NOTE]
 >
 >Tutti gli utenti ora hanno **[!UICONTROL Download rapido]** abilitato per impostazione predefinita e richiede IBM Aspera Connect 3.9.9 (`https://www.ibm.com/docs/en/aspera-connect/3.9.9`) installata nell’estensione del browser prima di scaricare le risorse da Brand Portal.
 
 <!--
-If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](brand-portal-download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
+If any of the **[!UICONTROL Custom Rendition]** or **[!UICONTROL System Rendition]** is enabled in the [**[!UICONTROL Download]**](download-assets.md) configuration and **[!UICONTROL Download]** settings are enabled for the group users, the new **[!UICONTROL Download]** dialog appears with all the renditions of the selected assets or folders containing assets in a list view. 
 -->
 
 Da **[!UICONTROL Scarica]** Gli utenti possono:
@@ -224,7 +224,7 @@ Earlier, if any of the custom or system renditions was enabled in the **[!UICONT
 There was no filter to exclude specific custom or dynamic renditions which were not required for download.
 -->
 
-In Brand Portal 2020.10.0, gli utenti possono escludere rappresentazioni specifiche e direttamente [scaricare le rappresentazioni selezionate dal pannello Rendering](brand-portal-download-assets.md#download-assets-from-asset-details-page) nella pagina dei dettagli della risorsa senza dover aprire **[!UICONTROL Scarica]** finestra di dialogo.
+In Brand Portal 2020.10.0, gli utenti possono escludere rappresentazioni specifiche e direttamente [scaricare le rappresentazioni selezionate dal pannello Rendering](download-assets.md#download-assets-from-asset-details-page) nella pagina dei dettagli della risorsa senza dover aprire **[!UICONTROL Scarica]** finestra di dialogo.
 
 
 <!-- 
@@ -294,7 +294,7 @@ Con Visualizzatore documenti, gli utenti di Brand Portal possono ora visualizzar
 
 ### Scarica l’esperienza {#download-configurations}
 
-Il processo di download delle risorse viene rinnovato, fornendo un’esperienza utente semplificata mentre [download di risorse da Brand Portal](brand-portal-download-assets.md).
+Il processo di download delle risorse viene rinnovato, fornendo un’esperienza utente semplificata mentre [download di risorse da Brand Portal](download-assets.md).
 
 Il flusso di lavoro esistente per il download delle risorse da Brand Portal è inevitabilmente seguito dall’apparenza di un  **[!UICONTROL Scarica]** finestra di dialogo con più opzioni di download tra cui scegliere.
 
