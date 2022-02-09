@@ -10,16 +10,22 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: dc425522f134781b4420eb8643ee6ee65d98b6cc
+source-git-commit: 100b0945c04a21a7bf6810c9ae0fee750809ebdb
 workflow-type: tm+mt
-source-wordcount: '1151'
-ht-degree: 7%
+source-wordcount: '1225'
+ht-degree: 6%
 
 ---
 
 # Cercare le risorse in Brand Portal {#search-assets-on-brand-portal}
 
-La funzionalità di ricerca Brand Portal consente di cercare rapidamente le risorse rilevanti utilizzando la ricerca omnisearch e la ricerca dei facet che utilizza i filtri per facilitarti di limitare ulteriormente la ricerca. Puoi cercare le risorse a livello di file o cartelle e salvare i risultati della ricerca come raccolte avanzate. Tuttavia, non è possibile cercare le risorse di una raccolta utilizzando la ricerca omnisearch o facet.
+La funzionalità di ricerca Brand Portal consente di cercare rapidamente le risorse rilevanti utilizzando la ricerca omnisearch e la ricerca dei facet che utilizza i filtri per facilitarti di limitare ulteriormente la ricerca. Puoi cercare le risorse a livello di file o cartelle e salvare i risultati della ricerca come raccolte avanzate.
+
+>[!NOTE]
+>
+>Brand Portal non supporta la ricerca di raccolte utilizzando omnisearch.
+>
+>Tuttavia, puoi utilizzare [filtri di ricerca per ottenere l’elenco delle raccolte rilevanti](#search-collection).
 
 ## Cercare risorse utilizzando Omnisearch {#search-assets-using-omnisearch}
 
@@ -134,3 +140,12 @@ Per salvare le impostazioni di ricerca come raccolta avanzata:
 1. Sulla **[!UICONTROL Modifica raccolta avanzata]** finestra di dialogo, seleziona **[!UICONTROL Salva con nome]** e immetti un nome per la raccolta avanzata. Fai clic su **[!UICONTROL Salva]**.
 
    ![](assets/saveas_smartsearch.png)
+
+
+## Ricerca raccolta {#search-collection}
+
+Omnisearch non è supportato per le raccolte. Tuttavia, puoi applicare i filtri di ricerca per elencare le raccolte pertinenti all’interno di [!UICONTROL Raccolte] interfaccia.
+
+Da [!UICONTROL Raccolte] fai clic sull’icona di sovrapposizione per aprire il pannello del filtro nella barra a sinistra. Applica uno o più filtri di ricerca dai filtri disponibili (`modified date`, `access type`e `tags`). Elenca il set di raccolte più pertinente in base ai filtri applicati.
+
+![](assets/collection-search.png)
