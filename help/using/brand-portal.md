@@ -9,9 +9,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
+source-git-commit: af697978ce140a618fda59cec050dfaedb0c296b
 workflow-type: tm+mt
-source-wordcount: '1558'
+source-wordcount: '1585'
 ht-degree: 6%
 
 ---
@@ -39,7 +39,7 @@ La configurazione di Adobe Experience Manager Assets con Brand Portal abilita la
 
 Experience Manager Assets as a Cloud Service viene configurato automaticamente con Brand Portal attivando Brand Portal da Cloud Manager. Il flusso di lavoro di attivazione crea le configurazioni richieste nel backend e attiva Brand Portal sulla stessa organizzazione IMS dell’istanza as a Cloud Service di Experience Manager Assets.
 
-Al contrario, Experience Manager Assets (on-premise e servizio gestito) viene configurato manualmente con Brand Portal tramite la console Adobe Developer, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant Brand Portal.
+Experience Manager Assets (on-premise e Managed Service) è configurato manualmente con Brand Portal tramite Adobe Developer Console, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant Brand Portal.
 
 Per ulteriori informazioni, consulta [configurazione di Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -73,9 +73,9 @@ Nella tabella seguente sono elencate le attività che gli utenti di questi ruoli
 >There is a known issue that the share link for collections is currently visible to the viewer users. The viewer users does not have the privilege to add users to create a share link. This issue will be fixed in the upcoming release, the option to share link for the collections will not be available to the viewer users.
 -->
 
-### Utente ospite {#guest-user}
+### Utente ospite (utente leggero) {#guest-user}
 
-Qualsiasi utente con accesso limitato alle risorse su Brand Portal senza autenticazione è un utente guest. La sessione guest consente agli utenti di accedere a cartelle e raccolte pubbliche. In qualità di utente ospite, puoi sfogliare i dettagli delle risorse e avere una visualizzazione completa delle risorse dei membri delle cartelle pubbliche e delle raccolte. Puoi cercare, scaricare e aggiungere risorse pubbliche a [!UICONTROL Lightbox] raccolta.
+Experience Manager Assets Brand Portal consente [accesso degli ospiti](#request-access-to-brand-portal) a Brand Portal. Un utente ospite non ha bisogno di credenziali per accedere al portale e ha accesso alle cartelle e alle raccolte pubbliche. In qualità di utente ospite, puoi sfogliare i dettagli delle risorse e avere una visualizzazione completa delle risorse dei membri delle cartelle pubbliche e delle raccolte. Puoi cercare, scaricare e aggiungere risorse pubbliche a [!UICONTROL Lightbox] raccolta.
 
 Tuttavia, la sessione guest ti limita a creare raccolte e ricerche salvate e a condividerle ulteriormente. Gli utenti di una sessione guest non possono accedere alle impostazioni di cartelle e raccolte e non possono condividere le risorse come collegamento. Elenco delle attività eseguibili da un utente guest:
 
@@ -87,9 +87,11 @@ Tuttavia, la sessione guest ti limita a creare raccolte e ricerche salvate e a c
 
 * [Aggiungi risorse a [!UICONTROL Lightbox]](brand-portal-light-box.md#add-assets-to-lightbox)
 
-### Visualizzatore {#viewer}
+Per ulteriori informazioni, consulta [accesso guest a Brand Portal](../using/guest-access.md).
 
-Un utente standard in Brand Portal è in genere un utente con il ruolo di Visualizzatore. Un utente con questo ruolo può accedere a cartelle, raccolte e risorse consentite. L’utente può anche sfogliare, visualizzare in anteprima, scaricare ed esportare le risorse (rappresentazioni originali o specifiche), configurare le impostazioni dell’account e cercare le risorse. Elenco delle attività eseguibili da un visualizzatore:
+### Visualizzatore (utente standard) {#viewer}
+
+Un utente standard è un utente Brand Portal definito in [!DNL Admin Console] che ha accesso a Brand Portal con il ruolo di Visualizzatore. Un utente con questo ruolo può accedere a Brand Portal e alle cartelle, raccolte e risorse consentite. L’utente può anche sfogliare, visualizzare in anteprima, scaricare ed esportare le risorse (rappresentazioni originali o specifiche), configurare le impostazioni dell’account e cercare le risorse. Elenco delle attività eseguibili da un visualizzatore:
 
 * [Sfogliare le risorse](browse-assets-brand-portal.md)
 
