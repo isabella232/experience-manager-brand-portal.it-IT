@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 72a303082c1456b98143f740c228c73926f2fb3e
 workflow-type: tm+mt
-source-wordcount: '1528'
-ht-degree: 7%
+source-wordcount: '1558'
+ht-degree: 6%
 
 ---
 
@@ -39,7 +39,7 @@ La configurazione di Adobe Experience Manager Assets con Brand Portal abilita la
 
 Experience Manager Assets as a Cloud Service viene configurato automaticamente con Brand Portal attivando Brand Portal da Cloud Manager. Il flusso di lavoro di attivazione crea le configurazioni richieste nel backend e attiva Brand Portal sulla stessa organizzazione IMS dell’istanza as a Cloud Service di Experience Manager Assets.
 
-Experience Manager Assets (on-premise e Managed Service) è configurato manualmente con Brand Portal tramite Adobe Developer Console, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant Brand Portal.
+Al contrario, Experience Manager Assets (on-premise e servizio gestito) viene configurato manualmente con Brand Portal tramite la console Adobe Developer, che fornisce un token Adobe Identity Management Services (IMS) per l’autorizzazione del tenant Brand Portal.
 
 Per ulteriori informazioni, consulta [configurazione di Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md).
 
@@ -54,7 +54,7 @@ Brand Portal supporta i seguenti ruoli utente:
 
 Nella tabella seguente sono elencate le attività che gli utenti di questi ruoli possono eseguire:
 
-|  | **Sfoglia** | **Ricerca** | **Scarica** | **Condividere le cartelle** | **Condividere una raccolta** | **Condividere le risorse come collegamento** | **Accesso a Strumenti di amministrazione** |
+|  | **Sfogliare** | **Ricerca** | **Download** | **Condividere le cartelle** | **Condividere una raccolta** | **Condividere le risorse come collegamento** | **Accesso a Strumenti di amministrazione** |
 |--- |--- |--- |--- |--- |--- |--- |--- |
 | **Utente ospite** | ✓* | ✓* | ✓* | x | x | x | x |
 | **Visualizzatore** | ✓ | ✓ | ✓ | x | x | x | x |
@@ -113,7 +113,11 @@ Oltre alle attività eseguibili da un visualizzatore, un editor può eseguire le
 
 Un amministratore include un utente contrassegnato come amministratore di sistema o amministratore di prodotto Brand Portal in [!UICONTROL Admin Console]. Un amministratore può aggiungere e rimuovere amministratori di sistema e utenti, definire predefiniti, inviare e-mail agli utenti e visualizzare i rapporti sull’utilizzo e l’archiviazione del portale.
 
-Un amministratore può eseguire tutte le attività che un editor può eseguire:
+>[!NOTE]
+>
+>In Brand Portal, un utente contrassegnato con il ruolo di amministratore del supporto in [!UICONTROL Admin Console] dispone degli stessi privilegi di un amministratore di sistema.
+
+Un amministratore può eseguire tutte le attività che un editor può eseguire. Di seguito sono riportate le attività aggiuntive che un amministratore può eseguire:
 
 * [Gestire utenti, gruppi e ruoli utente](brand-portal-adding-users.md)
 
