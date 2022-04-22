@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 7046f6523a2aa38ef2d4c7edf266953953543ae0
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Per comprendere i requisiti relativi alle risorse, passa alla descrizione (docum
 
 ## Caricare risorse nella cartella Contribution {#uplad-new-assets-to-contribution-folder}
 
-Dopo aver soddisfatto i requisiti delle risorse, gli utenti di Brand Portal possono creare nuove risorse per il contributo e caricarle nella cartella NEW all’interno della cartella Contribution.
+Dopo aver soddisfatto i requisiti delle risorse, gli utenti di Brand Portal possono creare nuove risorse per il contributo e caricarle nella cartella NEW all’interno della cartella Contribution. Un utente può caricare più risorse in una cartella contributo risorse. Tuttavia, è possibile creare una sola cartella alla volta.
 
 >[!NOTE]
 >

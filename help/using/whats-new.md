@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
+source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
 workflow-type: tm+mt
-source-wordcount: '6316'
+source-wordcount: '6325'
 ht-degree: 1%
 
 ---
@@ -119,7 +119,7 @@ Brand Portal 2021.02.0 è una versione ottimizzata che introduce il flusso di la
 
 AEM Assets as a Cloud Service ora dispone di un’istanza Brand Portal preconfigurata. L’utente di Cloud Manager può attivare Brand Portal sull’istanza as a Cloud Service di AEM Assets.
 
-In precedenza, AEM Assets as a Cloud Service era configurato manualmente con Brand Portal utilizzando Adobe Developer Console.
+In precedenza, AEM Assets as a Cloud Service era configurato manualmente con Brand Portal tramite la console Adobe Developer.
 
 L’utente di Cloud Manager attiva il flusso di lavoro di attivazione che crea le configurazioni richieste nel backend e attiva Brand Portal sulla stessa organizzazione IMS dell’istanza as a Cloud Service di AEM Assets.
 
@@ -389,7 +389,10 @@ Inoltre, tutte le funzionalità esistenti rimangono invariate. Gli utenti di Bra
 
 ### Caricare risorse nella cartella Contribution {#upload-assets-in-bp}
 
-Gli utenti Brand Portal con le autorizzazioni appropriate possono scaricare i requisiti delle risorse per comprendere la necessità di contribuire e caricare più risorse o cartelle contenenti più risorse nella cartella Contribution. Tuttavia, gli utenti Brand Portal possono caricare solo le risorse nel **NUOVO** sottocartella. La **CONDIVISO** Questa cartella è destinata alla distribuzione di requisiti e risorse della linea di base.
+Gli utenti Brand Portal con le autorizzazioni appropriate possono caricare nella cartella dei contributi singole risorse o cartelle (file .zip) contenenti più risorse. Un utente può caricare più risorse in una cartella contributo risorse. Tuttavia, è possibile creare una sola cartella alla volta.
+
+Gli utenti di Brand Portal possono caricare solo le risorse nel **NUOVO** sottocartella. La **CONDIVISO** Questa cartella è destinata alla distribuzione di requisiti e risorse della linea di base.
+
 
 ![](assets/upload-asset6.png)
 
@@ -426,19 +429,19 @@ Ad esempio, se il modulo di ricerca in Brand Portal utilizza Predicato propriet�
 
 #### Ricerca con caratteri jolly {#wildcard-search}
 
-Brand Portal consente di utilizzare l’asterisco (*) nella query di ricerca insieme a una parte della parola nella frase cercata.
+Brand Portal consente di utilizzare l&#39;asterisco (&#42;) nella query di ricerca insieme a una parte della parola nella frase cercata.
 
 **Caso di utilizzo. Se non si è sicuri delle parole esatte che si verificano nella frase cercata, è possibile utilizzare una ricerca con caratteri jolly per riempire gli spazi vuoti nella query di ricerca.
 
-Ad esempio, specificando **salita*** restituisce tutte le risorse con parole che iniziano con i caratteri **salire** nella loro frase del titolo se il modulo di ricerca in Brand Portal utilizza Predicato proprietà per la ricerca parziale sul titolo delle risorse.
+Ad esempio, specificando **salire&#42;** restituisce tutte le risorse con parole che iniziano con i caratteri **salire** nella loro frase del titolo se il modulo di ricerca in Brand Portal utilizza Predicato proprietà per la ricerca parziale sul titolo delle risorse.
 
 ![](assets/wildcard-prop.png)
 
 Analogamente, specificando:
 
-* ***salita** restituisce tutte le risorse con parole che terminano con caratteri **salire** nella loro frase del titolo.
+* **&#42;salire** restituisce tutte le risorse con parole che terminano con caratteri **salire** nella loro frase del titolo.
 
-* ***salita*** restituisce tutte le risorse con parole contenenti i caratteri **salire** nella loro frase del titolo.
+* **&#42;salire&#42;** restituisce tutte le risorse con parole contenenti i caratteri **salire** nella loro frase del titolo.
 
 >[!NOTE]
 >
