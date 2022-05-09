@@ -1,8 +1,8 @@
 ---
 title: Novità di Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quali sono le nuove funzioni e i miglioramenti per la versione 2022.02.0
-seo-description: What are the new features and enhancements for 2022.02.0
+description: Quali sono le nuove funzioni e i miglioramenti per la versione 2022.05.0
+seo-description: What are the new features and enhancements for 2022.05.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: feaf10256c2dfb97d53d665edfb4b4de0e824fea
 workflow-type: tm+mt
-source-wordcount: '6325'
+source-wordcount: '6482'
 ht-degree: 1%
 
 ---
@@ -20,6 +20,25 @@ ht-degree: 1%
 # Novità di Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato. Adobe sta lavorando per migliorare l’esperienza Brand Portal complessiva. Ecco un&#39;occhiata alle nuove funzioni e ai miglioramenti.
+
+## Cosa è cambiato nel 2022.05.0 {#what-changed-in-May-2022}
+
+Brand Portal ora esegue processi automatici ogni dodici ore per eliminare tutte le risorse Brand Portal pubblicate in AEM. Di conseguenza, non è necessario eliminare manualmente le risorse nella cartella Contribution per mantenere la dimensione della cartella al di sotto del limite di soglia. È inoltre possibile monitorare lo stato dei processi di eliminazione eseguiti automaticamente utilizzando **[!UICONTROL Strumenti]** > **[!UICONTROL Stato contributo risorsa]** > **[!UICONTROL Rapporti di eliminazione]** in Brand Portal. Il rapporto relativo a un processo fornisce i seguenti dettagli:
+
+* Ora di inizio del processo
+* Ora di fine del processo
+* Stato del processo
+* Totale attivo incluso in un processo
+* Totale risorse eliminate correttamente in un processo.
+
+![Rapporto di eliminazione](assets/deletion-reports.png)
+
+Puoi anche eseguire ulteriori analisi per visualizzare i dettagli di ciascuna risorsa inclusa in un processo di eliminazione. Nel rapporto sono inclusi dettagli quali titolo, dimensione, autore, stato di eliminazione e ora di eliminazione della risorsa.
+
+![Dettagli rapporto di eliminazione](assets/deletion-reports-detailed.png)
+
+Inoltre, Brand Portal 2022.05.0 include correzioni ai problemi critici. Vedi più recente [Note sulla versione di Brand Portal](brand-portal-release-notes.md).
+
 
 ## Cosa è cambiato nel 2022.02.0 {#what-changed-in-Feb-2022}
 
