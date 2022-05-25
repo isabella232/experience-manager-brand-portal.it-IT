@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: null
 exl-id: 7dcf445d-97ed-4fa5-959c-c4c48e325766
-source-git-commit: 443ead94da2f253e28c438f1238a4667ca0d5d29
+source-git-commit: 606f4389780025f5cf92b11bf8cac464e36be44a
 workflow-type: tm+mt
-source-wordcount: '1053'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Oppure, puoi aprire il **[!UICONTROL CONDIVISO]** e fai clic su **Scarica** per 
 Per comprendere i requisiti relativi alle risorse, passa alla descrizione (documento sui requisiti delle risorse) e fai riferimento alle risorse della linea di base. Ora puoi creare nuove risorse per il contributo e caricarle nella cartella dei contributi.
 
 
-## Caricare risorse nella cartella Contribution {#uplad-new-assets-to-contribution-folder}
+## Caricare risorse nella cartella Contribution {#upload-new-assets-to-contribution-folder}
 
 Dopo aver soddisfatto i requisiti delle risorse, gli utenti di Brand Portal possono creare nuove risorse per il contributo e caricarle nella cartella NEW all’interno della cartella Contribution. Un utente può caricare più risorse in una cartella contributo risorse. Tuttavia, è possibile creare una sola cartella alla volta.
 
@@ -138,7 +138,7 @@ Esistono due rapporti che gli amministratori possono utilizzare per visualizzare
 
 * In Brand Portal, passa a **[!UICONTROL Strumenti]** > **[!UICONTROL Stato contributo risorsa]**. Questo rapporto riflette lo stato di tutti i processi di pubblicazione nelle diverse fasi del flusso di lavoro di pubblicazione.
 
-   ![](assets/contribution-folder-status.png)
+   ![](assets/contribution-folder-status-v2.png)
 
 * In Experience Manager Assets (on-premise o servizio gestito), passa a **[!UICONTROL Risorse]** > **[!UICONTROL Processi]**. Questo rapporto riflette lo stato finale (Completato o Errore) di tutti i processi di pubblicazione.
 
@@ -157,3 +157,58 @@ Esistono due rapporti che gli amministratori possono utilizzare per visualizzare
 >
 >Currently, no report is generated in AEM Assets as a Cloud Service for the Asset Sourcing workflow. 
 -->
+
+## Eliminazione automatica delle risorse pubblicate in Experience Manager Assets dalla cartella Contribution {#automatically-delete-published-assets-from-contribution-folder}
+
+Brand Portal ora esegue processi automatici ogni dodici ore per analizzare tutte le cartelle Contribution ed eliminare tutte le risorse pubblicate in AEM. Di conseguenza, non è necessario eliminare manualmente le risorse presenti nella cartella Contribution per mantenere la dimensione della cartella al di sotto della [limite](#upload-new-assets-to-contribution-folder). È inoltre possibile monitorare lo stato dei processi di eliminazione eseguiti automaticamente negli ultimi sette giorni. Il rapporto relativo a un processo fornisce i seguenti dettagli:
+
+* Ora di inizio del processo
+* Ora di fine del processo
+* Stato del processo
+* Totale attivo incluso in un processo
+* Totale risorse eliminate correttamente in un processo
+* Memoria totale disponibile a seguito dell&#39;esecuzione del processo
+
+   ![Rapporto di eliminazione](assets/deletion-reports.png)
+
+Puoi anche eseguire ulteriori analisi per visualizzare i dettagli di ciascuna risorsa inclusa in un processo di eliminazione. Nel rapporto sono inclusi dettagli quali titolo, dimensione, autore, stato di eliminazione e ora di eliminazione della risorsa.
+
+![Dettagli rapporto di eliminazione](assets/deletion-reports-detailed.png)
+
+>[!NOTE]
+>
+> * I clienti possono richiedere all’Assistenza clienti Adobe di disabilitare e riabilitare la funzionalità di eliminazione automatica del processo o di modificare la frequenza della sua esecuzione.
+> * Questa funzione è disponibile con Experience Manager 6.5.13.0 e versioni successive.
+
+
+### Visualizzare e scaricare i rapporti di eliminazione {#view-delete-jobs}
+
+Per visualizzare e scaricare i rapporti relativi a un processo di eliminazione:
+
+1. In Brand Portal, passa a **[!UICONTROL Strumenti]**>**[!UICONTROL Stato contributo risorsa]**>**[!UICONTROL Rapporti di eliminazione]** opzione .
+
+1. Seleziona un processo e fai clic su **[!UICONTROL Visualizza]** per visualizzare il rapporto.
+
+   Visualizza i dettagli di ciascuna risorsa inclusa in un processo di eliminazione. Nel rapporto sono inclusi dettagli quali titolo, dimensione, autore, stato di eliminazione e ora di eliminazione della risorsa. Fai clic su **[!UICONTROL Scarica]** per scaricare il rapporto per il processo in formato CSV.
+
+   Lo stato di eliminazione di una risorsa nel rapporto può avere i seguenti valori possibili:
+
+   * **Eliminato** - La risorsa viene eliminata dalla cartella Contribution.
+
+   * **Non trovato** - Impossibile trovare la risorsa nella cartella Contribution. La risorsa viene già eliminata manualmente dalla cartella.
+
+   * **Saltato** - Brand Portal ha ignorato l’eliminazione della risorsa in quanto è disponibile una nuova versione per la risorsa nella cartella Contribution, che non è ancora pubblicata in Experience Manager.
+
+   * **Non riuscito** - Impossibile eliminare la risorsa in Brand Portal. Ci sono tre tentativi per eliminare una risorsa con una `Failed` elimina lo stato. Se la risorsa non riesce con il terzo tentativo di eliminazione, devi eliminare manualmente la risorsa.
+
+### Eliminare un rapporto
+
+Brand Portal consente inoltre di selezionare uno o più rapporti ed eliminarli manualmente.
+
+Per eliminare un rapporto:
+
+1. Passa a **[!UICONTROL Strumenti]**>**[!UICONTROL Stato contributo risorsa]**>**[!UICONTROL Rapporti di eliminazione]** opzione .
+
+1. Seleziona uno o più rapporti e fai clic su **[!UICONTROL Elimina]**.
+
+
