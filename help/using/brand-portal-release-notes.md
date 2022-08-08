@@ -10,9 +10,9 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 8a34c69a8ca3868fb7904897ac4970ded91883a5
+source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '358'
 ht-degree: 10%
 
 ---
@@ -37,7 +37,8 @@ Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, contro
 ### Problemi critici risolti {#critical-issues-fixed}
 
 Questa versione include correzioni ai seguenti problemi critici:
-* Quando il NUI non elabora una risorsa in Experience Manager, Brand Portal visualizza uno stato di importazione delle risorse non accurato.
+
+* Quando Asset compute non elabora una risorsa in Experience Manager, Brand Portal visualizza uno stato di importazione delle risorse non accurato.
 * Quando l’azione di anteprima non riesce, non è presente alcuna notifica per comunicare l’errore.
 * La proprietà Quota di caricamento tenant viene impostata in modo non accurato per gli tenant.
 * Quando fai clic su **Scarica tutti gli elementi** e sono disponibili numerose rappresentazioni per una risorsa, Brand Portal scarica un file .ZIP non valido.
