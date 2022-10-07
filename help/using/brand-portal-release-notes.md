@@ -10,40 +10,60 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 383528c3efa0d2c77b00f70b1103fc8c9122ab1f
+source-git-commit: fd7aed4cfa3104c1e8359d5f0eb8ae3d5c740b17
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '343'
 ht-degree: 10%
 
 ---
 
 # Note sulla versione {#release-notes}
 
-Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione Adobe Experience Manager Assets Brand Portal 2022.08.0.
+Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione Adobe Experience Manager Assets Brand Portal 2022.10.0.
 
 ## Informazioni sulla versione {#release-information}
 
 | Prodotto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versione | 2022.08.0 |
-| Data | Agosto 2022 |
+| Versione | 2022.10.0 |
+| Data | Ottobre 2022 |
 
 ## Panoramica {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi. Aiuta a migliorare l’efficienza della condivisione delle risorse, accelera i tempi di commercializzazione delle risorse e riduce il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare le risorse in formati approvati dall’azienda, in qualsiasi momento e ovunque.
 
-## Novità nel 2022.08.0 {#whats-new-in-2022.08.0}
+## Novità nel 2022.10.0 {#whats-new-in-2022.10.0}
 
 ### Problemi critici risolti {#critical-issues-fixed}
 
 Questa versione include correzioni ai seguenti problemi critici:
+* Tempi di risposta lenti durante la copia di file di grandi dimensioni da Brand Portal a uno strumento di terze parti.
+* Quando selezioni la casella di controllo conteggio rappresentazioni , le caselle per selezionare le singole rappresentazioni sono disabilitate.
+* Tempo di risposta lento per la ricerca.
 
-* Quando Asset compute non elabora una risorsa in Experience Manager, Brand Portal visualizza uno stato di importazione delle risorse non accurato.
-* Quando l’azione di anteprima non riesce, non è presente alcuna notifica per comunicare l’errore.
-* La proprietà Quota di caricamento tenant viene impostata in modo non accurato per gli tenant.
-* Quando fai clic su **Scarica tutti gli elementi** e sono disponibili numerose rappresentazioni per una risorsa, Brand Portal scarica un file .ZIP non valido.
-* La traduzione di alcune stringhe viene troncata nell’interfaccia utente di Brand Portal.
+>[!IMPORTANT]
+>
+>Le notifiche push in AEM Assets Brand Portal cesseranno dal 1° dicembre 2022. Invece delle notifiche Pulse, continuerai a ricevere notifiche e-mail per i seguenti eventi:
+>* Condivisione delle risorse tramite collegamento
+>* Richiesta del flusso di lavoro di accesso
+>* Condivisione della cartella dei contributi
+>* Avvio dell&#39;esportazione in AEM
+>* Esportazione in AEM completata
 
+
+<!--
+## What's New in 2022.08.0 {#whats-new-in-2022.08.0}
+
+### Critical Issues Fixed {#critical-issues-fixed}
+
+This release includes fixes to the following critical issues:
+
+* When Asset Compute fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
+* When the preview action fails, there is no notification to communicate the failure.
+* Tenant Upload Quota property is getting inaccurately set for tenants.
+* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
+* The translation of some strings gets truncated on the Brand Portal user interface.
+-->
 <!--
 ### New Features {#new-features}
 
@@ -160,13 +180,13 @@ In case only the original assets are downloaded, the asset reflects its own exte
 See [what's new in Brand Portal 2021.02.0](whats-new.md).
 -->
 
+<!--
+### Known Issues {#known-issues}
 
-### Problemi noti {#known-issues}
+This release includes the following known issue:
 
-Questa versione include il seguente problema noto:
-
-* Localizzazione parziale nel contenuto del rapporto di Asset sourcing
-
+* Partial localization in Asset sourcing report content
+-->
 
 <!--
 ### Known Issues {#known-issues}

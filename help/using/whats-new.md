@@ -1,8 +1,8 @@
 ---
 title: Novità di Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quali sono le nuove funzioni e i miglioramenti per la versione 2022.05.0
-seo-description: What are the new features and enhancements for 2022.05.0
+description: Quali sono le nuove funzioni e i miglioramenti per la versione 2022.10.0
+seo-description: What are the new features and enhancements for 2022.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,10 +10,10 @@ contentOwner: Vishabh Gupta
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 002647322fe105c5551a89e8fd65a7f7314963a2
+source-git-commit: dd0a61f0b7de156fd69fe9e24006c13468b56dbd
 workflow-type: tm+mt
-source-wordcount: '6498'
-ht-degree: 1%
+source-wordcount: '6515'
+ht-degree: 2%
 
 ---
 
@@ -21,13 +21,17 @@ ht-degree: 1%
 
 Adobe Experience Manager Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, di accelerare il time-to-market delle risorse e di ridurre il rischio di non conformità e di accesso non autorizzato. Adobe sta lavorando per migliorare l’esperienza Brand Portal complessiva. Ecco un&#39;occhiata alle nuove funzioni e ai miglioramenti.
 
+## Cosa è cambiato nel 2022.10.0 {#what-changed-in-October-2022}
+
+Brand Portal 2022.10.0 include correzioni ai problemi critici. Vedi più recente [Note sulla versione di Brand Portal](brand-portal-release-notes.md).
+
 ## Cosa è cambiato nel 2022.08.0 {#what-changed-in-August-2022}
 
 Brand Portal 2022.08.0 include correzioni ai problemi critici. Vedi più recente [Note sulla versione di Brand Portal](brand-portal-release-notes.md).
 
 ## Cosa è cambiato nel 2022.05.0 {#what-changed-in-May-2022}
 
-Brand Portal ora esegue processi automatici ogni dodici ore per eliminare tutte le risorse Brand Portal pubblicate in AEM. Di conseguenza, non è necessario eliminare manualmente le risorse nella cartella Contribution per mantenere la dimensione della cartella al di sotto del limite di soglia. È inoltre possibile monitorare lo stato dei processi di eliminazione eseguiti automaticamente utilizzando **[!UICONTROL Strumenti]** > **[!UICONTROL Stato contributo risorsa]** > **[!UICONTROL Rapporti di eliminazione]** in Brand Portal. Il rapporto relativo a un processo fornisce i seguenti dettagli:
+Brand Portal ora esegue processi automatici ogni dodici ore per eliminare tutte le risorse Brand Portal pubblicate in AEM. Di conseguenza, non è necessario eliminare manualmente le risorse nella cartella Contributo per mantenere la dimensione della cartella al di sotto del limite di soglia. È inoltre possibile monitorare lo stato dei processi di eliminazione eseguiti automaticamente utilizzando **[!UICONTROL Strumenti]** > **[!UICONTROL Stato contributo risorsa]** > **[!UICONTROL Rapporti di eliminazione]** in Brand Portal. Il rapporto relativo a un processo fornisce i seguenti dettagli:
 
 * Ora di inizio del processo
 * Ora di fine del processo
