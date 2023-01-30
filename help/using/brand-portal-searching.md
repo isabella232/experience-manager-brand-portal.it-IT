@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: ca43599fb0b35d1cdf3e368509288c11d9f4282c
+source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1297'
 ht-degree: 5%
 
 ---
@@ -41,7 +41,9 @@ Per cercare risorse in Brand Portal:
 
    >[!NOTE]
    >
-   >Sono necessari almeno 3 caratteri in omnisearch per visualizzare i suggerimenti di ricerca.
+   >* Sono necessari almeno 3 caratteri in omnisearch per visualizzare i suggerimenti di ricerca.
+   >* Ricerca dei termini `mountain` o `biking` quindi omnisearch fornisce i risultati della ricerca con il testo `mountain` E `biking` nei relativi campi di metadati. In caso contrario, il comportamento è OR nel caso di tag avanzati che significa che i risultati con `mountain` O `biking` nei rispettivi smart tag vengono recuperati.
+
 
 1. Seleziona dai suggerimenti correlati visualizzati nell’elenco a discesa per accedere rapidamente alle risorse pertinenti.
 
