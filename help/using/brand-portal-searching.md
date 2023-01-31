@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: SearchandPromote
 discoiquuid: dc751cd7-f663-46d2-84c4-5bb12a4fe1ba
 exl-id: 7297bbe5-df8c-4d0b-8204-218a9fdc2292
-source-git-commit: 85e6495ab9f585ad19d92fe34794a995a7b637e8
+source-git-commit: cbdd943b904882cc9a455bab24c3cf732d5966ca
 workflow-type: tm+mt
-source-wordcount: '1297'
+source-wordcount: '1358'
 ht-degree: 5%
 
 ---
@@ -42,7 +42,7 @@ Per cercare risorse in Brand Portal:
    >[!NOTE]
    >
    >* Sono necessari almeno 3 caratteri in omnisearch per visualizzare i suggerimenti di ricerca.
-   >* Ricerca dei termini `mountain` o `biking` quindi omnisearch fornisce i risultati della ricerca con il testo `mountain` E `biking` nei relativi campi di metadati. In caso contrario, il comportamento è OR nel caso di tag avanzati che significa che i risultati con `mountain` O `biking` nei rispettivi smart tag vengono recuperati.
+   >* Quando cerchi `mountain biking`, omnisearch restituisce tutte le risorse nei risultati della ricerca che hanno entrambi `mountain` e `biking` disponibili nei campi metadati. Ad esempio: `mountain` in `Title` campo e `biking` in `Description` campo . Entrambi i termini devono essere disponibili nei campi metadati per essere visualizzati nei risultati della ricerca. Tuttavia, omnisearch restituisce la risorsa nei risultati della ricerca anche se nel campo metadati Tag avanzati è disponibile solo uno dei due termini. Ad esempio, se una risorsa contiene `mountain` come uno dei tag avanzati e non contiene `biking` in qualsiasi altro campo di metadati e cerchi `mountain biking`, omnisearch restituisce ancora la risorsa nei risultati della ricerca.
 
 
 1. Seleziona dai suggerimenti correlati visualizzati nell’elenco a discesa per accedere rapidamente alle risorse pertinenti.
