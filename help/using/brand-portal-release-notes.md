@@ -10,7 +10,7 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: db887c687ae1a5ab68d9dbaf50dab9da82905261
+source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
 workflow-type: tm+mt
 source-wordcount: '453'
 ht-degree: 9%
@@ -43,7 +43,6 @@ Questa versione include correzioni ai seguenti problemi critici:
 * Il riquadro della struttura del contenuto non è ridimensionabile. Se il nome del file è più lungo della larghezza predefinita della struttura del contenuto, non è possibile trascinare la struttura del contenuto sia in orizzontale che in verticale. Di conseguenza, i nomi file più lunghi non sono leggibili.
 * I risultati della ricerca non sono coerenti per lo stesso predicato di proprietà utilizzato due volte nei moduli di ricerca.
 * Il testo nelle pagine di accesso intermedie non viene localizzato per tutte le lingue.
-* Alcuni campi del profilo utente non sono modificabili in `Edit` Pagina del profilo.
 
 ### Miglioramenti {#enhancements}
 
@@ -60,7 +59,8 @@ Questa versione include i seguenti miglioramenti:
 
 Questa versione include il seguente problema noto:
 
-* Localizzazione parziale nel contenuto del rapporto di Asset sourcing
+* Localizzazione parziale nel contenuto del report Asset sourcing .
+* Alcuni campi del profilo utente non sono modificabili nel profilo utente.
 
 <!--
 This release include fixes to the following critical issues:
