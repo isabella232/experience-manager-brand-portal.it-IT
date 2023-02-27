@@ -10,9 +10,9 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f3573219-3c58-47ba-90db-62b003d8b9aa
 exl-id: 9d254e95-a4fc-468d-ae1f-9690ddd3b4a1
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: e3e35ad4be5c082ad7bac7bed8ea20a186d245ad
 workflow-type: tm+mt
-source-wordcount: '967'
+source-wordcount: '969'
 ht-degree: 5%
 
 ---
@@ -31,32 +31,32 @@ Per ulteriori informazioni, consulta [Gestione di utenti, gruppi e ruoli utente]
 
 Di seguito sono riportati i passaggi per condividere le risorse come collegamento:
 
-1. Accedi al tuo tenant Brand Portal. Per impostazione predefinita, viene visualizzata la vista **[!UICONTROL File]** contenente tutte le risorse e le cartelle pubblicate.
+1. Accedi al tuo tenant Brand Portal. Per impostazione predefinita, la **[!UICONTROL File]** apre la visualizzazione che contiene tutte le risorse e le cartelle pubblicate.
 
-1. Seleziona le risorse o le cartelle da condividere oppure passa alla visualizzazione **[!UICONTROL Raccolte]** per condividere le raccolte create.
+1. Seleziona le risorse o le cartelle da condividere oppure passa alla pagina **[!UICONTROL Raccolte]** per condividere le raccolte create.
 
    ![select-multiple-assets](assets/select-assets-new.png)
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sull&#39;icona **[!UICONTROL Condividi collegamento]** .
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul pulsante **[!UICONTROL Condividi collegamento]** icona.
 
-   Viene visualizzata la finestra di dialogo **[!UICONTROL Condivisione collegamenti]**.
+   La **[!UICONTROL Condivisione collegamenti]** viene visualizzata la finestra di dialogo.
 
    ![](assets/link-sharing.png)
 
-   * Nella casella Indirizzo e-mail, digita l’ID e-mail dell’utente con cui vuoi condividere il collegamento. Puoi condividere il collegamento con più utenti. Se l’utente è membro dell’organizzazione, seleziona il proprio ID e-mail dai suggerimenti visualizzati nell’elenco a discesa. Se l&#39;utente è esterno, digita l&#39;ID e-mail completo e premi **[!UICONTROL Invio]**; l’ID e-mail viene aggiunto all’elenco degli utenti.
+   * Nella casella Indirizzo e-mail, digita l’ID e-mail dell’utente con cui vuoi condividere il collegamento. Puoi condividere il collegamento con più utenti. Se l’utente è membro dell’organizzazione, seleziona il proprio ID e-mail dai suggerimenti visualizzati nell’elenco a discesa. Se l’utente è esterno, digita l’ID e-mail completo e premi **[!UICONTROL Invio]**; l’ID e-mail viene aggiunto all’elenco degli utenti.
 
       ![](assets/link-sharing-text.png)
 
-   * Nella casella **[!UICONTROL Oggetto]**, digita un oggetto per la risorsa da condividere.
-   * Nella casella **[!UICONTROL Messaggio]**, digita un messaggio se necessario.
-   * Nel campo **[!UICONTROL Scadenza]**, utilizza il selettore data per specificare una data e un&#39;ora di scadenza per il collegamento. Per impostazione predefinita, la data di scadenza è impostata su 7 giorni dalla data in cui condividi il collegamento.
-   * Attiva la casella di controllo **[!UICONTROL Consenti il download del file originale]** per consentire ai destinatari di scaricare il rendering originale.
+   * In **[!UICONTROL Oggetto]** Specifica un oggetto per la risorsa da condividere.
+   * In **[!UICONTROL Messaggio]** digitare un messaggio se necessario.
+   * In **[!UICONTROL Scadenza]** utilizza il selettore data per specificare una data e un’ora di scadenza per il collegamento. Per impostazione predefinita, la data di scadenza è impostata su 7 giorni dalla data in cui condividi il collegamento.
+   * Abilita la **[!UICONTROL Consenti download del file originale]** casella di controllo per consentire ai destinatari di scaricare il rendering originale.
 
-   Le risorse condivise tramite il collegamento scadono dopo aver attraversato la data e l&#39;ora specificate nel campo **[!UICONTROL Scadenza]** . Per informazioni sul comportamento delle risorse scadute e sulle modifiche nelle attività consentite in base ai ruoli utente in Brand Portal, consulta [Gestire i diritti digitali delle risorse](../using/manage-digital-rights-of-assets.md#asset-expiration).
+   Le risorse condivise tramite il collegamento scadono dopo aver attraversato la data e l’ora specificate nella **[!UICONTROL Scadenza]** campo . Per informazioni sul comportamento delle risorse scadute e sulle modifiche nelle attività consentite in base ai ruoli utente in Brand Portal, consulta [Gestire i diritti digitali delle risorse](../using/manage-digital-rights-of-assets.md#asset-expiration).
 
    >[!NOTE]
    >
-   >Il tempo di scadenza predefinito per il collegamento è di 7 giorni. Il collegamento deve essere inviato via e-mail agli utenti che utilizzano la finestra di dialogo **[!UICONTROL Condivisione collegamenti]**, non copiare e condividere il collegamento separatamente.
+   >Il tempo di scadenza predefinito per il collegamento è di 7 giorni. Il collegamento deve essere inviato via e-mail agli utenti che utilizzano **[!UICONTROL Condivisione collegamenti]** non copiare e condividere il collegamento separatamente.
 
 1. Fate clic su **[!UICONTROL Condividi]**. Un messaggio conferma che il collegamento è condiviso con gli utenti. Gli utenti ricevono un’e-mail contenente il collegamento condiviso.
 
@@ -64,7 +64,7 @@ Di seguito sono riportati i passaggi per condividere le risorse come collegament
 
    >[!NOTE]
    >
-   >Gli amministratori possono personalizzare i messaggi e-mail, tra cui la personalizzazione del logo, della descrizione e del piè di pagina con la funzione [Branding](../using/brand-portal-branding.md) .
+   >Gli amministratori possono personalizzare i messaggi e-mail, tra cui la personalizzazione del logo, della descrizione e del piè di pagina con [Branding](../using/brand-portal-branding.md) funzionalità.
 
 ## Scaricare risorse dai collegamenti condivisi {#download-assets-from-shared-links}
 
@@ -72,19 +72,19 @@ Fai clic sul collegamento nell’e-mail per accedere alla risorsa condivisa. Vie
 
 Per scaricare le risorse condivise:
 
-1. Fai clic sulle risorse o cartelle, quindi fai clic sull&#39;icona **[!UICONTROL Scarica]** nella barra degli strumenti.
+1. Fai clic sulle risorse o cartelle, quindi fai clic sul pulsante **[!UICONTROL Scarica]** dalla barra degli strumenti.
 
    ![](assets/download-share-link.png)
 
    >[!NOTE]
    >
-   >Attualmente, puoi generare un’anteprima e una miniatura solo per determinate risorse, a seconda del formato del file. Per ulteriori informazioni sui formati di file supportati, consulta [Anteprima e supporto delle miniature per i formati di risorse](#preview-thumbnail-support).
+   >Attualmente, puoi generare un’anteprima e una miniatura solo per determinate risorse, a seconda del formato del file. Per ulteriori informazioni sui formati di file supportati consulta [Supporto di anteprima e miniature per i formati delle risorse](#preview-thumbnail-support).
 
-1. Viene visualizzata la finestra di dialogo **[!UICONTROL Scarica]**.
+1. La **[!UICONTROL Scarica]** viene visualizzata la finestra di dialogo.
 
    ![download-dialog](assets/download-dialog-box-new.png)
 
-1. Per impostazione predefinita, l&#39;impostazione **[!UICONTROL Download rapido]** è abilitata in **[!UICONTROL Impostazioni di download]**. Pertanto, sembra che una casella di conferma continui a scaricare utilizzando IBM Aspera Connect.
+1. Per impostazione predefinita, **[!UICONTROL Download rapido]** è abilitata nella **[!UICONTROL Impostazioni di download]**. Pertanto, appare una casella di conferma per continuare a scaricare utilizzando IBM Aspera Connect.
 
    Per continuare a utilizzare **[!UICONTROL Download rapido]**, fai clic su **[!UICONTROL Consenti]**.
 
@@ -94,7 +94,7 @@ Per scaricare le risorse condivise:
    >
    >Per ogni risorsa viene creata una cartella separata durante il download delle risorse da un collegamento condiviso.
    >
-   >Se per il download è selezionata una cartella, una raccolta o più di 20 risorse, la finestra di dialogo **[!UICONTROL Scarica]** viene ignorata e tutti i rendering delle risorse accessibili all’utente, esclusi i rendering dinamici, vengono scaricati in una cartella zip contenente una cartella separata per ciascuna risorsa.
+   >Se per il download è selezionata una cartella, una raccolta o più di 20 risorse, la **[!UICONTROL Scarica]** viene saltata la finestra di dialogo e tutte le rappresentazioni delle risorse accessibili all’utente, escluse le rappresentazioni dinamiche, vengono scaricate in una cartella zip contenente una cartella separata per ogni risorsa.
 
    >[!NOTE]
    >
@@ -103,7 +103,7 @@ Per scaricare le risorse condivise:
 
 >[!NOTE]
 >
->Brand Portal limita il download di risorse superiori a **1** GB per dimensione del file utilizzando la condivisione dei collegamenti.
+>Brand Portal limita il download di cartelle o risorse con dimensioni superiori a 5 GB, utilizzando la condivisione dei collegamenti.
 
 <!--
 1. The **[!UICONTROL Download]** dialog box appears.
@@ -132,83 +132,83 @@ La matrice seguente elenca i formati di risorse per i quali Brand Portal support
 
 | Formato risorsa | Supporto delle miniature | Supporto anteprima |
 |--------------|-------------------|-----------------|
-| PNG | . | . |
-| GIF | . | . |
-| TIFF | . | . |
-| JPEG | . | . |
-| BMP | . | . |
+| PNG | ✓ | ✓ |
+| GIF | ✓ | ✓ |
+| TIFF | ✓ | ✕ |
+| JPEG | ✓ | ✓ |
+| BMP | ✓ | ✕ |
 | PNM* | ND | ND |
 | PGM* | ND | ND |
 | PBM* | ND | ND |
 | PPM* | ND | ND |
-| PSD | . | . |
-| EPS | ND | . |
-| DNG | . | . |
-| PICT | . | . |
-| PSB* | . | . |
-| JPG | . | . |
-| AI | . | . |
-| DOC | . | . |
-| DOCX | . | . |
-| ODT* | . | . |
-| PDF | . | . |
-| HTML | . | . |
-| RTF | . | . |
-| TXT | . | . |
-| XLS | . | . |
-| XLSX | . | . |
-| ODS | . | . |
-| PPT | . | . |
-| PPTX | . | . |
-| ODP | . | . |
-| INDD | . | . |
-| PS | . | . |
-| QXP | . | . |
-| EPUB | . | . |
-| AAC | . | . |
-| MIDI | . | . |
-| 3GP | . | . |
-| MP3 | . | . |
-| MP4 | . | . |
-| OGA | . | . |
-| OGG | . | . |
-| RA | . | . |
-| WAV | . | . |
-| WMA | . | . |
-| DVI | . | . |
-| FLV | . | . |
-| M4V | . | . |
-| MPG | . | . |
-| OGV | . | . |
-| MOV | . | . |
-| WMV | . | . |
-| SWF | . | . |
-| TGZ | ND | . |
-| JAR | . | . |
-| RAR | ND | . |
-| TAR | ND | . |
-| ZIP | . | . |
+| PSD | ✓ | ✕ |
+| EPS | ND | ✕ |
+| DNG | ✓ | ✕ |
+| PICT | ✓ | ✕ |
+| PSB* | ✓ | ✕ |
+| JPG | ✓ | ✓ |
+| AI | ✓ | ✕ |
+| DOC | ✕ | ✕ |
+| DOCX | ✕ | ✕ |
+| ODT* | ✕ | ✕ |
+| PDF | ✓ | ✕ |
+| HTML | ✕ | ✕ |
+| RTF | ✕ | ✕ |
+| TXT | ✓ | ✕ |
+| XLS | ✕ | ✕ |
+| XLSX | ✕ | ✕ |
+| ODS | ✕ | ✕ |
+| PPT | ✓ | ✕ |
+| PPTX | ✕ | ✕ |
+| ODP | ✕ | ✕ |
+| INDD | ✓ | ✕ |
+| PS | ✕ | ✕ |
+| QXP | ✕ | ✕ |
+| EPUB | ✓ | ✕ |
+| AAC | ✕ | ✕ |
+| MIDI | ✕ | ✕ |
+| 3GP | ✕ | ✕ |
+| MP3 | ✕ | ✕ |
+| MP4 | ✕ | ✕ |
+| OGA | ✕ | ✕ |
+| OGG | ✕ | ✕ |
+| RA | ✕ | ✕ |
+| WAV | ✕ | ✕ |
+| WMA | ✕ | ✕ |
+| DVI | ✕ | ✕ |
+| FLV | ✕ | ✕ |
+| M4V | ✕ | ✕ |
+| MPG | ✕ | ✕ |
+| OGV | ✕ | ✕ |
+| MOV | ✕ | ✕ |
+| WMV | ✕ | ✕ |
+| SWF | ✕ | ✕ |
+| TGZ | ND | ✕ |
+| JAR | ✓ | ✕ |
+| RAR | ND | ✕ |
+| TAR | ND | ✕ |
+| ZIP | ✓ | ✕ |
 
 La legenda seguente spiega i simboli utilizzati nella matrice:
 
 | Simbolo | Significato |
 |---|---|
-| . | Questo formato di file supporta questa funzione |
-| . | Questo formato di file non supporta questa funzione |
+| ✓ | Questo formato di file supporta questa funzione |
+| ✕ | Questo formato di file non supporta questa funzione |
 | ND | Questa funzione non è applicabile al formato di file corrente |
-| * | Questa funzione richiede il supporto aggiuntivo per questo formato di file nell’istanza di authoring AEM ma non in Brand Portal dopo la pubblicazione delle risorse in Brand Portal |
+| &#42; | Questa funzione richiede il supporto aggiuntivo per questo formato di file nell’istanza di authoring AEM ma non in Brand Portal dopo la pubblicazione delle risorse in Brand Portal |
 
 ## Annullare la condivisione di risorse condivise come collegamento {#unshare-assets-shared-as-a-link}
 
 Per annullare la condivisione come collegamento di risorse condivise in precedenza, effettua le seguenti operazioni:
 
-1. Quando accedi a Brand Portal, la visualizzazione **[!UICONTROL File]** si apre per impostazione predefinita. Per visualizzare le risorse condivise come collegamenti, passa alla vista **[!UICONTROL Collegamenti condivisi]** .
+1. Quando accedi a Brand Portal, la **[!UICONTROL File]** per impostazione predefinita viene aperta la vista. Per visualizzare le risorse condivise come collegamenti, passa alla **[!UICONTROL Collegamenti condivisi]** visualizza.
 
 1. Controlla i collegamenti condivisi dall’elenco visualizzato.
 
    ![](assets/shared-links.png)
 
-1. Per annullare la condivisione di un collegamento dall’elenco, selezionalo e fai clic sull’icona **[!UICONTROL Annulla condivisione]** nella barra degli strumenti in alto.
+1. Per annullare la condivisione di un collegamento dall’elenco, selezionalo e fai clic sul pulsante **[!UICONTROL Annulla condivisione]** dalla barra degli strumenti nella parte superiore.
 
    ![](assets/unshare-asset.png)
 
@@ -216,4 +216,4 @@ Per annullare la condivisione come collegamento di risorse condivise in preceden
    >
    >La visualizzazione dei collegamenti condivisi è specifica dell&#39;utente. Questa funzione non visualizza tutti i collegamenti condivisi da tutti gli utenti di un tenant.
 
-1. Nella finestra del messaggio di avviso, fai clic su **[!UICONTROL Continua]** per confermare l&#39;annullamento della condivisione. La voce relativa al collegamento viene rimossa dall’elenco dei collegamenti condivisi.
+1. Nella casella del messaggio di avviso, fai clic su **[!UICONTROL Continua]** per confermare l’annullamento della condivisione. La voce relativa al collegamento viene rimossa dall’elenco dei collegamenti condivisi.
