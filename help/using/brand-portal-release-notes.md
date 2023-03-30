@@ -10,10 +10,10 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: 045f82169583cac5d7e85216d82a6afd44d5b5af
+source-git-commit: d5284a2ad62be2a72d168358d86b473257856592
 workflow-type: tm+mt
-source-wordcount: '453'
-ht-degree: 9%
+source-wordcount: '1047'
+ht-degree: 7%
 
 ---
 
@@ -62,14 +62,72 @@ Questa versione include il seguente problema noto:
 * Localizzazione parziale nel contenuto del report Asset sourcing .
 * Alcuni campi del profilo utente non sono modificabili nel profilo utente.
 
-<!--
-This release include fixes to the following critical issues:
-* When NUI fails to process an asset in Experience Manager, Brand Portal displays an inaccurate asset import status.
-* When the preview action fails, there is no notification to communicate the failure.
-* Inaccurate value for the totalUploadedSize property for each asset is fixed.
-* When you click **Download all items** and there are large number of renditions available for an asset, Brand Portal downloads an invalid .ZIP file.
-* The translation of some strings gets truncated on the Brand Portal user interface.
--->
+## Versioni precedenti
+
+### Versione di ottobre 2022 {#oct-2022}
+
+**Problemi critici risolti**
+
+Questa versione include correzioni ai seguenti problemi critici:
+* Tempi di risposta lenti durante la copia di file di grandi dimensioni da Brand Portal a uno strumento di terze parti.
+* Quando selezioni la casella di controllo conteggio rappresentazioni , le caselle per selezionare le singole rappresentazioni sono disabilitate.
+* Tempo di risposta lento per la ricerca.
+
+>[!IMPORTANT]
+>
+>Le notifiche push in AEM Assets Brand Portal cesseranno dal 1° dicembre 2022. Invece delle notifiche Pulse, continuerai a ricevere notifiche e-mail per i seguenti eventi:
+>* Condivisione delle risorse tramite collegamento
+>* Richiesta del flusso di lavoro di accesso
+>* Condivisione della cartella dei contributi
+>* Avvio dell&#39;esportazione in AEM
+>* Esportazione in AEM completata
+>
+
+
+### Versione di agosto 2022 {#aug-2022}
+
+**Problemi critici risolti**
+
+Questa versione include correzioni ai seguenti problemi critici:
+* Quando il NUI non elabora una risorsa in Experience Manager, Brand Portal visualizza uno stato di importazione delle risorse non accurato.
+* Quando l’azione di anteprima non riesce, non è presente alcuna notifica per comunicare l’errore.
+* Il valore non accurato per la proprietà totalUploadedSize per ogni risorsa è fisso.
+* Quando fai clic su **Scarica tutti gli elementi** e sono disponibili numerose rappresentazioni per una risorsa, Brand Portal scarica un file .ZIP non valido.
+* La traduzione di alcune stringhe viene troncata nell’interfaccia utente di Brand Portal.
+
+### Versione di maggio 2022 {#may-2022}
+
+**Nuove funzioni**
+
+Brand Portal ora esegue processi automatici ogni dodici ore per eliminare tutte le risorse Brand Portal pubblicate in AEM. Di conseguenza, non è necessario eliminare manualmente le risorse nella cartella Contributo per mantenere la dimensione della cartella al di sotto del limite di soglia.
+
+**Problemi critici risolti**
+
+Questa versione include correzioni ai seguenti problemi critici:
+
+* Quando si scarica una cartella o una raccolta che include risorse con tag colore, viene scaricato anche un file XML.
+* Quando scarichi un video che include rappresentazioni, Brand Portal crea un file .ZIP non valido.
+* Quando crei predefiniti e risorse su AEM autore e li pubblichi in Brand Portal e poi selezioni rappresentazioni dinamiche durante il download delle risorse, non puoi estrarre il file .ZIP scaricato.
+* Problemi durante il download di risorse video da alcune cartelle disponibili su Brand Portal.
+* Quando condividi l’URL della cartella Contribution tramite un’e-mail, i ruoli Visualizzatore ed Editor incontrano problemi durante l’accesso alla cartella principale tramite la breadcrumb.
+* Il rapporto pubblicato di determinazione origine visualizza un&#39;ora di inizio del processo non corretta.
+
+### Versione di febbraio 2022 {#feb-2022}
+
+**Nuove funzioni**
+
+* La soglia di timeout della sessione per gli utenti ospiti è stata ridotta da 2 a 15 minuti.
+* L&#39;ulteriore **[!UICONTROL Visualizzare le pagine]** è stata rimossa l’opzione per PDF con più pagine, in quanto l’utente può visualizzare le pagine di PDF dal visualizzatore Adobe Document Cloud.
+* Gli utenti non sono in grado di cercare, navigare o aprire le cartelle. L’interfaccia utente riflette il messaggio di errore: `Failed to load data`.
+* La **[!UICONTROL Rendering]** Il pannello non elenca tutte le rappresentazioni statiche delle risorse pubblicate in Brand Portal.
+* La **[!UICONTROL Rendering]** Nel pannello sono elencate le rappresentazioni di ritaglio avanzato della risorsa. Tuttavia, l’utente non può visualizzare in anteprima o scaricare le rappresentazioni di ritaglio avanzato.
+* Nella finestra di dialogo di download sono elencate le rappresentazioni di ritaglio avanzato della risorsa selezionata. Tuttavia, l’utente non può scaricare le rappresentazioni di ritaglio avanzato.
+* Quando si scarica una risorsa, un utente non amministratore ottiene solo il rendering della risorsa originale. Le rappresentazioni di sistema e personalizzate non vengono scaricate.
+* Quando si applica un filtro di ricerca per scaricare una risorsa, la `Download` Questo pulsante è disabilitato nella finestra di dialogo di download e non consente all’utente di scaricare la risorsa.
+* Se `Smart Tags` e (o) `Color Tags` sono abilitati, nella finestra di dialogo di download sono elencati i `json` file come rappresentazioni e li scarica `json` file nella cartella zip archiviata.
+* Gli utenti anonimi non possono scaricare le risorse utilizzando un collegamento condiviso perché il collegamento reindirizza alla pagina di accesso di Brand Portal.
+* Il sistema non riflette il valore corretto per il numero di utenti simultanei attivi.
+
 <!--
 ### New Features {#new-features}
 
