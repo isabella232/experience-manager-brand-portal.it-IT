@@ -1,7 +1,7 @@
 ---
 title: Note sulla versione
 seo-title: Release Notes
-description: Ottieni informazioni approfondite su funzioni, miglioramenti, problemi critici risolti e problemi noti nella versione Adobe Experience Manager Assets Brand Portal 2023.05.0.
+description: Ottieni informazioni sulle funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione 2023.05.0 di Adobe Experience Manager Assets Brand Portal.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.05.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -19,7 +19,7 @@ ht-degree: 7%
 
 # Note sulla versione {#release-notes}
 
-Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione Adobe Experience Manager Assets Brand Portal 2023.05.0.
+Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione 2023.05.0 di Adobe Experience Manager Assets Brand Portal.
 
 ## Informazioni sulla versione {#release-information}
 
@@ -30,24 +30,24 @@ Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i proble
 
 ## Panoramica {#overview}
 
-Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, controllare e distribuire in modo sicuro le risorse creative approvate a soggetti esterni e utenti aziendali interni su diversi dispositivi. Aiuta a migliorare l’efficienza della condivisione delle risorse, accelera i tempi di commercializzazione delle risorse e riduce il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare le risorse in formati approvati dall’azienda, in qualsiasi momento e ovunque.
+Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, controllare e distribuire in modo semplice e sicuro le risorse creative approvate a parti esterne e utenti aziendali interni tra i dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, accelera il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare le risorse in formati approvati dall&#39;azienda, in qualsiasi momento e ovunque.
 
-## Novità del 2023.05.0 {#whats-new-in-2023.05.0}
+## Novità della versione 2023.05.0 {#whats-new-in-2023.05.0}
 
 ### Problemi critici risolti {#critical-issues-fixed}
 
 #### Correzioni di bug {#bug-fixes}
 
 Questa versione include correzioni ai seguenti problemi critici:
-* Se si verifica un errore durante il download di una risorsa da un collegamento condiviso, la `Notice` e `Close` le etichette del prompt di errore non sono localizzate.
-* Display Brand Portal **Campi intestazione richiesta troppo grandi** errore durante l&#39;accesso ai filtri di ricerca utilizzando `Filter` riquadro.
+* Se si verifica un errore durante il download di una risorsa da un collegamento condiviso, il `Notice` e `Close` le etichette del prompt degli errori non sono localizzate.
+* Schermi Brand Portal **Campi intestazione richiesta troppo grandi** errore durante l’accesso ai filtri di ricerca tramite `Filter` riquadro.
 
 ### Problemi noti {#known-issues}
 
 Questa versione include il seguente problema noto:
 
-* Localizzazione parziale nel contenuto del report Asset sourcing .
-* Alcuni campi del profilo utente non sono modificabili nel profilo utente.
+* Localizzazione parziale nel contenuto del rapporto Asset sourcing.
+* Pochi campi del profilo utente non sono modificabili nel profilo utente.
 
 ## Versioni precedenti
 
@@ -57,27 +57,27 @@ Questa versione include il seguente problema noto:
 
 Questa versione include correzioni ai seguenti problemi critici:
 * Impossibile aggiornare l&#39;immagine del profilo in Brand Portal.
-* Il riquadro della struttura del contenuto non è ridimensionabile. Se il nome del file è più lungo della larghezza predefinita della struttura del contenuto, non è possibile trascinare la struttura del contenuto sia in orizzontale che in verticale. Di conseguenza, i nomi file più lunghi non sono leggibili.
+* Il riquadro della struttura del contenuto non è ridimensionabile. Se il nome del file è più lungo della larghezza predefinita della struttura contenuto, non è possibile trascinare la struttura contenuto in orizzontale e in verticale. Di conseguenza, i nomi di file più lunghi non sono leggibili.
 * I risultati della ricerca non sono coerenti per lo stesso predicato di proprietà utilizzato due volte nei moduli di ricerca.
-* Il testo nelle pagine di accesso intermedie non viene localizzato per tutte le lingue.
+* Il testo nelle pagine di accesso intermedie non è localizzato per tutte le lingue.
 
 **Miglioramenti**
 
 Questa versione include i seguenti miglioramenti:
-* È ora disponibile un nuovo visualizzatore PDF moderno per una migliore anteprima delle risorse di PDF.
-* Ora puoi scegliere di abilitare o disabilitare le notifiche di determinazione origine delle risorse per gli amministratori. Passa a [!UICONTROL Impostazioni generali] e quindi abilitare o disabilitare [!UICONTROL `Notify Administrator of asset contribution`].
+* È ora disponibile un nuovo visualizzatore PDF moderno per una migliore anteprima delle risorse PDF.
+* Ora puoi scegliere di abilitare o disabilitare le notifiche di asset sourcing per gli amministratori. Accedi a [!UICONTROL Impostazioni generali] e quindi attiva o disattiva [!UICONTROL `Notify Administrator of asset contribution`].
 
-   ![Notifica all’amministratore il contributo delle risorse](assets/notify-admin.png)
+   ![Notifica all&#39;amministratore il contributo delle risorse](assets/notify-admin.png)
 
-* Un utente non autorizzato non può richiedere l&#39;accesso a Brand Portal se la richiesta di accesso è disabilitata.
-* Le sole organizzazioni per cui è stato effettuato il provisioning per Brand Portal sono visibili nell’elenco del selettore dei profili.
+* Un utente non autorizzato non può richiedere l’accesso al Brand Portal se la richiesta di accesso è disabilitata.
+* Nell’elenco di selezione dei profili sono visibili solo le organizzazioni per le quali è stato eseguito il provisioning di Brand Portal.
 
 **Problemi noti**
 
 Questa versione include il seguente problema noto:
 
-* Localizzazione parziale nel contenuto del report Asset sourcing .
-* Alcuni campi del profilo utente non sono modificabili nel profilo utente.
+* Localizzazione parziale nel contenuto del rapporto Asset sourcing.
+* Pochi campi del profilo utente non sono modificabili nel profilo utente.
 
 ### Versione di ottobre 2022 {#oct-2022}
 
@@ -85,16 +85,16 @@ Questa versione include il seguente problema noto:
 
 Questa versione include correzioni ai seguenti problemi critici:
 * Tempi di risposta lenti durante la copia di file di grandi dimensioni da Brand Portal a uno strumento di terze parti.
-* Quando selezioni la casella di controllo conteggio rappresentazioni , le caselle per selezionare le singole rappresentazioni sono disabilitate.
+* Quando si seleziona la casella di controllo Numero di copie trasformate, le caselle di controllo per selezionare le singole copie trasformate sono disattivate.
 * Tempo di risposta lento per la ricerca.
 
 >[!IMPORTANT]
 >
->Le notifiche push in AEM Assets Brand Portal cesseranno dal 1° dicembre 2022. Invece delle notifiche Pulse, continuerai a ricevere notifiche e-mail per i seguenti eventi:
->* Condivisione delle risorse tramite collegamento
->* Richiesta del flusso di lavoro di accesso
+>Le notifiche Pulse in AEM Assets Brand Portal cesseranno a partire dal 1° dicembre 2022. Invece delle notifiche Pulse, continuerai a ricevere notifiche e-mail per i seguenti eventi:
+>* Condivisione di risorse tramite collegamento
+>* Flusso di lavoro di richiesta di accesso
 >* Condivisione della cartella dei contributi
->* Avvio dell&#39;esportazione in AEM
+>* Avvio dell’esportazione verso l’AEM
 >* Esportazione in AEM completata
 >
 
@@ -104,10 +104,10 @@ Questa versione include correzioni ai seguenti problemi critici:
 **Problemi critici risolti**
 
 Questa versione include correzioni ai seguenti problemi critici:
-* Quando il NUI non elabora una risorsa in Experience Manager, Brand Portal visualizza uno stato di importazione delle risorse non accurato.
-* Quando l’azione di anteprima non riesce, non è presente alcuna notifica per comunicare l’errore.
-* Il valore non accurato per la proprietà totalUploadedSize per ogni risorsa è fisso.
-* Quando fai clic su **Scarica tutti gli elementi** e sono disponibili numerose rappresentazioni per una risorsa, Brand Portal scarica un file .ZIP non valido.
+* Quando NUI non riesce a elaborare una risorsa in Experience Manager, Brand Portal mostra uno stato di importazione della risorsa non accurato.
+* Quando l’azione di anteprima non riesce, non viene inviata alcuna notifica per comunicare l’errore.
+* È stato corretto un valore non preciso per la proprietà totalUploadedSize di ogni risorsa.
+* Quando fai clic su **Scarica tutti gli elementi** e sono disponibili numerose rappresentazioni di una risorsa, Brand Portal scarica un file .ZIP non valido.
 * La traduzione di alcune stringhe viene troncata nell’interfaccia utente di Brand Portal.
 
 ### Versione di maggio 2022 {#may-2022}
@@ -122,24 +122,24 @@ Questa versione include correzioni ai seguenti problemi critici:
 
 * Quando si scarica una cartella o una raccolta che include risorse con tag colore, viene scaricato anche un file XML.
 * Quando scarichi un video che include rappresentazioni, Brand Portal crea un file .ZIP non valido.
-* Quando crei predefiniti e risorse su AEM autore e li pubblichi in Brand Portal e poi selezioni rappresentazioni dinamiche durante il download delle risorse, non puoi estrarre il file .ZIP scaricato.
-* Problemi durante il download di risorse video da alcune cartelle disponibili su Brand Portal.
-* Quando condividi l’URL della cartella Contribution tramite un’e-mail, i ruoli Visualizzatore ed Editor incontrano problemi durante l’accesso alla cartella principale tramite la breadcrumb.
-* Il rapporto pubblicato di determinazione origine visualizza un&#39;ora di inizio del processo non corretta.
+* Quando crei predefiniti e risorse in AEM author e li pubblichi in Brand Portal e selezioni rappresentazioni dinamiche durante il download delle risorse, non puoi estrarre il file .ZIP scaricato.
+* Problemi durante il download di risorse video da determinate cartelle disponibili su Brand Portal.
+* Quando si condivide l’URL della cartella Contribution tramite e-mail, i ruoli Visualizzatore ed Editor riscontrano problemi durante l’accesso alla cartella principale tramite la breadcrumb.
+* Nel rapporto di sourcing pubblicato viene visualizzata un&#39;ora di inizio del processo non corretta.
 
 ### Versione di febbraio 2022 {#feb-2022}
 
 **Nuove funzioni**
 
-* La soglia di timeout della sessione per gli utenti ospiti è stata ridotta da 2 a 15 minuti.
-* L&#39;ulteriore **[!UICONTROL Visualizzare le pagine]** è stata rimossa l’opzione per PDF con più pagine, in quanto l’utente può visualizzare le pagine di PDF dal visualizzatore Adobe Document Cloud.
-* Gli utenti non sono in grado di cercare, navigare o aprire le cartelle. L’interfaccia utente riflette il messaggio di errore: `Failed to load data`.
-* La **[!UICONTROL Rendering]** Il pannello non elenca tutte le rappresentazioni statiche delle risorse pubblicate in Brand Portal.
-* La **[!UICONTROL Rendering]** Nel pannello sono elencate le rappresentazioni di ritaglio avanzato della risorsa. Tuttavia, l’utente non può visualizzare in anteprima o scaricare le rappresentazioni di ritaglio avanzato.
-* Nella finestra di dialogo di download sono elencate le rappresentazioni di ritaglio avanzato della risorsa selezionata. Tuttavia, l’utente non può scaricare le rappresentazioni di ritaglio avanzato.
-* Quando si scarica una risorsa, un utente non amministratore ottiene solo il rendering della risorsa originale. Le rappresentazioni di sistema e personalizzate non vengono scaricate.
-* Quando si applica un filtro di ricerca per scaricare una risorsa, la `Download` Questo pulsante è disabilitato nella finestra di dialogo di download e non consente all’utente di scaricare la risorsa.
-* Se `Smart Tags` e (o) `Color Tags` sono abilitati, nella finestra di dialogo di download sono elencati i `json` file come rappresentazioni e li scarica `json` file nella cartella zip archiviata.
+* La soglia di timeout della sessione per gli utenti guest è stata ridotta da 2 ore a 15 minuti.
+* Il valore aggiuntivo **[!UICONTROL Visualizza pagine]** L’opzione è stata rimossa per i PDF con più pagine in quanto l’utente ora può visualizzare le pagine dei PDF dal visualizzatore Adobe Document Cloud.
+* Gli utenti non sono in grado di cercare, navigare o aprire le cartelle. L’interfaccia utente visualizza il messaggio di errore: `Failed to load data`.
+* Il **[!UICONTROL Rappresentazioni]** Il pannello non elenca tutte le rappresentazioni statiche delle risorse pubblicate in Brand Portal.
+* Il **[!UICONTROL Rappresentazioni]** nel pannello sono elencate le rappresentazioni con ritaglio avanzato della risorsa, ma l’utente non può visualizzarle in anteprima né scaricarle.
+* La finestra di dialogo per il download elenca le rappresentazioni con ritaglio avanzato della risorsa selezionata. Tuttavia, l’utente non può scaricare le rappresentazioni con ritaglio avanzato.
+* Quando si scarica una risorsa, un utente che non è amministratore riceve solo il rendering originale della risorsa. Il sistema e le rappresentazioni personalizzate non vengono scaricate.
+* Quando si applica un filtro di ricerca per scaricare una risorsa, il `Download` è disattivato nella finestra di dialogo di download e non consente all’utente di scaricare la risorsa.
+* Se `Smart Tags` e (o) `Color Tags` sono attivati, nella finestra di dialogo per il download sono elencate le opzioni `json` file come copie trasformate e download `json` file nella cartella zip archiviata.
 * Gli utenti anonimi non possono scaricare le risorse utilizzando un collegamento condiviso perché il collegamento reindirizza alla pagina di accesso di Brand Portal.
 * Il sistema non riflette il valore corretto per il numero di utenti simultanei attivi.
 
@@ -322,16 +322,16 @@ L’interfaccia utente di Brand Portal è disponibile nelle seguenti lingue:
 
 ## Piattaforme certificate {#certified-platforms}
 
-Per verificare quali piattaforme sono certificate per l’esecuzione con questa versione di Brand Portal, consulta **Supporto per l’interfaccia touch** nella tabella **Browser supportati per l’interfaccia utente di authoring** sezione [Requisiti tecnici](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
+Per verificare quali piattaforme sono certificate per l’esecuzione con questa versione di Brand Portal, consulta **Supporto per l’interfaccia touch** nella tabella in **Browser supportati per l&#39;authoring dell&#39;interfaccia utente** sezione di [Requisiti tecnici](https://experienceleague.adobe.com/docs/experience-manager-65/deploying/introduction/technical-requirements.html).
 
 ## Collegamenti {#links}
 
-* [Pagina del prodotto Adobe Experience Manager su adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
+* [Pagina prodotto Adobe Experience Manager su adobe.com](https://business.adobe.com/in/products/experience-manager/adobe-experience-manager.html)
 * [Documentazione di Assets Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
 
 ## Accesso e supporto ai prodotti (siti con restrizioni) {#product-access-and-support-restricted-sites}
 
-Questi siti sono disponibili solo per i clienti. Se sei un cliente e hai bisogno di accedervi, contatta il tuo account manager Adobe.
+Questi siti sono disponibili solo per i clienti. Se sei un cliente e vuoi accedervi, contatta il tuo account manager Adobe.
 
 <!--
 * [https://daycare.day.com](https://daycare.day.com) 

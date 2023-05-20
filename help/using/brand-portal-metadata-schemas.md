@@ -1,7 +1,7 @@
 ---
 title: Utilizzare il modulo schema metadati
 seo-title: Use the metadata schema form
-description: Uno schema di metadati descrive il layout della pagina Proprietà e le proprietà dei metadati visualizzate per le risorse che utilizzano lo schema specifico. Lo schema applicato a una risorsa determina i campi di metadati visualizzati nella relativa pagina Proprietà.
+description: Uno schema di metadati descrive il layout della pagina Proprietà e le proprietà dei metadati visualizzate per le risorse che utilizzano lo schema specifico. Lo schema applicato a una risorsa determina i campi di metadati che vengono visualizzati nella relativa pagina Proprietà.
 seo-description: A metadata schema describes the layout of the Properties page and the metadata properties displayed for assets that use the particular schema. The schema that you apply to an asset determines the metadata fields that appear on its Properties page.
 uuid: 1a944a3b-5152-425f-b1ea-bfe3331de928
 content-type: reference
@@ -19,76 +19,76 @@ ht-degree: 11%
 
 # Utilizzare il modulo schema metadati {#use-the-metadata-schema-form}
 
-Uno schema di metadati descrive il layout della pagina Proprietà e le proprietà dei metadati visualizzate per le risorse che utilizzano lo schema specifico. Lo schema applicato a una risorsa determina i campi di metadati visualizzati nella relativa pagina Proprietà.
+Uno schema di metadati descrive il layout della pagina Proprietà e le proprietà dei metadati visualizzate per le risorse che utilizzano lo schema specifico. Lo schema applicato a una risorsa determina i campi di metadati che vengono visualizzati nella relativa pagina Proprietà.
 
-La pagina **[!UICONTROL Proprietà]** di ogni risorsa include proprietà di metadati predefinite a seconda del tipo MIME della risorsa. Gli amministratori possono utilizzare l’Editor schema metadati per modificare gli schemi esistenti o aggiungere schemi di metadati personalizzati. Experience Manager Assets Brand Portal fornisce moduli predefiniti per risorse di vari tipi MIME. Tuttavia, è anche possibile aggiungere moduli personalizzati per tali risorse.
+Il **[!UICONTROL Proprietà]** La pagina di ciascuna risorsa include proprietà di metadati predefinite che dipendono dal tipo MIME della risorsa. Gli amministratori possono utilizzare l’Editor schema metadati per modificare schemi esistenti o aggiungere schemi di metadati personalizzati. Experience Manager Assets Brand Portal fornisce moduli predefiniti per risorse di vari tipi MIME. Tuttavia, puoi anche aggiungere moduli personalizzati per tali risorse.
 
 ## Aggiungere un modulo schema metadati {#add-a-metadata-schema-form}
 
-Per creare un nuovo modulo schema metadati, procedi come segue:
+Per creare un nuovo modulo schema metadati, effettuare le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 
-1. Dal pannello degli strumenti amministrativi, fai clic su **[!UICONTROL Schemi di metadati]**.
+1. Nel pannello Strumenti di amministrazione, fate clic su **[!UICONTROL Schemi metadati]**.
 
    ![](assets/navigation-panel.png)
 
-1. Nella pagina **[!UICONTROL Forms schema metadati]**, fai clic su **[!UICONTROL Crea]**.
+1. Il giorno **[!UICONTROL Forms schema metadati]** pagina, fai clic su **[!UICONTROL Crea]**.
 
    ![](assets/create-metadata-schema-form.png)
 
-1. Nella finestra di dialogo **[!UICONTROL Crea modulo schema]**, specifica il titolo del modulo schema, quindi fai clic su **[!UICONTROL Crea]** per completare il processo di creazione del modulo.
+1. In **[!UICONTROL Crea modulo schema]** , specificare il titolo del modulo Schema e quindi fare clic su **[!UICONTROL Crea]** per completare il processo di creazione del modulo.
 
    ![](assets/create-schema-form.png)
 
 ## Modificare un modulo schema metadati {#edit-a-metadata-schema-form}
 
-È possibile modificare un modulo schema metadati appena aggiunto o esistente. Il modulo schema metadati contiene il contenuto derivato dal relativo elemento padre, incluse le schede e gli elementi del modulo all’interno delle schede. È possibile mappare o configurare questi elementi del modulo in un campo all’interno di un nodo di metadati.
+Puoi modificare un modulo schema metadati appena aggiunto o esistente. Il modulo schema metadati contiene contenuto derivato dal relativo elemento padre, incluse schede ed elementi modulo all’interno di schede. Puoi mappare o configurare questi elementi modulo su un campo all’interno di un nodo di metadati.
 
-È possibile aggiungere nuove schede o nuovi elementi modulo al modulo schema metadati. Le schede derivate e gli elementi del modulo (dall&#39;elemento padre) sono nello stato bloccato. Non è possibile modificarli a livello di bambino.
+È possibile aggiungere nuove schede o elementi del modulo al modulo schema metadati. Le schede e gli elementi modulo derivati (dall&#39;elemento padre) sono nello stato bloccato. Non è possibile modificarli a livello di elemento secondario.
 
-Per modificare un modulo schema metadati, procedi come segue:
+Per modificare un modulo schema metadati, effettuare le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 
-1. Dal pannello degli strumenti amministrativi, fai clic su **[!UICONTROL Schemi di metadati]**.
-1. Dalla pagina **[!UICONTROL Forms schema metadati]**, seleziona un modulo schema per modificarne le proprietà, ad esempio **[!UICONTROL collection]**.
+1. Nel pannello Strumenti di amministrazione, fate clic su **[!UICONTROL Schemi metadati]**.
+1. Dalla sezione **[!UICONTROL Forms schema metadati]** , selezionare un modulo schema per modificarne le proprietà, ad esempio **[!UICONTROL raccolta]**.
 
    ![](assets/metadata-schema-forms.png)
 
    >[!NOTE]
    >
-   >I modelli non modificati presentano un simbolo di blocco. Se si personalizza uno dei modelli, il simbolo Blocca prima che il modello scompaia.
+   >I modelli non modificati presentano prima un simbolo di blocco. Se personalizzi uno dei modelli, il simbolo Blocca prima del modello scompare.
 
 1. Dalla barra degli strumenti nella parte superiore, fai clic su **[!UICONTROL Modifica]**.
 
-   Viene visualizzata la pagina **[!UICONTROL Editor schema metadati]** con la scheda **[!UICONTROL Base]** aperta a sinistra e la scheda **[!UICONTROL Genera modulo]** aperta a destra.
+   Il **[!UICONTROL Editor schema metadati]** viene aperta la pagina con **[!UICONTROL Base]** scheda aperta a sinistra e **[!UICONTROL Genera modulo]** sulla destra.
 
-1. Nella pagina **[!UICONTROL Editor schema metadati]** , personalizza la pagina **[!UICONTROL Proprietà]** della risorsa trascinando uno o più componenti da un elenco di tipi di componenti nella scheda **[!UICONTROL Genera modulo]** alla scheda **[!UICONTROL Base]** .
+1. In **[!UICONTROL Editor schema metadati]** , personalizzare la pagina **[!UICONTROL Proprietà]** della risorsa trascinando uno o più componenti da un elenco di tipi di componenti in **[!UICONTROL Genera modulo]** scheda a **[!UICONTROL Base]** scheda.
 
    ![](assets/metadata-schemaeditor-page.png)
 
-1. Per configurare un componente, selezionalo e modificane le proprietà nella scheda **[!UICONTROL Impostazioni]** .
+1. Per configurare un componente, selezionalo e modificane le proprietà in **[!UICONTROL Impostazioni]** scheda.
 
 ### Componenti nella scheda Genera modulo {#components-in-the-build-form-tab}
 
-La scheda **[!UICONTROL Genera modulo]** elenca gli elementi che è possibile utilizzare nel modulo schema. La scheda **[!UICONTROL Impostazioni]** fornisce gli attributi di ogni elemento selezionato nella scheda **[!UICONTROL Genera modulo]** . Nella tabella seguente sono elencati gli elementi del modulo disponibili nella scheda **[!UICONTROL Genera modulo]** :
+Il **[!UICONTROL Genera modulo]** La scheda elenca gli elementi che è possibile utilizzare nel modulo schema. Il **[!UICONTROL Impostazioni]** fornisce gli attributi di ogni elemento selezionato nella scheda **[!UICONTROL Genera modulo]** scheda. Nella tabella seguente sono elencati gli elementi modulo disponibili in **[!UICONTROL Genera modulo]** scheda:
 
 | Nome componente | Descrizione |
 |---------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **[!UICONTROL Intestazione sezione]** | Aggiungi un’intestazione di sezione per un elenco di componenti comuni. |
 | **[!UICONTROL Testo su riga singola]** | Aggiungi una proprietà di testo a riga singola. Viene memorizzato come stringa. |
-| **[!UICONTROL TestoMultivalore]** | Aggiungi una proprietà di testo con più valori. Viene memorizzato come array di stringhe. |
-| **[!UICONTROL Numero]** | Aggiungi un componente numerico. |
-| **[!UICONTROL Data]** | Aggiungi un componente data . |
+| **[!UICONTROL Testo con più valori]** | Aggiungi una proprietà di testo con più valori. Viene memorizzato come array di stringhe. |
+| **[!UICONTROL Numero]** | Aggiungi un componente numero. |
+| **[!UICONTROL Data]** | Aggiungi un componente data. |
 | **[!UICONTROL A discesa]** | Aggiungi un elenco a discesa. |
-| **[!UICONTROL Tag standard]** | Aggiungi un tag. **Nota:** gli amministratori potrebbero dover modificare il valore del percorso, ad esempio  `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, se pubblicano il modulo dello schema metadati da Experience Manager Assets, dove il percorso non include le informazioni sul tenant, ad esempio  `/etc/tags/<custom_tag_namespace>`. |
-| **[!UICONTROL Tag avanzati]** | Tag rilevati automaticamente se hai acquistato e configurato il componente aggiuntivo per tag avanzati di Experience Manager Assets. |
-| **[!UICONTROL Campo nascosto]** | Aggiungi un campo nascosto. Viene inviato come parametro POST al momento del salvataggio della risorsa. |
+| **[!UICONTROL Tag standard]** | Aggiungi un tag. **Nota:** Gli amministratori potrebbero dover modificare il valore del percorso, ad esempio, `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`, se pubblicano il modulo schema metadati da Experience Manager Assets, dove il percorso non include informazioni sul tenant, ad esempio, `/etc/tags/<custom_tag_namespace>`. |
+| **[!UICONTROL Tag avanzati]** | Se hai acquistato e configurato il componente aggiuntivo smart tag di Experience Manager Assets, vengono rilevati automaticamente i tag. |
+| **[!UICONTROL Campo nascosto]** | Aggiungi un campo nascosto. Viene inviato come parametro POST al salvataggio della risorsa. |
 | **[!UICONTROL Risorsa con riferimento da]** | Aggiungi questo componente per visualizzare l’elenco delle risorse a cui fa riferimento la risorsa. |
 | **[!UICONTROL Risorsa con riferimento a]** | Aggiungi per visualizzare un elenco di risorse che fanno riferimento alla risorsa. |
 | **[!UICONTROL Valutazione risorsa]** | Valutazione media di una risorsa aggiunta da Experience Manager Assets prima che venga pubblicata in Brand Portal. |
@@ -96,15 +96,15 @@ La scheda **[!UICONTROL Genera modulo]** elenca gli elementi che è possibile ut
 
 >[!NOTE]
 >
->Non utilizzare **[!UICONTROL Riferimenti prodotto]**, in quanto non funziona.
+>Non usi **[!UICONTROL Riferimenti prodotto]**, in quanto non è funzionale.
 
-#### Modifica del componente metadati {#edit-the-metadata-component}
+#### Modificare il componente metadati {#edit-the-metadata-component}
 
-Per modificare le proprietà di un componente metadati sul modulo, fai clic sul componente e modificane le proprietà nella scheda **[!UICONTROL Impostazioni]** .
+Per modificare le proprietà di un componente metadati nel modulo, fai clic sul componente e modificane le proprietà nel **[!UICONTROL Impostazioni]** scheda.
 
-* **[!UICONTROL Etichetta]** campo: Nome della proprietà di metadati visualizzata nella pagina Proprietà della risorsa.
+* **[!UICONTROL Etichetta campo]**: nome della proprietà dei metadati visualizzata nella pagina Proprietà della risorsa.
 
-* **[!UICONTROL Mappa su proprietà]**: Il valore di questa proprietà fornisce il percorso/nome relativo al nodo della risorsa in cui viene salvata nell&#39;archivio CRX. Inizia con &quot;**./**&quot; perché indica che il percorso si trova sotto il nodo della risorsa.
+* **[!UICONTROL Mappa su proprietà]**: il valore di questa proprietà fornisce il percorso/nome relativo del nodo della risorsa in cui viene salvato nell’archivio CRX. Inizia con &quot;**./**&quot; perché indica che il percorso si trova sotto il nodo della risorsa.
 
 Di seguito sono riportati i valori validi per questa proprietà:
 
@@ -112,96 +112,96 @@ Di seguito sono riportati i valori validi per questa proprietà:
 
 -- `./jcr:created`: visualizza la proprietà jcr sul nodo della risorsa. Se configuri queste proprietà come View Properties (Visualizza proprietà), è consigliabile contrassegnarle con l’opzione Disattiva modifica, in quanto sono protette. In caso contrario, al momento di salvare le proprietà della risorsa si verifica l’errore “Impossibile modificare le risorse”.
 
-* **[!UICONTROL Segnaposto]**: Utilizzare questa proprietà per fornire all&#39;utente tutte le informazioni pertinenti relative alla proprietà metadati.
-* **[!UICONTROL Obbligatorio]**: Utilizzare questa proprietà per contrassegnare una proprietà metadati come obbligatoria nella pagina Proprietà.
-* **[!UICONTROL Disattiva modifica]**: Utilizzare questa proprietà per rendere non modificabile una proprietà metadati nella pagina Proprietà.
-* **[!UICONTROL Mostra Campo Vuoto In Sola]** Lettura: Contrassegna questa proprietà per visualizzare una proprietà di metadati nella pagina Proprietà anche se non ha alcun valore. Per impostazione predefinita, quando una proprietà di metadati non ha alcun valore, non viene elencata nella pagina Proprietà.
-* **[!UICONTROL Descrizione]**: Utilizza questa proprietà per aggiungere una breve descrizione per il componente metadati.
-* **[!UICONTROL Icona]** Elimina: Fai clic su questa icona per eliminare un componente dal modulo schema.
+* **[!UICONTROL Segnaposto]**: utilizza questa proprietà per fornire all’utente tutte le informazioni pertinenti relative alla proprietà dei metadati.
+* **[!UICONTROL Obbligatorio]**: utilizza questa proprietà per contrassegnare una proprietà di metadati come obbligatoria nella pagina Proprietà.
+* **[!UICONTROL Disattiva modifica]**: utilizza questa proprietà per impedire la modifica di una proprietà di metadati nella pagina Proprietà.
+* **[!UICONTROL Mostra campo vuoto in sola lettura]**: contrassegna questa proprietà per visualizzare una proprietà di metadati nella pagina Proprietà anche se non ha un valore. Per impostazione predefinita, quando una proprietà di metadati non ha un valore, non viene elencata nella pagina Proprietà.
+* **[!UICONTROL Descrizione]**: utilizza questa proprietà per aggiungere una breve descrizione del componente metadati.
+* **[!UICONTROL Icona Elimina]**: fai clic su questa icona per eliminare un componente dal modulo schema.
 
 ![](assets/delete_icon_editmetadataschemaform.png)
 
 >[!NOTE]
 >
->Tutti i campi di metadati sono di sola lettura nel modulo di editor di metadati di una risorsa. Poiché i metadati della risorsa devono essere modificati in Experience Manager Assets prima di pubblicarli in Brand Portal.
+>Tutti i campi di metadati sono di sola lettura nel modulo dell’editor di metadati di una risorsa. Poiché i metadati della risorsa devono essere modificati in Experience Manager Assets prima che una risorsa venga pubblicata in Brand Portal.
 
-#### Aggiunta o eliminazione di una scheda nel modulo schema {#add-or-delete-a-tab-in-the-schema-form}
+#### Aggiungere o eliminare una scheda nel modulo schema {#add-or-delete-a-tab-in-the-schema-form}
 
-Il modulo schema predefinito include le schede **[!UICONTROL Base]** e **[!UICONTROL Avanzate]**. L’editor dello schema consente di aggiungere o eliminare una scheda.
+Il modulo schema predefinito include **[!UICONTROL Base]** e **[!UICONTROL Avanzate]** schede. L’editor dello schema consente di aggiungere o eliminare una scheda.
 
 ![](assets/add_delete_tabs_metadataschemaform.png)
 
-* Per aggiungere una nuova scheda a un modulo schema, fare clic su **[!UICONTROL +]**. Per impostazione predefinita, la nuova scheda ha il nome &quot;Senza nome-1&quot;. Puoi modificare il nome dalla scheda **[!UICONTROL Impostazioni]** .
+* Per aggiungere una nuova scheda a un modulo schema, fai clic su **[!UICONTROL +]**. Per impostazione predefinita, la nuova scheda è denominata &quot;Unnamed-1&quot;. Puoi modificare il nome dalla sezione **[!UICONTROL Impostazioni]** scheda.
 
 ![](assets/add-tab-metadata-form.png)
 
-* Per eliminare una scheda, fai clic su **[!UICONTROL x]**. Fai clic su **[!UICONTROL Salva]** per salvare le modifiche.
+* Per eliminare una scheda, fare clic su **[!UICONTROL x]**. Clic **[!UICONTROL Salva]** per salvare le modifiche.
 
-## Applicazione di uno schema di metadati a una cartella {#apply-a-metadata-schema-to-a-folder}
+## Applicare uno schema di metadati a una cartella {#apply-a-metadata-schema-to-a-folder}
 
-Brand Portal consente di personalizzare e controllare lo schema dei metadati in modo che la pagina **[!UICONTROL Proprietà]** di una risorsa visualizzi solo le informazioni specifiche che scegli di mostrare. Per controllare i metadati visualizzati nella pagina **[!UICONTROL Proprietà]**, rimuovi i metadati richiesti dal modulo schema metadati e applicali alla cartella specifica.
+Brand Portal consente di personalizzare e controllare lo schema metadati in modo che **[!UICONTROL Proprietà]** pagina di una risorsa mostra solo le informazioni specifiche che scegli di visualizzare. Per controllare i metadati visualizzati in **[!UICONTROL Proprietà]** , rimuovi i metadati richiesti dal modulo schema metadati e applicali alla cartella specifica.
 
-Per applicare un modulo schema metadati a una cartella, procedi come segue:
+Per applicare un modulo schema metadati a una cartella, effettua le seguenti operazioni:
 
-1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo Experience Manager per accedere agli strumenti amministrativi.
+1. Dalla barra degli strumenti nella parte superiore, fai clic sul logo dell’Experience Manager per accedere agli strumenti di amministrazione.
 
    ![](assets/aemlogo.png)
 
-1. Dal pannello degli strumenti amministrativi, fai clic su **[!UICONTROL Schemi di metadati]**.
+1. Nel pannello Strumenti di amministrazione, fate clic su **[!UICONTROL Schemi metadati]**.
 
-1. Dalla pagina **[!UICONTROL Forms schema metadati]** , seleziona il modulo schema da applicare a una risorsa, ad esempio **[!UICONTROL abbigliamento]**.
+1. Dalla sezione **[!UICONTROL Forms schema metadati]** , seleziona il modulo schema da applicare a una risorsa, ad esempio, **[!UICONTROL abbigliamento]**.
 
    ![](assets/apply-metadata-schema-form-to-folder.png)
 
 1. Dalla barra degli strumenti nella parte superiore, fai clic su **[!UICONTROL Applica a cartelle]**.
 
-1. Dalla pagina **[!UICONTROL Seleziona cartelle]**, passa alla cartella in cui desideri applicare lo schema metadati **[!UICONTROL abbigliamento]**, ad esempio **[!UICONTROL Guanti]**.
+1. Dalla sezione **[!UICONTROL Seleziona cartelle]** , passare alla cartella alla quale si desidera applicare la **[!UICONTROL abbigliamento]** schema metadati, ad esempio, **[!UICONTROL Guanti]**.
 
    ![](assets/apply_metadata_schemaformtofoldergloves.png)
 
-1. Fai clic su **[!UICONTROL Applica]** per applicare il modulo schema metadati alla cartella.
+1. Clic **[!UICONTROL Applica]** per applicare il modulo schema metadati alla cartella.
 
-   I metadati disponibili nel modulo di schema metadati **[!UICONTROL abbigliamento]** vengono applicati alla cartella **[!UICONTROL Guanti]** e sono visibili nella pagina **[!UICONTROL Proprietà]** della cartella.
+   I metadati disponibili nella sezione **[!UICONTROL abbigliamento]** il modulo schema metadati viene applicato al **[!UICONTROL Guanti]** e visibile nella **[!UICONTROL Proprietà]** della cartella.
 
    ![](assets/folder_metadata_properties.png)
 
 >[!NOTE]
 >
->Se applichi uno schema che include schemi nidificati a una cartella contenente file video, le proprietà dei metadati per i file video potrebbero non essere renderizzate correttamente. Per garantire il corretto rendering delle proprietà dei metadati, rimuovi gli schemi nidificati e applica solo lo schema padre alla cartella.
+>Se applichi uno schema che include schemi nidificati a una cartella contenente file video, le proprietà dei metadati per i file video potrebbero non essere riprodotte correttamente. Per garantire il corretto rendering delle proprietà dei metadati, rimuovi gli schemi nidificati e applica alla cartella solo lo schema principale.
 
 ## Eliminare un modulo schema metadati {#delete-a-metadata-schema-form}
 
 Brand Portal consente di eliminare solo i moduli schema personalizzati. Non consente di eliminare i moduli/modelli di schema predefiniti. Tuttavia, è possibile eliminare qualsiasi modifica personalizzata in questi moduli.
 
-Per eliminare un modulo, selezionarlo e fare clic sull&#39;icona **[!UICONTROL Elimina]**.
+Per eliminare un modulo, selezionarlo e fare clic su **[!UICONTROL Elimina]** icona.
 
 ![](assets/delete_icon_metadataschemaeditorform.png)
 
 >[!NOTE]
 >
->Dopo aver eliminato le modifiche personalizzate apportate a un modulo predefinito, il simbolo **[!UICONTROL Lock]** viene visualizzato nuovamente prima del nome del modulo nell’interfaccia di Schema metadati per indicare che il modulo viene ripristinato allo stato predefinito.
+>Dopo aver eliminato le modifiche personalizzate apportate a un modulo predefinito, **[!UICONTROL Blocca]** Il simbolo viene nuovamente visualizzato prima del nome del modulo nell&#39;interfaccia Schema metadati per indicare che il modulo è tornato allo stato predefinito.
 
 ## Moduli schema per TIPI MIME {#schema-forms-for-mime-types}
 
-### Aggiunta di nuovi moduli per i tipi MIME {#adding-new-forms-for-mime-types}
+### Aggiunta di nuovi moduli per tipi MIME {#adding-new-forms-for-mime-types}
 
-Oltre ai moduli predefiniti, puoi aggiungere moduli personalizzati per risorse di vari tipi MIME o creare un nuovo modulo con un tipo appropriato. Ad esempio, per aggiungere un nuovo modello per il sottotipo **[!UICONTROL image/png]**, crea il modulo sotto i moduli “image”. Il titolo del modulo schema è il nome del sottotipo. In questo caso, il titolo è &quot;png&quot;.
+Oltre ai moduli predefiniti, puoi aggiungere moduli personalizzati per risorse di vari tipi MIME o creare un nuovo modulo in un tipo di modulo appropriato. Ad esempio, per aggiungere un nuovo modello per il sottotipo **[!UICONTROL image/png]**, crea il modulo sotto i moduli “image”. Il titolo del modulo schema è il nome del sottotipo. In questo caso, il titolo è &quot;png&quot;.
 
 #### Utilizzo di un modello di schema esistente per vari tipi MIME {#using-an-existing-schema-template-for-various-mime-types}
 
-Puoi utilizzare un modello esistente per un tipo MIME diverso. Ad esempio, utilizza il modulo **image/jpeg** per le risorse di tipo MIME **image/png**.
+Puoi utilizzare un modello esistente per un tipo MIME diverso. Ad esempio, utilizza **image/jpeg** modulo per risorse di tipo MIME **image/png**.
 
-In questo caso, crea un nuovo nodo in [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] nell’archivio CRX. Specifica un nome per il nodo e definisci le seguenti proprietà:
+In questo caso, crea un nuovo nodo in corrispondenza di [!UICONTROL `/etc/dam/metadataeditor/mimetypemappings`] nell’archivio CRX. Specifica un nome per il nodo e definisci le seguenti proprietà:
 
 | **Nome** | **Tipo** | **Valore** |
 |---|---|---|
 | exposedmimetype | Stringa | image/jpeg |
 | mimetipi | Stringa[] | image/png |
 
-* **exposedmimetype**: Nome del modulo esistente da mappare
-* **mimetipi**: Elenco dei tipi MIME che utilizzano il modulo definito in  **** exposedmimetypeattribute
+* **exposedmimetype**: nome del modulo esistente da mappare
+* **mimetipi**: elenco di tipi MIME che utilizzano il modulo definito in **exposedmimetype** attributo
 
-Brand Portal mappa i seguenti tipi MIME e moduli di schema:
+Brand Portal mappa i seguenti tipi MIME e moduli schema:
 
 | **Modulo schema** | **Tipi MIME** |
 |---|---|
@@ -217,7 +217,7 @@ Brand Portal mappa i seguenti tipi MIME e moduli di schema:
 | video/wmv | video/x-ms-wmv |
 | video/flv | video/x-flv |
 
-Di seguito è riportato un elenco delle proprietà di metadati predefinite:
+Di seguito è riportato un elenco delle proprietà dei metadati predefinite:
 
 * jcr:content/metadata/cq:tags
 * jcr:content/metadata/dc:format
@@ -238,5 +238,5 @@ Di seguito è riportato un elenco delle proprietà di metadati predefinite:
 * jcr:content/onTime
 * jcr:content/offTime
 * jcr:content/metadata/dam:size
-* jcr:content/metadata/tiff:ImageWidth
-* jcr:content/metadata/tiff:ImageLength
+* jcr:content/metadata/tiff:LarghezzaImmagine
+* jcr:content/metadata/tiff:LunghezzaImmagine

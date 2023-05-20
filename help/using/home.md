@@ -13,7 +13,7 @@ ht-degree: 69%
 
 # Adobe Experience Manager Assets Brand Portal Guida {#aem-brand-portal}
 
-**Adobe Experience Manager Assets Brand Portal** consente alle organizzazioni di soddisfare le proprie esigenze di marketing distribuendo in modo sicuro le risorse approvate relative a prodotti e marchi, che potranno essere scaricate da agenzie esterne, partner, team interni e rivenditori.
+**Adobe Experience Manager Assets Brand Portal** consente alle organizzazioni di soddisfare le esigenze di marketing aziendali e di distribuire in sicurezza le risorse approvate relative a prodotti e marchi, che potranno essere scaricate da agenzie esterne, partner, team interni e rivenditori.
 
 La mancanza di una soluzione sicura per la condivisione delle risorse può comportare:
 
@@ -42,12 +42,12 @@ Questa guida utente illustra in dettaglio le funzionalità offerte da Brand Port
 | [Novità](whats-new.md) | Informazioni sulle modifiche e sulle nuove funzionalità introdotte nelle varie versioni di Brand Portal. |
 | [Note sulla versione](brand-portal-release-notes.md) | Miglioramenti, problemi critici risolti e problemi noti presenti nella versione corrente. |
 | [Configurare Experience Manager Assets con Brand Portal](../using/configure-aem-assets-with-brand-portal.md) | Come replicare Brand Portal con Experience Manager Assets per pubblicare le risorse. |
-| [Risolvere i problemi relativi alla pubblicazione parallela](troubleshoot-parallel-publishing.md) | Risolvere i problemi relativi alla replica tra Brand Portal e Experience Manager Assets. |
+| [Risolvere i problemi relativi alla pubblicazione parallela](troubleshoot-parallel-publishing.md) | Risoluzione dei problemi di replica tra Brand Portal e Experience Manager Assets. |
 | [Formati di file supportati](brand-portal-supported-formats.md) | Formati di file supportati in Brand Portal per l’anteprima e il download. |
 | [Pubblicare le risorse in Brand Portal](brand-portal-sharing-folders.md) | Informazioni su come pubblicare cartelle, raccolte, collegamenti, predefiniti, schemi, facet e tag in Brand Portal. |
-| [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md) | Come configurare Asset Sourcing in AEM Assets, caricare le risorse in Brand Portal e pubblicare nuovamente la cartella Contribution in AEM Assets. |
+| [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md) | Configurare Asset Sourcing in AEM Assets, caricare le risorse in Brand Portal e pubblicare nuovamente la cartella Contributi in AEM Assets. |
 | [Video sulle funzioni di Brand Portal](https://experienceleague.adobe.com/?lang=en&amp;tag=Brand+Portal#recommended/solutions/experience-manager) | Scopri come utilizzare Experience Manager Assets Brand Portal con l’aiuto di esercitazioni video. |
 
 ### Risorse utili
 
-* [Brand Portal con AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+* [Informazioni su Brand Portal con AEM Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)

@@ -5,30 +5,30 @@ sub-product: experience manager brand portal
 audience: end-user
 user-guide-title: Adobe Experience Manager Assets Brand Portal
 breadcrumb-title: Guida di Brand Portal
-user-guide-description: Utilizza Experience Manager Assets Brand Portal per soddisfare le esigenze di marketing distribuendo in modo sicuro le risorse approvate relative a prodotti e marchi da scaricare ad agenzie esterne, partner, team interni e rivenditori.
+user-guide-description: Utilizza Experience Manager Assets Brand Portal per soddisfare le esigenze di marketing con la distribuzione sicura delle risorse approvate del brand e dei prodotti, per consentirne il download da parte di agenzie esterne, partner, team interni e rivenditori.
 feature: Brand Portal
 role: User
 source-git-commit: 946424d309d8fff0729a70709f2f8061b9164223
 workflow-type: tm+mt
 source-wordcount: '277'
-ht-degree: 61%
+ht-degree: 75%
 
 ---
 
 
-# Guida di Adobe Experience Manager Assets Brand Portal {#using}
+# Adobe Experience Manager Assets Brand Portal Guida {#using}
 
 + [Guida di Brand Portal](using/home.md)
 + Introduzione {#introduction}
    + [Panoramica](using/brand-portal.md)
    + [Novità di Experience Manager Assets Brand Portal](using/whats-new.md)
    + [Note sulla versione](using/brand-portal-release-notes.md)
-   + [Domande frequenti ](using/brand-portal-faqs.md)
+   + [Domande frequenti](using/brand-portal-faqs.md)
    + [Formati di file supportati](using/brand-portal-supported-formats.md)
    + [Accesso a Brand Portal come ospite](using/guest-access.md)
-   + [Brand Portal con Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
+   + [Informazioni su Brand Portal con Experience Manager Assets](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/home.html)
    + [Navigazione nelle risorse in Brand Portal](using/browse-assets-brand-portal.md)
-+ Pubblicare da Experience Manager Assets a Brand Portal {#publish}
++ Pubblica da Experience Manager Assets a Brand Portal {#publish}
    + [Configurare Experience Manager Assets con Brand Portal](using/configure-aem-assets-with-brand-portal.md)
    + [Pubblicare risorse su Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-assets.html)
    + [Pubblicare cartelle su Brand Portal](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/brand-portal-publish-folder.html)
