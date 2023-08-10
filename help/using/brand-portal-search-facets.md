@@ -10,10 +10,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
+source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
 workflow-type: tm+mt
-source-wordcount: '1280'
-ht-degree: 10%
+source-wordcount: '1312'
+ht-degree: 9%
 
 ---
 
@@ -68,7 +68,7 @@ Per aggiungere un predicato di ricerca al **[!UICONTROL Filtri]** pannello:
    >
    >Alla selezione **[!UICONTROL Ricerca parziale]** casella di controllo, **[!UICONTROL Ignora maiuscole/minuscole]** è selezionato per impostazione predefinita.
 
-1. In **[!UICONTROL Nome proprietà]** , aprire il selettore delle proprietà e selezionare la proprietà in base alla quale viene eseguita la ricerca. In alternativa, immettere un nome per la proprietà. Ad esempio, inserisci `  jcr :content/metadata/dc:title` o `./jcr:content/metadata/dc:title`.
+1. In **[!UICONTROL Nome proprietà]** , aprire il selettore delle proprietà e selezionare la proprietà in base alla quale viene eseguita la ricerca. In alternativa, immettere un nome per la proprietà. Ad esempio, inserisci `jcr :content/metadata/dc:title` o `./jcr:content/metadata/dc:title`.
 
    >[!NOTE]
    >
@@ -111,7 +111,8 @@ Simile alla modalità di aggiunta di un **[!UICONTROL Proprietà]** predicato, �
 
 >[!NOTE]
 >
->Non usi **[!UICONTROL Predicato opzioni]**, **[!UICONTROL Predicato di stato pubblicazione]**, e **[!UICONTROL Predicato di valutazione]** poiché questi predicati non sono funzionali in Brand Portal.
+>* Non usi **[!UICONTROL Predicato opzioni]**, **[!UICONTROL Predicato di stato pubblicazione]**, e **[!UICONTROL Predicato di valutazione]** poiché questi predicati non sono funzionali in Brand Portal.
+>* Predicato tipo cartella `(nt:folder type)` non è supportato in Brand Portal e potrebbe causare problemi di prestazioni. Se è presente nel modulo di ricerca personalizzato pubblicato, può essere eliminato modificando il modulo di ricerca.
 
 ## Eliminare un predicato di ricerca {#delete-a-search-predicate}
 
