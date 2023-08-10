@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 85271973e36cb53bd2feac731690b86c43a397a9
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1280'
 ht-degree: 10%
 
 ---
@@ -72,7 +72,7 @@ Per aggiungere un predicato di ricerca al **[!UICONTROL Filtri]** pannello:
 
    >[!NOTE]
    >
-   >In Brand Portal, tutte le proprietà (eccetto quelle che iniziano con `xmp`) in `jcrcontent/metadata` di `dam:asset` sono indicizzati per impostazione predefinita.
+   >In Brand Portal, tutte le proprietà String (eccetto quelle che iniziano con `xmp`) in `jcrcontent/metadata` di `dam:asset` sono indicizzati per impostazione predefinita.
    >
    >Qualsiasi proprietà indicizzata può essere utilizzata durante la creazione di un predicato di proprietà. Se è configurata una proprietà non indicizzata, la query di ricerca su una proprietà non indicizzata potrebbe non fornire alcun risultato.
 
@@ -95,7 +95,7 @@ Simile alla modalità di aggiunta di un **[!UICONTROL Proprietà]** predicato, �
 | **[!UICONTROL Proprietà]** | Cerca le risorse in base a una particolare proprietà di metadati. **Nota:** *Quando si seleziona Ricerca parziale, Ignora maiuscole/minuscole è selezionato per impostazione predefinita*. | <ul><li>Etichetta campo</li><li>Segnaposto</li><li>Nome proprietà</li><li>Ricerca parziale</li><li>Ignora maiuscole/minuscole</li><li> Descrizione</li></ul> |
 | **[!UICONTROL Proprietà con più valori]** | Simile al predicato proprietà ma consente più valori di input, separati da un delimitatore (il valore predefinito è VIRGOLA)[,]) le risorse che corrispondono a uno qualsiasi dei valori immessi vengono restituite nei risultati. | <ul><li>Etichetta campo</li><li>Segnaposto</li><li>Nome proprietà</li><li>Supporto delimitatore</li><li>Ignora maiuscole/minuscole</li><li>Descrizione</li></ul> |
 | **[!UICONTROL Tag]** | Cerca predicato per cercare le risorse in base ai tag. È possibile configurare la proprietà Path per compilare vari tag nell&#39;elenco Tag. *Nota: gli amministratori potrebbero dover modificare il valore del percorso, ad esempio [!UICONTROL `/etc/tags/mac/<tenant_id>/<custom_tag_namespace>`], se pubblicano il modulo di ricerca dall’AEM, dove il percorso non include informazioni sul tenant, ad esempio, [!UICONTROL `/etc/tags/<custom_tag_namespace>`]. | <ul><li>Etichetta campo</li><li>Nome proprietà</li><li>Percorso</li><li>Descrizione</li></ul> |
-| **[!UICONTROL Percorso]** | Cerca predicato per cercare le risorse in una posizione particolare. | <ul><li>Etichetta campo</li><li>Percorso</li><li>Descrizione</li></ul> |  |
+| **[!UICONTROL Percorso]** | Cerca predicato per cercare le risorse in una posizione particolare. | <ul><li>Etichetta campo</li><li>Percorso</li><li>Descrizione</li></ul> |                                                     |
 | **[!UICONTROL Data relativa]** | Cerca predicato per cercare le risorse in base alla data relativa di creazione. | <ul><li>Etichetta campo</li><li>Nome proprietà</li><li>Data relativa</li></ul> |
 | **[!UICONTROL Intervallo]** | Predicato di ricerca per cercare le risorse che si trovano all’interno di un intervallo specificato di valori di proprietà. Nel pannello Filtri, potete specificare i valori minimi e massimi delle proprietà per l&#39;intervallo. | <ul><li>Etichetta campo</li><li>Nome proprietà</li><li>Descrizione</li></ul> |
 | **[!UICONTROL Intervallo date]** | Cerca predicato per cercare le risorse create all’interno di un intervallo specificato per una proprietà di data. Nel pannello Filtri puoi specificare le date di inizio e fine. | <ul><li>Etichetta campo</li><li>Segnaposto</li><li>Nome proprietà</li><li>Testo intervallo (Da)</li><li>Testo intervallo (A)</li><li>Descrizione</li></ul> |
