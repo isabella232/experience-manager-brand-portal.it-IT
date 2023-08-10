@@ -1,8 +1,8 @@
 ---
 title: Novità di Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quali sono le nuove funzioni e i miglioramenti di 2032.05.0
-seo-description: What are the new features and enhancements for 2023.05.0
+description: Quali sono le nuove funzioni e i miglioramenti di 2032.08.0
+seo-description: What are the new features and enhancements for 2023.08.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: aa19fec62efc31d24b75f87ebc8e07200df7f11e
+source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
 workflow-type: tm+mt
-source-wordcount: '6514'
+source-wordcount: '6536'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # Novità di Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal consente di acquisire, controllare e distribuire in modo semplice e sicuro le risorse creative approvate a parti esterne e utenti aziendali interni tra i dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, accelera il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato. Adobe sta lavorando per migliorare l’esperienza complessiva di Brand Portal. Ecco una panoramica delle nuove funzioni e dei miglioramenti apportati.
+
+## Cosa è cambiato nel 2023.08.0 {#what-changed-in-August-2023}
+
+Brand Portal 2023.08.0 è una versione interna che include correzioni ai problemi critici. Vedi più recente [Note sulla versione di Brand Portal](brand-portal-release-notes.md).
 
 ## Cosa è cambiato nel 2023.05.0 {#what-changed-in-May-2023}
 
@@ -332,7 +336,7 @@ Con Visualizzatore documenti, gli utenti di Brand Portal ora possono visualizzar
 
 Il processo di download delle risorse è stato rinnovato, offrendo un’esperienza utente semplificata durante [download di risorse da Brand Portal](brand-portal-download-assets.md).
 
-Il flusso di lavoro esistente per il download di risorse da Brand Portal è inevitabilmente seguito dall’aspetto di un’  **[!UICONTROL Scarica]** finestra di dialogo con più opzioni di download tra cui scegliere.
+Il flusso di lavoro esistente per il download di risorse da Brand Portal è inevitabilmente seguito dall’apparizione di un  **[!UICONTROL Scarica]** finestra di dialogo con più opzioni di download tra cui scegliere.
 
 In Brand Portal 6.4.7, gli amministratori di Brand Portal possono configurare la risorsa  **[!UICONTROL Scarica]** impostazioni. Le configurazioni disponibili sono:
 
@@ -516,7 +520,7 @@ La miniatura predefinita delle cartelle virtuali è quella della prima cartella 
 * Gli utenti amministratori possono utilizzare il browser percorsi per passare a qualsiasi directory di cartelle su Brand Portal.
 * Gli utenti non amministratori possono utilizzare il browser Percorsi per passare solo alle cartelle condivise con loro (e tornare alle cartelle principali).
 
-   Ad esempio: `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` è condiviso con un utente non amministratore. L’utente può cercare le risorse all’interno di folderC utilizzando il browser percorsi. Questo utente può anche passare a folderB e folderA (poiché sono predecessori di folderC condiviso con l’utente).
+  Ad esempio: `/content/dam/mac/<tenant-id>/folderA/folderB/folderC` è condiviso con un utente non amministratore. L’utente può cercare le risorse all’interno di folderC utilizzando il browser percorsi. Questo utente può anche passare a folderB e folderA (poiché sono predecessori di folderC condiviso con l’utente).
 
 ![](assets/edit-search-form.png)
 
@@ -529,20 +533,20 @@ La ricerca in queste cartelle restituisce i risultati solo dalle risorse condivi
 
 [![](assets/see-the-guide.png)](../using/brand-portal-search-facets.md#listofsearchpredicates)
 
-### Supporto delle rappresentazioni video di Dynamic Media
+### Supporto delle rappresentazioni video di Dynamic Medie
 
-Gli utenti la cui istanza di AEM Author è in modalità ibrida Dynamic Media possono visualizzare in anteprima e scaricare le rappresentazioni Dynamic Media, oltre ai file video originali.
+Gli utenti la cui istanza di AEM Author è in modalità ibrida Dynamic Medie possono visualizzare in anteprima e scaricare le rappresentazioni Dynamic Media, oltre ai file video originali.
 
-Per consentire l’anteprima e il download delle rappresentazioni Dynamic Media su account tenant specifici, gli amministratori devono specificare **Configurazione Dynamic Media** (URL del servizio video (DM-Gateway URL) e ID di registrazione per recuperare il video dinamico) in **Video** configurazione dal pannello strumenti di amministrazione.
+Per consentire l’anteprima e il download delle rappresentazioni Dynamic Media su account tenant specifici, gli amministratori devono specificare **Configurazione Dynamic Medie** (URL del servizio video (DM-Gateway URL) e ID di registrazione per recuperare il video dinamico) in **Video** configurazione dal pannello strumenti di amministrazione.
 
 
-I video Dynamic Media possono essere visualizzati in anteprima su:
+I video Dynamic Medie possono essere visualizzati in anteprima su:
 
 * Pagina dettagli risorsa
 * Vista a schede della risorsa
 * Pagina di anteprima condivisione collegamenti
 
-Le codifiche video Dynamic Media possono essere scaricate da:
+Le codifiche video Dynamic Medie possono essere scaricate da:
 
 * Brand Portal
 * Collegamento condiviso
