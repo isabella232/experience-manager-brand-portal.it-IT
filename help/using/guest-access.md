@@ -10,16 +10,16 @@ content-type: reference
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: b9e9fe7b-0373-42d1-851b-7c76b47657c2
 exl-id: ecce0a45-abae-41c4-9ea7-5dfdcf19e5ea
-source-git-commit: 10c310a0bc77abf73f058dc4da5cb09bce7c31d5
+source-git-commit: b66b8ea6a88dba41380ca94e613e77b3a2c1e253
 workflow-type: tm+mt
-source-wordcount: '1026'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
 
 # Accesso a Brand Portal come ospite {#guest-access-to-brand-portal}
 
-Experience Manager Assets Brand Portal consente l&#39;accesso come ospite al portale. Un utente guest non ha bisogno delle credenziali per accedere al portale e ha accesso alle risorse pubbliche (e alle raccolte) del portale. Gli utenti nella sessione ospite possono aggiungere risorse a lightbox (raccolta privata) e scaricarle finché la sessione non dura, ovvero 2 ore dall’inizio della sessione, a meno che l’utente ospite non scelga di [[!UICONTROL Fine sessione]](#exit-guest-session).
+Experience Manager Assets Brand Portal consente l&#39;accesso come ospite al portale. Un utente guest non ha bisogno delle credenziali per accedere al portale e ha accesso alle risorse pubbliche (e alle raccolte) del portale. Gli utenti nella sessione guest possono aggiungere risorse a lightbox (raccolta privata) e scaricarle finché non dura la sessione o finché l’utente guest non sceglie di: [[!UICONTROL Fine sessione]](#exit-guest-session). Una sessione utente ospite rimane attiva per 15 minuti, mentre il timeout effettivo dell’utente ospite è di 2 ore.
 
 La funzionalità di accesso come ospite consente alle organizzazioni di: [condividere rapidamente le risorse approvate](../using/brand-portal-sharing-folders.md#how-to-share-folders) con il pubblico previsto su larga scala senza doverli integrare. A partire dalla versione 6.4.2 di Brand Portal, è in grado di servire più utenti guest simultanei, ovvero il 10% della quota totale di utenti per organizzazione. Consentendo l’accesso come ospite, si risparmia tempo per gestire e integrare punteggi di utenti con funzionalità limitate in Brand Portal.\
 Le organizzazioni possono abilitare (o disabilitare) l’accesso come ospite sull’account Brand Portal dell’organizzazione utilizzando **[!UICONTROL Consenti accesso come ospite]** opzione da **[!UICONTROL Accesso]** nel pannello strumenti di amministrazione.
