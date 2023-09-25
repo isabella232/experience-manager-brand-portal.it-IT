@@ -10,9 +10,9 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 19faa028-246b-42c7-869f-97c95c7a1349
 role: Admin
 exl-id: c07e1268-2c83-40ba-8dcd-5dade3a10141
-source-git-commit: 24e15fd8f609505a197d3615b113bef6318ee850
+source-git-commit: c5c16d2aa1b488efac90dbc77023bba9897ae929
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1325'
 ht-degree: 9%
 
 ---
@@ -72,7 +72,7 @@ Per aggiungere un predicato di ricerca al **[!UICONTROL Filtri]** pannello:
 
    >[!NOTE]
    >
-   >In Brand Portal, tutte le proprietà String (eccetto quelle che iniziano con `xmp`) in `jcrcontent/metadata` di `dam:asset` sono indicizzati per impostazione predefinita.
+   >In Brand Portal, tutte le proprietà String (eccetto quelle che iniziano con `xmp`) in `jcrcontent/metadata` di `dam:asset` sono indicizzati per impostazione predefinita. Tutte le altre proprietà personalizzate di qualsiasi tipo non sono indicizzate per impostazione predefinita.
    >
    >Qualsiasi proprietà indicizzata può essere utilizzata durante la creazione di un predicato di proprietà. Se è configurata una proprietà non indicizzata, la query di ricerca su una proprietà non indicizzata potrebbe non fornire alcun risultato.
 
