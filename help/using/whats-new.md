@@ -1,8 +1,8 @@
 ---
 title: Novità di Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quali sono le nuove funzioni e i miglioramenti di 2032.08.0
-seo-description: What are the new features and enhancements for 2023.08.0
+description: Quali sono le nuove funzioni e i miglioramenti di 2032.10.0
+seo-description: What are the new features and enhancements for 2023.10.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,9 +10,9 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: eba7cce4bb2b27c149c95774206a4bb014d3749d
+source-git-commit: cdb7b5e3d053dc6181f815cbbd9781e1b271edc4
 workflow-type: tm+mt
-source-wordcount: '6536'
+source-wordcount: '6558'
 ht-degree: 2%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 2%
 # Novità di Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal consente di acquisire, controllare e distribuire in modo semplice e sicuro le risorse creative approvate a parti esterne e utenti aziendali interni tra i dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, accelera il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato. Adobe sta lavorando per migliorare l’esperienza complessiva di Brand Portal. Ecco una panoramica delle nuove funzioni e dei miglioramenti apportati.
+
+## Cosa è cambiato nel 2023.10.0 {#what-changed-in-October-2023}
+
+Brand Portal 2023.10.0 è una versione interna che include correzioni ai problemi critici. Vedi più recente [Note sulla versione di Brand Portal](brand-portal-release-notes.md).
 
 ## Cosa è cambiato nel 2023.08.0 {#what-changed-in-August-2023}
 
@@ -488,7 +492,7 @@ Analogamente, specificando:
 
 ## Modifiche apportate alla versione 6.4.3 {#what-changed-in}
 
-La versione di Brand Portal 6.4.3 si concentra su, fornendo alle organizzazioni un alias alternativo in aggiunta al loro ID tenant nell’URL di accesso di Brand Portal, nuova configurazione della gerarchia di cartelle, miglioramenti al supporto video, pubblicazione pianificata dall’istanza di AEM Author a Brand Portal, miglioramenti operativi e soddisfa le richieste dei clienti.
+La versione di Brand Portal 6.4.3 si concentra su, fornendo alle organizzazioni un alias alternativo in aggiunta al loro ID tenant nell’URL di accesso di Brand Portal, nuova configurazione della gerarchia di cartelle, miglioramenti al supporto video, pubblicazione pianificata dall’istanza AEM Author a Brand Portal, miglioramenti operativi e soddisfa le richieste dei clienti.
 
 ### Navigazione nella gerarchia di cartelle per non amministratori
 
@@ -574,7 +578,7 @@ Le organizzazioni possono personalizzare l’URL del portale con un prefisso alt
 È possibile personalizzare solo il prefisso dell’URL di Brand Portal e non l’intero URL.\
 Ad esempio, un’organizzazione con un dominio esistente **geomettrix.brand-portal.adobe.com** può ottenere **geomettrixinc.brand-portal.adobe.com** creato su richiesta.
 
-Tuttavia, l’istanza di AEM Author può essere [configurato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) solo con l’URL dell’ID tenant e non con l’URL dell’alias tenant (alternativo).
+Tuttavia, l’istanza di authoring dell’AEM può essere [configurato](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) solo con l’URL dell’ID tenant e non con l’URL dell’alias tenant (alternativo).
 
 Le organizzazioni possono soddisfare le proprie esigenze di branding personalizzando l’URL del portale, anziché attenersi all’URL fornito da Adobe.
 

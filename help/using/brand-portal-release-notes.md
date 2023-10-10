@@ -1,7 +1,7 @@
 ---
 title: Note sulla versione
 seo-title: Release Notes
-description: Ottieni informazioni sulle funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione 2023.08.0 di Adobe Experience Manager Assets Brand Portal.
+description: Ottieni informazioni sulle funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione 2023.10.0 di Adobe Experience Manager Assets Brand Portal.
 seo-description: Get an insight into the enhancements, critical issues fixed, and known issues in the Adobe Experience Manager Assets Brand Portal 2023.08.0 release.
 uuid: 3d6ffb6f-4608-4e83-8486-5c90e06cdb43
 content-type: reference
@@ -10,34 +10,59 @@ topic-tags: brand-portal
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: 79ebb9fc-385c-48a8-979e-374f42517988
 exl-id: e4e89080-9863-4857-8f3a-fcd516ef3271
-source-git-commit: ddca484ae2af6e24f89072270f876104a81a9025
+source-git-commit: 21fc4446c2ec56a58a3dcbf8362d661c6e8d3712
 workflow-type: tm+mt
-source-wordcount: '1210'
+source-wordcount: '1312'
 ht-degree: 6%
 
 ---
 
 # Note sulla versione {#release-notes}
 
-Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione 2023.08.0 di Adobe Experience Manager Assets Brand Portal.
+Scopri le nuove funzioni, i miglioramenti, i problemi critici risolti e i problemi noti nella versione 2023.10.0 di Adobe Experience Manager Assets Brand Portal.
 
 ## Informazioni sulla versione {#release-information}
 
 | Prodotto | Adobe Experience Manager Assets Brand Portal |
 |---|---|
-| Versione | 2023.08.0 |
-| Data | Agosto 2023 |
+| Versione | 2023.10.0 |
+| Data | Ottobre 2023 |
 
 ## Panoramica {#overview}
 
 Adobe Experience Manager (AEM) Assets Brand Portal consente di acquisire, controllare e distribuire in modo semplice e sicuro le risorse creative approvate a parti esterne e utenti aziendali interni tra i dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, accelera il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato. Brand Portal consente agli utenti di sfogliare, cercare, visualizzare in anteprima, scaricare ed esportare le risorse in formati approvati dall&#39;azienda, in qualsiasi momento e ovunque.
 
-## Novità della versione 2023.08.0 {#whats-new-in-2023.08.0}
+## Novità della versione 2023.10.0 {#whats-new-in-2023.10.0}
 
 ### Problemi critici risolti {#critical-issues-fixed}
 
-#### Correzioni di bug e miglioramenti {#bug-fixes-enhancements}
+#### Correzioni di bug {#bug-fixes}
 
+Questa versione include le seguenti correzioni di bug:
+
+* Impossibile salvare [!UICONTROL Data] e [!UICONTROL Opzioni] predicati a [!UICONTROL Raccolta avanzata].
+
+* Il [!UICONTROL Data e ora] Il formato non è coerente quando si utilizzano impostazioni locali diverse dall&#39;inglese.
+
+* Durante la ricerca delle risorse, il [!UICONTROL Elimina] pulsante mancante.
+
+* Se il [!UICONTROL Titolo] contiene simboli multibyte in [!UICONTROL Condivisione collegamenti], il rapporto non può essere scaricato.
+
+* Quando si visualizza un documento di tipo PDF, le etichette e le descrizioni non sono localizzate.
+
+#### Miglioramenti {#enhancements}
+
+Questa versione include i seguenti miglioramenti:
+
+* Miglioramenti delle prestazioni durante la navigazione [!UICONTROL Raccolte].
+
+* Quando si esegue una ricerca parziale utilizzando il campo OmniSearch, i risultati non sono accurati.
+
+## Versioni precedenti
+
+### Versione di agosto 2023 {#aug-2023}
+
+**Correzioni di bug e miglioramenti**
 Questa versione include i seguenti miglioramenti:
 
 * Miglioramenti delle prestazioni durante il caricamento delle risorse sulla [!UICONTROL Scarica] pop up.
@@ -48,9 +73,6 @@ Questa versione include le seguenti correzioni di bug:
 * Le etichette lunghe o i tag non vengono visualizzati correttamente per i filtri di ricerca.
 * Impossibile visualizzare i nomi delle rappresentazioni lunghe nella finestra di dialogo Scarica.
 * Impossibile visualizzare in anteprima le risorse video nella vista a schede.
-
-
-## Versioni precedenti
 
 ### Versione di maggio 2023 {#may-2023}
 
