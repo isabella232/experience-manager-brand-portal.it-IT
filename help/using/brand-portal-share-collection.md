@@ -10,10 +10,10 @@ topic-tags: sharing
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 discoiquuid: f053013e-5981-419f-927e-b5bb1d47eae2
 exl-id: 29b877f6-4200-4299-9b8d-81d88f4e8221
-source-git-commit: 955cd8afe939ff47e9f08f312505e230e2f38495
+source-git-commit: 26c16668224d22f133419c13ea5fe4e24335a22f
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 1%
+source-wordcount: '672'
+ht-degree: 0%
 
 ---
 
@@ -21,7 +21,15 @@ ht-degree: 1%
 
 Una raccolta rappresenta un gruppo di risorse correlate memorizzate insieme in Adobe Experience Manager Assets Brand Portal. Gli utenti possono creare raccolte avanzate con [applicazione della ricerca omnisearch o facet per filtrare le risorse correlate](brand-portal-searching.md) e archiviarli insieme per accedervi facilmente e condividerli ulteriormente con altri utenti di Brand Portal.
 
-Gli amministratori possono condividere e annullare la condivisione di una raccolta con gli utenti Brand Portal autorizzati. Gli editor e i visualizzatori possono visualizzare e condividere le raccolte da loro create, condivise con loro e le raccolte pubbliche.
+<!--The administrators can share and unshare a collection with the authorized Brand Portal users. Editors and viewers can view and share the collections created by them, shared with them, and public collections.-->
+
+Le raccolte vengono condivise come collegamento tramite e-mail. Chiunque abbia accesso al collegamento di condivisione può aprire la raccolta, mentre le e-mail condivise possono essere inoltrate a chiunque. Inoltre, [collegamenti condivisi](https://experienceleague.adobe.com/docs/experience-manager-brand-portal/using/share/brand-portal-link-share.html?lang=en) sono temporanee e accessibili solo per una durata limitata. In alternativa, gli utenti possono essere invitati come membri permanenti delle raccolte. Esistono i seguenti tipi di utenti per le raccolte:
+
+* **Amministratori** può condividere o annullare la condivisione di una raccolta con utenti Brand Portal autorizzati. Possono invitare altri utenti a una raccolta specifica e definirne il ruolo in tale raccolta. Inoltre, gli amministratori possono creare raccolte pubbliche.
+
+* **Editor** possono creare e condividere raccolte. Possono invitare altri utenti a una raccolta specifica e definirne il ruolo in tale raccolta. Inoltre, possono anche condividere le raccolte, se sono state invitate alla raccolta come editor o proprietario.
+
+* **Visualizzatori** può creare solo raccolte private. Non è consentito condividere una raccolta anche quando sono stati invitati come proprietari.
 
 >[!NOTE]
 >
@@ -39,11 +47,11 @@ Di seguito sono riportati i passaggi per condividere una raccolta con gli utenti
 
    * Passa il puntatore del mouse sulla raccolta che desideri condividere. Dalle miniature delle azioni rapide disponibili per la raccolta, fai clic sul pulsante **[!UICONTROL Impostazioni]** icona.
 
-      ![](assets/settings-icon.png)
+     ![](assets/settings-icon.png)
 
    * Seleziona la raccolta da condividere. Dalla barra degli strumenti nella parte superiore, fai clic su **[!UICONTROL Impostazioni]**.
 
-      ![](assets/collection-console.png)
+     ![](assets/collection-console.png)
 
 1. In **[!UICONTROL Impostazioni raccolta]** , selezionare gli utenti con cui si desidera condividere la raccolta e selezionare il ruolo che l&#39;utente dovrà assegnare al proprio ruolo globale. Ad esempio, assegna il ruolo Editor a un editor globale, il ruolo Visualizzatore a un visualizzatore globale.
 
