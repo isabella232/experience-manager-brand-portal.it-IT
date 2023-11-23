@@ -9,10 +9,10 @@ products: SG_EXPERIENCEMANAGER/Brand_Portal
 topic-tags: introduction
 discoiquuid: 6aefa298-4728-4b8e-a85b-e419ee37f2f4
 exl-id: 0f2c45e4-416e-451a-905b-06c5e42a9272
-source-git-commit: fb2ce4d39fd9e7aa69ba541bd48a6b9cddd3b4c5
+source-git-commit: d84d138a2819ff293d0c808b0dcebe02e03da121
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 6%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,7 +22,7 @@ In qualità di addetto al marketing, talvolta è necessario collaborare con part
 
 Tuttavia, è difficile sviluppare soluzioni che supportino la condivisione efficiente e sicura di loghi dei marchi approvati, linee guida, risorse per le campagne o riprese di prodotti con team interni, partner e rivenditori estesi.
 
-**Adobe Experience Manager (AEM) Assets Brand Portal** si concentra sulla necessità dell’addetto al marketing di collaborare in modo efficace con gli utenti Brand Portal distribuiti a livello globale, fornendo funzionalità di distribuzione delle risorse e di contributo delle risorse.
+**Adobe Experience Manager (AEM) Assets Brand Portal** si concentra sulla necessità dell’addetto marketing di collaborare in modo efficace con gli utenti Brand Portal distribuiti a livello globale, fornendo funzionalità di distribuzione delle risorse e di contributo delle risorse.
 
 La distribuzione delle risorse consente di acquisire, controllare e distribuire in modo semplice e sicuro le risorse creative approvate a parti esterne e utenti aziendali interni tra i dispositivi. Il contributo di Asset consente invece agli utenti di Brand Portal di caricare le risorse in Brand Portal e pubblicarle in Experience Manager Assets, senza dover accedere all’ambiente di authoring. La funzione di contributo viene chiamata come **Assets Sourcing in Brand Portal**. L&#39;unione di questi elementi migliora l&#39;esperienza complessiva di Brand Portal nella distribuzione delle risorse e nel contributo degli utenti Brand Portal (agenzie/team esterni), velocizza il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato.
 Vedi, [Asset Sourcing in Brand Portal](brand-portal-asset-sourcing.md).
@@ -31,7 +31,7 @@ L’ambiente del portale basato su browser consente di caricare, sfogliare, cerc
 
 ## Configurare Experience Manager Assets con Brand Portal {#configure-brand-portal}
 
-La configurazione di Adobe Experience Manager Assets con Brand Portal consente agli utenti di Brand Portal di pubblicare risorse, distribuirle e apportare contributi.
+La configurazione di Adobe Experience Manager Assets con Brand Portal consente agli utenti di Brand Portal di pubblicare risorse, distribuirle e usufruire delle funzioni di contributo alle risorse.
 
 >[!NOTE]
 >
@@ -144,9 +144,10 @@ Oltre alle attività di cui sopra, un autore in AEM Assets può eseguire le segu
 ## Alias alternativo per URL Brand Portal {#tenant-alias-for-portal-url}
 
 A partire da Brand Portal 6.4.3, le organizzazioni possono disporre di un URL alternativo (alias) per l’URL esistente del proprio tenant Brand Portal. L&#39;URL dell&#39;alias può essere creato inserendo un prefisso alternativo nell&#39;URL.\
+Se il nome tenant supera i 32 caratteri, è necessario creare l’alias tenant.
 Tieni presente che solo il prefisso dell’URL di Brand Portal può essere personalizzato e non l’intero URL. Ad esempio, un’organizzazione con un dominio esistente `geomettrix.brand-portal.adobe.com` può ottenere `geomettrixinc.brand-portal.adobe.com` creato su richiesta.
 
-Tuttavia, l’istanza di AEM Author può essere [configurato](../using/configure-aem-assets-with-brand-portal.md) solo con l’URL dell’ID tenant e non con l’URL dell’alias tenant (alternativo).
+Tuttavia, l’istanza di authoring dell’AEM può essere [configurato](../using/configure-aem-assets-with-brand-portal.md) solo con l’URL dell’ID tenant e non con l’URL dell’alias tenant (alternativo).
 
 >[!NOTE]
 >
@@ -180,6 +181,7 @@ Il [!UICONTROL Accedi] viene visualizzata la pagina.
    1. Fornisci [!UICONTROL Adobe ID] e fai clic su **[!UICONTROL Accedi]**.
 
       ![Adobe accesso](assets/bplogin_request_access_3.png)
+
    Sei reindirizzato al [!UICONTROL Richiedi accesso] pagina.
 
    **Scenario 2**
@@ -192,6 +194,7 @@ Il [!UICONTROL Registrati] viene visualizzata la pagina.
    1. Seleziona **[!UICONTROL Registrati]**.
 
       ![](assets/bplogin_request_access_5.png)
+
    Sei reindirizzato al [!UICONTROL Richiedi accesso] pagina.
 
 1. Nella pagina successiva vengono visualizzati il nome e l’ID e-mail utilizzati per richiedere l’accesso. Lascia un commento per l’amministratore, quindi fai clic su **[!UICONTROL Invia]**.
@@ -243,4 +246,4 @@ Puoi ignorare questa notifica e continuare a utilizzare Brand Portal. Questa not
 * [Adobe Customer Support]()
 -->
 
-* [Forum AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community)
+* [Forum AEM](https://experienceleaguecommunities.adobe.com/t5/adobe-experience-manager/ct-p/adobe-experience-manager-community?lang=it)
