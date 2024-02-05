@@ -1,8 +1,8 @@
 ---
 title: Novità di Experience Manager Assets Brand Portal
 seo-title: What's new in Experience Manager Assets Brand Portal
-description: Quali sono le nuove funzioni e i miglioramenti di 2023.10.0
-seo-description: What are the new features and enhancements for 2023.10.0
+description: Quali sono le nuove funzioni e i miglioramenti di 2024.02.0
+seo-description: What are the new features and enhancements for 2024.02.0
 uuid: 2c59d738-9b53-4f25-a205-13bf75c80b77
 products: SG_EXPERIENCEMANAGER/Brand_Portal
 content-type: reference
@@ -10,16 +10,20 @@ contentOwner: Kirandeep Kour
 topic-tags: introduction
 discoiquuid: fec32ca3-142b-4a11-9b92-5113fc27277a
 exl-id: 69335d85-ed96-42e6-8a84-1b8d7367522c
-source-git-commit: 108746cb1647312aa886d00b6c8ef041eab8b91d
+source-git-commit: b24c96ee40cf481215ab45d0a691b8fa1f24fac0
 workflow-type: tm+mt
-source-wordcount: '6558'
-ht-degree: 2%
+source-wordcount: '6616'
+ht-degree: 1%
 
 ---
 
 # Novità di Experience Manager Assets Brand Portal {#what-s-new-in-aem-assets-brand-portal}
 
 Adobe Experience Manager Assets Brand Portal consente di acquisire, controllare e distribuire in modo semplice e sicuro le risorse creative approvate a parti esterne e utenti aziendali interni tra i dispositivi. Consente di migliorare l’efficienza della condivisione delle risorse, accelera il time-to-market delle risorse e riduce il rischio di non conformità e di accesso non autorizzato. Adobe sta lavorando per migliorare l’esperienza complessiva di Brand Portal. Ecco una panoramica delle nuove funzioni e dei miglioramenti apportati.
+
+## Cosa è cambiato in 2024.02.0 {#what-changed-in-February-2024}
+
+Brand Portal 2024.02.0 è una versione interna che include correzioni ai problemi critici. Vedi più recente [Note sulla versione di Brand Portal](brand-portal-release-notes.md).
 
 ## Cosa è cambiato nel 2023.10.0 {#what-changed-in-October-2023}
 
@@ -47,7 +51,7 @@ Brand Portal 2022.08.0 è una versione interna che include correzioni ai problem
 
 ## Cosa è cambiato nel 2022.05.0 {#what-changed-in-May-2022}
 
-Brand Portal ora esegue processi automatici ogni dodici ore per eliminare tutte le risorse Brand Portal pubblicate in AEM. Di conseguenza, non è necessario eliminare manualmente le risorse nella cartella Contributo per mantenere la dimensione della cartella al di sotto del limite di soglia. È inoltre possibile monitorare lo stato dei processi di eliminazione eseguiti automaticamente utilizzando **[!UICONTROL Strumenti]** > **[!UICONTROL Stato contributo risorsa]** > **[!UICONTROL Rapporti di eliminazione]** in Brand Portal. Il rapporto di un job fornisce i dettagli riportati di seguito.
+Brand Portal ora esegue processi automatici ogni dodici ore per eliminare tutte le risorse Brand Portal pubblicate nell’AEM. Di conseguenza, non è necessario eliminare manualmente le risorse nella cartella Contributo per mantenere la dimensione della cartella al di sotto del limite di soglia. È inoltre possibile monitorare lo stato dei processi di eliminazione eseguiti automaticamente utilizzando **[!UICONTROL Strumenti]** > **[!UICONTROL Stato contributo risorsa]** > **[!UICONTROL Rapporti di eliminazione]** in Brand Portal. Il rapporto di un job fornisce i dettagli riportati di seguito.
 
 * Ora di inizio processo
 * Ora di fine processo
@@ -344,7 +348,7 @@ Il flusso di lavoro esistente per il download di risorse da Brand Portal è inev
 
 In Brand Portal 6.4.7, gli amministratori di Brand Portal possono configurare la risorsa  **[!UICONTROL Scarica]** impostazioni. Le configurazioni disponibili sono:
 
-* **[!UICONTROL Download veloce]**
+* **[!UICONTROL Download rapido]**
 * **[!UICONTROL Rappresentazioni personalizzate]**
 * **[!UICONTROL Rappresentazioni di sistema]**
 
@@ -393,10 +397,10 @@ I passaggi per configurare AEM Assets con Brand Portal variano a seconda della v
 * AEM 6.4.8.0 and above
 * AEM 6.3.3.8 and above -->
 
-| **Versione di AEM** | **Nuova configurazione** | **Configurazione aggiornamento** |
+| **Versione AEM** | **Nuova configurazione** | **Configurazione aggiornamento** |
 |---|---|---|
-| **AEM Assets as a Cloud Service** | [Creare la configurazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
-| **AEM 6.5 (6.5.4.0 e versioni successive)** | [Creare la configurazione](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Configurazione aggiornamento](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
+| **AEM Assets as a Cloud Service** | [Crea configurazione](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/assets/brand-portal/configure-aem-assets-with-brand-portal.html) | - |
+| **AEM 6.5 (6.5.4.0 e versioni successive)** | [Crea configurazione](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html) | [Configurazione aggiornamento](https://experienceleague.adobe.com/docs/experience-manager-65/assets/brandportal/configure-aem-assets-with-brand-portal.html#upgrade-integration-65) |
 
 >[!NOTE]
 >
@@ -449,7 +453,7 @@ Una volta completato il caricamento in **NUOVO** cartella dei contributi, gli ut
 
 ## Modifiche apportate alla versione 6.4.4 {#what-changed-in-644}
 
-Brand Portal 6.4.4 è caratterizzato da miglioramenti apportati alla ricerca di testo e in risposta alle richieste principali dei clienti. Vedi più recente [Note sulla versione di Brand Portal](brand-portal-release-notes.md).
+La versione di Brand Portal 6.4.4 si concentra sui miglioramenti apportati alla ricerca di testo e alle principali richieste dei clienti. Vedi più recente [Note sulla versione di Brand Portal](brand-portal-release-notes.md).
 
 ### Miglioramenti alla ricerca
 
